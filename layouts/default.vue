@@ -77,11 +77,12 @@
 
           <v-list-item link :href="baseUrl + '/snorql'" target="_blank">
             <v-list-item-action>
-              <v-icon>mdi-magnify</v-icon>
+              <v-icon>mdi-database</v-icon>
             </v-list-item-action>
             <v-list-item-content>
               <v-list-item-title
-                >Snorql <v-icon>mdi-open-in-new</v-icon></v-list-item-title
+                >{{ $t('snorql') }}
+                <v-icon>mdi-open-in-new</v-icon></v-list-item-title
               >
             </v-list-item-content>
           </v-list-item>
@@ -107,7 +108,7 @@
             href="https://la1l89esu7-dsn.algolia.net/1/indexes/dev_MAIN/?X-Algolia-API-Key=a8dc3bccca1af99f7a77ea55f7dd9f4d&X-Algolia-Application-Id=LA1L89ESU7"
           >
             <v-list-item-action>
-              <v-icon>mdi-magnify</v-icon>
+              <v-icon>mdi-api</v-icon>
             </v-list-item-action>
             <v-list-item-content>
               <v-list-item-title
@@ -193,9 +194,16 @@
     </v-main>
 
     <v-footer :dark="true" class="mt-5">
-      <v-container>
-        <p class="text-center my-5">
-          {{ $t(siteName) }}
+      <v-container class="text-center my-5">
+        <p>
+          <nuxt-link style="color: white" :to="localePath({ name: 'index' })">{{
+            $t(siteName)
+          }}</nuxt-link>
+        </p>
+        <p>
+          <a :href="github">
+            <v-icon>mdi-github</v-icon>
+          </a>
         </p>
       </v-container>
     </v-footer>
@@ -272,6 +280,7 @@ export default class search extends Vue {
   drawer: boolean = false
   baseUrl: string = process.env.BASE_URL || ''
   siteName: string = process.env.siteName || ''
+  github: string = process.env.github || ''
 
   userName: any = null
   userPic: any = null

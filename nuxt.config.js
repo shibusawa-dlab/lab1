@@ -2,6 +2,7 @@ import colors from 'vuetify/es5/util/colors'
 
 const environment = process.env.NODE_ENV
 const env = require(`./env/${environment}.ts`)
+env.github = 'https://github.com/shibusawa-lab/lab1'
 
 const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'

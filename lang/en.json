@@ -293,5 +293,7 @@
   "date" : "Date",
   "上位" : "Top",
   "場所" : "Place",
-  "人物" : "Person"
+  "人物" : "Person",
+  "menu": "Menu",
+  "snorql": "RDF Store"
 }
