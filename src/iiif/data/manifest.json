@@ -1,0 +1,50 @@
+{
+  "@id": "https://candra.dhii.jp/iiif/tetsugen/data/manifest.json",
+  "@type": "sc:Manifest",
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "metadata": [
+    { "label": "editor", "value": "渋沢青淵記念財団竜門社" },
+    { "label": "publisher", "value": "渋沢青淵記念財団竜門社" }
+  ],
+  "label": "『渋沢栄一伝記資料』別巻第1",
+  "license": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+  "attribution": "公益財団法人渋沢和栄一記念財団 Shibusawa Eiichi Memorial Foundation",
+  "viewingDirection": "right-to-left",
+  "sequences": [
+    {
+      "@id": "https://candra.dhii.jp/iiif/tetsugen/data/sequence/s1.json",
+      "@type": "sc:Sequence",
+      "label": "Current Page Order",
+      "canvases": [
+          # 以下の部分に1600点ほどの画像情報が入る
+        {
+          "label": "p. 1",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 10328,
+                "height": 7760,
+                "@id": "https://candra.dhii.jp/iiifimgs/tetsugen/0040/0040_01/0040_01_001.tif/full/full/0/default.jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://candra.dhii.jp/iiifimgs/tetsugen/0040/0040_01/0040_01_001.tif",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "@id": "https://candra.dhii.jp/iiif/tetsugen/0040/0040_01/annotation/p1.json",
+              "on": "https://candra.dhii.jp/iiif/tetsugen/0040/0040_01/canvas/p1.json"
+            }
+          ],
+          "width": 10328,
+          "height": 7760,
+          "@type": "sc:Canvas",
+          "@id": "https://candra.dhii.jp/iiif/tetsugen/0040/0040_01/canvas/p1.json"
+        }
+      ]
+    }
+  ]
+}
