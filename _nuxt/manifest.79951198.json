@@ -1,0 +1,12 @@
+{
+  "name": "伝記資料TEI共同研究",
+  "short_name": "shibusawa",
+  "description": "伝記資料TEI共同研究",
+  "icons": [],
+  "start_url": "/lab1/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "lang": "ja",
+  "orientation": "portrait"
+}

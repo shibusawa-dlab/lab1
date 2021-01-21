@@ -1,0 +1,9 @@
+<html>
+<head>
+  <script>
+    var pathName = window.location.pathname;
+    var redirectPath = '/lab1/redirect';
+    location.href = redirectPath + '?p=' + encodeURI(pathName);
+  </script>
+</head>
+</html>
