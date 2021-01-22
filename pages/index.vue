@@ -1,7 +1,12 @@
 <template>
   <div>
     <section class="grey lighten-2">
-      <v-img max-height="400px" contain :src="baseUrl + '/img/ogp/home.png'">
+      <v-img
+        min-height="200px"
+        max-height="400px"
+        contain
+        :src="baseUrl + '/img/ogp/home.png'"
+      >
         <v-row align="center" class="white--text pa-2 fill-height text-center">
           <v-col v-if="false">
             <h1 class="display-1">
@@ -46,48 +51,50 @@
           <p class="py-5">
             渋沢栄一伝記資料のTEIマークアッププロジェクトです。
           </p>
-
-          <h3 class="mt-10">{{ $t('menu') }}</h3>
         </div>
 
-        <v-row class="mb-10">
-          <v-col v-for="(obj, key) in items" :key="key" cols="6" :sm="3">
-            <v-card flat no-body class="mb-4">
-              <template v-if="obj.href">
-                <a :href="obj.href" target="_blank">
-                  <div class="text-center grey lighten-2 pa-10">
-                    <v-icon size="100">{{ obj.icon }}</v-icon>
-                  </div>
-                </a>
-                <div class="pa-4">
+        <div v-if="items.length > 0">
+          <h3 class="my-10 text-center">{{ $t('menu') }}</h3>
+
+          <v-row class="mb-10">
+            <v-col v-for="(obj, key) in items" :key="key" cols="12" :sm="3">
+              <v-card flat no-body class="mb-4">
+                <template v-if="obj.href">
                   <a :href="obj.href" target="_blank">
-                    <h4>{{ obj.label }}</h4>
+                    <div class="text-center grey lighten-2 pa-10">
+                      <v-icon size="100">{{ obj.icon }}</v-icon>
+                    </div>
                   </a>
+                  <div class="pa-4">
+                    <a :href="obj.href" target="_blank">
+                      <h4>{{ obj.label }}</h4>
+                    </a>
 
-                  <p v-if="obj.description" class="mt-2 mb-0">
-                    {{ obj.description }}
-                  </p>
-                </div>
-              </template>
-              <template v-else>
-                <nuxt-link :to="localePath(obj.path)">
-                  <div class="text-center grey lighten-2 pa-10">
-                    <v-icon size="100">{{ obj.icon }}</v-icon>
+                    <p v-if="obj.description" class="mt-2 mb-0">
+                      {{ obj.description }}
+                    </p>
                   </div>
-                </nuxt-link>
-                <div class="pa-4">
+                </template>
+                <template v-else>
                   <nuxt-link :to="localePath(obj.path)">
-                    <h4>{{ obj.label }}</h4>
+                    <div class="text-center grey lighten-2 pa-10">
+                      <v-icon size="100">{{ obj.icon }}</v-icon>
+                    </div>
                   </nuxt-link>
+                  <div class="pa-4">
+                    <nuxt-link :to="localePath(obj.path)">
+                      <h4>{{ obj.label }}</h4>
+                    </nuxt-link>
 
-                  <p v-if="obj.description" class="mt-2 mb-0">
-                    {{ obj.description }}
-                  </p>
-                </div>
-              </template>
-            </v-card>
-          </v-col>
-        </v-row>
+                    <p v-if="obj.description" class="mt-2 mb-0">
+                      {{ obj.description }}
+                    </p>
+                  </div>
+                </template>
+              </v-card>
+            </v-col>
+          </v-row>
+        </div>
       </v-card>
     </v-container>
   </div>
