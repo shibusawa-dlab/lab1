@@ -81,13 +81,7 @@
           <template #activator="{ on }">
             <v-btn icon class="mr-4" v-on="on">
               <a
-                :href="
-                  viewer +
-                  '/light/?u=' +
-                  'https://shibusawa-dlab.github.io/lab1/data/DKB01_20210113.xml' +
-                  '&id=' +
-                  id
-                "
+                :href="viewer + '/light/?u=' + item.source + '&id=' + id"
                 target="_blank"
               >
                 <v-img
