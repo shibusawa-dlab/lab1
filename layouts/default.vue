@@ -47,6 +47,23 @@
 
           <v-list-item
             link
+            :to="
+              localePath({
+                name: 'ad-id',
+                //query: { 'dev_MAIN[sortBy]': 'dev_MAIN_temporal_asc' },
+              })
+            "
+          >
+            <v-list-item-action>
+              <v-icon>mdi-book-open</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title>{{ $t('ad') }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item
+            link
             :to="localePath({ name: 'entity-id', params: { id: 'agential' } })"
           >
             <v-list-item-action>
@@ -343,5 +360,8 @@ export default class search extends Vue {
 }
 a {
   text-decoration: none;
+}
+tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 </style>

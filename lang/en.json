@@ -295,5 +295,7 @@
   "場所" : "Place",
   "人物" : "Person",
   "menu": "Menu",
-  "snorql": "RDF Store"
+  "snorql": "RDF Store",
+  "ad" : "Archival Description",
+  "parent" : "Parent"
 }

@@ -2,13 +2,19 @@ from bs4 import BeautifulSoup
 import json
 import glob
 
-import numpy as np
-from janome.tokenizer import Tokenizer
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.feature_extraction.text import TfidfVectorizer
+from rdflib import URIRef, BNode, Literal, Graph
+from rdflib.namespace import RDF, RDFS, FOAF, XSD
+from rdflib import Namespace
 
-import resource
-resource.setrlimit(resource.RLIMIT_NOFILE, (8192, 9223372036854775807))
+import numpy as np
+# from janome.tokenizer import Tokenizer
+# from sklearn.metrics.pairwise import cosine_similarity
+# from sklearn.feature_extraction.text import TfidfVectorizer
+
+# import resource
+# resource.setrlimit(resource.RLIMIT_NOFILE, (8192, 9223372036854775807))
+
+all = Graph()
 
 #わかち書き関数
 def wakachi(text):
@@ -94,7 +100,11 @@ def getYear(date):
 def addYears(years, yearAndMonth):
     es = yearAndMonth.split("-")
     year = int(es[0])
-    month = int(es[1])
+
+    if es[1] != "XX":
+        month = int(es[1])
+    else:
+        month = -1
 
     if year not in years:
         years[year] = {}
@@ -107,73 +117,11 @@ def addYears(years, yearAndMonth):
 
     return years
 
-def getSims(files):
-
-    docs = []
-    ids = []
-
-    for j in range(len(files)):
-        file = files[j]
-
-        soup = BeautifulSoup(open(file,'r'), "xml")
-        group = soup.find("group")
-        texts = group.find_all("text")
-
-        for text in texts:
-            entries = text.find_all(type="diary-entry")
-
-            for i in range(len(entries)):
-                entry = entries[i]
-                head = entry.find("head")
-
-                if head:
-                    id = entry.get("xml:id")
-                    text2 = entry.text
-
-                    ids.append(id)
-                    docs.append(text2)
-
-                break
-
-            
-
-        if j > 10:
-            break
-
-    print(len(docs), 1)
-    arr = vecs_array(docs)
-
-    print(len(docs), 2)
-    #類似度行列作成
-    cs_array = np.round(cosine_similarity(arr, arr),3)
-
-    size = 20
-
-    sims = {}
-
-    for i in range(len(cs_array)):
-        id = ids[i]
-        row = cs_array[i]
-        arr = sorted(range(len(row)), key=lambda k: row[k], reverse=True)
-
-        texts = []
-
-        for j in range(0, 1 + size):
-            index = arr[j]
-            id2 = ids[index]
-
-            if id != id2:
-                texts.append(id2)
-
-        sims[id] = texts
-
-    return sims
-
 files = glob.glob("data/*.xml")
 
 # files = ["data/DKB01_20210113.xml"]
 
-titles = ["01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)", "02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表"]
+titles = ["DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)", "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表"]
 
 years = {}
 
@@ -181,96 +129,152 @@ index = []
 
 sims = {} # getSims(files)
 
+prefix0 = "https://shibusawa-dlab.github.io/lab1"
+prefix = prefix0 + "/api"
+
+top_uri = URIRef("https://shibusawa-dlab.github.io/lab1/api/items/top")
+stmt = (top_uri, RDFS.label, Literal("TOP"))
+all.add(stmt)
+
 for j in range(len(files)):
 
     file = files[j]
+
+    source = prefix0 + "/data/" + file.split("/")[-1]
 
     soup = BeautifulSoup(open(file,'r'), "xml")
 
     group = soup.find("group")
 
+    front = soup.find("byline")
+    # back = soup.find("back")
+
     texts = group.find_all("text")
+
+    file_id = file.split("/")[-1].split(".")[0].split("_")[0]
+    file_uri = URIRef(prefix + "/items/"+file_id)
+
+    stmt = (file_uri, RDFS.label, Literal(titles[j]))
+    all.add(stmt)
+
+    stmt = (file_uri, URIRef("http://schema.org/isPartOf"), URIRef(prefix + "/items/top"))
+    all.add(stmt)
+
+    stmt = (file_uri, URIRef(prefix+"/properties/xml"), Literal(front))
+    all.add(stmt)
+
+    stmt = (file_uri, URIRef("http://schema.org/sourceData"), URIRef(source))
+    all.add(stmt)
 
     for text in texts:
 
-        text_id = text.get("xml:id").replace("DKB", "").replace("m", "")
+        text_id = text.get("xml:id")# .replace("DKB", "").replace("m", "")
 
-        front = text.find("front").find("head").text
+        front = text.find("front")
 
-        entries = text.find_all(type="diary-entry")
+        frontHead = front.find("head").text
 
-        for i in range(len(entries)):
+        ad = front.find(type="archival-description")
 
-            entry = entries[i]
+        print(ad)
 
-            head = entry.find("head")
+        
 
-            if head:
+        subject = URIRef(prefix + "/items/"+text_id)
+        stmt = (subject, URIRef(prefix+"/properties/xml"), Literal(ad))
+        all.add(stmt)
 
-                item = {}
+        stmt = (subject, RDFS.label, Literal(frontHead))
+        all.add(stmt)
 
-                if len(index) < 10000:
-                    index.append(item)
+        stmt = (subject, URIRef("http://schema.org/isPartOf"), URIRef(file_uri))
+        all.add(stmt)
 
-                item["objectID"] = entry.get("xml:id")
+        stmt = (subject, URIRef("http://schema.org/sourceData"), URIRef(source))
+        all.add(stmt)
 
-                item["label"] = getTitle(entry)
-                
-                # ソート項目
-                item["sort"] = getSort(entry)
+        types = ["diary-entry", "note"]
 
-                date = getDate(entry)
-                item["temporal"] = date
+        for type in types:
 
-                yearAndMonth = getYearAndMonth(date)
-                if yearAndMonth:
-                    item["yearAndMonth"] = yearAndMonth
+            entries = text.find_all(type=type) # note を入れる！！
 
-                    years = addYears(years, yearAndMonth)
+            for i in range(len(entries)):
 
+                entry = entries[i]
+
+                head = entry.find("head")
+
+                if head:
+
+                    item = {}
+
+                    if len(index) < 10000:
+                        index.append(item)
+
+                    item["objectID"] = entry.get("xml:id")
+
+                    item["label"] = getTitle(entry)
                     
+                    # ソート項目
+                    item["sort"] = getSort(entry)
 
-                year = getYear(date)
-                if year:
-                    item["year"] = year
+                    date = getDate(entry)
+                    item["temporal"] = date
 
-                    item["date"] = {
-                        "lvl0": year
+                    yearAndMonth = getYearAndMonth(date)
+                    if yearAndMonth:
+                        item["yearAndMonth"] = yearAndMonth
+
+                        years = addYears(years, yearAndMonth)
+
+                        
+
+                    year = getYear(date)
+                    if year:
+                        item["year"] = year
+
+                        item["date"] = {
+                            "lvl0": year
+                        }
+
+                        if yearAndMonth:
+                            item["date"]["lvl1"] = year + " > " + yearAndMonth
+
+                            if yearAndMonth != date:
+                                item["date"]["lvl2"] = year + " > " + yearAndMonth + " > " + date
+
+                    places = getPlaces(entry)
+                    item["spatial"] = places
+
+                    persons = getPersons(entry)
+                    item["agential"] = persons
+
+                    item["description"] = entry.text
+
+                    item["xml"] = str(entry)
+
+                    title = titles[j]
+                    title2 = text_id+" "+frontHead
+
+                    item["category"] = {
+                        "lvl0": title,
+                        "lvl1": title + " > " + title2
                     }
 
-                    if yearAndMonth:
-                        item["date"]["lvl1"] = year + " > " + yearAndMonth
+                    item["type"] = type
 
-                        if yearAndMonth != date:
-                            item["date"]["lvl2"] = year + " > " + yearAndMonth + " > " + date
+                    id = item["objectID"]
+                    if id in sims:
+                        item["texts"] = sims[id]
 
-                places = getPlaces(entry)
-                item["spatial"] = places
+                    if i > 0:
+                        item["prev"] = entries[i-1].get("xml:id")
 
-                persons = getPersons(entry)
-                item["agential"] = persons
+                    if i != len(entries) - 1:
+                        item["next"] = entries[i+1].get("xml:id")
 
-                item["description"] = entry.text
-
-                item["xml"] = str(entry)
-
-                title = titles[j]
-                title2 = text_id+" "+front
-
-                item["category"] = {
-                    "lvl0": title,
-                    "lvl1": title + " > " + title2
-                }
-
-                id = item["objectID"]
-                if id in sims:
-                    item["texts"] = sims[id]
-
-                if i > 0:
-                    item["prev"] = entries[i-1].get("xml:id")
-
-                if i != len(entries) - 1:
-                    item["next"] = entries[i+1].get("xml:id")
+                    item["source"] = source
 
 print("index", len(index))
 
@@ -281,3 +285,9 @@ with open("data/index.json", 'w') as outfile:
 with open("../static/data/years.json", 'w') as outfile:
     json.dump(years,  outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))
+
+path = "../static/data/ad.json"
+all.serialize(destination=path, format='json-ld')
+
+path = "data/all.json"
+all.serialize(destination=path.replace(".json", ".rdf"), format='pretty-xml')

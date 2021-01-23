@@ -36,7 +36,7 @@
   "update": "更新",
   "filter": "フィルタ",
   "spatial": "場所",
-  "type": "基本区分",
+  "type": "タイプ",
   "show_more": "もっと見る",
   "temporal": "時間",
   "more_like_this": "関連アイテム",
@@ -311,5 +311,7 @@
   "場所" : "場所",
   "人物" : "人物",
   "menu" : "メニュー",
-  "snorql" : "RDFストア"
+  "snorql" : "RDFストア",
+  "ad" : "原本検索",
+  "parent" : "上位"
 }

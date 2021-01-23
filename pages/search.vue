@@ -213,6 +213,25 @@
                 </v-expansion-panel-content>
               </v-expansion-panel>
             </v-expansion-panels>
+
+            <v-expansion-panels :value="0" flat class="mt-4">
+              <v-expansion-panel>
+                <v-expansion-panel-header class="grey lighten-2">
+                  <h3>{{ $t('type') }}</h3>
+                </v-expansion-panel-header>
+                <v-expansion-panel-content outlined>
+                  <ais-refinement-list
+                    class="mt-2"
+                    show-more
+                    operator="and"
+                    :show-more-limit="100"
+                    :limit="20"
+                    attribute="type"
+                    :sort-by="['isRefined']"
+                  />
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+            </v-expansion-panels>
           </v-col>
         </v-row>
       </v-container>

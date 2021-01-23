@@ -3,13 +3,20 @@
     <v-col v-for="(obj, index) in list" :key="index" cols="12" :sm="12 / col">
       <v-card flat no-body class="mb-4">
         <nuxt-link :to="localePath(obj.path)">
-          <v-img
-            :src="obj.image"
-            contain
-            style="height: 150px"
-            width="100%"
-            class="grey lighten-2"
-          ></v-img>
+          <template v-if="obj.image && obj.image.includes('mdi-')">
+            <div class="text-center grey lighten-2 pa-10" style="height: 150px">
+              <v-icon size="75">{{ obj.image }}</v-icon>
+            </div>
+          </template>
+          <template v-else>
+            <v-img
+              :src="obj.image"
+              contain
+              style="height: 150px"
+              width="100%"
+              class="grey lighten-2"
+            ></v-img>
+          </template>
         </nuxt-link>
         <div class="pa-4">
           <nuxt-link :to="localePath(obj.path)">

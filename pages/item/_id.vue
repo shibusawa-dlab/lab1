@@ -80,13 +80,22 @@
         <v-tooltip bottom>
           <template #activator="{ on }">
             <v-btn icon class="mr-4" v-on="on">
-              <a>
+              <a
+                :href="
+                  viewer +
+                  '/light/?u=' +
+                  'https://shibusawa-dlab.github.io/lab1/data/DKB01_20210113.xml' +
+                  '&id=' +
+                  id
+                "
+                target="_blank"
+              >
                 <v-img
                   contain
                   width="30px"
                   :src="baseUrl + '/img/icons/tei.png'"
-                  @click="dwnData()"
                 />
+                <!-- @click="dwnData()" -->
               </a>
             </v-btn>
           </template>
@@ -125,9 +134,28 @@
                 <v-treeview dense open-all :items="categories">
                   <template #label="{ item }">
                     <nuxt-link
-                      :to="localePath({ name: 'search', query: item.query })"
+                      :to="
+                        localePath({
+                          name: 'ad-id',
+                          params: { id: item.name.split(' ')[0] },
+                        })
+                      "
                       >{{ item.name }}</nuxt-link
                     >
+                    <v-tooltip bottom>
+                      <template #activator="{ on }">
+                        <v-btn
+                          icon
+                          :to="
+                            localePath({ name: 'search', query: item.query })
+                          "
+                          v-on="on"
+                        >
+                          <v-icon>mdi-magnify</v-icon>
+                        </v-btn>
+                      </template>
+                      <span>{{ $t('search') }}</span>
+                    </v-tooltip>
                   </template>
                 </v-treeview>
               </td>
@@ -340,6 +368,7 @@ export default {
   data() {
     return {
       baseUrl: process.env.BASE_URL,
+      viewer: process.env.viewer,
       moreLikeThisData: [],
       fields: ['agential', 'spatial' /*, 'temporal' */],
     }
@@ -444,7 +473,9 @@ export default {
     title() {
       return this.item.label
     },
-
+    id() {
+      return this.$route.params.id
+    },
     url() {
       return this.baseUrl + this.$route.path
     },
@@ -553,8 +584,3 @@ export default {
   },
 }
 </script>
-<style>
-tbody tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, 0.05);
-}
-</style>

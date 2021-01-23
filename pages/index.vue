@@ -43,10 +43,7 @@
     <v-container class="py-5">
       <v-card flat>
         <div class="my-5 pa-5 text-center">
-          <img
-            width="60px"
-            src="https://avatars.githubusercontent.com/u/77764627?s=200&v=4"
-          />
+          <img width="60px" :src="baseUrl + '/img/ogp/logo.jpg'" />
           <h1>{{ $t(siteName) }}</h1>
           <p class="py-5">
             渋沢栄一伝記資料のTEIマークアッププロジェクトです。
@@ -128,6 +125,14 @@ export default class about extends Vue {
         icon: 'mdi-calendar',
       },
       {
+        label: this.$t('ad'),
+        path: {
+          name: 'ad-id',
+        },
+        description: '',
+        icon: 'mdi-book-open',
+      },
+      {
         label: this.$t('entity'),
         path: {
           name: 'entity-id',
@@ -162,10 +167,15 @@ export default class about extends Vue {
       },
       {
         label: 'TEI/XML',
-        href: this.github + '/blob/master/static/data/DKB01_20210113.xml',
+        // href: this.github + '/blob/master/static/data/DKB01_20210113.xml',
+        href:
+          'https://nakamura196.github.io/tei-js-pub' +
+          '/light/?u=' +
+          'https://nakamura196.github.io/tei-js-pub/data/collection.json',
         description: '',
         icon: 'mdi-file',
       },
+      /*
       {
         label: 'Search API',
         href:
@@ -173,6 +183,7 @@ export default class about extends Vue {
         description: '',
         icon: 'mdi-api',
       },
+      */
     ]
   }
 
