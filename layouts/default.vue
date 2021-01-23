@@ -283,21 +283,6 @@
     </v-btn>
   </v-app>
 </template>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=G-TPQRZ7Y0RK
-"
-></script>
-<script>
-window.dataLayer = window.dataLayer || []
-function gtag() {
-  dataLayer.push(arguments)
-}
-gtag('js', new Date())
-
-gtag('config', 'G-TPQRZ7Y0RK')
-</script>
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
 import firebase from '../plugins/firebase'

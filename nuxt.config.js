@@ -151,6 +151,7 @@ export default {
     '@/plugins/init-client.js',
     '@/plugins/algolia.config.js',
     '@/plugins/utils.ts',
+    '@/plugins/gtag.js',
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)

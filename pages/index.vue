@@ -170,7 +170,7 @@ export default class about extends Vue {
         // href: this.github + '/blob/master/static/data/DKB01_20210113.xml',
         href:
           'https://nakamura196.github.io/tei-js-pub' +
-          '/light/?u=' +
+          '/?u=' +
           'https://nakamura196.github.io/tei-js-pub/data/collection.json',
         description: '',
         icon: 'mdi-file',
