@@ -31,7 +31,7 @@
                 :src="baseUrl + '/img/icons/rdf-logo.svg'"
             /></v-btn>
           </template>
-          <span>{{ $t('RDF') }}</span>
+          <span>RDF</span>
         </v-tooltip>
         <ResultOption
           :item="{
@@ -125,6 +125,16 @@
           </tbody>
         </template>
       </v-simple-table>
+
+      <HorizontalItems
+        v-for="(field, key) in fields"
+        :key="key"
+        description="カッコ内の値は共起するアイテム数"
+        :data="fields[key]"
+        :title="key"
+        height="100"
+        width="200"
+      />
     </v-container>
   </div>
 </template>
@@ -179,6 +189,7 @@ export default {
   data() {
     return {
       baseUrl: process.env.BASE_URL,
+      github: 'https://nakamura196.github.io/repo', // process.env.github_pages,
       chartOptions: {
         chart: {
           title: 'Company Performance',
@@ -187,6 +198,7 @@ export default {
       },
       entities: [],
       uri: '',
+      fields: { agential: [], spatial: [] },
     }
   },
 
@@ -321,8 +333,7 @@ export default {
       id = '日本橋兜町'
     }
 
-    const uri =
-      'https://nakamura196.github.io/repo/api/' + map[this.field] + '/' + id
+    const uri = this.github + '/api/' + map[this.field] + '/' + id
     this.uri = uri
 
     const query = `
@@ -337,10 +348,10 @@ export default {
       PREFIX hpdb: <https://w3id.org/hpdb/api/>
       PREFIX sh: <http://www.w3.org/ns/shacl#>
       SELECT DISTINCT * WHERE {
-        ?s rdfs:label ?label . 
+        ?s rdfs:label ?label .
         filter (?s = <${uri}>)
-        optional { ?s schema:description ?description } 
-        optional { ?s schema:image ?image } 
+        optional { ?s schema:description ?description }
+        optional { ?s schema:image ?image }
       }
       LIMIT 1
     `
@@ -352,9 +363,156 @@ export default {
     const res = await axios.get(url)
     const results = res.data
     this.entities = results
+
+    this.getRelatedItems()
+    this.getRelatedItems('agential')
   },
 
   methods: {
+    async getRelatedItems(field = 'spatial') {
+      const id = this.id
+
+      // const field = this.$route.params.entity
+
+      const client = algoliasearch(config.appId, config.apiKey)
+      const index = client.initIndex('dev_MAIN') // _temporal_asc
+
+      const facets = await index.searchForFacetValues(field, '', {
+        filters: this.field + ':' + id, // 重要。条件のほうはentityに基づく
+        maxFacetHits: 10,
+      })
+
+      const hits = facets.facetHits
+      if (hits.length === 0) {
+        return
+      }
+
+      const moreLikeThisData0 = []
+
+      const counts = {}
+
+      for (let i = 0; i < hits.length; i++) {
+        const facet = hits[i]
+
+        const image = [field === 'spatial' ? 'mdi-map' : 'mdi-account']
+
+        const value = facet.value
+        if (value === id) {
+          continue
+        }
+
+        const to = this.localePath({
+          name: 'entity-entity-id',
+          params: { entity: field, id: value },
+        })
+
+        moreLikeThisData0.push({
+          _id: 'abc',
+          _source: {
+            _label: [value + '（' + facet.count + '）'],
+
+            _thumbnail: image,
+            _url: [this.baseUrl + to],
+          },
+          to,
+        })
+
+        counts[value] = facet.count
+      }
+
+      this.fields[field] = moreLikeThisData0
+
+      const ids = []
+      for (let i = 0; i < hits.length; i++) {
+        const facet = hits[i]
+        if (facet.value === id) {
+          continue
+        }
+        const uri =
+          this.github +
+          '/api/' +
+          field.replace('spatial', 'place').replace('agential', 'chname') +
+          '/' +
+          facet.value
+        ids.push(`?s = <${uri}>`)
+      }
+
+      const filter = ids.join(' || ')
+
+      const query = `
+      PREFIX schema: <http://schema.org/>
+      PREFIX type: <https://jpsearch.go.jp/term/type/>
+      PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+      PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+      PREFIX owl: <http://www.w3.org/2002/07/owl#>
+      PREFIX dct: <http://purl.org/dc/terms/>
+      PREFIX hpdb: <https://w3id.org/hpdb/api/>
+      PREFIX sh: <http://www.w3.org/ns/shacl#>
+      SELECT DISTINCT * WHERE {
+        ?s rdfs:label ?label .
+        filter (${filter})
+        optional { ?s schema:description ?description }
+        optional { ?s schema:image ?image }
+      }
+      `
+
+      let url = 'https://dydra.com/ut-digital-archives/shibusawa/sparql?query='
+
+      url = url + encodeURIComponent(query) + '&output=json'
+
+      const res = await axios.get(url)
+      const results = res.data
+
+      const moreLikeThisData = []
+
+      const map = {}
+
+      for (let i = 0; i < results.length; i++) {
+        const hit = results[i]
+        map[hit.s] = hit
+      }
+
+      for (let i = 0; i < hits.length; i++) {
+        const facet = hits[i]
+        const uri =
+          this.github +
+          '/api/' +
+          field.replace('spatial', 'place').replace('agential', 'chname') +
+          '/' +
+          facet.value
+
+        if (!map[uri]) {
+          continue
+        }
+        const hit = map[uri]
+
+        const image = hit.image
+          ? [hit.image]
+          : [field === 'spatial' ? 'mdi-map' : 'mdi-account']
+
+        const to = this.localePath({
+          name: 'entity-entity-id',
+          params: { entity: field, id: hit.label },
+        })
+
+        moreLikeThisData.push({
+          _id: id,
+          _source: {
+            _label: [facet.value + '（' + counts[facet.value] + '）'],
+
+            _thumbnail: image,
+            _url: [this.baseUrl + to],
+          },
+          to,
+        })
+      }
+
+      if (moreLikeThisData.length > 0) {
+        this.fields[field] = moreLikeThisData
+      }
+    },
     getQuery(label, value) {
       const field = `dev_MAIN[refinementList][${label}][0]`
       const query = {

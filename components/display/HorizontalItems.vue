@@ -1,8 +1,11 @@
 <template>
   <div v-if="data.length > 0">
-    <h3 class="mt-10 pt-10 mb-4 text-center">
-      {{ $t('more_like_this') }}
-    </h3>
+    <div class="text-center mt-10 pt-10 mb-4">
+      <h3>{{ $t('related') }}{{ $t(title) }}</h3>
+      <div v-if="description" class="mt-2">
+        <small>{{ description }}</small>
+      </div>
+    </div>
     <ul class="horizontal-list">
       <li v-for="(obj, index) in data" :key="index" class="item">
         <CardItem
@@ -36,6 +39,12 @@ export default class Header extends Vue {
 
   @Prop({ default: [] })
   data!: any[]
+
+  @Prop({ default: 'items' })
+  title!: string
+
+  @Prop({ default: '' })
+  description!: string
 }
 </script>
 <style>

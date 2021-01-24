@@ -15,6 +15,7 @@ import numpy as np
 # resource.setrlimit(resource.RLIMIT_NOFILE, (8192, 9223372036854775807))
 
 all = Graph()
+items = Graph()
 
 #わかち書き関数
 def wakachi(text):
@@ -277,15 +278,14 @@ for j in range(len(files)):
 
                     item["source"] = source
                     
-                    '''
+                    
                     subject = URIRef(prefix + "/items/"+item["objectID"])
                     stmt = (subject, URIRef("http://schema.org/isPartOf"), file_uri)
-                    all.add(stmt)
+                    items.add(stmt)
 
                     for person in persons:
                         stmt = (subject, URIRef("https://jpsearch.go.jp/term/property#agential"), URIRef(prefix0+"/api/chname/"+person))
-                        all.add(stmt)
-                    '''
+                        items.add(stmt)
 
 print("index", len(index))
 
@@ -302,3 +302,6 @@ all.serialize(destination=path, format='json-ld')
 
 path = "data/all.json"
 all.serialize(destination=path.replace(".json", ".rdf"), format='pretty-xml')
+
+path = "data/items.json"
+items.serialize(destination=path.replace(".json", ".rdf"), format='pretty-xml')

@@ -297,5 +297,6 @@
   "menu": "Menu",
   "snorql": "RDF Store",
   "ad" : "Archival Description",
-  "parent" : "Parent"
+  "parent" : "Parent",
+  "related" : "Related "
 }

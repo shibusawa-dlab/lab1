@@ -6,6 +6,25 @@
     flat
     outlined
   >
+    <nuxt-link
+      v-if="item._source._thumbnail && item._source._thumbnail.length > 0"
+      :to="item.to"
+    >
+      <template v-if="item._source._thumbnail[0].includes('mdi-')">
+        <div class="text-center grey lighten-2 pa-10" style="height: 150px">
+          <v-icon size="75">{{ item._source._thumbnail[0] }}</v-icon>
+        </div>
+      </template>
+      <template v-else>
+        <v-img
+          :src="item._source._thumbnail[0]"
+          contain
+          style="height: 150px"
+          width="100%"
+          class="grey lighten-2"
+        ></v-img>
+      </template>
+    </nuxt-link>
     <div
       class="pa-4"
       :style="
@@ -20,6 +39,7 @@
     >
       <nuxt-link
         :to="
+          item.to ||
           localePath({
             name: 'item-id',
             params: { id: item._id },
@@ -30,6 +50,13 @@
         <!-- eslint-disable-next-line vue/no-v-html -->
         <h4 v-html="$utils.formatArrayValue(item._source._label)"></h4>
       </nuxt-link>
+
+      <!--
+      <p v-if="item._source.description" class="mt-2 mb-0">
+        {{ item._source.description }}
+      </p>
+      -->
+
       <template v-if="item._source.description">
         <div
           class="mt-2"
