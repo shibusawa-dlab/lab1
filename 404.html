@@ -2,8 +2,13 @@
 <head>
   <script>
     var pathName = window.location.pathname;
-    var redirectPath = '/lab1/redirect';
-    location.href = redirectPath + '?p=' + encodeURI(pathName);
+    if(pathName.includes("/api/")){
+      location.href = "https://shibusawa-dlab.github.io/lab1/snorql/?describe="+encodeURI(("https://shibusawa-dlab.github.io" + pathName).replace("shibusawa-dlab.github.io/lab1", "nakamura196.github.io/repo"))
+    } else {
+      var redirectPath = '/lab1/redirect';
+      location.href = redirectPath + '?p=' + encodeURI(pathName);
+    }
+    
   </script>
 </head>
 </html>
