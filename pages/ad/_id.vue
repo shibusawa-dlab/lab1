@@ -73,6 +73,15 @@
                 </nuxt-link>
               </td>
             </tr>
+            <tr v-if="item.related">
+              <td width="30%">{{ $t('items') }}</td>
+              <td style="overflow-wrap: break-word" class="py-5">
+                <a :href="item.related">
+                  <v-icon>mdi-magnify</v-icon>
+                  {{ $t('search') }}
+                </a>
+              </td>
+            </tr>
             <tr>
               <td width="30%">{{ $t('description') }}</td>
               <td style="overflow-wrap: break-word" class="py-5">
@@ -165,6 +174,11 @@ export default class PageCategory extends Vue {
       if (obj['http://schema.org/sourceData']) {
         const source = obj['http://schema.org/sourceData'][0]['@id']
         item.source = source
+      }
+
+      if (obj['http://schema.org/relatedLink']) {
+        const source = obj['http://schema.org/relatedLink'][0]['@id']
+        item.related = source
       }
 
       if (obj['http://schema.org/isPartOf']) {

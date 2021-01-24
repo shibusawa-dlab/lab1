@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import json
 import glob
-
+import urllib.parse
 from rdflib import URIRef, BNode, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF, XSD
 from rdflib import Namespace
@@ -172,13 +172,9 @@ for j in range(len(files)):
 
         front = text.find("front")
 
-        frontHead = front.find("head").text
+        frontHead = front.find("head").text.replace("\n", "").strip()
 
         ad = front.find(type="archival-description")
-
-        print(ad)
-
-        
 
         subject = URIRef(prefix + "/items/"+text_id)
         stmt = (subject, URIRef(prefix+"/properties/xml"), Literal(ad))
@@ -191,6 +187,11 @@ for j in range(len(files)):
         all.add(stmt)
 
         stmt = (subject, URIRef("http://schema.org/sourceData"), URIRef(source))
+        all.add(stmt)
+
+        search = prefix0 + "/search?"+("dev_MAIN[hierarchicalMenu][category.lvl0][0]="+titles[j]+"&dev_MAIN[hierarchicalMenu][category.lvl0][1]="+text_id+" "+frontHead)
+
+        stmt = (subject, URIRef("http://schema.org/relatedLink"), URIRef(search))
         all.add(stmt)
 
         types = ["diary-entry", "note"]
@@ -275,6 +276,16 @@ for j in range(len(files)):
                         item["next"] = entries[i+1].get("xml:id")
 
                     item["source"] = source
+                    
+                    '''
+                    subject = URIRef(prefix + "/items/"+item["objectID"])
+                    stmt = (subject, URIRef("http://schema.org/isPartOf"), file_uri)
+                    all.add(stmt)
+
+                    for person in persons:
+                        stmt = (subject, URIRef("https://jpsearch.go.jp/term/property#agential"), URIRef(prefix0+"/api/chname/"+person))
+                        all.add(stmt)
+                    '''
 
 print("index", len(index))
 
