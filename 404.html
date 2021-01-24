@@ -4,8 +4,8 @@
     var pathName = window.location.pathname;
     var repository = "lab1/"
     if(pathName.includes("/api/")){
-      var host = window.location.host
-      location.href = window.location.protocol + "//"+host+"/"+repository+"snorql/?describe="+encodeURI((host + pathName))
+      var base = window.location.protocol + "//"+ window.location.host
+      location.href = base+"/"+repository+"snorql/?describe="+encodeURI((base + pathName))
     } else {
       var redirectPath = '/'+repository+'redirect';
       location.href = redirectPath + '?p=' + encodeURI(pathName);
