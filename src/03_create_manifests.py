@@ -20,6 +20,10 @@ path = "../static/data/ad.json"
 json_open = open(path, 'r')
 df = json.load(json_open)
 
+manifests = []
+
+prefix0 = "https://shibusawa-dlab.github.io/lab1/iiif/"
+
 for ad in df:
     if "http://schema.org/url" in ad:
         url = ad["http://schema.org/url"][0]["@id"]
@@ -53,7 +57,9 @@ for ad in df:
 
         canvases = []
 
-        prefix = "https://shibusawa-dlab.github.io/lab1/iiif/{}".format(name)
+        thumbnail = {}
+
+        prefix = "{}{}".format(prefix0, name)
         manifest_uri = prefix + "/manifest.json".format(name)
 
         for i in range(len(imgs)):
@@ -111,6 +117,15 @@ for ad in df:
                 "width": w
                 })
 
+            if i == 0:
+                thumbnail = {
+                    "@id": img,
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "width": w,
+                    "height": h
+                }
+
         trs = soup.find(class_="detail_tbl").find("tbody").find_all("tr")
         metadata = []
         for tr in trs:
@@ -130,6 +145,7 @@ for ad in df:
             "label": soup.find(class_="infolib_section").text.strip(),
             "license": "http://base1.nijl.ac.jp/~jituhaku/",
             "metadata": metadata,
+            "thumbnail" : thumbnail,
             "related": {
                 "@id" : url,
                 "format": "text/html"
@@ -140,8 +156,17 @@ for ad in df:
                     "@type": "sc:Sequence",
                     "canvases": canvases
                 }
-            ]
+            ],
+            "viewingDirection": "right-to-left"
         }
+
+        manifests.append({
+            # "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": manifest["@id"],
+            "@type": "sc:Manifest",
+            "label": manifest["label"],
+            "thumbnail": thumbnail["@id"]
+        })
 
         path = "../static/iiif/{}/manifest.json".format(name)
 
@@ -152,3 +177,20 @@ for ad in df:
         with open(path, 'w') as outfile:
             json.dump(manifest,  outfile, ensure_ascii=False,
                 indent=4, sort_keys=True, separators=(',', ': '))
+
+collection = {
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": prefix0+"collection/top.json",
+  "@type": "sc:Collection",
+  "label": "渋沢栄一日記リスト",
+  "manifests": manifests,
+  "vhint": "use-thumb"
+}
+
+path = "../static/iiif/collection/top.json".format(name)
+dir = os.path.dirname(path)
+os.makedirs(dir, exist_ok=True)
+
+with open(path, 'w') as outfile:
+    json.dump(collection,  outfile, ensure_ascii=False,
+        indent=4, sort_keys=True, separators=(',', ': '))

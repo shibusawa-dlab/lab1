@@ -148,10 +148,10 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    '@/plugins/init-client.js',
+    { src: '@/plugins/init-client.js', ssr: false },
     '@/plugins/algolia.config.js',
     '@/plugins/utils.ts',
-    '@/plugins/gtag.js',
+    { src: '@/plugins/gtag.js', ssr: false },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)

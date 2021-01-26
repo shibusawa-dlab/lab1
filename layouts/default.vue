@@ -133,6 +133,22 @@
               >
             </v-list-item-content>
           </v-list-item>
+
+          <v-list-item
+            link
+            target="_blank"
+            href="https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://shibusawa-dlab.github.io/lab1/iiif/collection/top.json"
+          >
+            <v-list-item-action>
+              <v-icon>mdi-picture</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                >渋沢栄一日記リスト
+                <v-icon>mdi-open-in-new</v-icon></v-list-item-title
+              >
+            </v-list-item-content>
+          </v-list-item>
         </v-list>
       </v-navigation-drawer>
 

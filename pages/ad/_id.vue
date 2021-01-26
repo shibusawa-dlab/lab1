@@ -233,17 +233,17 @@ export default class PageCategory extends Vue {
         children[parent].push(item.id)
       }
 
-      if (obj['http://schema.org/provider']) {
-        item.provider1 = obj['http://schema.org/provider'][0]['@value']
-      }
-
       if (
         obj['https://shibusawa-dlab.github.io/lab1/api/properties/provider']
       ) {
-        item.provider2 =
+        item.provider1 =
           obj[
             'https://shibusawa-dlab.github.io/lab1/api/properties/provider'
           ][0]['@value']
+      }
+
+      if (obj['http://schema.org/provider']) {
+        item.provider2 = obj['http://schema.org/provider'][0]['@value']
       }
 
       if (obj['http://schema.org/url']) {

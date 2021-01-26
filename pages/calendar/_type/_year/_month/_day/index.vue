@@ -238,6 +238,10 @@ export default {
     },
     title() {
       // 以下、冗長
+      const query = this.query
+      if (!query) {
+        return query
+      }
       const es = this.query.split('-')
       const monthEnglishList = [
         'Jan.',
