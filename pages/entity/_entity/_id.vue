@@ -406,6 +406,7 @@ export default {
           params: { entity: field, id: value },
         })
 
+        // 初期データ
         moreLikeThisData0.push({
           _id: 'abc',
           _source: {
@@ -465,7 +466,7 @@ export default {
       const res = await axios.get(url)
       const results = res.data
 
-      const moreLikeThisData = []
+      // -------------
 
       const map = {}
 
@@ -475,6 +476,12 @@ export default {
       }
 
       for (let i = 0; i < hits.length; i++) {
+        const item = moreLikeThisData0[i]
+
+        if (!item) {
+          continue
+        }
+
         const facet = hits[i]
         const uri =
           this.github +
@@ -492,26 +499,10 @@ export default {
           ? [hit.image]
           : [field === 'spatial' ? 'mdi-map' : 'mdi-account']
 
-        const to = this.localePath({
-          name: 'entity-entity-id',
-          params: { entity: field, id: hit.label },
-        })
-
-        moreLikeThisData.push({
-          _id: id,
-          _source: {
-            _label: [facet.value + '（' + counts[facet.value] + '）'],
-
-            _thumbnail: image,
-            _url: [this.baseUrl + to],
-          },
-          to,
-        })
+        item._source._thumbnail = image
       }
 
-      if (moreLikeThisData.length > 0) {
-        this.fields[field] = moreLikeThisData
-      }
+      this.fields[field] = moreLikeThisData0
     },
     getQuery(label, value) {
       const field = `dev_MAIN[refinementList][${label}][0]`

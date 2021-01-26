@@ -88,9 +88,51 @@
                 <span v-html="$utils.xml2html(item.xml)"> </span>
               </td>
             </tr>
+
+            <tr v-if="item.provider1">
+              <td width="30%">
+                {{ $t('所蔵（伝記資料別巻第1発行1965年時）') }}
+              </td>
+              <td class="py-5">
+                {{ item.provider1 }}
+              </td>
+            </tr>
+
+            <tr v-if="item.provider2">
+              <td width="30%">{{ $t('所蔵（2020年現在）') }}</td>
+              <td class="py-5">
+                {{ item.provider2 }}
+              </td>
+            </tr>
+
+            <tr v-if="item.url">
+              <td width="30%">{{ $t('画像公開URL') }}</td>
+              <td style="overflow-wrap: break-word" class="py-5">
+                <a :href="item.url">
+                  {{ item.url }}
+                </a>
+              </td>
+            </tr>
+
+            <tr v-if="item.contributor">
+              <td width="30%">{{ $t('画像公開機関') }}</td>
+              <td class="py-5">
+                {{ item.contributor }}
+              </td>
+            </tr>
           </tbody>
         </template>
       </v-simple-table>
+
+      <iframe
+        v-if="item.url"
+        class="mt-5"
+        allowfullscreen="allowfullscreen"
+        frameborder="0"
+        height="600px"
+        :src="`https://da.dl.itc.u-tokyo.ac.jp/mirador/?manifest=${item.manifest}`"
+        width="100%"
+      ></iframe>
 
       <grid :col="4" :list="children" class="mt-10"></grid>
 
@@ -177,7 +219,7 @@ export default class PageCategory extends Vue {
       }
 
       if (obj['http://schema.org/relatedLink']) {
-        const source = obj['http://schema.org/relatedLink'][0]['@id']
+        const source = obj['http://schema.org/relatedLink'][0]['@value']
         item.related = source
       }
 
@@ -189,6 +231,35 @@ export default class PageCategory extends Vue {
           children[parent] = []
         }
         children[parent].push(item.id)
+      }
+
+      if (obj['http://schema.org/provider']) {
+        item.provider1 = obj['http://schema.org/provider'][0]['@value']
+      }
+
+      if (
+        obj['https://shibusawa-dlab.github.io/lab1/api/properties/provider']
+      ) {
+        item.provider2 =
+          obj[
+            'https://shibusawa-dlab.github.io/lab1/api/properties/provider'
+          ][0]['@value']
+      }
+
+      if (obj['http://schema.org/url']) {
+        const source = obj['http://schema.org/url'][0]['@id']
+        item.url = source
+
+        item.manifest = obj['http://schema.org/associatedMedia'][0]['@id']
+      }
+
+      if (
+        obj['https://shibusawa-dlab.github.io/lab1/api/properties/contributor']
+      ) {
+        item.contributor =
+          obj[
+            'https://shibusawa-dlab.github.io/lab1/api/properties/contributor'
+          ][0]['@value']
       }
     }
 

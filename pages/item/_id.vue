@@ -508,10 +508,12 @@ export default {
       }
     }
 
+    const query = es.join(' ').substring(0, 128)
+
     const client = algoliasearch(config.appId, config.apiKey)
     const index = client.initIndex('dev_MAIN')
     const item2 = await index.search('', {
-      similarQuery: es.join(' '),
+      similarQuery: query,
     })
 
     const arr = []

@@ -5,7 +5,7 @@ import urllib.parse
 from rdflib import URIRef, BNode, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF, XSD
 from rdflib import Namespace
-
+import pandas as pd
 import numpy as np
 # from janome.tokenizer import Tokenizer
 # from sklearn.metrics.pairwise import cosine_similarity
@@ -16,6 +16,39 @@ import numpy as np
 
 all = Graph()
 items = Graph()
+
+
+
+def getNijl():
+
+    df = pd.read_excel("data/渋沢栄一日記リスト_kim_shige.xlsx", sheet_name=0, header=None, index_col=None, engine='openpyxl')
+
+    r_count = len(df.index)
+    c_count = len(df.columns)
+
+    print(r_count)
+
+    map = {}
+
+    for j in range(6, r_count):
+        id = df.iloc[j, 5]
+
+        if "DKB" in str(id):
+            ids = str(id).split("\n")
+
+            for id in ids:
+                if "DKB" in id:
+                    map[id] = {
+                        "nijl" : df.iloc[j, 12],
+                        "url" : df.iloc[j, 13],
+                        "attribution" : df.iloc[j, 14],
+                        "own1" : df.iloc[j, 10],
+                        "own2" : df.iloc[j, 11]
+                    }
+
+    return map
+
+nijls = getNijl()
 
 #わかち書き関数
 def wakachi(text):
@@ -118,6 +151,27 @@ def addYears(years, yearAndMonth):
 
     return years
 
+def setNijl(subject, all, map, prefix):
+    if not map:
+        return
+
+    url = map["url"]
+    if not pd.isnull(url):
+        stmt = (subject, URIRef("http://schema.org/url"), URIRef(url))
+        all.add(stmt)
+
+        stmt = (subject, URIRef("http://schema.org/associatedMedia"), URIRef("https://shibusawa-dlab.github.io/lab1/iiif/{}/manifest.json".format(url.split("/")[-1])))
+        all.add(stmt)
+
+    stmt = (subject, URIRef("http://schema.org/provider"), Literal(map["own2"]))
+    all.add(stmt)
+
+    stmt = (subject, URIRef(prefix+"/properties/provider"), Literal(map["own1"]))
+    all.add(stmt)
+
+    stmt = (subject, URIRef(prefix+"/properties/contributor"), Literal(map["attribution"]))
+    all.add(stmt)
+
 files = glob.glob("data/*.xml")
 
 # files = ["data/DKB01_20210113.xml"]
@@ -192,8 +246,10 @@ for j in range(len(files)):
 
         search = prefix0 + "/search?"+("dev_MAIN[hierarchicalMenu][category.lvl0][0]="+titles[j]+"&dev_MAIN[hierarchicalMenu][category.lvl0][1]="+text_id+" "+frontHead)
 
-        stmt = (subject, URIRef("http://schema.org/relatedLink"), URIRef(search))
+        stmt = (subject, URIRef("http://schema.org/relatedLink"), Literal(search))
         all.add(stmt)
+
+        setNijl(subject, all, nijls[text_id], prefix)
 
         types = ["diary-entry", "note"]
 

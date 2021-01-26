@@ -156,11 +156,13 @@
         <v-menu offset-y>
           <template #activator="{ on }">
             <v-btn depressed btn v-on="on">
-              <v-icon class="mr-2">mdi-translate</v-icon>
+              <v-icon>mdi-translate</v-icon>
               <template v-if="$vuetify.breakpoint.name != 'xs'">
-                {{ $i18n.locale == 'ja' ? '日本語' : 'English' }}</template
-              >
-              <v-icon class="ml-2">mdi-menu-down</v-icon>
+                <span class="ml-2">{{
+                  $i18n.locale == 'ja' ? '日本語' : 'English'
+                }}</span>
+                <v-icon class="ml-2">mdi-menu-down</v-icon>
+              </template>
             </v-btn>
           </template>
 
