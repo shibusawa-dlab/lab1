@@ -175,7 +175,6 @@ export default class about extends Vue {
         description: '',
         icon: 'mdi-file',
       },
-      /*
       {
         label: 'Search API',
         href:
@@ -183,7 +182,13 @@ export default class about extends Vue {
         description: '',
         icon: 'mdi-api',
       },
-      */
+      {
+        label: '渋沢栄一日記リスト',
+        href:
+          'https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://shibusawa-dlab.github.io/lab1/iiif/collection/top.json',
+        description: '',
+        icon: 'mdi-image',
+      },
     ]
   }
 
