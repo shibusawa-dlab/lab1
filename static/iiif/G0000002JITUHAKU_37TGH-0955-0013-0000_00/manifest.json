@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "http://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/manifest.json",
+    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/manifest.json",
     "@type": "sc:Manifest",
     "attribution": "国文学研究資料館",
     "label": "(渋沢栄一日記)　(明治45年)",
@@ -61,19 +61,19 @@
     },
     "sequences": [
         {
-            "@id": "http://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/sequence/normal",
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/sequence/normal",
             "@type": "sc:Sequence",
             "canvases": [
                 {
-                    "@id": "http://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/canvas/p1",
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/canvas/p1",
                     "@type": "sc:Canvas",
                     "height": 1887,
                     "images": [
                         {
-                            "@id": "http://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/annotation/p1-image",
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/annotation/p1-image",
                             "@type": "oa:Annotation",
                             "motivation": "sc:painting",
-                            "on": "http://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/canvas/p1",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/canvas/p1",
                             "resource": {
                                 "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0013-0000_00.jpg",
                                 "@type": "dctypes:Image",
@@ -94,15 +94,15 @@
                     "width": 2404
                 },
                 {
-                    "@id": "http://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/canvas/p2",
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/canvas/p2",
                     "@type": "sc:Canvas",
                     "height": 1689,
                     "images": [
                         {
-                            "@id": "http://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/annotation/p2-image",
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/annotation/p2-image",
                             "@type": "oa:Annotation",
                             "motivation": "sc:painting",
-                            "on": "http://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/canvas/p2",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/canvas/p2",
                             "resource": {
                                 "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0013-0000_01.jpg",
                                 "@type": "dctypes:Image",
@@ -123,15 +123,15 @@
                     "width": 2523
                 },
                 {
-                    "@id": "http://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/canvas/p3",
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/canvas/p3",
                     "@type": "sc:Canvas",
                     "height": 1860,
                     "images": [
                         {
-                            "@id": "http://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/annotation/p3-image",
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/annotation/p3-image",
                             "@type": "oa:Annotation",
                             "motivation": "sc:painting",
-                            "on": "http://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/canvas/p3",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/canvas/p3",
                             "resource": {
                                 "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0013-0000_02.jpg",
                                 "@type": "dctypes:Image",

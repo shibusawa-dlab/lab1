@@ -53,7 +53,7 @@ for ad in df:
 
         canvases = []
 
-        prefix = "http://shibusawa-dlab.github.io/lab1/iiif/{}".format(name)
+        prefix = "https://shibusawa-dlab.github.io/lab1/iiif/{}".format(name)
         manifest_uri = prefix + "/manifest.json".format(name)
 
         for i in range(len(imgs)):

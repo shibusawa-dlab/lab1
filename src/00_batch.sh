@@ -1,0 +1,2 @@
+python 02_create_alg_index.py
+python 03_create_manifests.py
