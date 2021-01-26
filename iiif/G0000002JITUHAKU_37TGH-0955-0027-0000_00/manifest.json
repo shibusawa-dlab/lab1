@@ -240,5 +240,13 @@
                 }
             ]
         }
-    ]
+    ],
+    "thumbnail": {
+        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0027-0000_00.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "height": 1890,
+        "width": 2552
+    },
+    "viewingDirection": "right-to-left"
 }
