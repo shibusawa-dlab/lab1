@@ -1,0 +1,111 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/collection/DKB01.json",
+    "@type": "sc:Collection",
+    "label": "渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "manifests": [
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0001-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治元年6月14日～同年11月3日)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0001-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0002-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治元年11月3日～同2年1月18日)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0002-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0003-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治17年5月28日～同年6月17日)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0003-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0003-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治17年5月28日～同年6月17日)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0003-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0004-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治19年)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0004-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0004-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治19年)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0004-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0005-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治32年)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0005-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0006-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治33年同34年4月以前)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0006-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0007-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治34年5月～同35年8月)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0007-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0008-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治35年8月～同36年11月)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0008-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0009-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治36年11月～同37年9月)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0009-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0010-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治38年)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0010-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0011-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治43年)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0011-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0012-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治44年)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0012-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0013-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(明治45年)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0013-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0014-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(大正2年)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0014-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0015-0000_00/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(大正3年)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0015-0000_00.jpg"
+        }
+    ],
+    "vhint": "use-thumb"
+}

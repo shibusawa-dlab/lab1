@@ -20,7 +20,15 @@ path = "../static/data/ad.json"
 json_open = open(path, 'r')
 df = json.load(json_open)
 
-manifests = []
+manifests = {}
+
+dirs = {
+    "DKB01" : "渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)",
+    "DKB02" : "渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表"
+}
+
+for dir in dirs:
+    manifests[dir] = []
 
 prefix0 = "https://shibusawa-dlab.github.io/lab1/iiif/"
 
@@ -36,6 +44,8 @@ for id in sorted(data_map):
     ad = data_map[id]
 
     url = ad["http://schema.org/url"][0]["@id"]
+
+    item_id = ad["@id"].split("/items/")[1]
 
     print(url)
 
@@ -169,7 +179,11 @@ for id in sorted(data_map):
         "viewingDirection": "right-to-left"
     }
 
-    manifests.append({
+    dir_id = "DKB01"
+    if "DKB2" in item_id:
+        dir_id = "DKB02"
+
+    manifests[dir_id].append({
         # "@context": "http://iiif.io/api/presentation/2/context.json",
         "@id": manifest["@id"],
         "@type": "sc:Manifest",
@@ -187,13 +201,41 @@ for id in sorted(data_map):
         json.dump(manifest,  outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))
 
+collections = []
+
+for dir in manifests:
+
+    collection = {
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@id": prefix0+"collection/{}.json".format(dir),
+        "@type": "sc:Collection",
+        "label": dirs[dir],
+        "manifests": manifests[dir],
+        "vhint": "use-thumb"
+    }
+
+    path = "../static/iiif/collection/{}.json".format(dir)
+    dir = os.path.dirname(path)
+    os.makedirs(dir, exist_ok=True)
+
+    with open(path, 'w') as outfile:
+        json.dump(collection,  outfile, ensure_ascii=False,
+            indent=4, sort_keys=True, separators=(',', ': '))
+
+    collections.append({
+        "@id": collection["@id"],
+        "@type": "sc:Collection",
+        "label": collection["label"],
+        "manifests": collection["manifests"],
+    })
+
 collection = {
-  "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": prefix0+"collection/top.json",
-  "@type": "sc:Collection",
-  "label": "渋沢栄一日記リスト",
-  "manifests": manifests,
-  "vhint": "use-thumb"
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": prefix0+"collection/{}.json".format("top"),
+    "@type": "sc:Collection",
+    "label": "渋沢栄一日記リスト",
+    "collections": collections,
+    "vhint": "use-thumb"
 }
 
 path = "../static/iiif/collection/top.json".format(name)

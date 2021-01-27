@@ -26,8 +26,6 @@ def getNijl():
     r_count = len(df.index)
     c_count = len(df.columns)
 
-    print(r_count)
-
     map = {}
 
     for j in range(6, r_count):
@@ -191,6 +189,9 @@ top_uri = URIRef("https://shibusawa-dlab.github.io/lab1/api/items/top")
 stmt = (top_uri, RDFS.label, Literal("TOP"))
 all.add(stmt)
 
+stmt = (top_uri, URIRef("http://schema.org/associatedMedia"), URIRef("https://shibusawa-dlab.github.io/lab1/iiif/collection/top.json"))
+all.add(stmt)
+
 for j in range(len(files)):
 
     file = files[j]
@@ -219,6 +220,9 @@ for j in range(len(files)):
     all.add(stmt)
 
     stmt = (file_uri, URIRef("http://schema.org/sourceData"), URIRef(source))
+    all.add(stmt)
+
+    stmt = (file_uri, URIRef("http://schema.org/associatedMedia"), URIRef("https://shibusawa-dlab.github.io/lab1/iiif/collection/{}.json".format(file_id)))
     all.add(stmt)
 
     for text in texts:

@@ -124,17 +124,17 @@
         </template>
       </v-simple-table>
 
+      <grid :col="4" :list="children" class="mt-10"></grid>
+
       <iframe
-        v-if="item.url"
-        class="mt-5"
+        v-if="item.manifest"
+        class="mt-10"
         allowfullscreen="allowfullscreen"
         frameborder="0"
         height="600px"
         :src="`https://da.dl.itc.u-tokyo.ac.jp/mirador/?manifest=${item.manifest}`"
         width="100%"
       ></iframe>
-
-      <grid :col="4" :list="children" class="mt-10"></grid>
 
       <h2 v-if="false" class="mt-10 pt-10">
         {{ $t('items') }}
@@ -249,7 +249,9 @@ export default class PageCategory extends Vue {
       if (obj['http://schema.org/url']) {
         const source = obj['http://schema.org/url'][0]['@id']
         item.url = source
+      }
 
+      if (obj['http://schema.org/associatedMedia']) {
         item.manifest = obj['http://schema.org/associatedMedia'][0]['@id']
       }
 
