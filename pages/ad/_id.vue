@@ -30,6 +30,38 @@
           </template>
           <span>TEI</span>
         </v-tooltip>
+        <v-tooltip v-if="item.manifest" bottom>
+          <template #activator="{ on }">
+            <v-btn
+              class="mr-5"
+              :href="item.manifest"
+              icon
+              target="_blank"
+              v-on="on"
+              ><v-img
+                contain
+                width="30px"
+                :src="baseUrl + '/img/icons/manifest.png'"
+            /></v-btn>
+          </template>
+          <span>IIIF</span>
+        </v-tooltip>
+        <v-tooltip v-if="item.manifest" bottom>
+          <template #activator="{ on }">
+            <v-btn
+              class="mr-5"
+              :href="'http://mirador.cultural.jp/?manifest=' + item.manifest"
+              icon
+              target="_blank"
+              v-on="on"
+              ><v-img
+                contain
+                width="30px"
+                :src="baseUrl + '/img/icons/mirador3.svg'"
+            /></v-btn>
+          </template>
+          <span>Mirador</span>
+        </v-tooltip>
         <v-tooltip bottom>
           <template #activator="{ on }">
             <v-btn
@@ -132,7 +164,7 @@
         allowfullscreen="allowfullscreen"
         frameborder="0"
         height="600px"
-        :src="`https://da.dl.itc.u-tokyo.ac.jp/mirador/?manifest=${item.manifest}`"
+        :src="`http://universalviewer.io/examples/uv/uv.html#?manifest=${item.manifest}`"
         width="100%"
       ></iframe>
 
