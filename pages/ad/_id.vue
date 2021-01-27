@@ -60,7 +60,7 @@
               ><v-img contain width="30px" :src="baseUrl + '/img/icons/uv.jpg'"
             /></v-btn>
           </template>
-          <span>Mirador</span>
+          <span>Universal Viewer</span>
         </v-tooltip>
         <v-tooltip bottom>
           <template #activator="{ on }">
