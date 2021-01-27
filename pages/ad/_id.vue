@@ -50,14 +50,14 @@
           <template #activator="{ on }">
             <v-btn
               class="mr-5"
-              :href="'http://mirador.cultural.jp/?manifest=' + item.manifest"
+              :href="
+                'https://universalviewer.io/examples/uv/uv.html#?manifest=' +
+                item.manifest
+              "
               icon
               target="_blank"
               v-on="on"
-              ><v-img
-                contain
-                width="30px"
-                :src="baseUrl + '/img/icons/mirador3.svg'"
+              ><v-img contain width="30px" :src="baseUrl + '/img/icons/uv.jpg'"
             /></v-btn>
           </template>
           <span>Mirador</span>
@@ -164,7 +164,7 @@
         allowfullscreen="allowfullscreen"
         frameborder="0"
         height="600px"
-        :src="`http://universalviewer.io/examples/uv/uv.html#?manifest=${item.manifest}`"
+        :src="`https://universalviewer.io/examples/uv/uv.html#?manifest=${item.manifest}`"
         width="100%"
       ></iframe>
 
