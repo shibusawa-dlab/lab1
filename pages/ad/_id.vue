@@ -10,7 +10,7 @@
       </v-container>
     </v-sheet>
 
-    <v-container>
+    <v-container class="mb-5">
       <h1 class="mt-10">{{ title }}</h1>
 
       <div class="text-center my-10">
