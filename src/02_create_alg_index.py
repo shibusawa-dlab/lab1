@@ -48,6 +48,24 @@ def getNijl():
 
 nijls = getNijl()
 
+def getCollection():
+    json_open = open("../static/iiif/collection/top.json", 'r')
+    df = json.load(json_open)
+    collections = df["collections"]
+
+    map = {}
+
+    for c in collections:
+        manifests = c["manifests"]
+
+        for manifest in manifests:
+            map[manifest["@id"].split("/")[5]] = manifest["thumbnail"]
+
+    return map
+
+
+collection = getCollection()
+
 #わかち書き関数
 def wakachi(text):
     
@@ -252,6 +270,11 @@ for j in range(len(files)):
 
         stmt = (subject, URIRef("http://schema.org/relatedLink"), Literal(search))
         all.add(stmt)
+
+        if text_id in collection:
+            thumb = collection[text_id]
+            stmt = (subject, URIRef("http://schema.org/image"), URIRef(thumb))
+            all.add(stmt)
 
         setNijl(subject, all, nijls[text_id], prefix)
 

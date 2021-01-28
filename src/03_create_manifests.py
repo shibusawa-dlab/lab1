@@ -49,7 +49,8 @@ for id in sorted(data_map):
 
     print(url)
 
-    name = url.split("/")[-1]
+    # name = url.split("/")[-1]
+    name = ad["@id"].split("/")[-1]
 
     path = "data/html/" + name + ".html"
 

@@ -283,6 +283,10 @@ export default class PageCategory extends Vue {
         item.url = source
       }
 
+      if (obj['http://schema.org/image']) {
+        item.image = obj['http://schema.org/image'][0]['@id']
+      }
+
       if (obj['http://schema.org/associatedMedia']) {
         item.manifest = obj['http://schema.org/associatedMedia'][0]['@id']
       }
@@ -313,7 +317,7 @@ export default class PageCategory extends Vue {
         const obj = map[id]
         arr.push({
           label: obj.label,
-          image: 'mdi-book-open',
+          image: obj.image || 'mdi-book-open',
           path: {
             name: 'ad-id',
             params: {
