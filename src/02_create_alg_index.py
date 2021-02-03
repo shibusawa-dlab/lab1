@@ -63,8 +63,17 @@ def getCollection():
 
     return map
 
-
 collection = getCollection()
+
+def getToc():
+    path = "data/toc.json"
+
+    json_open = open(path, 'r')
+    df = json.load(json_open)
+
+    return df
+
+toc = getToc()
 
 #わかち書き関数
 def wakachi(text):
@@ -194,6 +203,8 @@ files = glob.glob("data/*.xml")
 
 titles = ["DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)", "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表"]
 
+initialPbs = ["B1001", "B2001"]
+
 years = {}
 
 index = []
@@ -211,6 +222,8 @@ stmt = (top_uri, URIRef("http://schema.org/associatedMedia"), URIRef("https://sh
 all.add(stmt)
 
 for j in range(len(files)):
+
+    currentPb = initialPbs[j]
 
     file = files[j]
 
@@ -288,6 +301,17 @@ for j in range(len(files)):
 
                 entry = entries[i]
 
+                pbs = entry.find_all("pb")
+                if len(pbs) == 0:
+                    pb = currentPb
+                else:
+
+                    firstPb = pbs[0]
+                    pb = "B" + str(int(firstPb.get("n").replace("B", "")) - 1).zfill(4)
+
+                    lastPb = pbs[len(pbs) - 1]
+                    currentPb = lastPb.get("n")
+
                 head = entry.find("head")
 
                 if head:
@@ -360,7 +384,11 @@ for j in range(len(files)):
                         item["next"] = entries[i+1].get("xml:id")
 
                     item["source"] = source
-                    
+
+                    if pb in toc:
+                        t = toc[pb]
+                        item["manifest"] = t["manifest"]
+                        item["canvas"] = t["canvas"]
                     
                     subject = URIRef(prefix + "/items/"+item["objectID"])
                     stmt = (subject, URIRef("http://schema.org/isPartOf"), file_uri)

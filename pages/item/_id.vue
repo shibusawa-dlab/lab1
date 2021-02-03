@@ -9,7 +9,7 @@
         </v-breadcrumbs>
       </v-container>
     </v-sheet>
-    <v-container class="py-10">
+    <v-container class="pt-5">
       <p class="mb-5 text-center">
         <v-tooltip bottom>
           <template #activator="{ on }">
@@ -62,24 +62,48 @@
         </dd>
       </dl>
       -->
+    </v-container>
 
-      <v-card flat outlined class="my-5">
-        <div class="pa-4">
-          <span v-html="$utils.xml2html(item.xml, true)"> </span>
-          <v-sheet class="pa-3 mt-10" color="grey lighten-3">
-            <b class="mr-2">{{ $t('legend') }}:</b>
-            <span class="mr-2 teiPersName">{{ $t('agential') }}</span>
-            <span class="mr-2 teiPlaceName">{{ $t('spatial') }}</span>
-            <span class="mr-2 teiDate">{{ $t('date') }}</span>
-            <span class="teiTime">{{ $t('temporal') }}</span>
-          </v-sheet>
-        </div>
-      </v-card>
+    <v-sheet color="grey lighten-3 px-5">
+      <v-row>
+        <v-col cols="12" sm="6">
+          <v-card
+            flat
+            outlined
+            class="my-5 scroll vertical"
+            :style="`height: ${/*height * 0.85*/ 600}px; width: ${width / 2}px`"
+          >
+            <div class="pa-4 px-5">
+              <span v-html="$utils.xml2html(item.xml, true)"> </span>
+              <v-sheet class="pa-4 mx-10" color="grey lighten-3">
+                <b class="ma-2">{{ $t('legend') }} :</b>
+                <span class="ma-2 teiPersName">{{ $t('agential') }}</span>
+                <span class="ma-2 teiPlaceName">{{ $t('spatial') }}</span>
+                <span class="ma-2 teiDate">{{ $t('date') }}</span>
+                <span class="ma-2 teiTime">{{ $t('temporal') }}</span>
+              </v-sheet>
+            </div>
+          </v-card>
+        </v-col>
+        <v-col cols="12" sm="6">
+          <iframe
+            class="my-5"
+            :src="`${baseUrl}/curation/?manifest=${item.manifest}&canvas=${item.canvas}`"
+            width="100%"
+            :style="`height: ${/*height * 0.85*/ 600}px;`"
+            allowfullscreen="allowfullscreen"
+            frameborder="0"
+          >
+          </iframe>
+        </v-col>
+      </v-row>
+    </v-sheet>
 
+    <v-container>
       <div class="text-center mt-10">
         <v-tooltip bottom>
           <template #activator="{ on }">
-            <v-btn icon class="mr-4" v-on="on">
+            <v-btn icon class="mx-2" v-on="on">
               <a
                 :href="viewer + '/light/?u=' + item.source + '&id=' + id"
                 target="_blank"
@@ -95,10 +119,46 @@
           </template>
           <span>TEI/XML</span>
         </v-tooltip>
+        <v-tooltip bottom>
+          <template #activator="{ on }">
+            <v-btn icon class="mx-2" v-on="on">
+              <a :href="item.manifest" target="_blank">
+                <v-img
+                  contain
+                  width="30px"
+                  :src="baseUrl + '/img/icons/manifest.png'"
+                />
+                <!-- @click="dwnData()" -->
+              </a>
+            </v-btn>
+          </template>
+          <span>IIIF</span>
+        </v-tooltip>
+        <v-tooltip v-if="item.manifest" bottom>
+          <template #activator="{ on }">
+            <v-btn
+              class="mx-2"
+              :href="
+                'http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=' +
+                item.manifest +
+                '&canvas=' +
+                item.canvas
+              "
+              icon
+              target="_blank"
+              v-on="on"
+              ><v-img
+                contain
+                width="30px"
+                :src="baseUrl + '/img/icons/icp-logo.svg'"
+            /></v-btn>
+          </template>
+          <span>IIIF Curation Viewer</span>
+        </v-tooltip>
 
         <v-tooltip bottom>
           <template #activator="{ on }">
-            <v-btn icon class="mr-4" v-on="on">
+            <v-btn icon class="mx-2" v-on="on">
               <a :href="jsonUrl" target="_blank">
                 <v-img
                   contain
@@ -365,6 +425,7 @@ export default {
       viewer: process.env.viewer,
       moreLikeThisData: [],
       fields: ['agential', 'spatial' /*, 'temporal' */],
+      width: window.innerWidth,
     }
   },
 
@@ -580,3 +641,14 @@ export default {
   },
 }
 </script>
+<style>
+.scroll {
+  overflow-y: auto;
+}
+
+.vertical {
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+</style>
