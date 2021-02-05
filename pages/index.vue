@@ -109,12 +109,39 @@ export default class about extends Vue {
   get items(): any[] {
     return [
       {
+        label: 'TEI/XML',
+        // href: this.github + '/blob/master/static/data/DKB01_20210113.xml',
+        href:
+          'https://nakamura196.github.io/tei-js-pub' +
+          '/?u=' +
+          'https://shibusawa-dlab.github.io/lab1/data/collection.json',
+        description: '',
+        icon: 'mdi-file',
+      },
+      {
         label: this.$t('search'),
         path: {
           name: 'search',
         },
         description: '',
         icon: 'mdi-magnify',
+      },
+
+      {
+        label: this.$t('ad'),
+        path: {
+          name: 'ad-id',
+        },
+        description: '',
+        icon: 'mdi-book-open',
+      },
+      {
+        label: this.$t('legend'),
+        path: {
+          name: 'legend',
+        },
+        description: '',
+        icon: 'mdi-information',
       },
       {
         label: this.$t('calendar'),
@@ -123,14 +150,6 @@ export default class about extends Vue {
         },
         description: '',
         icon: 'mdi-calendar',
-      },
-      {
-        label: this.$t('ad'),
-        path: {
-          name: 'ad-id',
-        },
-        description: '',
-        icon: 'mdi-book-open',
       },
       {
         label: this.$t('entity'),
@@ -152,12 +171,11 @@ export default class about extends Vue {
         icon: 'mdi-map',
       },
       {
-        label: this.$t('legend'),
-        path: {
-          name: 'legend',
-        },
+        label: '渋沢栄一日記リスト',
+        href:
+          'https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://shibusawa-dlab.github.io/lab1/iiif/collection/top.json',
         description: '',
-        icon: 'mdi-information',
+        icon: 'mdi-image',
       },
       {
         label: this.$t('snorql'),
@@ -165,29 +183,13 @@ export default class about extends Vue {
         description: '',
         icon: 'mdi-database',
       },
-      {
-        label: 'TEI/XML',
-        // href: this.github + '/blob/master/static/data/DKB01_20210113.xml',
-        href:
-          'https://nakamura196.github.io/tei-js-pub' +
-          '/?u=' +
-          'https://nakamura196.github.io/tei-js-pub/data/collection.json',
-        description: '',
-        icon: 'mdi-file',
-      },
+
       {
         label: 'Search API',
         href:
           'https://la1l89esu7-dsn.algolia.net/1/indexes/dev_MAIN/?X-Algolia-API-Key=a8dc3bccca1af99f7a77ea55f7dd9f4d&X-Algolia-Application-Id=LA1L89ESU7',
         description: '',
         icon: 'mdi-api',
-      },
-      {
-        label: '渋沢栄一日記リスト',
-        href:
-          'https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://shibusawa-dlab.github.io/lab1/iiif/collection/top.json',
-        description: '',
-        icon: 'mdi-image',
       },
     ]
   }

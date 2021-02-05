@@ -14,6 +14,25 @@
 
           <v-list-item
             link
+            target="_blank"
+            :href="
+              'https://nakamura196.github.io/tei-js-pub' +
+              '/?u=' +
+              'https://shibusawa-dlab.github.io/lab1/data/collection.json'
+            "
+          >
+            <v-list-item-action>
+              <v-icon>mdi-file</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                >TEI/XML <v-icon>mdi-open-in-new</v-icon></v-list-item-title
+              >
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item
+            link
             :to="
               localePath({
                 name: 'search',
@@ -33,22 +52,6 @@
             link
             :to="
               localePath({
-                name: 'calendar',
-              })
-            "
-          >
-            <v-list-item-action>
-              <v-icon>mdi-calendar</v-icon>
-            </v-list-item-action>
-            <v-list-item-content>
-              <v-list-item-title>{{ $t('calendar') }}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-
-          <v-list-item
-            link
-            :to="
-              localePath({
                 name: 'ad-id',
                 //query: { 'dev_MAIN[sortBy]': 'dev_MAIN_temporal_asc' },
               })
@@ -59,6 +62,31 @@
             </v-list-item-action>
             <v-list-item-content>
               <v-list-item-title>{{ $t('ad') }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item link :to="localePath({ name: 'legend' })">
+            <v-list-item-action>
+              <v-icon>mdi-information</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title>{{ $t('legend') }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item
+            link
+            :to="
+              localePath({
+                name: 'calendar',
+              })
+            "
+          >
+            <v-list-item-action>
+              <v-icon>mdi-calendar</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title>{{ $t('calendar') }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
@@ -83,12 +111,19 @@
             </v-list-item-content>
           </v-list-item>
 
-          <v-list-item link :to="localePath({ name: 'legend' })">
+          <v-list-item
+            link
+            target="_blank"
+            href="https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://shibusawa-dlab.github.io/lab1/iiif/collection/top.json"
+          >
             <v-list-item-action>
-              <v-icon>mdi-information</v-icon>
+              <v-icon>mdi-image</v-icon>
             </v-list-item-action>
             <v-list-item-content>
-              <v-list-item-title>{{ $t('legend') }}</v-list-item-title>
+              <v-list-item-title
+                >渋沢栄一日記リスト
+                <v-icon>mdi-open-in-new</v-icon></v-list-item-title
+              >
             </v-list-item-content>
           </v-list-item>
 
@@ -107,21 +142,6 @@
           <v-list-item
             link
             target="_blank"
-            :href="baseUrl + '/data/DKB01_20210113.xml'"
-          >
-            <v-list-item-action>
-              <v-icon>mdi-file</v-icon>
-            </v-list-item-action>
-            <v-list-item-content>
-              <v-list-item-title
-                >TEI/XML <v-icon>mdi-open-in-new</v-icon></v-list-item-title
-              >
-            </v-list-item-content>
-          </v-list-item>
-
-          <v-list-item
-            link
-            target="_blank"
             href="https://la1l89esu7-dsn.algolia.net/1/indexes/dev_MAIN/?X-Algolia-API-Key=a8dc3bccca1af99f7a77ea55f7dd9f4d&X-Algolia-Application-Id=LA1L89ESU7"
           >
             <v-list-item-action>
@@ -130,22 +150,6 @@
             <v-list-item-content>
               <v-list-item-title
                 >Searach API <v-icon>mdi-open-in-new</v-icon></v-list-item-title
-              >
-            </v-list-item-content>
-          </v-list-item>
-
-          <v-list-item
-            link
-            target="_blank"
-            href="https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://shibusawa-dlab.github.io/lab1/iiif/collection/top.json"
-          >
-            <v-list-item-action>
-              <v-icon>mdi-image</v-icon>
-            </v-list-item-action>
-            <v-list-item-content>
-              <v-list-item-title
-                >渋沢栄一日記リスト
-                <v-icon>mdi-open-in-new</v-icon></v-list-item-title
               >
             </v-list-item-content>
           </v-list-item>
