@@ -32,6 +32,7 @@ const siteKeywords = 'IIIF, TEI'
 // images
 const iconImages = basePath + 'img/icons/'
 const ogpImages = basePath + 'img/ogp/' // cdnPath + 'img/ogp/'
+const assets = basePath + 'assets/css/'
 
 // pwa
 const shortName = 'shibusawa'
@@ -123,6 +124,10 @@ export default {
         rel: 'apple-touch-icon',
         sizes: '180x180',
         href: iconImages + 'apple-touch-icon.png',
+      },
+      {
+        rel: 'stylesheet',
+        href: assets + 'CETEIcean.css',
       },
     ],
   },

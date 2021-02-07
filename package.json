@@ -20,6 +20,7 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "algoliasearch": "^4.8.4",
     "babel-core": "^6.26.3",
+    "CETEIcean": "^1.3.0",
     "core-js": "^3.8.3",
     "cross-env": "^7.0.3",
     "firebase": "^8.2.4",
@@ -27,6 +28,7 @@
     "firebase-tools": "^9.2.2",
     "fs": "^0.0.1-security",
     "instantsearch.css": "^7.4.5",
+    "jquery": "^3.5.1",
     "leaflet": "^1.7.1",
     "nuxt": "^2.14.12",
     "nuxt-i18n": "^6.18.0",
@@ -38,7 +40,8 @@
     "vue-gtag": "^1.10.0",
     "vue-instantsearch": "^3.4.3",
     "vue2-leaflet": "^2.6.0",
-    "vue2-leaflet-markercluster": "^3.1.0"
+    "vue2-leaflet-markercluster": "^3.1.0",
+    "xml-js": "^1.6.11"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",

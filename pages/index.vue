@@ -109,14 +109,13 @@ export default class about extends Vue {
   get items(): any[] {
     return [
       {
-        label: 'TEI/XML',
+        label: this.$t('text'),
         // href: this.github + '/blob/master/static/data/DKB01_20210113.xml',
-        href:
-          'https://nakamura196.github.io/tei-js-pub' +
-          '/?u=' +
-          'https://shibusawa-dlab.github.io/lab1/data/collection.json',
+        path: {
+          name: 'viewer',
+        },
         description: '',
-        icon: 'mdi-file',
+        icon: 'mdi-text',
       },
       {
         label: this.$t('search'),
@@ -190,6 +189,14 @@ export default class about extends Vue {
           'https://la1l89esu7-dsn.algolia.net/1/indexes/dev_MAIN/?X-Algolia-API-Key=a8dc3bccca1af99f7a77ea55f7dd9f4d&X-Algolia-Application-Id=LA1L89ESU7',
         description: '',
         icon: 'mdi-api',
+      },
+      {
+        label: 'TEI/XML',
+        // href: this.github + '/blob/master/static/data/DKB01_20210113.xml',
+        href:
+          'https://github.com/shibusawa-dlab/lab1/tree/master/static/data/tei',
+        description: '',
+        icon: 'mdi-file',
       },
     ]
   }

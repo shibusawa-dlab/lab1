@@ -14,20 +14,17 @@
 
           <v-list-item
             link
-            target="_blank"
-            :href="
-              'https://nakamura196.github.io/tei-js-pub' +
-              '/?u=' +
-              'https://shibusawa-dlab.github.io/lab1/data/collection.json'
+            :to="
+              localePath({
+                name: 'viewer',
+              })
             "
           >
             <v-list-item-action>
-              <v-icon>mdi-file</v-icon>
+              <v-icon>mdi-text</v-icon>
             </v-list-item-action>
             <v-list-item-content>
-              <v-list-item-title
-                >TEI/XML <v-icon>mdi-open-in-new</v-icon></v-list-item-title
-              >
+              <v-list-item-title>{{ $t('text') }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
@@ -149,7 +146,22 @@
             </v-list-item-action>
             <v-list-item-content>
               <v-list-item-title
-                >Searach API <v-icon>mdi-open-in-new</v-icon></v-list-item-title
+                >Search API <v-icon>mdi-open-in-new</v-icon></v-list-item-title
+              >
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item
+            link
+            target="_blank"
+            href="https://github.com/shibusawa-dlab/lab1/tree/master/static/data/tei"
+          >
+            <v-list-item-action>
+              <v-icon>mdi-file</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                >TEI/XML <v-icon>mdi-open-in-new</v-icon></v-list-item-title
               >
             </v-list-item-content>
           </v-list-item>
