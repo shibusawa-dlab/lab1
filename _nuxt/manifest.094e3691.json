@@ -1,0 +1,55 @@
+{
+  "name": "渋沢栄一ダイアリー",
+  "short_name": "shibusawa",
+  "description": "『渋沢栄一伝記資料』別巻1, 2掲載の渋沢栄一の日記および日時通知表を公開しています。\n\n本サイトは、国立歴史民族博物館　総合資料学奨励研究（2020年度）「TEIを用いた『渋沢栄一伝記資料』テキストデータの再構築と活用」の成果として構築されました。",
+  "icons": [
+    {
+      "src": "/lab1/_nuxt/icons/icon_64x64.3e7366.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/lab1/_nuxt/icons/icon_120x120.3e7366.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/lab1/_nuxt/icons/icon_144x144.3e7366.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/lab1/_nuxt/icons/icon_152x152.3e7366.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/lab1/_nuxt/icons/icon_192x192.3e7366.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/lab1/_nuxt/icons/icon_384x384.3e7366.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/lab1/_nuxt/icons/icon_512x512.3e7366.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/lab1/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "lang": "ja",
+  "orientation": "portrait"
+}
