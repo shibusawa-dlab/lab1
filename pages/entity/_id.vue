@@ -11,22 +11,9 @@
     </v-sheet>
 
     <v-container>
-      <div class="my-5">
-        <v-btn
-          v-for="(obj, index) in settings"
-          :key="index"
-          text
-          class="my-1 mr-4"
-          :to="
-            localePath({
-              name: 'entity-id',
-              params: { id: index },
-            })
-          "
-        >
-          {{ obj.label }}
-        </v-btn>
-      </div>
+      <h2 class="my-5">
+        {{ title }} <small>（{{ total.toLocaleString() }}）</small>
+      </h2>
 
       <template v-if="loadingFlag">
         <div class="text-center my-10">
@@ -343,7 +330,13 @@ export default class PageCategory extends Vue {
         to: this.localePath({ name: 'index' }),
       },
       {
-        text: this.title + '（' + this.total.toLocaleString() + '）',
+        text: this.$t('person_place'),
+        disabled: false,
+        to: this.localePath({ name: 'entity' }),
+        exact: true,
+      },
+      {
+        text: this.title,
       },
     ]
   }

@@ -11,9 +11,118 @@
     </v-sheet>
 
     <v-container class="mb-5">
-      <h1 class="mt-10">{{ title }}</h1>
+      <h2 class="mt-10">{{ title }}</h2>
 
-      <div class="text-center my-10">
+      <v-simple-table v-if="item.parent" class="mt-10">
+        <template #default>
+          <tbody>
+            <tr v-if="false">
+              <td width="30%">{{ $t('parent') }}</td>
+              <td style="overflow-wrap: break-word" class="py-1">
+                <nuxt-link
+                  :to="
+                    localePath({
+                      name: 'ad-id',
+                      params: {
+                        id: item.parent_slug,
+                      },
+                    })
+                  "
+                >
+                  {{ map[item.parent].label }}
+                </nuxt-link>
+              </td>
+            </tr>
+
+            <tr>
+              <td width="30%">{{ $t('伝記資料編纂時の資料情報') }}</td>
+              <td style="overflow-wrap: break-word" class="py-2">
+                <span v-html="$utils.xml2html(item.xml)"> </span>
+              </td>
+            </tr>
+
+            <tr v-if="item.provider1">
+              <td width="30%">
+                {{ $t('所蔵（伝記資料別巻第1発行1965年時）') }}
+              </td>
+              <td class="py-1">
+                {{ item.provider1 }}
+              </td>
+            </tr>
+
+            <tr v-if="item.provider2">
+              <td width="30%">{{ $t('所蔵（2020年現在）') }}</td>
+              <td class="py-1">
+                {{ item.provider2 }}
+              </td>
+            </tr>
+
+            <tr v-if="item.url">
+              <td width="30%">{{ $t('画像公開URL') }}</td>
+              <td style="overflow-wrap: break-word" class="py-1">
+                <a :href="item.url">
+                  {{ item.url }}
+                </a>
+              </td>
+            </tr>
+
+            <tr v-if="item.contributor">
+              <td width="30%">{{ $t('画像公開機関') }}</td>
+              <td class="py-1">
+                {{ item.contributor }}
+              </td>
+            </tr>
+          </tbody>
+        </template>
+      </v-simple-table>
+
+      <v-btn
+        v-if="item.related"
+        class="mt-10"
+        block
+        color="primary"
+        rounded
+        dark
+        x-large
+        :href="item.related"
+      >
+        <v-icon class="mr-2">mdi-magnify</v-icon>
+        {{ $t('fulltext_search') }}
+      </v-btn>
+
+      <grid v-if="false" :col="4" :list="children" class="mt-10"></grid>
+
+      <iframe
+        v-if="item.manifest"
+        class="mt-10"
+        allowfullscreen="allowfullscreen"
+        frameborder="0"
+        height="600px"
+        :src="`https://universalviewer.io/examples/uv/uv.html#?manifest=${item.manifest}`"
+        width="100%"
+      ></iframe>
+
+      <h2 v-if="false" class="mt-10 pt-10">
+        {{ $t('items') }}
+        <v-tooltip bottom>
+          <template #activator="{ on }">
+            <v-btn
+              :to="
+                localePath({
+                  name: 'search',
+                  query: {}, //getQuery(field, id),
+                })
+              "
+              icon
+              v-on="on"
+              ><v-icon>mdi-magnify</v-icon></v-btn
+            >
+          </template>
+          <span>{{ $t('search') }}</span>
+        </v-tooltip>
+      </h2>
+
+      <div class="text-center mt-10">
         <v-tooltip v-if="item.source" bottom>
           <template #activator="{ on }">
             <v-btn
@@ -84,109 +193,6 @@
           }"
         />
       </div>
-
-      <v-simple-table v-if="item.parent" class="my-10">
-        <template #default>
-          <tbody>
-            <tr>
-              <td width="30%">{{ $t('parent') }}</td>
-              <td style="overflow-wrap: break-word" class="py-5">
-                <nuxt-link
-                  :to="
-                    localePath({
-                      name: 'ad-id',
-                      params: {
-                        id: item.parent_slug,
-                      },
-                    })
-                  "
-                >
-                  {{ map[item.parent].label }}
-                </nuxt-link>
-              </td>
-            </tr>
-            <tr v-if="item.related">
-              <td width="30%">{{ $t('items') }}</td>
-              <td style="overflow-wrap: break-word" class="py-5">
-                <a :href="item.related">
-                  <v-icon>mdi-magnify</v-icon>
-                  {{ $t('search') }}
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td width="30%">{{ $t('description') }}</td>
-              <td style="overflow-wrap: break-word" class="py-5">
-                <span v-html="$utils.xml2html(item.xml)"> </span>
-              </td>
-            </tr>
-
-            <tr v-if="item.provider1">
-              <td width="30%">
-                {{ $t('所蔵（伝記資料別巻第1発行1965年時）') }}
-              </td>
-              <td class="py-5">
-                {{ item.provider1 }}
-              </td>
-            </tr>
-
-            <tr v-if="item.provider2">
-              <td width="30%">{{ $t('所蔵（2020年現在）') }}</td>
-              <td class="py-5">
-                {{ item.provider2 }}
-              </td>
-            </tr>
-
-            <tr v-if="item.url">
-              <td width="30%">{{ $t('画像公開URL') }}</td>
-              <td style="overflow-wrap: break-word" class="py-5">
-                <a :href="item.url">
-                  {{ item.url }}
-                </a>
-              </td>
-            </tr>
-
-            <tr v-if="item.contributor">
-              <td width="30%">{{ $t('画像公開機関') }}</td>
-              <td class="py-5">
-                {{ item.contributor }}
-              </td>
-            </tr>
-          </tbody>
-        </template>
-      </v-simple-table>
-
-      <grid :col="4" :list="children" class="mt-10"></grid>
-
-      <iframe
-        v-if="item.manifest"
-        class="mt-10"
-        allowfullscreen="allowfullscreen"
-        frameborder="0"
-        height="600px"
-        :src="`https://universalviewer.io/examples/uv/uv.html#?manifest=${item.manifest}`"
-        width="100%"
-      ></iframe>
-
-      <h2 v-if="false" class="mt-10 pt-10">
-        {{ $t('items') }}
-        <v-tooltip bottom>
-          <template #activator="{ on }">
-            <v-btn
-              :to="
-                localePath({
-                  name: 'search',
-                  query: {}, //getQuery(field, id),
-                })
-              "
-              icon
-              v-on="on"
-              ><v-icon>mdi-magnify</v-icon></v-btn
-            >
-          </template>
-          <span>{{ $t('search') }}</span>
-        </v-tooltip>
-      </h2>
     </v-container>
   </div>
 </template>
@@ -370,15 +376,28 @@ export default class PageCategory extends Vue {
           text: this.$t('ad'),
         },
       ]
-    } else {
+    } else if (this.item.parent) {
       return [
         top,
         {
           text: this.$t('ad'),
           disabled: false,
-          to: this.localePath({ name: 'ad-id' }),
+          to: this.localePath({ name: 'ad' }),
           exact: true,
         },
+        /*
+        {
+          text: this.map[this.item.parent].label,
+          disabled: false,
+          to: this.localePath({
+            name: 'ad-id',
+            params: {
+              id: this.item.parent_slug,
+            },
+          }),
+          exact: true,
+        },
+        */
         {
           text: title,
         },

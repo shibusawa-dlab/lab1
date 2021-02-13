@@ -40,18 +40,16 @@
       </p>
     </v-container>
 
-    <v-container class="py-5">
+    <v-container class="pb-5">
       <v-card flat>
-        <div class="my-5 pa-5 text-center">
+        <div class="mb-5 pb-5 text-center">
           <img width="60px" :src="baseUrl + '/img/ogp/logo.jpg'" />
           <h1>{{ $t(siteName) }}</h1>
-          <p class="py-5">
-            渋沢栄一伝記資料のTEIマークアッププロジェクトです。
-          </p>
+          <p class="py-5" v-html="siteDesc"></p>
         </div>
 
         <div v-if="items.length > 0">
-          <h3 class="my-10 text-center">{{ $t('menu') }}</h3>
+          <h3 class="mt-5 mb-10 text-center">{{ $t('menu') }}</h3>
 
           <v-row class="mb-10">
             <v-col v-for="(obj, key) in items" :key="key" cols="12" :sm="3">
@@ -104,18 +102,35 @@ import { Vue, Component } from 'nuxt-property-decorator'
 export default class about extends Vue {
   baseUrl: string = process.env.BASE_URL || ''
   siteName: string = process.env.siteName || ''
+  siteDesc: string = (process.env.siteDesc || '').split('\n').join('<br/>')
   github: string = process.env.github || ''
 
   get items(): any[] {
     return [
       {
-        label: this.$t('text'),
-        // href: this.github + '/blob/master/static/data/DKB01_20210113.xml',
+        label: this.$t('about'),
         path: {
-          name: 'viewer',
+          name: 'about',
+        },
+        description: '',
+        icon: 'mdi-information',
+      },
+      {
+        label: this.$t('fulltext'),
+        path: {
+          name: 'fulltext',
         },
         description: '',
         icon: 'mdi-text',
+      },
+
+      {
+        label: this.$t('ad'),
+        path: {
+          name: 'ad',
+        },
+        description: '',
+        icon: 'mdi-book-open',
       },
       {
         label: this.$t('search'),
@@ -124,23 +139,6 @@ export default class about extends Vue {
         },
         description: '',
         icon: 'mdi-magnify',
-      },
-
-      {
-        label: this.$t('ad'),
-        path: {
-          name: 'ad-id',
-        },
-        description: '',
-        icon: 'mdi-book-open',
-      },
-      {
-        label: this.$t('legend'),
-        path: {
-          name: 'legend',
-        },
-        description: '',
-        icon: 'mdi-information',
       },
       {
         label: this.$t('calendar'),
@@ -151,15 +149,12 @@ export default class about extends Vue {
         icon: 'mdi-calendar',
       },
       {
-        label: this.$t('entity'),
+        label: this.$t('person_place'),
         path: {
-          name: 'entity-id',
-          params: {
-            id: 'agential',
-          },
+          name: 'entity',
         },
         description: '',
-        icon: 'mdi-account',
+        icon: 'mdi-tag',
       },
       {
         label: this.$t('map'),
@@ -169,12 +164,21 @@ export default class about extends Vue {
         description: '',
         icon: 'mdi-map',
       },
+      /*
       {
         label: '渋沢栄一日記リスト',
         href:
           'https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://shibusawa-dlab.github.io/lab1/iiif/collection/top.json',
         description: '',
         icon: 'mdi-image',
+      },
+      */
+      {
+        label: 'TEI/XML',
+        href:
+          'https://github.com/shibusawa-dlab/lab1/tree/master/static/data/tei',
+        description: '',
+        icon: 'mdi-file',
       },
       {
         label: this.$t('snorql'),
@@ -189,14 +193,6 @@ export default class about extends Vue {
           'https://la1l89esu7-dsn.algolia.net/1/indexes/dev_MAIN/?X-Algolia-API-Key=a8dc3bccca1af99f7a77ea55f7dd9f4d&X-Algolia-Application-Id=LA1L89ESU7',
         description: '',
         icon: 'mdi-api',
-      },
-      {
-        label: 'TEI/XML',
-        // href: this.github + '/blob/master/static/data/DKB01_20210113.xml',
-        href:
-          'https://github.com/shibusawa-dlab/lab1/tree/master/static/data/tei',
-        description: '',
-        icon: 'mdi-file',
       },
     ]
   }

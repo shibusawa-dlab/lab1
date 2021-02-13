@@ -13,14 +13,15 @@
     "test": "jest"
   },
   "dependencies": {
+    "@nuxt/content": "^1.13.1",
     "@nuxt/typescript-runtime": "^2.0.1",
     "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/sitemap": "^2.4.0",
+    "CETEIcean": "^1.3.0",
     "algoliasearch": "^4.8.4",
     "babel-core": "^6.26.3",
-    "CETEIcean": "^1.3.0",
     "core-js": "^3.8.3",
     "cross-env": "^7.0.3",
     "firebase": "^8.2.4",

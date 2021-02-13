@@ -306,6 +306,12 @@ export default {
           to: this.localePath({ name: 'index' }),
         },
         {
+          text: this.$t('person_place'),
+          disabled: false,
+          to: this.localePath({ name: 'entity' }),
+          exact: true,
+        },
+        {
           text: this.$t(field),
           disabled: false,
           to: this.localePath({

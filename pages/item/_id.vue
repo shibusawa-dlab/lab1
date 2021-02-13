@@ -14,30 +14,11 @@
         <v-tooltip bottom>
           <template #activator="{ on }">
             <v-btn
-              v-if="item.prev"
-              text
-              color="primary"
-              class="ma-1"
-              :to="
-                localePath({
-                  name: 'item-id',
-                  params: { id: item.prev },
-                })
-              "
-              v-on="on"
-              ><v-icon>mdi-chevron-left</v-icon></v-btn
-            >
-          </template>
-          <span>{{ $t('previous') }}</span>
-        </v-tooltip>
-
-        <v-tooltip bottom>
-          <template #activator="{ on }">
-            <v-btn
               v-if="item.next"
-              text
-              color="primary"
-              class="ma-1"
+              fab
+              dark
+              small
+              class="mx-1"
               :to="
                 localePath({
                   name: 'item-id',
@@ -45,10 +26,31 @@
                 })
               "
               v-on="on"
-              ><v-icon>mdi-chevron-right</v-icon></v-btn
+              ><v-icon>mdi-chevron-left</v-icon></v-btn
             >
           </template>
           <span>{{ $t('next') }}</span>
+        </v-tooltip>
+
+        <v-tooltip bottom>
+          <template #activator="{ on }">
+            <v-btn
+              v-if="item.prev"
+              fab
+              dark
+              small
+              class="mx-1"
+              :to="
+                localePath({
+                  name: 'item-id',
+                  params: { id: item.prev },
+                })
+              "
+              v-on="on"
+              ><v-icon>mdi-chevron-right</v-icon></v-btn
+            >
+          </template>
+          <span>{{ $t('previous') }}</span>
         </v-tooltip>
       </p>
 

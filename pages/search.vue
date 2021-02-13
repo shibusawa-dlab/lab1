@@ -5,75 +5,98 @@
       :search-client="searchClient"
       index-name="dev_MAIN"
     >
+      <v-sheet color="grey lighten-2">
+        <v-container fluid class="py-4">
+          <v-breadcrumbs class="py-0" :items="bh">
+            <template #divider>
+              <v-icon>mdi-chevron-right</v-icon>
+            </template>
+          </v-breadcrumbs>
+        </v-container>
+      </v-sheet>
       <v-container class="my-5">
-        <v-row>
-          <v-col col="12" sm="8" order-sm="12">
-            <client-only>
-              <ais-powered-by class="my-2" />
-            </client-only>
+        <h2>{{ $t('search') }}</h2>
 
-            <ais-search-box :placeholder="$t('add_a_search_term')" />
+        <p class="my-2">
+          『渋沢栄一伝記資料』別巻1, 2の本文を対象に検索します。
+        </p>
 
-            <v-sheet class="pa-4 pt-10 my-4" color="grey lighten-3">
-              <v-row dense>
-                <v-col cols="12" :sm="6">
-                  <ais-stats>
-                    <p slot-scope="{ nbHits }" class="my-0">
-                      {{ $t('search_result') }}: {{ nbHits.toLocaleString() }}
-                      {{ $t('hits') }}
-                    </p>
-                  </ais-stats>
-                </v-col>
-                <v-col cols="12" :sm="3">
-                  <ais-hits-per-page
-                    :items="[
-                      { text: '24', value: 24, default: true },
-                      { text: '60', value: 60 },
-                      { text: '120', value: 120 },
-                      { text: '512', value: 512 },
-                    ]"
+        <v-row class="my-2" dense>
+          <v-col cols="12" md="10"
+            ><ais-search-box :placeholder="$t('add_a_search_term')"
+          /></v-col>
+          <v-col cols="12" md="2"
+            ><client-only
+              ><div class="text-right">
+                <ais-powered-by /></div></client-only
+          ></v-col>
+        </v-row>
+
+        <v-row class="mt-10" dense>
+          <v-col cols="12" lg="4"
+            ><ais-stats>
+              <h3 slot-scope="{ nbHits }" class="my-0">
+                {{ $t('search_result') }}: {{ nbHits.toLocaleString() }}
+                {{ $t('hits') }}
+              </h3>
+            </ais-stats></v-col
+          >
+          <v-col cols="12" lg="8"
+            ><v-row dense>
+              <v-col cols="12" :lg="6">
+                <ais-pagination :padding="2" class="mb-4" />
+              </v-col>
+              <v-col cols="12" :lg="3">
+                <ais-hits-per-page
+                  :items="[
+                    { text: '24', value: 24, default: true },
+                    { text: '60', value: 60 },
+                    { text: '120', value: 120 },
+                    { text: '512', value: 512 },
+                  ]"
+                >
+                  <v-select
+                    v-model="perPage"
+                    slot-scope="{ items, refine }"
+                    dense
+                    :items="items"
+                    :label="$t('items_per_page')"
+                    @change="refine(perPage)"
                   >
-                    <v-select
-                      v-model="perPage"
-                      slot-scope="{ items, refine }"
-                      dense
-                      :items="items"
-                      :label="$t('items_per_page')"
-                      @change="refine(perPage)"
-                    >
-                      {{ getPageValue(items) }}
-                    </v-select>
-                  </ais-hits-per-page>
-                </v-col>
-                <v-col cols="12" :sm="3">
-                  <ais-sort-by
-                    :items="[
-                      { value: 'dev_MAIN', label: this.$t('relevance') },
-                      /*
+                    {{ getPageValue(items) }}
+                  </v-select>
+                </ais-hits-per-page>
+              </v-col>
+              <v-col cols="12" :lg="3">
+                <ais-sort-by
+                  :items="[
+                    { value: 'dev_MAIN', label: this.$t('relevance') },
+                    /*
                       {
                         value: 'dev_MAIN_temporal_asc',
                         label: this.$t('temporal') + ' ' + this.$t('asc'),
                       },
                       */
-                    ]"
+                  ]"
+                >
+                  <v-select
+                    v-model="sort"
+                    slot-scope="{ items, currentRefinement, refine }"
+                    dense
+                    :items="getSortItems(items)"
+                    :label="$t('sort_by')"
+                    @change="refine(sort)"
                   >
-                    <v-select
-                      v-model="sort"
-                      slot-scope="{ items, currentRefinement, refine }"
-                      dense
-                      :items="getSortItems(items)"
-                      :label="$t('sort_by')"
-                      @change="refine(sort)"
-                    >
-                      {{ getSortValue(currentRefinement) }}
-                    </v-select>
-                  </ais-sort-by>
-                </v-col>
-              </v-row>
-            </v-sheet>
+                    {{ getSortValue(currentRefinement) }}
+                  </v-select>
+                </ais-sort-by>
+              </v-col>
+            </v-row></v-col
+          >
+        </v-row>
 
-            <ais-pagination :padding="2" class="my-4" />
-
+        <v-row>
+          <v-col col="12" sm="8" order-sm="12">
             <ais-hits>
               <v-row slot-scope="{ items }">
                 <v-col v-for="item in items" :key="item.objectID" cols="12">
@@ -130,22 +153,11 @@
               </v-row>
             </ais-hits>
 
-            <ais-pagination :padding="2" class="my-4" />
+            <ais-pagination :padding="2" class="mt-10" />
           </v-col>
 
           <v-col col="12" sm="4" order-sm="1">
-            <v-row>
-              <v-col col="12" sm="6">
-                <h2>{{ $t('filter') }}</h2>
-              </v-col>
-              <v-col col="12" sm="6" class="text-right">
-                <ais-clear-refinements>
-                  <span slot="resetLabel">{{ $t('reset') }}</span>
-                </ais-clear-refinements>
-              </v-col>
-            </v-row>
-
-            <v-expansion-panels :value="0" flat class="mt-4">
+            <v-expansion-panels :value="0" flat class="mb-4">
               <v-expansion-panel>
                 <v-expansion-panel-header class="grey lighten-2">
                   <h3>{{ $t('category') }}</h3>
@@ -265,6 +277,17 @@ export default {
           label: this.$t('temporal') + ' ' + this.$t('asc'),
         },
         */
+      ],
+
+      bh: [
+        {
+          text: this.$t('top'),
+          disabled: false,
+          to: this.localePath({ name: 'index' }),
+        },
+        {
+          text: this.$t('search'),
+        },
       ],
     }
   },

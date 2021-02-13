@@ -16,7 +16,23 @@
             link
             :to="
               localePath({
-                name: 'viewer',
+                name: 'about',
+              })
+            "
+          >
+            <v-list-item-action>
+              <v-icon>mdi-information</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title>{{ $t('about') }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item
+            link
+            :to="
+              localePath({
+                name: 'fulltext',
               })
             "
           >
@@ -24,7 +40,24 @@
               <v-icon>mdi-text</v-icon>
             </v-list-item-action>
             <v-list-item-content>
-              <v-list-item-title>{{ $t('text') }}</v-list-item-title>
+              <v-list-item-title>{{ $t('fulltext') }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item
+            link
+            :to="
+              localePath({
+                name: 'ad',
+                //query: { 'dev_MAIN[sortBy]': 'dev_MAIN_temporal_asc' },
+              })
+            "
+          >
+            <v-list-item-action>
+              <v-icon>mdi-book-open</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title>{{ $t('ad') }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
@@ -49,32 +82,6 @@
             link
             :to="
               localePath({
-                name: 'ad-id',
-                //query: { 'dev_MAIN[sortBy]': 'dev_MAIN_temporal_asc' },
-              })
-            "
-          >
-            <v-list-item-action>
-              <v-icon>mdi-book-open</v-icon>
-            </v-list-item-action>
-            <v-list-item-content>
-              <v-list-item-title>{{ $t('ad') }}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-
-          <v-list-item link :to="localePath({ name: 'legend' })">
-            <v-list-item-action>
-              <v-icon>mdi-information</v-icon>
-            </v-list-item-action>
-            <v-list-item-content>
-              <v-list-item-title>{{ $t('legend') }}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-
-          <v-list-item
-            link
-            :to="
-              localePath({
                 name: 'calendar',
               })
             "
@@ -87,15 +94,12 @@
             </v-list-item-content>
           </v-list-item>
 
-          <v-list-item
-            link
-            :to="localePath({ name: 'entity-id', params: { id: 'agential' } })"
-          >
+          <v-list-item link :to="localePath({ name: 'entity' })">
             <v-list-item-action>
-              <v-icon>mdi-account</v-icon>
+              <v-icon>mdi-tag</v-icon>
             </v-list-item-action>
             <v-list-item-content>
-              <v-list-item-title>{{ $t('entity') }}</v-list-item-title>
+              <v-list-item-title>{{ $t('person_place') }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
@@ -108,6 +112,7 @@
             </v-list-item-content>
           </v-list-item>
 
+          <!--
           <v-list-item
             link
             target="_blank"
@@ -120,6 +125,22 @@
               <v-list-item-title
                 >渋沢栄一日記リスト
                 <v-icon>mdi-open-in-new</v-icon></v-list-item-title
+              >
+            </v-list-item-content>
+          </v-list-item>
+          -->
+
+          <v-list-item
+            link
+            target="_blank"
+            href="https://github.com/shibusawa-dlab/lab1/tree/master/static/data/tei"
+          >
+            <v-list-item-action>
+              <v-icon>mdi-file</v-icon>
+            </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                >TEI/XML <v-icon>mdi-open-in-new</v-icon></v-list-item-title
               >
             </v-list-item-content>
           </v-list-item>
@@ -147,21 +168,6 @@
             <v-list-item-content>
               <v-list-item-title
                 >Search API <v-icon>mdi-open-in-new</v-icon></v-list-item-title
-              >
-            </v-list-item-content>
-          </v-list-item>
-
-          <v-list-item
-            link
-            target="_blank"
-            href="https://github.com/shibusawa-dlab/lab1/tree/master/static/data/tei"
-          >
-            <v-list-item-action>
-              <v-icon>mdi-file</v-icon>
-            </v-list-item-action>
-            <v-list-item-content>
-              <v-list-item-title
-                >TEI/XML <v-icon>mdi-open-in-new</v-icon></v-list-item-title
               >
             </v-list-item-content>
           </v-list-item>
@@ -246,16 +252,18 @@
 
     <v-footer :dark="true" class="mt-5">
       <v-container class="text-center my-5">
-        <p>
+        <p class="my-0">
           <nuxt-link style="color: white" :to="localePath({ name: 'index' })">{{
-            $t(siteName)
+            $t('渋沢栄一記念財団')
           }}</nuxt-link>
         </p>
+        <!--
         <p>
           <a :href="github">
             <v-icon>mdi-github</v-icon>
           </a>
         </p>
+        -->
       </v-container>
     </v-footer>
 

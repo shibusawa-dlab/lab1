@@ -24,9 +24,11 @@ const basePath = baseUrl + baseDir
 
 // meta
 const lang = 'ja'
-const siteName = '伝記資料TEI共同研究'
+const siteName = '渋沢栄一ダイアリー'
 env.siteName = siteName
-const siteDesc = '伝記資料TEI共同研究'
+const siteDesc =
+  '『渋沢栄一伝記資料』別巻1, 2掲載の渋沢栄一の日記および日時通知表を公開しています。\n\n本サイトは、国立歴史民族博物館　総合資料学奨励研究（2020年度）「TEIを用いた『渋沢栄一伝記資料』テキストデータの再構築と活用」の成果として構築されました。'
+env.siteDesc = siteDesc
 const siteKeywords = 'IIIF, TEI'
 
 // images
@@ -191,6 +193,7 @@ export default {
       },
     ],
     'nuxt-leaflet',
+    '@nuxt/content',
   ],
 
   sitemap: {
