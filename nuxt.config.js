@@ -159,6 +159,7 @@ export default {
     '@/plugins/algolia.config.js',
     '@/plugins/utils.ts',
     { src: '@/plugins/gtag.js', ssr: false },
+    { src: '~plugins/leaflet.js', ssr: false },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -192,7 +193,6 @@ export default {
         id: GOOGLE_ANALYTICS_ID,
       },
     ],
-    'nuxt-leaflet',
     '@nuxt/content',
   ],
 

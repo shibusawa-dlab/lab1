@@ -89,6 +89,7 @@ export default class about extends Vue {
         text: this.$t('top'),
         disabled: false,
         to: this.localePath({ name: 'index' }),
+        exact: true,
       },
       {
         text: this.$t('fulltext'),

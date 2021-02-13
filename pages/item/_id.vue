@@ -545,6 +545,7 @@ export default {
           text: this.$t('top'),
           disabled: false,
           to: this.localePath({ name: 'index' }),
+          exact: true,
         },
         {
           text: this.$t('search'),

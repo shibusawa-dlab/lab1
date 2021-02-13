@@ -21,9 +21,13 @@ import { Vue, Component } from 'nuxt-property-decorator'
 
 @Component({})
 export default class about extends Vue {
-  async asyncData({ $content }) {
+  async asyncData({ $content }: any) {
     const data = await $content('about', 'index').fetch()
     return { data }
+  }
+
+  get title(): any {
+    return this.$t((this as any).data.title)
   }
 
   get bh(): any[] {
@@ -32,15 +36,16 @@ export default class about extends Vue {
         text: this.$t('top'),
         disabled: false,
         to: this.localePath({ name: 'index' }),
+        exact: true,
       },
       {
-        text: this.$t(this.data.title),
+        text: this.title,
       },
     ]
   }
 
   head() {
-    const title = this.$t(this.data.title)
+    const title = this.title
     return {
       title,
     }

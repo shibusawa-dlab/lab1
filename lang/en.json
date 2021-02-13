@@ -298,5 +298,16 @@
   "snorql": "RDF Store",
   "ad" : "Archival Description",
   "parent" : "Parent",
-  "related" : "Related "
+  "related" : "Related",
+  "渋沢栄一ダイアリー" : "Shibusawa Eiichi Diary",
+  "fulltext" : "Fulltext",
+  "『渋沢栄一伝記資料』別巻1, 2の原本（もととなった資料）リスト" : "『渋沢栄一伝記資料』別巻1, 2の原本（もととなった資料）リスト",
+  "fulltext_search" : "Fulltext Search",
+  "画像公開URL" : "画像公開URL",
+  "画像公開機関" : "画像公開機関",
+  "所蔵（2020年現在）" : "所蔵（2020年現在）",
+  "伝記資料編纂時の資料情報" : "伝記資料編纂時の資料情報",
+  "所蔵（伝記資料別巻第1発行1965年時）" : "所蔵（伝記資料別巻第1発行1965年時）",
+  "person_place" : "Person / Place",
+  "渋沢栄一記念財団" : "Shibusawa Eiichi Memorial Foundation"
 }

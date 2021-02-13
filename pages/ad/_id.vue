@@ -368,6 +368,7 @@ export default class PageCategory extends Vue {
       text: this.$t('top'),
       disabled: false,
       to: this.localePath({ name: 'index' }),
+      exact: true,
     }
     if (!this.$route.params.id) {
       return [

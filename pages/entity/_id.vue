@@ -328,6 +328,7 @@ export default class PageCategory extends Vue {
         text: this.$t('top'),
         disabled: false,
         to: this.localePath({ name: 'index' }),
+        exact: true,
       },
       {
         text: this.$t('person_place'),
