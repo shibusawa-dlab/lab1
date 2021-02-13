@@ -235,6 +235,8 @@ export default {
     // strategy: 'no_prefix'
   },
 
+  content: {},
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     babel: {

@@ -46,50 +46,54 @@
               <v-col cols="12" :lg="6">
                 <ais-pagination :padding="2" class="mb-4" />
               </v-col>
-              <v-col cols="12" :lg="3">
-                <ais-hits-per-page
-                  :items="[
-                    { text: '24', value: 24, default: true },
-                    { text: '60', value: 60 },
-                    { text: '120', value: 120 },
-                    { text: '512', value: 512 },
-                  ]"
-                >
-                  <v-select
-                    v-model="perPage"
-                    slot-scope="{ items, refine }"
-                    dense
-                    :items="items"
-                    :label="$t('items_per_page')"
-                    @change="refine(perPage)"
-                  >
-                    {{ getPageValue(items) }}
-                  </v-select>
-                </ais-hits-per-page>
-              </v-col>
-              <v-col cols="12" :lg="3">
-                <ais-sort-by
-                  :items="[
-                    { value: 'dev_MAIN', label: this.$t('relevance') },
-                    /*
+              <v-col cols="12" :lg="6">
+                <v-row>
+                  <v-col cols="12" :sm="6">
+                    <ais-hits-per-page
+                      :items="[
+                        { text: '24', value: 24, default: true },
+                        { text: '60', value: 60 },
+                        { text: '120', value: 120 },
+                        { text: '512', value: 512 },
+                      ]"
+                    >
+                      <v-select
+                        v-model="perPage"
+                        slot-scope="{ items, refine }"
+                        dense
+                        :items="items"
+                        :label="$t('items_per_page')"
+                        @change="refine(perPage)"
+                      >
+                        {{ getPageValue(items) }}
+                      </v-select>
+                    </ais-hits-per-page>
+                  </v-col>
+                  <v-col cols="12" :sm="6">
+                    <ais-sort-by
+                      :items="[
+                        { value: 'dev_MAIN', label: this.$t('relevance') },
+                        /*
                       {
                         value: 'dev_MAIN_temporal_asc',
                         label: this.$t('temporal') + ' ' + this.$t('asc'),
                       },
                       */
-                  ]"
-                >
-                  <v-select
-                    v-model="sort"
-                    slot-scope="{ items, currentRefinement, refine }"
-                    dense
-                    :items="getSortItems(items)"
-                    :label="$t('sort_by')"
-                    @change="refine(sort)"
-                  >
-                    {{ getSortValue(currentRefinement) }}
-                  </v-select>
-                </ais-sort-by>
+                      ]"
+                    >
+                      <v-select
+                        v-model="sort"
+                        slot-scope="{ items, currentRefinement, refine }"
+                        dense
+                        :items="getSortItems(items)"
+                        :label="$t('sort_by')"
+                        @change="refine(sort)"
+                      >
+                        {{ getSortValue(currentRefinement) }}
+                      </v-select>
+                    </ais-sort-by>
+                  </v-col>
+                </v-row>
               </v-col>
             </v-row></v-col
           >
@@ -141,6 +145,7 @@
 
                       <p
                         class="mt-4"
+                        style="max-height: 200px; overflow-y: auto"
                         v-html="
                           $utils.removeHead(
                             $utils.xml2html(item._highlightResult.xml.value)
@@ -165,7 +170,7 @@
                 <v-expansion-panel-content outlined>
                   <ais-hierarchical-menu
                     class="mt-2"
-                    :sort-by="['name:asc']"
+                    :sort-by="['isRefined', 'name:asc']"
                     :attributes="['category.lvl0', 'category.lvl1']"
                   />
                 </v-expansion-panel-content>
@@ -183,7 +188,7 @@
                     show-more
                     :show-more-limit="100"
                     :limit="20"
-                    :sort-by="['name:asc']"
+                    :sort-by="['isRefined', 'name:asc']"
                     :attributes="['date.lvl0', 'date.lvl1', 'date.lvl2']"
                   />
                 </v-expansion-panel-content>

@@ -11,10 +11,7 @@
     </v-sheet>
     <v-container class="py-5">
       <h2 class="my-5">{{ title }}</h2>
-      <ul>
-        <li>共同研究のこと</li>
-        <li>伝記資料テキスト化の凡例</li>
-      </ul>
+      <nuxt-content :document="data" />
     </v-container>
   </div>
 </template>
@@ -24,8 +21,13 @@ import { Vue, Component } from 'nuxt-property-decorator'
 
 @Component({})
 export default class about extends Vue {
+  async asyncData({ $content }: any) {
+    const data = await $content('about', 'index').fetch()
+    return { data }
+  }
+
   get title(): any {
-    return this.$t('about')
+    return this.$t((this as any).data.title)
   }
 
   get bh(): any[] {
