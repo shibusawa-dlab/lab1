@@ -106,17 +106,23 @@
         <v-tooltip bottom>
           <template #activator="{ on }">
             <v-btn icon class="mx-2" v-on="on">
-              <a
-                :href="viewer + '/light/?u=' + item.source + '&id=' + id"
-                target="_blank"
+              <nuxt-link
+                :to="
+                  localePath({
+                    name: 'viewer-id',
+                    params: {
+                      id: item.source.split('/data/')[1].split('_')[0],
+                    },
+                    query: { id },
+                  })
+                "
               >
                 <v-img
                   contain
                   width="30px"
                   :src="baseUrl + '/img/icons/tei.png'"
                 />
-                <!-- @click="dwnData()" -->
-              </a>
+              </nuxt-link>
             </v-btn>
           </template>
           <span>TEI/XML</span>
@@ -130,7 +136,6 @@
                   width="30px"
                   :src="baseUrl + '/img/icons/manifest.png'"
                 />
-                <!-- @click="dwnData()" -->
               </a>
             </v-btn>
           </template>
@@ -424,7 +429,6 @@ export default {
   data() {
     return {
       baseUrl: process.env.BASE_URL,
-      viewer: process.env.viewer,
       moreLikeThisData: [],
       fields: ['agential', 'spatial' /*, 'temporal' */],
       width: window.innerWidth,

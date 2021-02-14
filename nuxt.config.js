@@ -3,7 +3,6 @@ import colors from 'vuetify/es5/util/colors'
 const environment = process.env.NODE_ENV
 const env = require(`./env/${environment}.ts`)
 env.github = 'https://github.com/shibusawa-dlab/lab1'
-env.viewer = 'https://nakamura196.github.io/tei-js-pub'
 env.github_pages = 'https://shibusawa-dlab.github.io/lab1'
 
 const routerBase =

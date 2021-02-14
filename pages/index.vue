@@ -3,7 +3,7 @@
     <section class="grey lighten-2">
       <v-img
         min-height="200px"
-        max-height="400px"
+        max-height="300px"
         contain
         :src="baseUrl + '/img/ogp/home.png'"
       >

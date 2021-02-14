@@ -127,9 +127,16 @@
           <template #activator="{ on }">
             <v-btn
               class="mr-5"
-              :href="viewer + '/light/?u=' + item.source + '&id=' + item.slug"
+              :to="
+                localePath({
+                  name: 'viewer-id',
+                  params: {
+                    id: item.source.split('/data/')[1].split('_')[0],
+                  },
+                  query: { id: item.slug },
+                })
+              "
               icon
-              target="_blank"
               v-on="on"
               ><v-img
                 contain
@@ -210,7 +217,6 @@ export default class PageCategory extends Vue {
   }
 
   baseUrl: any = process.env.BASE_URL
-  viewer: any = process.env.viewer
   key: string = 'TOP'
   item: any = {}
   children: any[] = []
