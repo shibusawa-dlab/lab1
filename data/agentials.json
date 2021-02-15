@@ -1,0 +1,1676 @@
+{
+    "edges": [
+        {
+            "from": 37,
+            "to": 56,
+            "value": 3
+        },
+        {
+            "from": 110,
+            "to": 351,
+            "value": 3
+        },
+        {
+            "from": 110,
+            "to": 315,
+            "value": 3
+        },
+        {
+            "from": 115,
+            "to": 116,
+            "value": 3
+        },
+        {
+            "from": 139,
+            "to": 248,
+            "value": 3
+        },
+        {
+            "from": 139,
+            "to": 159,
+            "value": 4
+        },
+        {
+            "from": 139,
+            "to": 254,
+            "value": 4
+        },
+        {
+            "from": 141,
+            "to": 142,
+            "value": 3
+        },
+        {
+            "from": 141,
+            "to": 143,
+            "value": 9
+        },
+        {
+            "from": 141,
+            "to": 241,
+            "value": 3
+        },
+        {
+            "from": 141,
+            "to": 285,
+            "value": 5
+        },
+        {
+            "from": 141,
+            "to": 355,
+            "value": 4
+        },
+        {
+            "from": 141,
+            "to": 408,
+            "value": 3
+        },
+        {
+            "from": 141,
+            "to": 237,
+            "value": 8
+        },
+        {
+            "from": 141,
+            "to": 439,
+            "value": 3
+        },
+        {
+            "from": 141,
+            "to": 243,
+            "value": 3
+        },
+        {
+            "from": 141,
+            "to": 239,
+            "value": 3
+        },
+        {
+            "from": 141,
+            "to": 571,
+            "value": 3
+        },
+        {
+            "from": 141,
+            "to": 209,
+            "value": 3
+        },
+        {
+            "from": 141,
+            "to": 636,
+            "value": 3
+        },
+        {
+            "from": 141,
+            "to": 235,
+            "value": 4
+        },
+        {
+            "from": 141,
+            "to": 1075,
+            "value": 3
+        },
+        {
+            "from": 142,
+            "to": 184,
+            "value": 3
+        },
+        {
+            "from": 142,
+            "to": 228,
+            "value": 3
+        },
+        {
+            "from": 142,
+            "to": 272,
+            "value": 3
+        },
+        {
+            "from": 142,
+            "to": 285,
+            "value": 5
+        },
+        {
+            "from": 142,
+            "to": 172,
+            "value": 3
+        },
+        {
+            "from": 142,
+            "to": 226,
+            "value": 3
+        },
+        {
+            "from": 143,
+            "to": 187,
+            "value": 5
+        },
+        {
+            "from": 143,
+            "to": 188,
+            "value": 6
+        },
+        {
+            "from": 143,
+            "to": 226,
+            "value": 5
+        },
+        {
+            "from": 143,
+            "to": 309,
+            "value": 4
+        },
+        {
+            "from": 143,
+            "to": 242,
+            "value": 3
+        },
+        {
+            "from": 143,
+            "to": 179,
+            "value": 6
+        },
+        {
+            "from": 143,
+            "to": 355,
+            "value": 3
+        },
+        {
+            "from": 143,
+            "to": 378,
+            "value": 4
+        },
+        {
+            "from": 143,
+            "to": 459,
+            "value": 5
+        },
+        {
+            "from": 143,
+            "to": 273,
+            "value": 11
+        },
+        {
+            "from": 143,
+            "to": 159,
+            "value": 4
+        },
+        {
+            "from": 143,
+            "to": 641,
+            "value": 6
+        },
+        {
+            "from": 143,
+            "to": 351,
+            "value": 3
+        },
+        {
+            "from": 143,
+            "to": 408,
+            "value": 3
+        },
+        {
+            "from": 143,
+            "to": 439,
+            "value": 3
+        },
+        {
+            "from": 143,
+            "to": 315,
+            "value": 4
+        },
+        {
+            "from": 143,
+            "to": 243,
+            "value": 3
+        },
+        {
+            "from": 143,
+            "to": 1352,
+            "value": 4
+        },
+        {
+            "from": 144,
+            "to": 377,
+            "value": 3
+        },
+        {
+            "from": 172,
+            "to": 330,
+            "value": 3
+        },
+        {
+            "from": 178,
+            "to": 179,
+            "value": 4
+        },
+        {
+            "from": 179,
+            "to": 228,
+            "value": 4
+        },
+        {
+            "from": 179,
+            "to": 241,
+            "value": 4
+        },
+        {
+            "from": 179,
+            "to": 272,
+            "value": 3
+        },
+        {
+            "from": 179,
+            "to": 355,
+            "value": 3
+        },
+        {
+            "from": 179,
+            "to": 285,
+            "value": 4
+        },
+        {
+            "from": 179,
+            "to": 459,
+            "value": 3
+        },
+        {
+            "from": 179,
+            "to": 460,
+            "value": 3
+        },
+        {
+            "from": 187,
+            "to": 188,
+            "value": 4
+        },
+        {
+            "from": 187,
+            "to": 229,
+            "value": 4
+        },
+        {
+            "from": 187,
+            "to": 228,
+            "value": 3
+        },
+        {
+            "from": 187,
+            "to": 241,
+            "value": 3
+        },
+        {
+            "from": 187,
+            "to": 227,
+            "value": 3
+        },
+        {
+            "from": 198,
+            "to": 209,
+            "value": 3
+        },
+        {
+            "from": 198,
+            "to": 342,
+            "value": 3
+        },
+        {
+            "from": 226,
+            "to": 235,
+            "value": 4
+        },
+        {
+            "from": 226,
+            "to": 279,
+            "value": 3
+        },
+        {
+            "from": 226,
+            "to": 296,
+            "value": 3
+        },
+        {
+            "from": 226,
+            "to": 749,
+            "value": 3
+        },
+        {
+            "from": 226,
+            "to": 486,
+            "value": 5
+        },
+        {
+            "from": 226,
+            "to": 485,
+            "value": 3
+        },
+        {
+            "from": 159,
+            "to": 254,
+            "value": 3
+        },
+        {
+            "from": 235,
+            "to": 289,
+            "value": 3
+        },
+        {
+            "from": 235,
+            "to": 315,
+            "value": 3
+        },
+        {
+            "from": 235,
+            "to": 495,
+            "value": 3
+        },
+        {
+            "from": 228,
+            "to": 235,
+            "value": 3
+        },
+        {
+            "from": 228,
+            "to": 273,
+            "value": 4
+        },
+        {
+            "from": 228,
+            "to": 236,
+            "value": 3
+        },
+        {
+            "from": 237,
+            "to": 248,
+            "value": 3
+        },
+        {
+            "from": 237,
+            "to": 376,
+            "value": 8
+        },
+        {
+            "from": 237,
+            "to": 378,
+            "value": 10
+        },
+        {
+            "from": 239,
+            "to": 241,
+            "value": 3
+        },
+        {
+            "from": 242,
+            "to": 989,
+            "value": 3
+        },
+        {
+            "from": 242,
+            "to": 273,
+            "value": 5
+        },
+        {
+            "from": 253,
+            "to": 255,
+            "value": 3
+        },
+        {
+            "from": 253,
+            "to": 315,
+            "value": 3
+        },
+        {
+            "from": 253,
+            "to": 1142,
+            "value": 4
+        },
+        {
+            "from": 254,
+            "to": 376,
+            "value": 3
+        },
+        {
+            "from": 254,
+            "to": 378,
+            "value": 4
+        },
+        {
+            "from": 255,
+            "to": 280,
+            "value": 4
+        },
+        {
+            "from": 257,
+            "to": 391,
+            "value": 3
+        },
+        {
+            "from": 188,
+            "to": 226,
+            "value": 3
+        },
+        {
+            "from": 188,
+            "to": 469,
+            "value": 3
+        },
+        {
+            "from": 188,
+            "to": 378,
+            "value": 4
+        },
+        {
+            "from": 188,
+            "to": 242,
+            "value": 3
+        },
+        {
+            "from": 272,
+            "to": 995,
+            "value": 3
+        },
+        {
+            "from": 223,
+            "to": 274,
+            "value": 3
+        },
+        {
+            "from": 285,
+            "to": 289,
+            "value": 3
+        },
+        {
+            "from": 285,
+            "to": 355,
+            "value": 4
+        },
+        {
+            "from": 285,
+            "to": 389,
+            "value": 3
+        },
+        {
+            "from": 280,
+            "to": 361,
+            "value": 3
+        },
+        {
+            "from": 296,
+            "to": 743,
+            "value": 3
+        },
+        {
+            "from": 273,
+            "to": 315,
+            "value": 8
+        },
+        {
+            "from": 273,
+            "to": 636,
+            "value": 5
+        },
+        {
+            "from": 273,
+            "to": 279,
+            "value": 3
+        },
+        {
+            "from": 273,
+            "to": 720,
+            "value": 3
+        },
+        {
+            "from": 273,
+            "to": 439,
+            "value": 4
+        },
+        {
+            "from": 273,
+            "to": 1075,
+            "value": 5
+        },
+        {
+            "from": 273,
+            "to": 1259,
+            "value": 4
+        },
+        {
+            "from": 309,
+            "to": 446,
+            "value": 3
+        },
+        {
+            "from": 319,
+            "to": 636,
+            "value": 3
+        },
+        {
+            "from": 227,
+            "to": 378,
+            "value": 4
+        },
+        {
+            "from": 227,
+            "to": 459,
+            "value": 3
+        },
+        {
+            "from": 332,
+            "to": 459,
+            "value": 3
+        },
+        {
+            "from": 332,
+            "to": 1170,
+            "value": 3
+        },
+        {
+            "from": 279,
+            "to": 412,
+            "value": 4
+        },
+        {
+            "from": 279,
+            "to": 315,
+            "value": 3
+        },
+        {
+            "from": 279,
+            "to": 1259,
+            "value": 4
+        },
+        {
+            "from": 315,
+            "to": 378,
+            "value": 3
+        },
+        {
+            "from": 315,
+            "to": 1073,
+            "value": 4
+        },
+        {
+            "from": 315,
+            "to": 696,
+            "value": 4
+        },
+        {
+            "from": 315,
+            "to": 1120,
+            "value": 3
+        },
+        {
+            "from": 315,
+            "to": 860,
+            "value": 4
+        },
+        {
+            "from": 315,
+            "to": 1352,
+            "value": 4
+        },
+        {
+            "from": 315,
+            "to": 636,
+            "value": 3
+        },
+        {
+            "from": 315,
+            "to": 1142,
+            "value": 3
+        },
+        {
+            "from": 315,
+            "to": 1675,
+            "value": 3
+        },
+        {
+            "from": 315,
+            "to": 1668,
+            "value": 3
+        },
+        {
+            "from": 241,
+            "to": 285,
+            "value": 3
+        },
+        {
+            "from": 376,
+            "to": 377,
+            "value": 3
+        },
+        {
+            "from": 376,
+            "to": 378,
+            "value": 9
+        },
+        {
+            "from": 377,
+            "to": 378,
+            "value": 5
+        },
+        {
+            "from": 236,
+            "to": 506,
+            "value": 3
+        },
+        {
+            "from": 392,
+            "to": 768,
+            "value": 4
+        },
+        {
+            "from": 378,
+            "to": 459,
+            "value": 4
+        },
+        {
+            "from": 378,
+            "to": 1134,
+            "value": 3
+        },
+        {
+            "from": 459,
+            "to": 636,
+            "value": 3
+        },
+        {
+            "from": 485,
+            "to": 486,
+            "value": 11
+        },
+        {
+            "from": 495,
+            "to": 636,
+            "value": 3
+        },
+        {
+            "from": 495,
+            "to": 1194,
+            "value": 4
+        },
+        {
+            "from": 243,
+            "to": 412,
+            "value": 3
+        },
+        {
+            "from": 243,
+            "to": 660,
+            "value": 5
+        },
+        {
+            "from": 446,
+            "to": 721,
+            "value": 6
+        },
+        {
+            "from": 460,
+            "to": 540,
+            "value": 4
+        },
+        {
+            "from": 460,
+            "to": 636,
+            "value": 3
+        },
+        {
+            "from": 27,
+            "to": 215,
+            "value": 3
+        },
+        {
+            "from": 636,
+            "to": 720,
+            "value": 4
+        },
+        {
+            "from": 636,
+            "to": 860,
+            "value": 3
+        },
+        {
+            "from": 636,
+            "to": 1664,
+            "value": 3
+        },
+        {
+            "from": 1073,
+            "to": 1091,
+            "value": 3
+        },
+        {
+            "from": 1098,
+            "to": 2086,
+            "value": 3
+        },
+        {
+            "from": 696,
+            "to": 1120,
+            "value": 11
+        },
+        {
+            "from": 696,
+            "to": 1170,
+            "value": 3
+        },
+        {
+            "from": 1170,
+            "to": 1194,
+            "value": 3
+        },
+        {
+            "from": 1259,
+            "to": 1730,
+            "value": 3
+        },
+        {
+            "from": 1768,
+            "to": 2235,
+            "value": 3
+        },
+        {
+            "from": 1701,
+            "to": 1863,
+            "value": 3
+        },
+        {
+            "from": 1890,
+            "to": 1891,
+            "value": 6
+        },
+        {
+            "from": 2124,
+            "to": 2230,
+            "value": 3
+        },
+        {
+            "from": 2124,
+            "to": 2235,
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 27,
+            "label": "福地源一郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 37,
+            "label": "大久保一翁",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 56,
+            "label": "平岡四郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 110,
+            "label": "伊藤伝七",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 115,
+            "label": "堀口嘉右衛門",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 116,
+            "label": "森弥三郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 139,
+            "label": "渋沢喜作",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 141,
+            "label": "佐々木勇之助",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 142,
+            "label": "梅浦精一",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 143,
+            "label": "浅野総一郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 144,
+            "label": "原六郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 159,
+            "label": "大倉喜八郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 172,
+            "label": "阪谷芳郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 178,
+            "label": "西村勝三",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 179,
+            "label": "八十島親徳",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 184,
+            "label": "押川方義",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 187,
+            "label": "足立太郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 188,
+            "label": "瓜生震",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 198,
+            "label": "安川敬一郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 209,
+            "label": "仙石貢",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 215,
+            "label": "江間政",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 223,
+            "label": "岡部広",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 226,
+            "label": "大川平三郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 227,
+            "label": "大江卓",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 228,
+            "label": "萩原源太郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 229,
+            "label": "吉川三次郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 235,
+            "label": "植村澄",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 236,
+            "label": "豊川良平",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 237,
+            "label": "日下義雄",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 239,
+            "label": "西脇長太郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 241,
+            "label": "佐々木清麿",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 242,
+            "label": "平岡熙",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 243,
+            "label": "久米良作",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 248,
+            "label": "宇野保太郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 253,
+            "label": "中野武営",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 254,
+            "label": "井上角五郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 255,
+            "label": "馬越恭平",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 257,
+            "label": "雨宮敬次郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 272,
+            "label": "皆川四郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 273,
+            "label": "安達憲忠",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 274,
+            "label": "河村隆",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 279,
+            "label": "諸井恒平",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 280,
+            "label": "益田克徳",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 285,
+            "label": "市原盛宏",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 289,
+            "label": "添田寿一",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 296,
+            "label": "原林之助",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 309,
+            "label": "渡辺嘉一",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 315,
+            "label": "成瀬仁蔵",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 319,
+            "label": "原胤昭",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 330,
+            "label": "内田康哉",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 332,
+            "label": "穂積陳重",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 342,
+            "label": "今村清之助",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 351,
+            "label": "伊藤半次郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 355,
+            "label": "清水泰",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 361,
+            "label": "高橋義雄",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 376,
+            "label": "尾崎三良",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 377,
+            "label": "前島密",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 378,
+            "label": "竹内綱",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 389,
+            "label": "ナリキ",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 391,
+            "label": "麻生太吉",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 392,
+            "label": "林忠正",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 408,
+            "label": "田中栄八郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 412,
+            "label": "大橋新太郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 439,
+            "label": "吉岡新五郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 446,
+            "label": "岸精一",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 459,
+            "label": "尾高次郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 460,
+            "label": "穂積歌子",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 469,
+            "label": "高田慎蔵",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 485,
+            "label": "白石元次郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 486,
+            "label": "白石元治郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 495,
+            "label": "田中太郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 506,
+            "label": "池田謙三",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 540,
+            "label": "阪谷琴子",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 571,
+            "label": "市原盛宏二",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 636,
+            "label": "横山徳次郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 641,
+            "label": "前川益",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 660,
+            "label": "高松豊吉",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 696,
+            "label": "松下軍治",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 720,
+            "label": "白岩竜平",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 721,
+            "label": "岸清一",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 743,
+            "label": "清水一雄",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 749,
+            "label": "近藤陸三郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 768,
+            "label": "井上金治郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 860,
+            "label": "川田鉄弥",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 989,
+            "label": "奥田正香",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 995,
+            "label": "岡本善七",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1073,
+            "label": "郷誠之助",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1075,
+            "label": "今井清彦",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1091,
+            "label": "薄井佳久",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1098,
+            "label": "井上準之助",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1120,
+            "label": "松下軍次",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1134,
+            "label": "徳川厚",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1142,
+            "label": "畑弥右衛門",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1170,
+            "label": "脇田勇",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1194,
+            "label": "明石照男",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1259,
+            "label": "蓮沼門三",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1352,
+            "label": "井口正之",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1664,
+            "label": "吉池慶",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1668,
+            "label": "青柳有美",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1675,
+            "label": "鈴木文治",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1701,
+            "label": "高野佐三郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1730,
+            "label": "瓜生喜三郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1768,
+            "label": "渡辺得男",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1863,
+            "label": "山本長治",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1890,
+            "label": "埼山比佐衛",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 1891,
+            "label": "崎山比佐衛",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 2086,
+            "label": "添田敬一郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 2124,
+            "label": "白石喜太郎",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 2230,
+            "label": "岡田純夫",
+            "shape": "icon"
+        },
+        {
+            "icon": {
+                "code": ""
+            },
+            "id": 2235,
+            "label": "高田利吉",
+            "shape": "icon"
+        }
+    ]
+}
