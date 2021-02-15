@@ -94,9 +94,15 @@ export default class about extends Vue {
 
       const routeData = this.$router.resolve(
         this.localePath({
+          /*
           name: 'entity-entity-id',
           params: {
             entity: 'agential',
+            id: node.label,
+          },
+          */
+          name: 'network-id',
+          params: {
             id: node.label,
           },
         })
