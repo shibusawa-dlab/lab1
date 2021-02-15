@@ -75,12 +75,7 @@
               :activator="selectedElement"
               offset-x
             >
-              <v-card
-                color="grey lighten-4"
-                min-width="350px"
-                max-width="600px"
-                flat
-              >
+              <v-card color="grey lighten-4" min-width="350px" flat>
                 <v-toolbar :color="selectedEvent.color" dark>
                   <v-toolbar-title>{{ selectedEvent.name }}</v-toolbar-title>
                   <!-- 
