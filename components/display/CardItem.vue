@@ -45,7 +45,6 @@
             params: { id: item._id },
           })
         "
-        class="mr-2"
       >
         <!-- eslint-disable-next-line vue/no-v-html -->
         <h4 v-html="$utils.formatArrayValue(item._source._label)"></h4>
@@ -107,7 +106,7 @@ export default class CardItem extends Vue {
   width!: number
 
   @Prop({
-    default: 400,
+    default: 300,
   })
   height!: number
 

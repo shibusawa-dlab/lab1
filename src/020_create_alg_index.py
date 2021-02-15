@@ -107,13 +107,47 @@ def getDate(entry):
     for date in dates:
         return date["when"]
 
+def getTime(entry):
+
+    if not entry.find("p"):
+        return {}
+    
+    contents = entry.find("p").contents
+
+    map = {}
+    arr = []
+    map[-1] = arr
+
+    for e in contents:
+
+        if e.name == "time":
+            map[e["when"]] = []
+            arr = map[e["when"]]
+            arr.append(str(e))
+        else:
+            arr.append(str(e))
+
+    times = {}
+
+    flg = True
+    for key in map:
+        if key != -1:
+            if flg:
+                times[key] = "<div>" + "".join(map[-1]).strip() + "".join(map[key]).strip() + "</div>"
+                flg = False
+            else:
+                times[key] = "<div>" + "".join(map[key]).strip() + "</div>"
+
+
+    return times
+
 def getPlaces(entry):
     places = entry.find_all("placeName")
 
     results = []
 
     for place in places:
-        place_text = place.text
+        place_text = place.text.strip()
         if place_text not in results:
             results.append(place_text)
 
@@ -128,7 +162,7 @@ def getPersons(entry):
         values = entry.find_all(tag)
 
         for value in values:
-            text = value.text
+            text = value.text.strip()
             if text not in results:
                 results.append(text)
 
@@ -197,9 +231,9 @@ def setNijl(subject, all, map, prefix):
     stmt = (subject, URIRef(prefix+"/properties/contributor"), Literal(map["attribution"]))
     all.add(stmt)
 
-files = glob.glob("data/*.xml")
+# files = glob.glob("data/*_manifest.xml")
 
-# files = ["data/DKB01_20210113.xml"]
+files = glob.glob("data/*_20210113.xml")
 
 titles = ["DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)", "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表"]
 
@@ -329,6 +363,9 @@ for j in range(len(files)):
 
                     date = getDate(entry)
                     item["temporal"] = date
+
+                    time = getTime(entry)
+                    item["time"] = time
 
                     yearAndMonth = getYearAndMonth(date)
                     if yearAndMonth:

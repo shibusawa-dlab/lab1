@@ -1,7 +1,7 @@
 <template>
   <div v-if="data.length > 0">
     <div class="text-center mt-10 pt-10 mb-4">
-      <h3>{{ $t('related') }}{{ $t(title) }}</h3>
+      <h3><!-- {{ $t('related') }}-->{{ title }}</h3>
       <div v-if="description" class="mt-2">
         <small>{{ description }}</small>
       </div>

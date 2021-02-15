@@ -230,10 +230,29 @@
                       :to="localePath({ name: 'search', query: item.query })"
                       >{{ item.name }}</nuxt-link
                     >
+
+                    <v-tooltip v-if="item.name.split('-').length > 1" bottom>
+                      <template #activator="{ on }">
+                        <v-btn
+                          icon
+                          :to="
+                            localePath({
+                              name: 'calendar-type-year-month-day',
+                              params: getCalendarParams(item.name),
+                            })
+                          "
+                          v-on="on"
+                        >
+                          <v-icon>mdi-calendar</v-icon>
+                        </v-btn>
+                      </template>
+                      <span>{{ $t('calendar') }}</span>
+                    </v-tooltip>
                   </template>
                 </v-treeview>
               </td>
             </tr>
+
             <template v-for="(tag, key) in fields">
               <tr v-if="item[tag].length > 0" :key="key">
                 <td width="30%">{{ $t(tag) }}</td>
@@ -279,6 +298,18 @@
           </tbody>
         </template>
       </v-simple-table>
+
+      <HorizontalItems
+        :data="entity.agential"
+        :title="$t('agential')"
+        height="200"
+      />
+
+      <HorizontalItems
+        :data="entity.spatial"
+        :title="$t('spatial')"
+        height="200"
+      />
 
       <!--
 
@@ -368,7 +399,10 @@
 
       -->
 
-      <HorizontalItems :data="moreLikeThisData" />
+      <HorizontalItems
+        :title="`${$t('related')} ${$t('items')}`"
+        :data="moreLikeThisData"
+      />
     </v-container>
 
     <v-sheet class="text-center pa-10 mt-10">
@@ -406,6 +440,7 @@
 <script>
 import * as algoliasearch from 'algoliasearch'
 import config from '@/plugins/algolia.config.js'
+import axios from 'axios'
 import ResultOption from '~/components/display/ResultOption.vue'
 import HorizontalItems from '~/components/display/HorizontalItems.vue'
 
@@ -429,9 +464,14 @@ export default {
   data() {
     return {
       baseUrl: process.env.BASE_URL,
+      github: 'https://nakamura196.github.io/repo', // process.env.github_pages,
       moreLikeThisData: [],
       fields: ['agential', 'spatial' /*, 'temporal' */],
       width: window.innerWidth,
+      entity: {
+        agential: [],
+        spatial: [],
+      },
     }
   },
 
@@ -531,6 +571,7 @@ export default {
         },
       ]
     },
+
     title() {
       return this.item.label
     },
@@ -566,6 +607,9 @@ export default {
   async created() {
     const item = this.item
 
+    this.getEntity('agential')
+    this.getEntity('spatial')
+
     const es = []
     const fields = this.fields
     for (let i = 0; i < fields.length; i++) {
@@ -593,8 +637,8 @@ export default {
         _source: {
           _label: [hit.label],
           description: [
-            '<p><b>' +
-              this.$t('temporal') +
+            '<p class="mt-4"><b>' +
+              this.$t('date') +
               '</b>: ' +
               hit.temporal +
               '</p>' +
@@ -610,6 +654,140 @@ export default {
   },
 
   methods: {
+    async getEntity(field = 'spatial') {
+      const values = this.item[field]
+
+      const moreLikeThisData0 = []
+
+      const ids = []
+
+      for (let i = 0; i < values.length; i++) {
+        const image = [field === 'spatial' ? 'mdi-map' : 'mdi-account']
+
+        const value = values[i]
+
+        const to = this.localePath({
+          name: 'entity-entity-id',
+          params: { entity: field, id: value },
+        })
+
+        moreLikeThisData0.push({
+          _id: 'abc',
+          _source: {
+            _label: [value],
+            _thumbnail: image,
+            _url: [this.baseUrl + to],
+          },
+          to,
+        })
+
+        const uri =
+          this.github +
+          '/api/' +
+          field.replace('spatial', 'place').replace('agential', 'chname') +
+          '/' +
+          value
+        ids.push(`?s = <${uri}>`)
+      }
+
+      this.entity[field] = moreLikeThisData0
+
+      if (ids.length === 0) {
+        return
+      }
+
+      const filter = ids.join(' || ')
+
+      const query = `
+      PREFIX schema: <http://schema.org/>
+      PREFIX type: <https://jpsearch.go.jp/term/type/>
+      PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+      PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+      PREFIX owl: <http://www.w3.org/2002/07/owl#>
+      PREFIX dct: <http://purl.org/dc/terms/>
+      PREFIX hpdb: <https://w3id.org/hpdb/api/>
+      PREFIX sh: <http://www.w3.org/ns/shacl#>
+      SELECT DISTINCT * WHERE {
+        ?s rdfs:label ?label .
+        filter (${filter})
+        optional { ?s schema:description ?description }
+        optional { ?s schema:image ?image }
+      }
+      `
+
+      let url = 'https://dydra.com/ut-digital-archives/shibusawa/sparql?query='
+
+      url = url + encodeURIComponent(query) + '&output=json'
+
+      const res = await axios.get(url)
+      const results = res.data
+
+      const map = {}
+
+      for (let i = 0; i < results.length; i++) {
+        const hit = results[i]
+        map[hit.s] = hit
+      }
+
+      for (let i = 0; i < values.length; i++) {
+        const item = moreLikeThisData0[i]
+
+        if (!item) {
+          continue
+        }
+
+        const facet = values[i]
+        const uri =
+          this.github +
+          '/api/' +
+          field.replace('spatial', 'place').replace('agential', 'chname') +
+          '/' +
+          facet
+
+        if (!map[uri]) {
+          continue
+        }
+        const hit = map[uri]
+
+        const image = hit.image
+          ? [hit.image]
+          : [field === 'spatial' ? 'mdi-map' : 'mdi-account']
+
+        if (hit.description) {
+          item._source.description = [hit.description]
+        }
+
+        item._source._thumbnail = image
+      }
+
+      this.entity[field] = moreLikeThisData0
+    },
+    getCalendarParams(data) {
+      let type = ''
+      let year = -1
+      let month = -1
+      let day = -1
+      const es = data.split('-')
+      if (es.length === 2) {
+        type = 'month'
+        year = Number(es[0])
+        month = Number(es[1])
+        day = 1
+      } else if (es.length === 3) {
+        type = 'day'
+        year = Number(es[0])
+        month = Number(es[1])
+        day = Number(es[2])
+      }
+      return {
+        type,
+        year,
+        month,
+        day,
+      }
+    },
     getQuery(label, value) {
       const field = `dev_MAIN[refinementList][${label}][0]`
       const query = {

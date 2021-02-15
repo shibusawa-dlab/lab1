@@ -131,7 +131,7 @@
         :key="key"
         description="カッコ内の値は共起するアイテム数"
         :data="fields[key]"
-        :title="key"
+        :title="`${$t('related')} ${$t(key)}`"
         height="100"
         width="200"
       />

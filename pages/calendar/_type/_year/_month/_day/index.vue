@@ -75,11 +75,18 @@
               :activator="selectedElement"
               offset-x
             >
-              <v-card color="grey lighten-4" min-width="350px" flat>
+              <v-card
+                color="grey lighten-4"
+                min-width="350px"
+                max-width="600px"
+                flat
+              >
                 <v-toolbar :color="selectedEvent.color" dark>
                   <v-toolbar-title>{{ selectedEvent.name }}</v-toolbar-title>
+                  <!-- 
                   <v-spacer></v-spacer>
                   <v-toolbar-title>{{ selectedEvent.id }}</v-toolbar-title>
+                  -->
                 </v-toolbar>
                 <v-card-text>
                   <span v-html="$utils.xml2html(selectedEvent.xml, true)" />
@@ -168,16 +175,36 @@ export default {
       const events = []
       for (let i = 0; i < results.hits.length; i++) {
         const obj = results.hits[i]
-        const date = new Date(`${obj.temporal}T00:00:00`)
-        const event = {
-          name: obj.label,
-          start: date,
-          end: date,
-          color: getColor(obj.label),
-          id: obj.objectID,
-          xml: obj.xml,
+        // console.log(obj)
+
+        if (type !== 'month' && Object.keys(obj.time).length > 0) {
+          for (const time in obj.time) {
+            const obj2 = obj.time[time]
+            let date2 = new Date(`${obj.temporal}T${time}`)
+            date2 = `${obj.temporal} ${time}`
+            const event2 = {
+              name: obj2.replace(/<[^>]*>?/gm, ''),
+              start: date2,
+              end: date2,
+              color: getColor(obj.label),
+              id: obj.objectID,
+              xml: obj2,
+            }
+
+            events.push(event2)
+          }
+        } else {
+          const date = new Date(`${obj.temporal}T00:00:00`)
+          const event = {
+            name: obj.label,
+            start: date,
+            end: date,
+            color: getColor(obj.label),
+            id: obj.objectID,
+            xml: obj.xml,
+          }
+          events.push(event)
         }
-        events.push(event)
       }
 
       return { value, type, events, query }
