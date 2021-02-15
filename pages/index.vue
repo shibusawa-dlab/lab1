@@ -164,6 +164,14 @@ export default class about extends Vue {
         description: '',
         icon: 'mdi-map',
       },
+      {
+        label: this.$t('network'),
+        path: {
+          name: 'network',
+        },
+        description: '',
+        icon: 'mdi-account-network',
+      },
       /*
       {
         label: '渋沢栄一日記リスト',

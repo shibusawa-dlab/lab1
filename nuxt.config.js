@@ -1,9 +1,13 @@
+import fs from 'fs'
 import colors from 'vuetify/es5/util/colors'
 
 const environment = process.env.NODE_ENV
 const env = require(`./env/${environment}.ts`)
 env.github = 'https://github.com/shibusawa-dlab/lab1'
 env.github_pages = 'https://shibusawa-dlab.github.io/lab1'
+
+const agentials = JSON.parse(fs.readFileSync('static/data/agentials.json'))
+env.agentials = agentials
 
 const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
@@ -129,6 +133,11 @@ export default {
       {
         rel: 'stylesheet',
         href: assets + 'CETEIcean.css',
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
       },
     ],
   },
