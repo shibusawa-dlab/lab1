@@ -25,6 +25,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "德川 厚（とくがわ あつし、1874年（明治7年）9月2日 - 1930年（昭和5年）6月12日）は、日本の実業家、政治家。爵位は男爵。号は龍山。新字体で徳川 厚（とくがわ あつし）とも表記される。東明火災海上保険株式会社取締役、貴族院議員などを歴任した。",
             "id": "徳川厚",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Atsushi_Tokugawa.jpg?width=300",
             "label": "徳川厚",
@@ -45,6 +46,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "竹内 綱（たけうち（たけのうち） つな、天保10年12月26日（1840年1月30日） - 大正11年（1922年）1月9日）は、日本の武士（土佐藩士）、実業家、政治家。内閣総理大臣を務めた吉田茂は五男、麻生太郎は外曾孫。",
             "id": "竹内綱",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuna_Takeuchi.jpg?width=300",
             "label": "竹内綱",
@@ -55,6 +57,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。",
             "id": "成瀬仁蔵",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
             "label": "成瀬仁蔵",
@@ -65,6 +68,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "中野 武営（なかの たけなか、なかの ぶえい、嘉永元年1月3日（1848年2月7日） - 大正7年（1918年）10月8日）は、明治・大正時代の官僚出身政治家、実業家。幼名は「権之助」または「作造」。号は「随郷」。",
             "id": "中野武営",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakano_Takenaka.jpg?width=300",
             "label": "中野武営",
