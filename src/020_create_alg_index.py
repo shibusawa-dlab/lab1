@@ -17,7 +17,14 @@ import numpy as np
 all = Graph()
 items = Graph()
 
+def getNorms():
 
+    json_open = open("entity/data/dict.json", 'r')
+    df = json.load(json_open)
+
+    return df
+
+norms = getNorms()
 
 def getNijl():
 
@@ -147,9 +154,11 @@ def getPlaces(entry):
     results = []
 
     for place in places:
-        place_text = place.text.strip()
-        if place_text not in results:
-            results.append(place_text)
+        text = place.text.strip()
+        if text in norms:
+            text = norms[text]
+        if text not in results:
+            results.append(text)
 
     return results
 
@@ -163,6 +172,8 @@ def getPersons(entry):
 
         for value in values:
             text = value.text.strip()
+            if text in norms:
+                text = norms[text]
             if text not in results:
                 results.append(text)
 
