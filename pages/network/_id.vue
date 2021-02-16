@@ -229,94 +229,6 @@ export default class about extends Vue {
   }
 
   async created() {
-    /*
-    const client = algoliasearch(config.appId, config.apiKey)
-    const index = client.initIndex('dev_MAIN') // _temporal_asc
-
-    const field = 'agential'
-    const id = this.$route.params.id
-    const facets = await index.searchForFacetValues(field, '', {
-      filters: field + ':' + id, // 重要。条件のほうはentityに基づく
-      maxFacetHits: 100,
-    })
-    const nodes: any[] = []
-    const edges: any[] = []
-    const nodesMap: any = {}
-
-    if (this.item._source._thumbnail[0].includes('mdi-')) {
-      nodes.push({
-        id: 0,
-        label: id,
-        shape: 'icon',
-        icon: {
-          code: '\uF007',
-          color: 'gray',
-        },
-      })
-    } else {
-      nodes.push({
-        id: 0,
-        label: id,
-        shape: 'image',
-        image:
-          'http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300',
-      })
-    }
-
-    for (let i = 1; i < facets.facetHits.length; i++) {
-      const obj = facets.facetHits[i]
-
-      const value = obj.value
-
-      if (value.length > 20) {
-        continue
-      }
-
-      if (i > 20) {
-        break
-      }
-
-      nodes.push({
-        id: i,
-        label: value,
-        shape: 'icon',
-        icon: {
-          code: '\uF007',
-          color: 'gray',
-        },
-      })
-
-      edges.push({
-        from: 0,
-        to: i,
-        value: obj.count,
-      })
-
-      nodesMap[i] = value
-    }
-
-    /*
-    const data: any = process.env.agentials
-    const nodes = []
-
-    
-    const nodesMap: any = {}
-
-    for (let i = 0; i < data.nodes.length; i++) {
-      const node = data.nodes[i]
-      nodesMap[node.id] = node
-
-      node.shape = 'icon'
-      node.icon = {
-        code: '\uF007',
-      }
-      nodes.push(node)
-    }
-
-    
-    this.nodesMap = nodesMap
-    */
-
     const id = this.$route.params.id
 
     const results = await axios.get(
@@ -326,7 +238,7 @@ export default class about extends Vue {
     this.nodes = results.data.nodes
     this.edges = results.data.edges
 
-    const nodesMap = {}
+    const nodesMap: any = {}
     for (let i = 0; i < results.data.nodes.length; i++) {
       const node = results.data.nodes[i]
       nodesMap[node.id] = node
