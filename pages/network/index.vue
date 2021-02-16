@@ -10,14 +10,16 @@
       </v-container>
     </v-sheet>
     <v-container class="py-5">
-      <h2 class="my-5">{{ $t('network') }}</h2>
-      <p class="mb-5">同一の日記に3回以上共起する人物ネットワーク</p>
+      <div class="text-right">
+        <small>{{ '同一の日記に3回以上共起する人物ネットワーク' }}</small>
+      </div>
       <network
         ref="network"
+        class="mt-5"
         :nodes="nodes"
         :edges="edges"
         :options="options"
-        style="height: 600px; border: 1px solid lightgray"
+        style="height: 800px; background-color: #f0f4c3"
         @click="onNodeSelected"
       >
       </network>
@@ -27,7 +29,7 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-
+import axios from 'axios'
 const { Network } = require('vue-vis-network')
 
 @Component({
@@ -45,6 +47,10 @@ export default class about extends Vue {
   options: any = {
     nodes: {
       // borderWidth: 4,
+      shapeProperties: {
+        useBorderWithImage: true,
+      },
+      color: 'lightgray',
     },
     edges: {
       color: 'lightgray',
@@ -65,9 +71,9 @@ export default class about extends Vue {
     ]
   }
 
-  created() {
-    const data: any = process.env.agentials
-    const nodes = []
+  async created() {
+    const results: any = await axios.get(this.baseUrl + '/data/agentials.json')
+    const data = results.data
 
     this.edges = data.edges
     const nodesMap: any = {}
@@ -75,12 +81,6 @@ export default class about extends Vue {
     for (let i = 0; i < data.nodes.length; i++) {
       const node = data.nodes[i]
       nodesMap[node.id] = node
-
-      node.shape = 'icon'
-      node.icon = {
-        code: '\uF007',
-      }
-      nodes.push(node)
     }
 
     this.nodes = data.nodes
@@ -92,15 +92,8 @@ export default class about extends Vue {
     if (nodes.length > 0) {
       const node = this.nodesMap[nodes[0]]
 
-      const routeData = this.$router.resolve(
+      this.$router.push(
         this.localePath({
-          /*
-          name: 'entity-entity-id',
-          params: {
-            entity: 'agential',
-            id: node.label,
-          },
-          */
           name: 'network-id',
           params: {
             id: node.label,
@@ -108,7 +101,27 @@ export default class about extends Vue {
         })
       )
 
-      window.open(routeData.href, '_blank')
+      /*
+      const routeData = this.$router.resolve(
+        this.localePath({
+          
+          name: 'network-id',
+          params: {
+            id: node.label,
+          },
+        })
+      )
+      */
+
+      /*
+      name: 'entity-entity-id',
+      params: {
+        entity: 'agential',
+        id: node.label,
+      },
+      */
+
+      // window.open(routeData.href /*, '_blank' */)
     }
   }
 

@@ -2,6 +2,16 @@ import json
 import glob
 import itertools
 
+json_open = open("entity/data/all.json", 'r')
+all = json.load(json_open)
+allMap = {}
+for obj in all:
+    e = {}
+    allMap[obj["@id"].split("/")[-1]] = e
+
+    if "http://schema.org/image" in obj:
+        e["image"] = obj["http://schema.org/image"][0]["@id"]
+
 json_open = open("data/index.json", 'r')
 df = json.load(json_open)
 
@@ -22,6 +32,29 @@ for obj in df:
                 "id" : len(nodes.keys()),
                 "label" : a
             }
+
+            if a in allMap and "image" in allMap[a]:
+                nodes[a] = {
+                    "id" : len(nodes.keys()),
+                    "label" : a,
+                    "shape" : "image",
+                    "image" : allMap[a]["image"],
+                    "borderWidth": 4,
+                    "color" : {
+                        "border" : "lightgreen"
+                    }
+                }
+            else:
+                nodes[a] = {
+                    "id" : len(nodes.keys()),
+                    "label" : a,
+                    "shape" : "image",
+                    "image" : "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+                    "borderWidth": 4,
+                    "color" : {
+                        "border" : "lightgreen"
+                    }
+                }
 
     ids = []
     for a in agential:
