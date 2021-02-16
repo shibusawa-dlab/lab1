@@ -256,7 +256,8 @@
                               },
                             })
                           "
-                          >{{ item2.label }}</nuxt-link
+                          >{{ item2.label }}
+                          <small>（{{ item2.objectID }}）</small></nuxt-link
                         >
                       </h4>
                       <v-divider />
@@ -454,7 +455,7 @@ export default class about extends Vue {
 
     results = await index.search('', {
       filters: field + ':' + id,
-      hitsPerPage: 100,
+      hitsPerPage: 200,
     })
 
     const documents: any = {}

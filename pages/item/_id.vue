@@ -221,7 +221,7 @@
                 </v-treeview>
               </td>
             </tr>
-            <tr>
+            <tr v-if="dates.length > 0">
               <td width="30%">{{ $t('date') }}</td>
               <td style="overflow-wrap: break-word" class="py-5">
                 <v-treeview dense open-all :items="dates">
@@ -507,6 +507,9 @@ export default {
   computed: {
     dates() {
       const dates = this.item.date
+      if (!dates) {
+        return []
+      }
       const keys = Object.keys(dates)
       const date = dates[keys[keys.length - 1]]
       const es = date.split(' > ')
