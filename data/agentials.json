@@ -87,7 +87,7 @@
         },
         {
             "from": 141,
-            "to": 571,
+            "to": 570,
             "value": 3
         },
         {
@@ -97,7 +97,7 @@
         },
         {
             "from": 141,
-            "to": 636,
+            "to": 635,
             "value": 3
         },
         {
@@ -107,7 +107,7 @@
         },
         {
             "from": 141,
-            "to": 1075,
+            "to": 1073,
             "value": 3
         },
         {
@@ -197,7 +197,7 @@
         },
         {
             "from": 143,
-            "to": 641,
+            "to": 640,
             "value": 6
         },
         {
@@ -227,7 +227,7 @@
         },
         {
             "from": 143,
-            "to": 1352,
+            "to": 1350,
             "value": 4
         },
         {
@@ -332,7 +332,7 @@
         },
         {
             "from": 226,
-            "to": 749,
+            "to": 747,
             "value": 3
         },
         {
@@ -402,7 +402,7 @@
         },
         {
             "from": 242,
-            "to": 989,
+            "to": 987,
             "value": 3
         },
         {
@@ -422,7 +422,7 @@
         },
         {
             "from": 253,
-            "to": 1142,
+            "to": 1140,
             "value": 4
         },
         {
@@ -467,7 +467,7 @@
         },
         {
             "from": 272,
-            "to": 995,
+            "to": 993,
             "value": 3
         },
         {
@@ -497,7 +497,7 @@
         },
         {
             "from": 296,
-            "to": 743,
+            "to": 741,
             "value": 3
         },
         {
@@ -507,7 +507,7 @@
         },
         {
             "from": 273,
-            "to": 636,
+            "to": 635,
             "value": 5
         },
         {
@@ -517,7 +517,7 @@
         },
         {
             "from": 273,
-            "to": 720,
+            "to": 718,
             "value": 3
         },
         {
@@ -527,12 +527,12 @@
         },
         {
             "from": 273,
-            "to": 1075,
+            "to": 1073,
             "value": 5
         },
         {
             "from": 273,
-            "to": 1259,
+            "to": 1257,
             "value": 4
         },
         {
@@ -542,7 +542,7 @@
         },
         {
             "from": 319,
-            "to": 636,
+            "to": 635,
             "value": 3
         },
         {
@@ -562,7 +562,7 @@
         },
         {
             "from": 332,
-            "to": 1170,
+            "to": 1168,
             "value": 3
         },
         {
@@ -577,7 +577,7 @@
         },
         {
             "from": 279,
-            "to": 1259,
+            "to": 1257,
             "value": 4
         },
         {
@@ -587,47 +587,47 @@
         },
         {
             "from": 315,
-            "to": 1073,
+            "to": 1071,
             "value": 4
         },
         {
             "from": 315,
-            "to": 696,
+            "to": 695,
             "value": 4
         },
         {
             "from": 315,
-            "to": 1120,
+            "to": 1118,
             "value": 3
         },
         {
             "from": 315,
-            "to": 860,
+            "to": 858,
             "value": 4
         },
         {
             "from": 315,
-            "to": 1352,
+            "to": 1350,
             "value": 4
         },
         {
             "from": 315,
-            "to": 636,
+            "to": 635,
             "value": 3
         },
         {
             "from": 315,
-            "to": 1142,
+            "to": 1140,
             "value": 3
         },
         {
             "from": 315,
-            "to": 1675,
+            "to": 1673,
             "value": 3
         },
         {
             "from": 315,
-            "to": 1668,
+            "to": 1666,
             "value": 3
         },
         {
@@ -657,7 +657,7 @@
         },
         {
             "from": 392,
-            "to": 768,
+            "to": 766,
             "value": 4
         },
         {
@@ -667,12 +667,12 @@
         },
         {
             "from": 378,
-            "to": 1134,
+            "to": 1132,
             "value": 3
         },
         {
             "from": 459,
-            "to": 636,
+            "to": 635,
             "value": 3
         },
         {
@@ -682,12 +682,12 @@
         },
         {
             "from": 495,
-            "to": 636,
+            "to": 635,
             "value": 3
         },
         {
             "from": 495,
-            "to": 1194,
+            "to": 1192,
             "value": 4
         },
         {
@@ -697,12 +697,12 @@
         },
         {
             "from": 243,
-            "to": 660,
+            "to": 659,
             "value": 5
         },
         {
             "from": 446,
-            "to": 721,
+            "to": 719,
             "value": 6
         },
         {
@@ -712,7 +712,7 @@
         },
         {
             "from": 460,
-            "to": 636,
+            "to": 635,
             "value": 3
         },
         {
@@ -721,956 +721,516 @@
             "value": 3
         },
         {
-            "from": 636,
-            "to": 720,
+            "from": 635,
+            "to": 718,
             "value": 4
         },
         {
-            "from": 636,
-            "to": 860,
+            "from": 635,
+            "to": 858,
             "value": 3
         },
         {
-            "from": 636,
-            "to": 1664,
+            "from": 635,
+            "to": 1662,
             "value": 3
         },
         {
-            "from": 1073,
-            "to": 1091,
+            "from": 1071,
+            "to": 1089,
             "value": 3
         },
         {
-            "from": 1098,
-            "to": 2086,
+            "from": 1096,
+            "to": 2083,
             "value": 3
         },
         {
-            "from": 696,
-            "to": 1120,
+            "from": 695,
+            "to": 1118,
             "value": 11
         },
         {
-            "from": 696,
-            "to": 1170,
+            "from": 695,
+            "to": 1168,
             "value": 3
         },
         {
-            "from": 1170,
-            "to": 1194,
+            "from": 1168,
+            "to": 1192,
             "value": 3
         },
         {
-            "from": 1259,
-            "to": 1730,
+            "from": 1257,
+            "to": 1728,
             "value": 3
         },
         {
-            "from": 1768,
-            "to": 2235,
+            "from": 1766,
+            "to": 2232,
             "value": 3
         },
         {
-            "from": 1701,
-            "to": 1863,
+            "from": 1699,
+            "to": 1861,
             "value": 3
         },
         {
-            "from": 1890,
-            "to": 1891,
+            "from": 1887,
+            "to": 1888,
             "value": 6
         },
         {
-            "from": 2124,
-            "to": 2230,
+            "from": 2121,
+            "to": 2227,
             "value": 3
         },
         {
-            "from": 2124,
-            "to": 2235,
+            "from": 2121,
+            "to": 2232,
             "value": 3
         }
     ],
     "nodes": [
         {
-            "icon": {
-                "code": ""
-            },
             "id": 27,
-            "label": "福地源一郎",
-            "shape": "icon"
+            "label": "福地源一郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 37,
-            "label": "大久保一翁",
-            "shape": "icon"
+            "label": "大久保一翁"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 56,
-            "label": "平岡四郎",
-            "shape": "icon"
+            "label": "平岡四郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 110,
-            "label": "伊藤伝七",
-            "shape": "icon"
+            "label": "伊藤伝七"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 115,
-            "label": "堀口嘉右衛門",
-            "shape": "icon"
+            "label": "堀口嘉右衛門"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 116,
-            "label": "森弥三郎",
-            "shape": "icon"
+            "label": "森弥三郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 139,
-            "label": "渋沢喜作",
-            "shape": "icon"
+            "label": "渋沢成一郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 141,
-            "label": "佐々木勇之助",
-            "shape": "icon"
+            "label": "佐々木勇之助"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 142,
-            "label": "梅浦精一",
-            "shape": "icon"
+            "label": "梅浦精一"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 143,
-            "label": "浅野総一郎",
-            "shape": "icon"
+            "label": "浅野総一郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 144,
-            "label": "原六郎",
-            "shape": "icon"
+            "label": "原六郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 159,
-            "label": "大倉喜八郎",
-            "shape": "icon"
+            "label": "大倉喜八郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 172,
-            "label": "阪谷芳郎",
-            "shape": "icon"
+            "label": "阪谷芳郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 178,
-            "label": "西村勝三",
-            "shape": "icon"
+            "label": "西村勝三"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 179,
-            "label": "八十島親徳",
-            "shape": "icon"
+            "label": "八十島親徳"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 184,
-            "label": "押川方義",
-            "shape": "icon"
+            "label": "押川方義"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 187,
-            "label": "足立太郎",
-            "shape": "icon"
+            "label": "足立太郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 188,
-            "label": "瓜生震",
-            "shape": "icon"
+            "label": "瓜生震"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 198,
-            "label": "安川敬一郎",
-            "shape": "icon"
+            "label": "安川敬一郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 209,
-            "label": "仙石貢",
-            "shape": "icon"
+            "label": "仙石貢"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 215,
-            "label": "江間政",
-            "shape": "icon"
+            "label": "江間政"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 223,
-            "label": "岡部広",
-            "shape": "icon"
+            "label": "岡部広"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 226,
-            "label": "大川平三郎",
-            "shape": "icon"
+            "label": "大川平三郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 227,
-            "label": "大江卓",
-            "shape": "icon"
+            "label": "大江卓"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 228,
-            "label": "萩原源太郎",
-            "shape": "icon"
+            "label": "萩原源太郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 229,
-            "label": "吉川三次郎",
-            "shape": "icon"
+            "label": "吉川三次郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 235,
-            "label": "植村澄",
-            "shape": "icon"
+            "label": "植村澄"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 236,
-            "label": "豊川良平",
-            "shape": "icon"
+            "label": "豊川良平"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 237,
-            "label": "日下義雄",
-            "shape": "icon"
+            "label": "日下義雄"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 239,
-            "label": "西脇長太郎",
-            "shape": "icon"
+            "label": "西脇長太郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 241,
-            "label": "佐々木清麿",
-            "shape": "icon"
+            "label": "佐々木清麿"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 242,
-            "label": "平岡熙",
-            "shape": "icon"
+            "label": "平岡熙"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 243,
-            "label": "久米良作",
-            "shape": "icon"
+            "label": "久米良作"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 248,
-            "label": "宇野保太郎",
-            "shape": "icon"
+            "label": "宇野保太郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 253,
-            "label": "中野武営",
-            "shape": "icon"
+            "label": "中野武営"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 254,
-            "label": "井上角五郎",
-            "shape": "icon"
+            "label": "井上角五郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 255,
-            "label": "馬越恭平",
-            "shape": "icon"
+            "label": "馬越恭平"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 257,
-            "label": "雨宮敬次郎",
-            "shape": "icon"
+            "label": "雨宮敬次郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 272,
-            "label": "皆川四郎",
-            "shape": "icon"
+            "label": "皆川四郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 273,
-            "label": "安達憲忠",
-            "shape": "icon"
+            "label": "安達憲忠"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 274,
-            "label": "河村隆",
-            "shape": "icon"
+            "label": "河村隆"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 279,
-            "label": "諸井恒平",
-            "shape": "icon"
+            "label": "諸井恒平"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 280,
-            "label": "益田克徳",
-            "shape": "icon"
+            "label": "益田克徳"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 285,
-            "label": "市原盛宏",
-            "shape": "icon"
+            "label": "市原盛宏"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 289,
-            "label": "添田寿一",
-            "shape": "icon"
+            "label": "添田壽一"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 296,
-            "label": "原林之助",
-            "shape": "icon"
+            "label": "原林之助"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 309,
-            "label": "渡辺嘉一",
-            "shape": "icon"
+            "label": "渡邊嘉一"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 315,
-            "label": "成瀬仁蔵",
-            "shape": "icon"
+            "label": "成瀬仁蔵"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 319,
-            "label": "原胤昭",
-            "shape": "icon"
+            "label": "原胤昭"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 330,
-            "label": "内田康哉",
-            "shape": "icon"
+            "label": "内田康哉"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 332,
-            "label": "穂積陳重",
-            "shape": "icon"
+            "label": "穂積陳重"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 342,
-            "label": "今村清之助",
-            "shape": "icon"
+            "label": "今村清之助"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 351,
-            "label": "伊藤半次郎",
-            "shape": "icon"
+            "label": "伊藤半次郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 355,
-            "label": "清水泰",
-            "shape": "icon"
+            "label": "清水泰"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 361,
-            "label": "高橋義雄",
-            "shape": "icon"
+            "label": "高橋義雄"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 376,
-            "label": "尾崎三良",
-            "shape": "icon"
+            "label": "尾崎三良"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 377,
-            "label": "前島密",
-            "shape": "icon"
+            "label": "前島密"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 378,
-            "label": "竹内綱",
-            "shape": "icon"
+            "label": "竹内綱"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 389,
-            "label": "ナリキ",
-            "shape": "icon"
+            "label": "ナリキ"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 391,
-            "label": "麻生太吉",
-            "shape": "icon"
+            "label": "麻生太吉"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 392,
-            "label": "林忠正",
-            "shape": "icon"
+            "label": "林忠正"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 408,
-            "label": "田中栄八郎",
-            "shape": "icon"
+            "label": "田中栄八郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 412,
-            "label": "大橋新太郎",
-            "shape": "icon"
+            "label": "大橋新太郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 439,
-            "label": "吉岡新五郎",
-            "shape": "icon"
+            "label": "吉岡新五郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 446,
-            "label": "岸精一",
-            "shape": "icon"
+            "label": "岸精一"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 459,
-            "label": "尾高次郎",
-            "shape": "icon"
+            "label": "尾高次郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 460,
-            "label": "穂積歌子",
-            "shape": "icon"
+            "label": "穂積歌子"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 469,
-            "label": "高田慎蔵",
-            "shape": "icon"
+            "label": "高田慎蔵"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 485,
-            "label": "白石元次郎",
-            "shape": "icon"
+            "label": "白石元次郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 486,
-            "label": "白石元治郎",
-            "shape": "icon"
+            "label": "白石元治郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 495,
-            "label": "田中太郎",
-            "shape": "icon"
+            "label": "田中太郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 506,
-            "label": "池田謙三",
-            "shape": "icon"
+            "label": "池田謙三"
         },
         {
-            "icon": {
-                "code": ""
-            },
             "id": 540,
-            "label": "阪谷琴子",
-            "shape": "icon"
+            "label": "阪谷琴子"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 571,
-            "label": "市原盛宏二",
-            "shape": "icon"
+            "id": 570,
+            "label": "市原盛宏二"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 636,
-            "label": "横山徳次郎",
-            "shape": "icon"
+            "id": 635,
+            "label": "横山徳次郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 641,
-            "label": "前川益",
-            "shape": "icon"
+            "id": 640,
+            "label": "前川益"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 660,
-            "label": "高松豊吉",
-            "shape": "icon"
+            "id": 659,
+            "label": "高松豊吉"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 696,
-            "label": "松下軍治",
-            "shape": "icon"
+            "id": 695,
+            "label": "松下軍治"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 720,
-            "label": "白岩竜平",
-            "shape": "icon"
+            "id": 718,
+            "label": "白岩竜平"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 721,
-            "label": "岸清一",
-            "shape": "icon"
+            "id": 719,
+            "label": "岸清一"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 743,
-            "label": "清水一雄",
-            "shape": "icon"
+            "id": 741,
+            "label": "清水一雄"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 749,
-            "label": "近藤陸三郎",
-            "shape": "icon"
+            "id": 747,
+            "label": "近藤陸三郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 768,
-            "label": "井上金治郎",
-            "shape": "icon"
+            "id": 766,
+            "label": "井上金治郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 860,
-            "label": "川田鉄弥",
-            "shape": "icon"
+            "id": 858,
+            "label": "川田鉄弥"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 989,
-            "label": "奥田正香",
-            "shape": "icon"
+            "id": 987,
+            "label": "奥田正香"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 995,
-            "label": "岡本善七",
-            "shape": "icon"
+            "id": 993,
+            "label": "岡本善七"
         },
         {
-            "icon": {
-                "code": ""
-            },
+            "id": 1071,
+            "label": "郷誠之助"
+        },
+        {
             "id": 1073,
-            "label": "郷誠之助",
-            "shape": "icon"
+            "label": "今井清彦"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1075,
-            "label": "今井清彦",
-            "shape": "icon"
+            "id": 1089,
+            "label": "薄井佳久"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1091,
-            "label": "薄井佳久",
-            "shape": "icon"
+            "id": 1096,
+            "label": "井上準之助"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1098,
-            "label": "井上準之助",
-            "shape": "icon"
+            "id": 1118,
+            "label": "松下軍次"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1120,
-            "label": "松下軍次",
-            "shape": "icon"
+            "id": 1132,
+            "label": "徳川厚"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1134,
-            "label": "徳川厚",
-            "shape": "icon"
+            "id": 1140,
+            "label": "畑弥右衛門"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1142,
-            "label": "畑弥右衛門",
-            "shape": "icon"
+            "id": 1168,
+            "label": "脇田勇"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1170,
-            "label": "脇田勇",
-            "shape": "icon"
+            "id": 1192,
+            "label": "明石照男"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1194,
-            "label": "明石照男",
-            "shape": "icon"
+            "id": 1257,
+            "label": "蓮沼門三"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1259,
-            "label": "蓮沼門三",
-            "shape": "icon"
+            "id": 1350,
+            "label": "井口正之"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1352,
-            "label": "井口正之",
-            "shape": "icon"
+            "id": 1662,
+            "label": "吉池慶"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1664,
-            "label": "吉池慶",
-            "shape": "icon"
+            "id": 1666,
+            "label": "青柳有美"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1668,
-            "label": "青柳有美",
-            "shape": "icon"
+            "id": 1673,
+            "label": "鈴木文治"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1675,
-            "label": "鈴木文治",
-            "shape": "icon"
+            "id": 1699,
+            "label": "高野佐三郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1701,
-            "label": "高野佐三郎",
-            "shape": "icon"
+            "id": 1728,
+            "label": "瓜生喜三郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1730,
-            "label": "瓜生喜三郎",
-            "shape": "icon"
+            "id": 1766,
+            "label": "渡辺得男"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1768,
-            "label": "渡辺得男",
-            "shape": "icon"
+            "id": 1861,
+            "label": "山本長治"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1863,
-            "label": "山本長治",
-            "shape": "icon"
+            "id": 1887,
+            "label": "埼山比佐衛"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1890,
-            "label": "埼山比佐衛",
-            "shape": "icon"
+            "id": 1888,
+            "label": "崎山比佐衛"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 1891,
-            "label": "崎山比佐衛",
-            "shape": "icon"
+            "id": 2083,
+            "label": "添田敬一郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 2086,
-            "label": "添田敬一郎",
-            "shape": "icon"
+            "id": 2121,
+            "label": "白石喜太郎"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 2124,
-            "label": "白石喜太郎",
-            "shape": "icon"
+            "id": 2227,
+            "label": "岡田純夫"
         },
         {
-            "icon": {
-                "code": ""
-            },
-            "id": 2230,
-            "label": "岡田純夫",
-            "shape": "icon"
-        },
-        {
-            "icon": {
-                "code": ""
-            },
-            "id": 2235,
-            "label": "高田利吉",
-            "shape": "icon"
+            "id": 2232,
+            "label": "高田利吉"
         }
     ]
 }
