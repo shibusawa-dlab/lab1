@@ -1,0 +1,32 @@
+{
+    "edges": [
+        {
+            "color": "orange",
+            "from": "井上金治郎",
+            "to": "林忠正",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "white"
+            },
+            "id": "井上金治郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井上金治郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "林忠正",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tadamasa_Hayashi.jpg?width=300",
+            "label": "林忠正",
+            "shape": "image"
+        }
+    ]
+}

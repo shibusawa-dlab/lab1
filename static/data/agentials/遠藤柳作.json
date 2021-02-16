@@ -1,0 +1,58 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "江間政",
+            "to": "福地源一郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "原六郎",
+            "to": "前島密",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "江間政",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "江間政",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "原六郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Private_school_Seikei_Shoin_Yabu_Hyogo.jpg?width=300",
+            "label": "原六郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "福地源一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Genichiro_Fukuchi_3.jpg?width=300",
+            "label": "福地源一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "前島密",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hisoka_Maejima_01.jpg?width=300",
+            "label": "前島密",
+            "shape": "image"
+        }
+    ]
+}

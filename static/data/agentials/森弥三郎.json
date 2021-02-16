@@ -1,0 +1,32 @@
+{
+    "edges": [
+        {
+            "color": "orange",
+            "from": "森弥三郎",
+            "to": "堀口嘉右衛門",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "white"
+            },
+            "id": "森弥三郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "森弥三郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "堀口嘉右衛門",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "堀口嘉右衛門",
+            "shape": "image"
+        }
+    ]
+}

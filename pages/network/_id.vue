@@ -57,10 +57,10 @@
               </nuxt-link>
 
               <!--
-      <p v-if="item._source.description" class="mt-2 mb-0">
-        {{ item._source.description }}
-      </p>
-      -->
+              <p v-if="item._source.description" class="mt-2 mb-0">
+                {{ item._source.description }}
+              </p>
+              -->
 
               <template v-if="item._source.description">
                 <div
@@ -125,11 +125,6 @@
               >もっと見る <v-icon>mdi-magnify</v-icon></nuxt-link
             >
           </p>
-          <h3 class="mt-10" style="color: red">TODO</h3>
-          <ul style="color: red">
-            <li>サムネイル画像の表示</li>
-            <li>2ホップ先の関係性の表示</li>
-          </ul>
         </v-col>
         <v-col cols="12" :sm="9">
           <network
@@ -141,6 +136,7 @@
             @click="onNodeSelected"
           >
           </network>
+          <!--  -->
         </v-col>
       </v-row>
     </v-container>
@@ -149,9 +145,7 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-// import * as algoliasearch from 'algoliasearch'
-import algoliasearch from 'algoliasearch'
-import config from '@/plugins/algolia.config.js'
+import axios from 'axios'
 const { Network } = require('vue-vis-network')
 
 @Component({
@@ -235,6 +229,7 @@ export default class about extends Vue {
   }
 
   async created() {
+    /*
     const client = algoliasearch(config.appId, config.apiKey)
     const index = client.initIndex('dev_MAIN') // _temporal_asc
 
@@ -321,15 +316,29 @@ export default class about extends Vue {
     
     this.nodesMap = nodesMap
     */
-    this.nodes = nodes
-    this.edges = edges
+
+    const id = this.$route.params.id
+
+    const results = await axios.get(
+      this.baseUrl + '/data/agentials/' + id + '.json'
+    )
+
+    this.nodes = results.data.nodes
+    this.edges = results.data.edges
+
+    const nodesMap = {}
+    for (let i = 0; i < results.data.nodes.length; i++) {
+      const node = results.data.nodes[i]
+      nodesMap[node.id] = node
+    }
+
     this.nodesMap = nodesMap
   }
 
   onNodeSelected(value: any) {
     const nodes = value.nodes
     if (nodes.length > 0) {
-      const node = this.nodesMap[nodes[0]]
+      const node = this.nodesMap[nodes[0]].id
 
       this.$router.push(
         this.localePath({
