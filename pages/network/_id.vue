@@ -13,36 +13,18 @@
       <v-row dense>
         <v-col cols="12" :sm="3">
           <v-card flat outlined>
-            <template v-if="item._source._thumbnail[0].includes('mdi-')">
-              <div
-                class="text-center grey lighten-2 pa-10"
-                style="height: 150px"
-              >
-                <v-icon size="75">{{ item._source._thumbnail[0] }}</v-icon>
-              </div>
-            </template>
-            <template v-else>
-              <v-img
-                :src="item._source._thumbnail[0]"
-                contain
-                style="height: 150px"
-                width="100%"
-                class="grey lighten-2"
-              ></v-img>
-            </template>
-
-            <div
-              class="pa-4"
-              :style="
-                horizontal
-                  ? 'width: ' +
-                    width +
-                    'px; height: ' +
-                    height +
-                    'px; overflow-y: auto;'
-                  : ''
+            <v-img
+              v-if="
+                nodesMap[$route.params.id] && nodesMap[$route.params.id].image
               "
-            >
+              :src="nodesMap[$route.params.id].image"
+              contain
+              style="height: 150px"
+              width="100%"
+              class="grey lighten-2"
+            ></v-img>
+
+            <div class="pa-4" :style="'max-height: 200px; overflow-y: auto;'">
               <nuxt-link
                 :to="
                   item.to ||
@@ -62,18 +44,15 @@
               </p>
               -->
 
-              <template v-if="item._source.description">
-                <div
-                  class="mt-2"
-                  v-html="
-                    $utils.removeHead(
-                      $utils.xml2html(
-                        $utils.formatArrayValue(item._source.description),
-                        true
-                      )
-                    )
-                  "
-                ></div>
+              <template
+                v-if="
+                  nodesMap[$route.params.id] &&
+                  nodesMap[$route.params.id].description
+                "
+              >
+                <div class="mt-2">
+                  {{ nodesMap[$route.params.id].description }}
+                </div>
               </template>
             </div>
 
@@ -81,6 +60,11 @@
               <v-divider />
 
               <v-card-actions>
+                <v-btn icon color="primary" @click="dialog = !dialog"
+                  ><v-icon>{{
+                    dialog ? 'mdi-file' : 'mdi-account-network'
+                  }}</v-icon></v-btn
+                >
                 <v-spacer></v-spacer>
                 <ResultOption
                   :item="{
@@ -92,7 +76,80 @@
             </template>
           </v-card>
 
-          <h3 class="mt-10">
+          <!-- Other -->
+
+          <v-card v-if="otherId" flat outlined class="mt-5">
+            <v-img
+              v-if="nodesMap[otherId] && nodesMap[otherId].image"
+              :src="nodesMap[otherId].image"
+              contain
+              style="height: 150px"
+              width="100%"
+              class="grey lighten-2"
+            ></v-img>
+
+            <div class="pa-4" :style="'max-height: 200px; overflow-y: auto;'">
+              <nuxt-link
+                :to="
+                  localePath({
+                    name: 'entity-entity-id',
+                    params: { entity: 'agential', id: otherId },
+                  })
+                "
+              >
+                <!-- eslint-disable-next-line vue/no-v-html -->
+                <h4>{{ otherId }}</h4>
+              </nuxt-link>
+
+              <!--
+              <p v-if="item._source.description" class="mt-2 mb-0">
+                {{ item._source.description }}
+              </p>
+              -->
+
+              <template
+                v-if="nodesMap[otherId] && nodesMap[otherId].description"
+              >
+                <div class="mt-2">
+                  {{ nodesMap[otherId].description }}
+                </div>
+              </template>
+            </div>
+
+            <template v-if="!item.share_hide">
+              <v-divider />
+
+              <v-card-actions>
+                <v-btn
+                  icon
+                  color="primary"
+                  :to="
+                    localePath({
+                      name: 'network-id',
+                      params: {
+                        id: otherId,
+                      },
+                    })
+                  "
+                  ><v-icon>mdi-account-network</v-icon></v-btn
+                >
+                <v-spacer></v-spacer>
+                <ResultOption
+                  :item="{
+                    label: otherId,
+                    url:
+                      baseUrl +
+                      localePath({
+                        name: 'entity-entity-id',
+                        params: { entity: 'agential', id: otherId },
+                      }),
+                  }"
+                />
+              </v-card-actions>
+            </template>
+          </v-card>
+
+          <h3 v-if="false" class="mt-10">
             アイテム
             <nuxt-link
               :to="
@@ -128,15 +185,119 @@
         </v-col>
         <v-col cols="12" :sm="9">
           <network
+            v-show="dialog"
             ref="network"
             :nodes="nodes"
             :edges="edges"
             :options="options"
-            style="height: 600px; background-color: #f0f4c3"
+            style="height: 800px; background-color: #f0f4c3"
             @click="onNodeSelected"
           >
           </network>
-          <!--  -->
+          <v-row v-show="!dialog" dense>
+            <v-col cols="12" sm="9">
+              <div
+                class="grey lighten-2"
+                style="height: 850px; overflow-y: auto"
+              >
+                &nbsp;
+                <v-card
+                  v-for="(item, key) in items"
+                  :key="key"
+                  flat
+                  outlined
+                  class="mb-5 mx-5"
+                >
+                  <v-list-item three-line>
+                    <v-list-item-content>
+                      <nuxt-link
+                        :to="
+                          item.to ||
+                          localePath({
+                            name: 'entity-entity-id',
+                            params: { entity: 'agential', id: item.key },
+                          })
+                        "
+                      >
+                        <!-- eslint-disable-next-line vue/no-v-html -->
+                        <h3>{{ item.key }}</h3>
+                      </nuxt-link>
+                      <div class="mt-2">
+                        {{ nodesMap[item.key].description }}
+                      </div>
+                    </v-list-item-content>
+
+                    <v-list-item-avatar tile size="80">
+                      <v-img :src="nodesMap[item.key].image" contain />
+                    </v-list-item-avatar>
+                  </v-list-item>
+
+                  <div class="pa-4 grey lighten-3">
+                    <h4 class="mb-4">
+                      <v-icon>mdi-file</v-icon> つながりを表すアイテム
+                    </h4>
+
+                    <div
+                      v-for="(item2, key2) in documents[item.key]"
+                      :key="key2"
+                      class="px-2"
+                    >
+                      <h4 class="my-2">
+                        <nuxt-link
+                          :to="
+                            localePath({
+                              name: 'item-id',
+                              params: {
+                                id: item2.objectID,
+                              },
+                            })
+                          "
+                          >{{ item2.label }}</nuxt-link
+                        >
+                      </h4>
+                      <v-divider />
+                    </div>
+
+                    <!--
+              <p v-if="item._source.description" class="mt-2 mb-0">
+                {{ item._source.description }}
+              </p>
+              -->
+
+                    <template v-if="nodesMap[key] && nodesMap[key].description">
+                      <div class="mt-2">
+                        {{ nodesMap[key].description }}
+                      </div>
+                    </template>
+                  </div>
+                </v-card>
+              </div></v-col
+            >
+            <v-col cols="12" sm="3"
+              ><v-sheet class="grey lighten-3 pa-2"
+                ><h3><v-icon>mdi-view-list</v-icon> つながり一覧</h3></v-sheet
+              >
+              <v-list dense style="height: 800px; overflow-y: auto">
+                <v-list-item
+                  v-for="item in items"
+                  :key="item.key"
+                  @click="otherId = item.key"
+                >
+                  <v-list-item-avatar>
+                    <v-img :src="nodesMap[item.key].image"></v-img>
+                  </v-list-item-avatar>
+
+                  <v-list-item-content>
+                    <v-list-item-title v-text="item.key"></v-list-item-title>
+                  </v-list-item-content>
+
+                  <v-list-item-action>
+                    {{ item.value }}
+                  </v-list-item-action>
+                </v-list-item>
+              </v-list>
+            </v-col>
+          </v-row>
         </v-col>
       </v-row>
     </v-container>
@@ -145,6 +306,8 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
+import algoliasearch from 'algoliasearch'
+import config from '@/plugins/algolia.config.js'
 import axios from 'axios'
 const { Network } = require('vue-vis-network')
 
@@ -160,7 +323,13 @@ export default class about extends Vue {
   nodesMap: any = {}
   edges: any = []
 
-  horizontal: boolean = false
+  dialog: boolean = true
+
+  otherId: string = ''
+
+  items: any[] = []
+
+  documents: any = {}
 
   options: any = {
     nodes: {
@@ -231,7 +400,7 @@ export default class about extends Vue {
   async created() {
     const id = this.$route.params.id
 
-    const results = await axios.get(
+    let results: any = await axios.get(
       this.baseUrl + '/data/agentials/' + id + '.json'
     )
 
@@ -244,7 +413,57 @@ export default class about extends Vue {
       nodesMap[node.id] = node
     }
 
+    const map: any = {}
+
+    for (let i = 0; i < results.data.edges.length; i++) {
+      const edge = results.data.edges[i]
+      if (edge.from === id || edge.to === id) {
+        if (edge.from === id) {
+          map[edge.to] = edge.value
+        } else {
+          map[edge.from] = edge.value
+        }
+      }
+    }
+
+    const arr = Object.keys(map).map((e) => ({ key: e, value: map[e] }))
+
+    arr.sort(function (a, b) {
+      if (a.value < b.value) return 1
+      if (a.value > b.value) return -1
+      return 0
+    })
+
+    this.items = arr
+
     this.nodesMap = nodesMap
+
+    /// ///
+
+    const field = 'agential'
+    const client = algoliasearch(config.appId, config.apiKey)
+    const index = client.initIndex('dev_MAIN') // _temporal_asc
+
+    results = await index.search('', {
+      filters: field + ':' + id,
+      hitsPerPage: 100,
+    })
+
+    const documents: any = {}
+
+    for (let i = 0; i < results.hits.length; i++) {
+      const obj = results.hits[i]
+      const agentials = obj.agential
+      for (let j = 0; j < agentials.length; j++) {
+        const agential = agentials[j]
+        if (!documents[agential]) {
+          documents[agential] = []
+        }
+        documents[agential].push(obj)
+      }
+    }
+
+    this.documents = documents
   }
 
   onNodeSelected(value: any) {
@@ -252,6 +471,7 @@ export default class about extends Vue {
     if (nodes.length > 0) {
       const node = this.nodesMap[nodes[0]].id
 
+      /*
       this.$router.push(
         this.localePath({
           name: 'network-id',
@@ -260,6 +480,14 @@ export default class about extends Vue {
           },
         })
       )
+      */
+      if (node !== this.$route.params.id) {
+        this.otherId = node
+      } else {
+        this.otherId = ''
+      }
+    } else {
+      this.otherId = ''
     }
   }
 

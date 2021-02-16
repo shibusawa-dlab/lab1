@@ -271,6 +271,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
             "id": "浅野総一郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
             "label": "浅野総一郎",
@@ -291,6 +292,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "添田 壽一（そえだ じゅいち、元治元年8月15日（1864年9月15日） - 昭和4年（1929年）7月4日）は、明治・大正期の財政家（大蔵官僚）・銀行家・実業家・経済学者・官庁エコノミスト。筑前（福岡県）の出身。日本法律学校（現日本大学）の設立に加わった。近代日本における財政確立の功労者の一人であるとともに、経済学の教育・普及に尽力した「官庁エコノミスト」の先駆け的人物として知られている。",
             "id": "添田壽一",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Juichi_Soyeda.jpg?width=300",
             "label": "添田壽一",
@@ -311,6 +313,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "渋沢 成一郎（しぶさわ せいいちろう、1838年7月30日（天保9年6月10日） - 1912年8月30日）は、江戸時代の武士、明治時代の実業家。渋沢栄一の従兄。号は廬陰、明治以降は渋沢喜作と改名した。",
             "id": "渋沢成一郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Seiichiro_Sibusawa.jpg?width=300",
             "label": "渋沢成一郎",
@@ -321,6 +324,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "竹内 綱（たけうち（たけのうち） つな、天保10年12月26日（1840年1月30日） - 大正11年（1922年）1月9日）は、日本の武士（土佐藩士）、実業家、政治家。内閣総理大臣を務めた吉田茂は五男、麻生太郎は外曾孫。",
             "id": "竹内綱",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuna_Takeuchi.jpg?width=300",
             "label": "竹内綱",
@@ -341,6 +345,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "德川 厚（とくがわ あつし、1874年（明治7年）9月2日 - 1930年（昭和5年）6月12日）は、日本の実業家、政治家。爵位は男爵。号は龍山。新字体で徳川 厚（とくがわ あつし）とも表記される。東明火災海上保険株式会社取締役、貴族院議員などを歴任した。",
             "id": "徳川厚",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Atsushi_Tokugawa.jpg?width=300",
             "label": "徳川厚",
@@ -361,6 +366,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "大川 平三郎（おおかわ へいざぶろう、万延元年10月25日（1860年12月7日） - 1936年（昭和11年）12月30日）は、明治から昭和初期の実業家。「日本の製紙王」と呼ばれ、「大川財閥」を築いた。江戸時代の剣豪で農民の出ながら武蔵国川越藩の剣術師範となった大川平兵衛は平三郎の祖父にあたる。",
             "id": "大川平三郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Heizaburo_ohkawa.jpg?width=300",
             "label": "大川平三郎",
@@ -391,6 +397,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "渡邊 嘉一（わたなべ かいち、1858年3月22日（安政5年2月8日） - 1932年12月4日）は日本の土木技術者、実業家。日本土木史の父と呼ばれる。旧姓、宇治橋。",
             "id": "渡邊嘉一",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Watanabe_Kaichi.jpg?width=300",
             "label": "渡邊嘉一",
@@ -431,6 +438,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "清水 泰（しみず ゆたか、1896年(明治29年) - 1969年(昭和44年)9月13日）は、国文学者。山梨県生まれ。1925年京都帝国大学（現・京都大学）文学部国文科卒。龍谷大学教授、立命館大学教授。1964年退任、名誉教授。1962年「継子物語の研究」で京都大学文学博士。",
             "id": "清水泰",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "清水泰",
@@ -441,6 +449,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "井上 角五郎（いのうえ かくごろう、万延元年10月18日（1860年11月30日） - 昭和13年（1938年）9月23日）は、日本の実業家、政治家。東京府平民。 壬午事変後に朝鮮政府の顧問となり、朝鮮初の近代新聞「漢城旬報」を発刊。また初めて漢文・ハングル混合文体を実用化した「漢城周報」を創刊。甲申政変に深く関与し、金玉均・朴泳孝と関係を持った。第1回の帝国議会衆議院議員に当選以来連続当選14回、第47回まで14回代議士を務める。北海道炭礦鉄道社長、日本製鋼所設立者、会長、国民工業学院理事長、慶應義塾評議員等を歴任し、大正9年（1920年）緑綬褒章下賜。京釜鉄道、南満州鉄道の設立にも関わった。号は閔妃の実甥・閔泳翊から贈られた琢園。",
             "id": "井上角五郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kakugoro_Inoue.jpg?width=300",
             "label": "井上角五郎",
@@ -451,6 +460,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "安達 憲忠（あだち けんちゅう/のりただ、安政4年8月3日（1857年9月20日） - 昭和5年（1930年）12月2日）は、備前国赤坂郡小野田村（現・赤磐市熊山町）出身の社会実業家。東京市養育院幹事。",
             "id": "安達憲忠",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adachi_Noritada.jpg?width=300",
             "label": "安達憲忠",
@@ -461,6 +471,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "市原 盛宏（いちはら もりひろ、安政5年4月5日（1858年5月17日） - 大正4年（1915年）10月4日）は日本の銀行家、政治家。肥後国（現熊本県）生まれ。1879年同志社英学校を卒業後、同志社で教鞭をとる。また市原は新島襄を校内で補佐し、新島の二度の欧米旅行中、校内で社長代理を務めた。学生の指導に関しては新島と市原は好対照で、市原はあくまでも高圧的で、「学生は教師にはだまって服従すべきもの。批判はけしからぬ」と市原が言い放って学生に怒りを買っていた。こうした高姿勢に対して反発を強めたのが、徳富蘇峰である。学生のストが生じるが、新島襄の自責の杖事件でひとまず収拾を見た。のちに東華学校で教鞭をとる。留学を経て、同志社に復帰した。この間、小崎弘道の社長代理を務めた。1895年、日本銀行に入行。第一銀行横浜支店長、横浜市長を歴任した後、朝鮮銀行初代総裁に就任。現職のまま、京城で死去。葬儀はキリスト教式によって行われた。",
             "id": "市原盛宏",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichihara_Morihiro.jpg?width=300",
             "label": "市原盛宏",
@@ -471,6 +482,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "大江 卓（おおえ たく、弘化4年9月25日（1847年11月2日） - 大正10年（1921年）9月21日）は日本の政治家・実業家。土佐国幡多郡柏島（現在の大月町）出身。幼名は秀馬、斎原治一郎。後藤象二郎は義父にあたり、妻は後藤象二郎次女、小苗。",
             "id": "大江卓",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oe_Taku.jpg?width=300",
             "label": "大江卓",
@@ -481,6 +493,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "尾崎 三良（おざき さぶろう、天保13年1月22日（1842年3月3日）- 大正7年（1918年）10月13日）は、日本の官僚。男爵。諱は盛茂、別名・戸田 雅楽（とだ うた）。京都郊外の西院村で代々里長を務める家に生まれる。「憲政の神様」と呼ばれた明治・大正・昭和にわたって活動した政治家・尾崎行雄は女婿にあたる。",
             "id": "尾崎三良",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ozaki_Saburō.jpg?width=300",
             "label": "尾崎三良",
@@ -491,6 +504,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "日下義雄（くさか よしお、嘉永4年12月25日（1852年1月16日） - 大正12年（1923年）3月18日）は、明治から大正時代の政治家、実業家。",
             "id": "日下義雄",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kusaka_Yoshio.jpg?width=300",
             "label": "日下義雄",
@@ -501,6 +515,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "大倉 喜八郎（おおくら きはちろう、天保8年9月24日（1837年10月23日） - 昭和3年（1928年）4月22日）は、明治・大正期に貿易、建設、化学、製鉄、繊維、食品などの企業を数多く興した日本の実業家、中堅財閥である大倉財閥の設立者。渋沢栄一らと共に、鹿鳴館、帝国ホテル、帝国劇場などを設立。東京経済大学の前身である大倉商業学校の創設者でもある。従三位男爵。号は鶴彦。",
             "id": "大倉喜八郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kihachiro_Okura_cropped.jpg?width=300",
             "label": "大倉喜八郎",
@@ -561,6 +576,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。",
             "id": "成瀬仁蔵",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
             "label": "成瀬仁蔵",
@@ -601,6 +617,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "田中 太郎（たなか たろう）田中太郎 (事業家) (1870-1932) - 社会事業家。田中太郎 (画家) - 昭和期の画家。田中太郎 (彫刻家) (1911-1992) - 彫刻家。田中太郎 (ジャーナリスト) - 『日経ビジネス』副編集長。プロフィール。田中太郎 (声優) - 声優。11月14日生まれ。福岡県出身。以前は、青二プロダクションに所属していた。うちゅう人 田中太郎 - ながとしやすなりの漫画。 __DISAMBIG__",
             "id": "田中太郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "田中太郎",
@@ -611,6 +628,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "穂積 陳重（ほづみ のぶしげ、1855年8月23日（安政2年7月11日） - 1926年（大正15年）4月7日）は、明治から大正期の日本の法学者。日本初の法学博士の一人。東京帝国大学法学部長。英吉利法律学校（中央大学の前身）の創立者の一人。貴族院議員（勅選）。男爵。枢密院議長。勲一等旭日桐花大綬章。現在の愛媛県宇和島市出身。",
             "id": "穂積陳重",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_the_late_Nobushige_Hozumi.jpg?width=300",
             "label": "穂積陳重",
@@ -621,6 +639,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "前島 密（まえじま ひそか、天保6年1月7日（1835年2月4日） - 大正8年（1919年）4月27日）は、日本の官僚、政治家。号は「鴻爪（こうそう）」。日本の近代郵便制度の創設者の一人で1円切手の肖像で知られる。「郵便」や「切手」、「葉書」という名称を定めた。その功績から「郵便制度の父」と呼ばれる。前島は晩年を別荘「如々山荘」で過ごした。この別荘は三浦半島西海岸にある浄土宗寺院、浄楽寺の境内にあった。前島夫妻の墓所も浄楽寺境内にある。郵政民営化を断行した小泉純一郎の選挙区（神奈川県第11区）内である。",
             "id": "前島密",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hisoka_Maejima_01.jpg?width=300",
             "label": "前島密",
@@ -631,6 +650,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "description": "清水 一雄（しみず かずお、1962年1月25日 - ）は、日本のギタリスト、作曲家、編曲家、サウンドプロデューサーである。オフィス・マキノに所属している。",
             "id": "清水一雄",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "清水一雄",

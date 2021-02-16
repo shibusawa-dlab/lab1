@@ -12,6 +12,8 @@ for obj in all:
     if "http://schema.org/image" in obj:
         e["image"] = obj["http://schema.org/image"][0]["@id"]
 
+    if "http://schema.org/description" in obj:
+        e["description"] = obj["http://schema.org/description"][0]["@value"]
 
 json_open = open("data/index.json", 'r')
 df = json.load(json_open)
@@ -51,6 +53,9 @@ for obj in df:
                         "border" : "lightgreen"
                     }
                 }
+
+            if a in allMap and "description" in allMap[a]:
+                nodes[a]["description"] = allMap[a]["description"]
 
         es.append(a)
 
