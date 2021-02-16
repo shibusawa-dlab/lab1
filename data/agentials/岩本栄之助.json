@@ -1,0 +1,48 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "明石照男",
+            "to": "脇田勇",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "明石照男",
+            "to": "田中太郎",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "明石照男",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "明石照男",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "脇田勇",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "脇田勇",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "田中太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中太郎",
+            "shape": "image"
+        }
+    ]
+}

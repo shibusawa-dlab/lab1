@@ -1,0 +1,186 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "大江卓",
+            "to": "竹内綱",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "大江卓",
+            "to": "足立太郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "大江卓",
+            "to": "尾高次郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "梅浦精一",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "添田壽一",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "佐々木勇之助",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "佐々木清麿",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "清水泰",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "八十島親徳",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "ナリキ",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "大江卓",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oe_Taku.jpg?width=300",
+            "label": "大江卓",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "市原盛宏",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichihara_Morihiro.jpg?width=300",
+            "label": "市原盛宏",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "竹内綱",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuna_Takeuchi.jpg?width=300",
+            "label": "竹内綱",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "足立太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "足立太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "尾高次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "尾高次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "佐々木清麿",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木清麿",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "佐々木勇之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木勇之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "梅浦精一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "梅浦精一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "添田壽一",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Juichi_Soyeda.jpg?width=300",
+            "label": "添田壽一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "清水泰",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "清水泰",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "八十島親徳",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "八十島親徳",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "ナリキ",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "ナリキ",
+            "shape": "image"
+        }
+    ]
+}

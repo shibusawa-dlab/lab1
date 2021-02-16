@@ -1,0 +1,180 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "阪谷芳郎",
+            "to": "梅浦精一",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "阪谷芳郎",
+            "to": "内田康哉",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "瓜生震",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "吉川三次郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "萩原源太郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "浅野総一郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "佐々木清麿",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "大江卓",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "福地源一郎",
+            "to": "江間政",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "阪谷芳郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoshiro_Sakatani.jpg?width=300",
+            "label": "阪谷芳郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "足立太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "足立太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "福地源一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Genichiro_Fukuchi_3.jpg?width=300",
+            "label": "福地源一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "瓜生震",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "瓜生震",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "萩原源太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "萩原源太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "大江卓",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oe_Taku.jpg?width=300",
+            "label": "大江卓",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "梅浦精一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "梅浦精一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "内田康哉",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kosai_Uchida.jpg?width=300",
+            "label": "内田康哉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "吉川三次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "吉川三次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "佐々木清麿",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木清麿",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "江間政",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "江間政",
+            "shape": "image"
+        }
+    ]
+}

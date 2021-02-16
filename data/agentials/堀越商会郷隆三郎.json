@@ -1,0 +1,202 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "田中太郎",
+            "to": "横山徳次郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中太郎",
+            "to": "明石照男",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中太郎",
+            "to": "植村澄",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "前川益",
+            "to": "浅野総一郎",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "西村勝三",
+            "to": "八十島親徳",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "萩原源太郎",
+            "to": "八十島親徳",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "萩原源太郎",
+            "to": "足立太郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "萩原源太郎",
+            "to": "梅浦精一",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "萩原源太郎",
+            "to": "植村澄",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "萩原源太郎",
+            "to": "安達憲忠",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "萩原源太郎",
+            "to": "豊川良平",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "田中太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "前川益",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "前川益",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "西村勝三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "西村勝三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "萩原源太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "萩原源太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "安達憲忠",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adachi_Noritada.jpg?width=300",
+            "label": "安達憲忠",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "八十島親徳",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "八十島親徳",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "横山徳次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "横山徳次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "明石照男",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "明石照男",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "梅浦精一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "梅浦精一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "植村澄",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "植村澄",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "足立太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "足立太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "豊川良平",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TOYOKAWA_Ryohei.jpg?width=300",
+            "label": "豊川良平",
+            "shape": "image"
+        }
+    ]
+}

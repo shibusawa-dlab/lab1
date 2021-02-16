@@ -1,0 +1,132 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "原六郎",
+            "to": "前島密",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "渡邊嘉一",
+            "to": "浅野総一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "渡邊嘉一",
+            "to": "岸精一",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "皆川四郎",
+            "to": "梅浦精一",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "皆川四郎",
+            "to": "八十島親徳",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "皆川四郎",
+            "to": "岡本善七",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "原六郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Private_school_Seikei_Shoin_Yabu_Hyogo.jpg?width=300",
+            "label": "原六郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "渡邊嘉一",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Watanabe_Kaichi.jpg?width=300",
+            "label": "渡邊嘉一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "皆川四郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "皆川四郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "梅浦精一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "梅浦精一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "前島密",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hisoka_Maejima_01.jpg?width=300",
+            "label": "前島密",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "岸精一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "岸精一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "八十島親徳",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "八十島親徳",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "岡本善七",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "岡本善七",
+            "shape": "image"
+        }
+    ]
+}

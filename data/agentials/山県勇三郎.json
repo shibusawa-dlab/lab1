@@ -1,0 +1,100 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "薄井佳久",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "成瀬仁蔵",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "井上準之助",
+            "to": "添田敬一郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "ナリキ",
+            "to": "市原盛宏",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "郷誠之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Seinosuke_Go.jpg?width=300",
+            "label": "郷誠之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "薄井佳久",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "薄井佳久",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "井上準之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inoue_Junnosuke_1-2.jpg?width=300",
+            "label": "井上準之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "ナリキ",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "ナリキ",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "成瀬仁蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
+            "label": "成瀬仁蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "添田敬一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Soeda_Keiichiro.jpg?width=300",
+            "label": "添田敬一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "市原盛宏",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichihara_Morihiro.jpg?width=300",
+            "label": "市原盛宏",
+            "shape": "image"
+        }
+    ]
+}

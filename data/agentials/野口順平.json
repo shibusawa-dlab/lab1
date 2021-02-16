@@ -1,0 +1,32 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "青柳有美",
+            "to": "成瀬仁蔵",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "青柳有美",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aoyagi_Yubi.JPG?width=300",
+            "label": "青柳有美",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "成瀬仁蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
+            "label": "成瀬仁蔵",
+            "shape": "image"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "阪谷琴子",
+            "to": "穂積歌子",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "阪谷琴子",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "阪谷琴子",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "穂積歌子",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "穂積歌子",
+            "shape": "image"
+        }
+    ]
+}

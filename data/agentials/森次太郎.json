@@ -1,0 +1,48 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "穂積陳重",
+            "to": "尾高次郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "穂積陳重",
+            "to": "脇田勇",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "穂積陳重",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_the_late_Nobushige_Hozumi.jpg?width=300",
+            "label": "穂積陳重",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "尾高次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "尾高次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "脇田勇",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "脇田勇",
+            "shape": "image"
+        }
+    ]
+}

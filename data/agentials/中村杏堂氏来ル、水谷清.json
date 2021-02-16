@@ -1,0 +1,32 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "鈴木文治",
+            "to": "成瀬仁蔵",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "鈴木文治",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bunji_Suzuki.jpg?width=300",
+            "label": "鈴木文治",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "成瀬仁蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
+            "label": "成瀬仁蔵",
+            "shape": "image"
+        }
+    ]
+}

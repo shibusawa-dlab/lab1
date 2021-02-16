@@ -1,0 +1,32 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "池田謙三",
+            "to": "豊川良平",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "池田謙三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "池田謙三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "豊川良平",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TOYOKAWA_Ryohei.jpg?width=300",
+            "label": "豊川良平",
+            "shape": "image"
+        }
+    ]
+}

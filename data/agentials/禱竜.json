@@ -1,0 +1,186 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "阪谷芳郎",
+            "to": "梅浦精一",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "阪谷芳郎",
+            "to": "内田康哉",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "宇野保太郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "佐々木勇之助",
+            "value": 8
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "尾崎三良",
+            "value": 8
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "竹内綱",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "清水泰",
+            "to": "佐々木勇之助",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "清水泰",
+            "to": "市原盛宏",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "清水泰",
+            "to": "八十島親徳",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "清水泰",
+            "to": "浅野総一郎",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "阪谷芳郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoshiro_Sakatani.jpg?width=300",
+            "label": "阪谷芳郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "日下義雄",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kusaka_Yoshio.jpg?width=300",
+            "label": "日下義雄",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "清水泰",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "清水泰",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "梅浦精一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "梅浦精一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "尾崎三良",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ozaki_Saburō.jpg?width=300",
+            "label": "尾崎三良",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "佐々木勇之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木勇之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "市原盛宏",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichihara_Morihiro.jpg?width=300",
+            "label": "市原盛宏",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "八十島親徳",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "八十島親徳",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "内田康哉",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kosai_Uchida.jpg?width=300",
+            "label": "内田康哉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "竹内綱",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuna_Takeuchi.jpg?width=300",
+            "label": "竹内綱",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "宇野保太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "宇野保太郎",
+            "shape": "image"
+        }
+    ]
+}

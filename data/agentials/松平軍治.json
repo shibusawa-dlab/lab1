@@ -1,0 +1,122 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "江間政",
+            "to": "福地源一郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "穂積陳重",
+            "to": "尾高次郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "穂積陳重",
+            "to": "脇田勇",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "松下軍治",
+            "to": "成瀬仁蔵",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "松下軍治",
+            "to": "松下軍次",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "松下軍治",
+            "to": "脇田勇",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "江間政",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "江間政",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "穂積陳重",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_the_late_Nobushige_Hozumi.jpg?width=300",
+            "label": "穂積陳重",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "松下軍治",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "松下軍治",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "福地源一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Genichiro_Fukuchi_3.jpg?width=300",
+            "label": "福地源一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "成瀬仁蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
+            "label": "成瀬仁蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "尾高次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "尾高次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "脇田勇",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "脇田勇",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "松下軍次",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "松下軍次",
+            "shape": "image"
+        }
+    ]
+}

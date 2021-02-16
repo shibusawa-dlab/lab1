@@ -1,0 +1,48 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "添田壽一",
+            "to": "市原盛宏",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "添田壽一",
+            "to": "植村澄",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "添田壽一",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Juichi_Soyeda.jpg?width=300",
+            "label": "添田壽一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "市原盛宏",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichihara_Morihiro.jpg?width=300",
+            "label": "市原盛宏",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "植村澄",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "植村澄",
+            "shape": "image"
+        }
+    ]
+}

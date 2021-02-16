@@ -1,0 +1,348 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "中野武営",
+            "to": "馬越恭平",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "中野武営",
+            "to": "成瀬仁蔵",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "中野武営",
+            "to": "畑弥右衛門",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "伊藤伝七",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "安達憲忠",
+            "value": 8
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "竹内綱",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "諸井恒平",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "浅野総一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "郷誠之助",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "松下軍次",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "松下軍治",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "川田鉄弥",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "植村澄",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "井口正之",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "畑弥右衛門",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "横山徳次郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "鈴木文治",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "成瀬仁蔵",
+            "to": "青柳有美",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "松下軍治",
+            "to": "松下軍次",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "松下軍治",
+            "to": "脇田勇",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "薄井佳久",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川厚",
+            "to": "竹内綱",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "中野武営",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakano_Takenaka.jpg?width=300",
+            "label": "中野武営",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "成瀬仁蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
+            "label": "成瀬仁蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "松下軍治",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "松下軍治",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "郷誠之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Seinosuke_Go.jpg?width=300",
+            "label": "郷誠之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "徳川厚",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Atsushi_Tokugawa.jpg?width=300",
+            "label": "徳川厚",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "馬越恭平",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MAGOSHI_Kyohei.jpg?width=300",
+            "label": "馬越恭平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "脇田勇",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "脇田勇",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "川田鉄弥",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "川田鉄弥",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "諸井恒平",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "諸井恒平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "植村澄",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "植村澄",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "畑弥右衛門",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "畑弥右衛門",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "横山徳次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "横山徳次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "安達憲忠",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adachi_Noritada.jpg?width=300",
+            "label": "安達憲忠",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "伊藤伝七",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "伊藤伝七",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "竹内綱",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuna_Takeuchi.jpg?width=300",
+            "label": "竹内綱",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "松下軍次",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "松下軍次",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "井口正之",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井口正之",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "鈴木文治",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bunji_Suzuki.jpg?width=300",
+            "label": "鈴木文治",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "青柳有美",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aoyagi_Yubi.JPG?width=300",
+            "label": "青柳有美",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "薄井佳久",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "薄井佳久",
+            "shape": "image"
+        }
+    ]
+}

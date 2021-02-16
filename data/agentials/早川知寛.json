@@ -1,0 +1,64 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "薄井佳久",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "成瀬仁蔵",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "鈴木文治",
+            "to": "成瀬仁蔵",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "郷誠之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Seinosuke_Go.jpg?width=300",
+            "label": "郷誠之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "鈴木文治",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bunji_Suzuki.jpg?width=300",
+            "label": "鈴木文治",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "薄井佳久",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "薄井佳久",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "成瀬仁蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
+            "label": "成瀬仁蔵",
+            "shape": "image"
+        }
+    ]
+}

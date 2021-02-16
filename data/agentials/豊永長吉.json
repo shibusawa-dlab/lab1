@@ -1,0 +1,128 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "大倉喜八郎",
+            "to": "井上角五郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "大倉喜八郎",
+            "to": "渋沢成一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "大倉喜八郎",
+            "to": "浅野総一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "平岡熙",
+            "to": "浅野総一郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "平岡熙",
+            "to": "瓜生震",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "平岡熙",
+            "to": "奥田正香",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "平岡熙",
+            "to": "安達憲忠",
+            "value": 5
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "大倉喜八郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kihachiro_Okura_cropped.jpg?width=300",
+            "label": "大倉喜八郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "平岡熙",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "平岡熙",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "井上角五郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kakugoro_Inoue.jpg?width=300",
+            "label": "井上角五郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "渋沢成一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Seiichiro_Sibusawa.jpg?width=300",
+            "label": "渋沢成一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "瓜生震",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "瓜生震",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "奥田正香",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "奥田正香",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "id": "安達憲忠",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adachi_Noritada.jpg?width=300",
+            "label": "安達憲忠",
+            "shape": "image"
+        }
+    ]
+}
