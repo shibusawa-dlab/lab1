@@ -60,10 +60,13 @@
               <v-divider />
 
               <v-card-actions>
-                <v-btn icon color="primary" @click="dialog = !dialog"
-                  ><v-icon>{{
+                <v-btn color="success" @click="dialog = !dialog"
+                  ><v-icon class="mr-2">{{
                     dialog ? 'mdi-file' : 'mdi-account-network'
-                  }}</v-icon></v-btn
+                  }}</v-icon
+                  >{{
+                    dialog ? 'つながりを一覧する' : 'ネットワークをみる'
+                  }}</v-btn
                 >
                 <v-spacer></v-spacer>
                 <ResultOption
@@ -121,7 +124,6 @@
 
               <v-card-actions>
                 <v-btn
-                  icon
                   color="primary"
                   :to="
                     localePath({
@@ -131,7 +133,8 @@
                       },
                     })
                   "
-                  ><v-icon>mdi-account-network</v-icon></v-btn
+                  ><v-icon class="mr-2">mdi-account-network</v-icon>
+                  ネットワークをみる</v-btn
                 >
                 <v-spacer></v-spacer>
                 <ResultOption
@@ -192,6 +195,7 @@
             :options="options"
             style="height: 800px; background-color: #f0f4c3"
             @click="onNodeSelected"
+            @stabilized="stabilized"
           >
           </network>
           <v-row v-show="!dialog" dense>
@@ -342,6 +346,10 @@ export default class about extends Vue {
     edges: {
       color: 'orange',
     },
+    physics: {
+      enabled: true,
+    },
+    layout: { randomSeed: 2 },
   }
 
   item2: any = {
@@ -489,6 +497,10 @@ export default class about extends Vue {
     } else {
       this.otherId = ''
     }
+  }
+
+  stabilized() {
+    this.options.physics.enabled = false
   }
 
   head() {

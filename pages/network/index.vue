@@ -10,9 +10,32 @@
       </v-container>
     </v-sheet>
     <v-container class="py-5">
-      <div class="text-right">
-        <small>{{ '同一の日記に3回以上共起する人物ネットワーク' }}</small>
-      </div>
+      <v-row>
+        <v-col
+          ><v-btn
+            v-show="otherId"
+            color="primary"
+            :to="
+              localePath({
+                name: 'network-id',
+                params: {
+                  id: otherId,
+                },
+              })
+            "
+            ><v-icon class="mr-2">mdi-account-network</v-icon>
+            {{ otherId }}のネットワークをみる</v-btn
+          ></v-col
+        >
+        <v-col>
+          <div class="text-right">
+            <v-chip label>{{
+              '同一の日記に3回以上共起する人物ネットワーク'
+            }}</v-chip>
+          </div>
+        </v-col>
+      </v-row>
+
       <network
         ref="network"
         class="mt-5"
@@ -21,6 +44,7 @@
         :options="options"
         style="height: 800px; background-color: #f0f4c3"
         @click="onNodeSelected"
+        @stabilized="stabilized"
       >
       </network>
     </v-container>
@@ -55,6 +79,10 @@ export default class about extends Vue {
     edges: {
       color: 'lightgray',
     },
+    physics: {
+      enabled: true,
+    },
+    layout: { randomSeed: 2 },
   }
 
   get bh(): any[] {
@@ -87,11 +115,14 @@ export default class about extends Vue {
     this.nodesMap = nodesMap
   }
 
+  otherId = ''
+
   onNodeSelected(value: any) {
     const nodes = value.nodes
     if (nodes.length > 0) {
       const node = this.nodesMap[nodes[0]]
 
+      /*
       this.$router.push(
         this.localePath({
           name: 'network-id',
@@ -100,6 +131,8 @@ export default class about extends Vue {
           },
         })
       )
+      */
+      this.otherId = node.label
 
       /*
       const routeData = this.$router.resolve(
@@ -123,6 +156,10 @@ export default class about extends Vue {
 
       // window.open(routeData.href /*, '_blank' */)
     }
+  }
+
+  stabilized() {
+    this.options.physics.enabled = false
   }
 
   head() {
