@@ -230,7 +230,7 @@ def setNijl(subject, all, map, prefix):
         stmt = (subject, URIRef("http://schema.org/url"), URIRef(url))
         all.add(stmt)
 
-        stmt = (subject, URIRef("http://schema.org/associatedMedia"), URIRef("https://shibusawa-dlab.github.io/lab1/iiif/{}/manifest.json".format(url.split("/")[-1])))
+        stmt = (subject, URIRef("http://schema.org/associatedMedia"), URIRef("https://shibusawa-dlab.github.io/lab1/iiif/{}/manifest.json".format(str(subject).split("/")[-1])))
         all.add(stmt)
 
     stmt = (subject, URIRef("http://schema.org/provider"), Literal(map["own2"]))

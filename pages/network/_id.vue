@@ -12,7 +12,8 @@
     <v-container fluid class="py-5">
       <v-row dense>
         <v-col cols="12" :sm="3">
-          <v-card flat outlined>
+          <!-- Main -->
+          <v-card flat outlined class="mb-5">
             <v-img
               v-if="
                 nodesMap[$route.params.id] && nodesMap[$route.params.id].image
@@ -60,7 +61,7 @@
               <v-divider />
 
               <v-card-actions>
-                <v-btn color="success" @click="dialog = !dialog"
+                <v-btn color="success" @click="toggle()"
                   ><v-icon class="mr-2">{{
                     dialog ? 'mdi-file' : 'mdi-account-network'
                   }}</v-icon
@@ -81,7 +82,7 @@
 
           <!-- Other -->
 
-          <v-card v-if="otherId" flat outlined class="mt-5">
+          <v-card v-if="otherId" flat outlined class="mb-5">
             <v-img
               v-if="nodesMap[otherId] && nodesMap[otherId].image"
               :src="nodesMap[otherId].image"
@@ -201,7 +202,7 @@
           <v-row v-show="!dialog" dense>
             <v-col cols="12" sm="9">
               <div
-                class="grey lighten-2"
+                class="grey lighten-2 mb-5"
                 style="height: 850px; overflow-y: auto"
               >
                 &nbsp;
@@ -260,6 +261,18 @@
                           <small>（{{ item2.objectID }}）</small></nuxt-link
                         >
                       </h4>
+                      <div
+                        style="max-height: 200px; overflow-y: auto"
+                        class="mb-2"
+                        v-html="
+                          highlightRelation(
+                            $utils.removeHead(
+                              $utils.xml2html(item2._highlightResult.xml.value)
+                            ),
+                            item.key
+                          )
+                        "
+                      ></div>
                       <v-divider />
                     </div>
 
@@ -282,7 +295,7 @@
               ><v-sheet class="grey lighten-3 pa-2"
                 ><h3><v-icon>mdi-view-list</v-icon> つながり一覧</h3></v-sheet
               >
-              <v-list dense style="height: 800px; overflow-y: auto">
+              <v-list dense style="max-height: 800px; overflow-y: auto">
                 <v-list-item
                   v-for="item in items"
                   :key="item.key"
@@ -410,6 +423,11 @@ export default class about extends Vue {
   async created() {
     const id = this.$route.params.id
 
+    const mode = this.$route.query.mode
+    if (mode === 'list') {
+      this.dialog = !this.dialog
+    }
+
     let results: any = await axios.get(
       this.baseUrl + '/data/agentials/' + id + '.json'
     )
@@ -510,6 +528,46 @@ export default class about extends Vue {
     return {
       title,
     }
+  }
+
+  highlightRelation(xml: any, other: string) {
+    xml = String(xml).replace(/<[^>]*>?/gm, '')
+    xml = xml
+      .split(other)
+      .join(
+        '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
+          other +
+          '</span>'
+      )
+
+    const id = this.$route.params.id
+    xml = xml
+      .split(id)
+      .join(
+        '<span style="font-size : large; font-weight: bold; background-color: #FFF59D;">' +
+          id +
+          '</span>'
+      )
+
+    return xml
+  }
+
+  toggle() {
+    this.dialog = !this.dialog
+
+    const mode = this.dialog ? 'network' : 'list'
+
+    this.$router.push(
+      this.localePath({
+        name: 'network-id',
+        params: {
+          id: this.$route.params.id,
+        },
+        query: {
+          mode,
+        },
+      })
+    )
   }
 }
 </script>
