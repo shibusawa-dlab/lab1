@@ -260,6 +260,9 @@
                           >{{ item2.label }}
                           <small>（{{ item2.objectID }}）</small></nuxt-link
                         >
+                        <small
+                          ><b>{{ item2.temporal }}</b></small
+                        >
                       </h4>
                       <div
                         style="max-height: 200px; overflow-y: auto"
