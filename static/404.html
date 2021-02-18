@@ -1,7 +1,7 @@
 <html>
 <head>
   <script>
-    var pathName = window.location.pathname;
+    var pathName = window.location.pathname + window.location.search;
     var repository = "lab1/"
     if(pathName.includes("/api/")){
       var base = window.location.protocol + "//"+ window.location.host
