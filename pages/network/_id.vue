@@ -373,10 +373,11 @@ export default class about extends Vue {
         _thumbnail: ['mdi-account'],
         _label: [this.$route.params.id],
         _url: [
-          this.localePath({
-            name: 'entity-entity-id',
-            params: { entity: 'agential', id: this.$route.params.id },
-          }),
+          this.baseUrl +
+            this.localePath({
+              name: 'entity-entity-id',
+              params: { entity: 'agential', id: this.$route.params.id },
+            }),
         ],
       },
     }

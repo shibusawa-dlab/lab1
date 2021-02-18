@@ -163,7 +163,7 @@ for id in sorted(data_map):
         "@type": "sc:Manifest",
         "attribution": "国文学研究資料館",
         "label": soup.find(class_="infolib_section").text.strip(),
-        "license": "http://base1.nijl.ac.jp/~jituhaku/",
+        "license": "http://creativecommons.org/licenses/by-sa/4.0/",
         "metadata": metadata,
         "thumbnail" : thumbnail,
         "related": {
