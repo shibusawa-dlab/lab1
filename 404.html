@@ -8,7 +8,8 @@
       location.href = base+"/"+repository+"snorql/?describe="+encodeURI((base + pathName))
     } else {
       var redirectPath = '/'+repository+'redirect';
-      location.href = redirectPath + '?p=' + encodeURI(pathName);
+      console.log(redirectPath + '?p=' + encodeURI(pathName))
+      //location.href = redirectPath + '?p=' + encodeURI(pathName);
     }
   </script>
 </head>
