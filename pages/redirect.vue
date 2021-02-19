@@ -11,7 +11,8 @@ export default {
       return redirect('/')
     }
     const redirectPath = '/' + param.replace(base, '')
-    return redirect(redirectPath)
+    console.log({ redirectPath })
+    // return redirect(redirectPath)
   },
 }
 </script>
