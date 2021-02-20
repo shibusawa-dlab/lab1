@@ -10,6 +10,10 @@
       </v-container>
     </v-sheet>
     <v-container fluid class="py-5">
+      <h2>{{ title }}</h2>
+      <p class="mt-2">
+        同一の日記に3回以上登場する人物を繋げています。正確な関連性を知るためには、「つながりを表すアイテム」から本文をご覧ください。ノードをダブルクリックすることで、当該人物のネットワークに遷移します。
+      </p>
       <v-row dense>
         <v-col cols="12" :sm="3">
           <!-- Main -->
@@ -69,6 +73,12 @@
                     dialog ? 'つながりを一覧する' : 'ネットワークをみる'
                   }}</v-btn
                 >
+                <v-btn
+                  v-if="dialog"
+                  color="primary"
+                  @click="select($route.params.id)"
+                  >{{ 'フォーカス' }}</v-btn
+                >
                 <v-spacer></v-spacer>
                 <ResultOption
                   :item="{
@@ -124,19 +134,21 @@
               <v-divider />
 
               <v-card-actions>
-                <v-btn
-                  color="primary"
-                  :to="
-                    localePath({
-                      name: 'network-id',
-                      params: {
-                        id: otherId,
-                      },
-                    })
-                  "
-                  ><v-icon class="mr-2">mdi-account-network</v-icon>
-                  ネットワークをみる</v-btn
-                >
+                <template v-if="false">
+                  <v-btn
+                    color="primary"
+                    :to="
+                      localePath({
+                        name: 'network-id',
+                        params: {
+                          id: otherId,
+                        },
+                      })
+                    "
+                    ><v-icon class="mr-2">mdi-account-network</v-icon>
+                    ネットワークをみる</v-btn
+                  >
+                </template>
                 <v-spacer></v-spacer>
                 <ResultOption
                   :item="{
@@ -188,19 +200,45 @@
           </p>
         </v-col>
         <v-col cols="12" :sm="9">
-          <network
-            v-show="dialog"
-            ref="network"
-            :nodes="nodes"
-            :edges="edges"
-            :options="options"
-            style="height: 800px; background-color: #f0f4c3"
-            @click="onNodeSelected"
-            @stabilized="stabilized"
-          >
-          </network>
-          <v-row v-show="!dialog" dense>
-            <v-col cols="12" sm="9">
+          <v-row v-show="dialog">
+            <v-col cols="12" :sm="9">
+              <network
+                ref="network"
+                :nodes="network.nodes"
+                :edges="network.edges"
+                :options="network.options"
+                style="height: 800px; background-color: #f0f4c3"
+                @click="onNodeSelected"
+                @double-click="aaa"
+                @stabilized="stabilized"
+              >
+              </network>
+            </v-col>
+            <v-col cols="12" :sm="3">
+              <v-sheet class="grey lighten-3 pa-2"
+                ><h3><v-icon>mdi-view-list</v-icon> 人物一覧</h3></v-sheet
+              >
+              <v-list dense style="max-height: 800px; overflow-y: auto">
+                <v-list-item
+                  v-for="(item, key) in nodesMap"
+                  :key="key"
+                  @click="select(key)"
+                >
+                  <v-list-item-avatar>
+                    <v-img :src="item.image"></v-img>
+                  </v-list-item-avatar>
+
+                  <v-list-item-content>
+                    <v-list-item-title v-text="key"></v-list-item-title>
+                  </v-list-item-content>
+                </v-list-item>
+              </v-list>
+            </v-col>
+          </v-row>
+
+          <v-row v-show="!dialog" dense class="mt-0">
+            <v-col cols="12" sm="9" class="pt-0">
+              <!-- 一覧 -->
               <div
                 class="grey lighten-2 mb-5"
                 style="height: 850px; overflow-y: auto"
@@ -294,7 +332,7 @@
                 </v-card>
               </div></v-col
             >
-            <v-col cols="12" sm="3"
+            <v-col cols="12" sm="3" class="pt-0"
               ><v-sheet class="grey lighten-3 pa-2"
                 ><h3><v-icon>mdi-view-list</v-icon> つながり一覧</h3></v-sheet
               >
@@ -330,19 +368,19 @@ import { Vue, Component } from 'nuxt-property-decorator'
 import algoliasearch from 'algoliasearch'
 import config from '@/plugins/algolia.config.js'
 import axios from 'axios'
+import ResultOption from '~/components/display/ResultOption.vue'
 const { Network } = require('vue-vis-network')
 
 @Component({
   components: {
     network: Network,
+    ResultOption,
   },
 })
 export default class about extends Vue {
   baseUrl: any = process.env.BASE_URL
 
-  nodes: any = []
   nodesMap: any = {}
-  edges: any = []
 
   dialog: boolean = true
 
@@ -352,21 +390,36 @@ export default class about extends Vue {
 
   documents: any = {}
 
-  options: any = {
-    nodes: {
-      // borderWidth: 4,
-      shapeProperties: {
-        useBorderWithImage: true,
+  network: any = {
+    nodes: [],
+    edges: [],
+    options: {
+      nodes: {
+        color: {
+          background: 'lightgray',
+          highlight: {
+            background: 'lightgray',
+            border: '#FF6E00',
+          },
+        },
+        borderWidth: 4,
+        borderWidthSelected: 4,
+        shapeProperties: {
+          useBorderWithImage: true,
+        },
       },
-      color: 'lightgray',
+      edges: {
+        color: 'orange',
+      },
+      physics: {
+        enabled: true,
+        stabilization: {
+          enabled: true,
+          iterations: 20,
+        },
+      },
+      layout: { randomSeed: 2 },
     },
-    edges: {
-      color: 'orange',
-    },
-    physics: {
-      enabled: true,
-    },
-    layout: { randomSeed: 2 },
   }
 
   item2: any = {
@@ -435,14 +488,17 @@ export default class about extends Vue {
       this.baseUrl + '/data/agentials/' + id + '.json'
     )
 
-    this.nodes = results.data.nodes
-    this.edges = results.data.edges
+    const nodes = results.data.nodes
+
+    this.network.edges = results.data.edges
 
     const nodesMap: any = {}
-    for (let i = 0; i < results.data.nodes.length; i++) {
-      const node = results.data.nodes[i]
+    for (let i = 0; i < nodes.length; i++) {
+      const node = nodes[i]
       nodesMap[node.id] = node
     }
+
+    this.network.nodes = nodes
 
     const map: any = {}
 
@@ -495,6 +551,9 @@ export default class about extends Vue {
     }
 
     this.documents = documents
+
+    const network: any = this.$refs.network
+    network.selectNodes([this.$route.params.id])
   }
 
   onNodeSelected(value: any) {
@@ -522,8 +581,65 @@ export default class about extends Vue {
     }
   }
 
+  aaa(value: any) {
+    const nodes = value.nodes
+    if (nodes.length > 0) {
+      const node = this.nodesMap[nodes[0]].id
+
+      /*
+      this.$router.push(
+        this.localePath({
+          name: 'network-id',
+          params: {
+            id: node,
+          },
+        })
+      )
+      */
+      if (node !== this.$route.params.id) {
+        // this.otherId = node
+
+        this.$router.push(
+          this.localePath({
+            name: 'network-id',
+            params: {
+              id: node,
+            },
+          })
+        )
+      } else {
+        this.otherId = ''
+      }
+    } else {
+      this.otherId = ''
+    }
+  }
+
+  /*
+  @Watch('otherId')
+  onIdChanged() {
+    if (this.otherId) {
+      console.log('aaa')
+      const network: any = this.$refs.network
+      network.selectNodes([this.otherId])
+      network.focus(this.otherId)
+    }
+  }
+  */
+
+  select(id: string) {
+    this.otherId = ''
+    if (id !== this.$route.params.id) {
+      this.otherId = id
+    }
+
+    const network: any = this.$refs.network
+    network.selectNodes([id])
+    network.focus(id)
+  }
+
   stabilized() {
-    this.options.physics.enabled = false
+    this.network.options.physics.enabled = false
   }
 
   head() {

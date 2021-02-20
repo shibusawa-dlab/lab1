@@ -9,7 +9,13 @@
         </v-breadcrumbs>
       </v-container>
     </v-sheet>
-    <v-container class="py-5">
+    <v-container fluid class="py-5">
+      <h2>登場人物同士のネットワーク</h2>
+      <p class="mt-2">
+        同一の日記に3回以上登場する人物を繋げています。正確な関連性を知るためには、「つながりを表すアイテム」から本文をご覧ください。ノードをダブルクリックすることで、当該人物のネットワークに遷移します。
+      </p>
+
+      <!-- 
       <v-row>
         <v-col
           ><v-btn
@@ -35,24 +41,49 @@
           </div>
         </v-col>
       </v-row>
+      -->
+      <v-row>
+        <v-col cols="12" :sm="9">
+          <network
+            ref="network"
+            :nodes="nodes"
+            :edges="edges"
+            :options="options"
+            style="height: 800px; background-color: #f0f4c3"
+            @dblclick="onNodeSelected"
+            @double-click="aaa"
+            @stabilized="stabilized"
+          >
+            <!-- @click="onNodeSelected" -->
+          </network>
+        </v-col>
+        <v-col cols="12" :sm="3">
+          <v-sheet class="grey lighten-3 pa-2"
+            ><h3><v-icon>mdi-view-list</v-icon> 人物一覧</h3></v-sheet
+          >
+          <v-list dense style="max-height: 800px; overflow-y: auto">
+            <v-list-item
+              v-for="(item, key) in nodesMap"
+              :key="key"
+              @click="select(key)"
+            >
+              <v-list-item-avatar>
+                <v-img :src="item.image"></v-img>
+              </v-list-item-avatar>
 
-      <network
-        ref="network"
-        class="mt-5"
-        :nodes="nodes"
-        :edges="edges"
-        :options="options"
-        style="height: 800px; background-color: #f0f4c3"
-        @click="onNodeSelected"
-        @stabilized="stabilized"
-      >
-      </network>
+              <v-list-item-content>
+                <v-list-item-title v-text="item.label"></v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-list>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
 
 <script lang="ts">
-import { Vue, Component } from 'nuxt-property-decorator'
+import { Vue, Component, Watch } from 'nuxt-property-decorator'
 import axios from 'axios'
 const { Network } = require('vue-vis-network')
 
@@ -70,11 +101,25 @@ export default class about extends Vue {
 
   options: any = {
     nodes: {
+      /*
       // borderWidth: 4,
       shapeProperties: {
         useBorderWithImage: true,
       },
-      color: 'lightgray',
+      
+      */
+      color: {
+        background: 'lightgray',
+        highlight: {
+          background: 'lightgray',
+          border: '#FF6E00',
+        },
+      },
+      borderWidthSelected: 8,
+      borderWidth: 4,
+      shapeProperties: {
+        useBorderWithImage: true,
+      },
     },
     edges: {
       color: 'lightgray',
@@ -106,12 +151,26 @@ export default class about extends Vue {
     this.edges = data.edges
     const nodesMap: any = {}
 
-    for (let i = 0; i < data.nodes.length; i++) {
-      const node = data.nodes[i]
+    const nodes = data.nodes
+
+    for (let i = 0; i < nodes.length; i++) {
+      const node = nodes[i]
       nodesMap[node.id] = node
+
+      /*
+      node.image = {
+        unselected: node.image,
+        selected: node.image
+      }
+
+      node.shapeProperties = {
+        borderDashes: [15, 5],
+            interpolation: false,
+      }
+      */
     }
 
-    this.nodes = data.nodes
+    this.nodes = nodes
     this.nodesMap = nodesMap
   }
 
@@ -121,8 +180,14 @@ export default class about extends Vue {
     const nodes = value.nodes
     if (nodes.length > 0) {
       const node = this.nodesMap[nodes[0]]
+      this.otherId = node.label
+    }
+  }
 
-      /*
+  aaa(value: any) {
+    const nodes = value.nodes
+    if (nodes.length > 0) {
+      const node = this.nodesMap[nodes[0]]
       this.$router.push(
         this.localePath({
           name: 'network-id',
@@ -131,31 +196,18 @@ export default class about extends Vue {
           },
         })
       )
-      */
-      this.otherId = node.label
-
-      /*
-      const routeData = this.$router.resolve(
-        this.localePath({
-          
-          name: 'network-id',
-          params: {
-            id: node.label,
-          },
-        })
-      )
-      */
-
-      /*
-      name: 'entity-entity-id',
-      params: {
-        entity: 'agential',
-        id: node.label,
-      },
-      */
-
-      // window.open(routeData.href /*, '_blank' */)
     }
+  }
+
+  select(id: string) {
+    this.otherId = ''
+    if (id !== this.$route.params.id) {
+      this.otherId = id
+    }
+
+    const network: any = this.$refs.network
+    network.selectNodes([id])
+    network.focus(id)
   }
 
   stabilized() {
