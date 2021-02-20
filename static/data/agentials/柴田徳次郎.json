@@ -19,6 +19,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 6,
             "id": "白石喜太郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "白石喜太郎",
@@ -29,6 +30,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "岡田純夫",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "岡田純夫",
@@ -39,6 +41,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "高田利吉",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "高田利吉",

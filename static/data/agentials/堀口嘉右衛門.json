@@ -13,6 +13,7 @@
             "color": {
                 "border": "white"
             },
+            "count": 3,
             "id": "堀口嘉右衛門",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "堀口嘉右衛門",
@@ -23,6 +24,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "森弥三郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "森弥三郎",

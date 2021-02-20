@@ -220,17 +220,21 @@
               >
               <v-list dense style="max-height: 800px; overflow-y: auto">
                 <v-list-item
-                  v-for="(item, key) in nodesMap"
+                  v-for="(item, key) in counts"
                   :key="key"
-                  @click="select(key)"
+                  @click="select(item.key)"
                 >
                   <v-list-item-avatar>
-                    <v-img :src="item.image"></v-img>
+                    <v-img :src="nodesMap[item.key].image"></v-img>
                   </v-list-item-avatar>
 
                   <v-list-item-content>
-                    <v-list-item-title v-text="key"></v-list-item-title>
+                    <v-list-item-title v-text="item.key"></v-list-item-title>
                   </v-list-item-content>
+
+                  <v-list-item-action>
+                    {{ item.value }}
+                  </v-list-item-action>
                 </v-list-item>
               </v-list>
             </v-col>
@@ -390,6 +394,8 @@ export default class about extends Vue {
 
   documents: any = {}
 
+  counts: any = {}
+
   network: any = {
     nodes: [],
     edges: [],
@@ -513,7 +519,7 @@ export default class about extends Vue {
       }
     }
 
-    const arr = Object.keys(map).map((e) => ({ key: e, value: map[e] }))
+    let arr = Object.keys(map).map((e) => ({ key: e, value: map[e] }))
 
     arr.sort(function (a, b) {
       if (a.value < b.value) return 1
@@ -554,6 +560,24 @@ export default class about extends Vue {
 
     const network: any = this.$refs.network
     network.selectNodes([this.$route.params.id])
+
+    /// //
+
+    const counts = {}
+    for (let i = 0; i < nodes.length; i++) {
+      const node = nodes[i]
+      counts[node.label] = node.count
+    }
+
+    arr = Object.keys(counts).map((e) => ({ key: e, value: counts[e] }))
+
+    arr.sort(function (a, b) {
+      if (a.value < b.value) return 1
+      if (a.value > b.value) return -1
+      return 0
+    })
+
+    this.counts = arr
   }
 
   onNodeSelected(value: any) {

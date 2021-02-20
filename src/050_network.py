@@ -29,13 +29,13 @@ for obj in df:
         # print(a)
         if a not in nodes:
             nodes[a] = {
-                "id" : len(nodes.keys()),
+                "id" : a,
                 "label" : a
             }
 
             if a in allMap and "image" in allMap[a]:
                 nodes[a] = {
-                    "id" : len(nodes.keys()),
+                    "id" : a,
                     "label" : a,
                     "shape" : "image",
                     "image" : allMap[a]["image"],
@@ -46,7 +46,7 @@ for obj in df:
                 }
             else:
                 nodes[a] = {
-                    "id" : len(nodes.keys()),
+                    "id" : a,
                     "label" : a,
                     "shape" : "image",
                     "image" : "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
@@ -60,7 +60,7 @@ for obj in df:
     for a in agential:
         if a in nodes:
             ids.append(nodes[a]["id"])
-
+    
     ids.sort()
 
     for pair in itertools.combinations(ids, 2):
@@ -77,7 +77,7 @@ for obj in df:
 
         edges[id1][id2] += 1
 
-
+counts = {}
 
 edgesArray = []
 nodeIds = []
@@ -92,6 +92,15 @@ for key in edges:
                 "value" : count
             })
 
+            if key not in counts:
+                counts[key] = 0
+
+            if key2 not in counts:
+                counts[key2] = 0
+
+            counts[key] += count
+            counts[key2] += count
+
             if key not in nodeIds:
                 nodeIds.append(key)
 
@@ -103,7 +112,9 @@ print(len(nodeIds))
 nodeArray = []
 for key in nodes:
     if nodes[key]["id"] in nodeIds:
-        nodeArray.append(nodes[key])
+        node = nodes[key]
+        node["count"] = counts[key]
+        nodeArray.append(node)
 
 network = {
     "nodes": nodeArray,

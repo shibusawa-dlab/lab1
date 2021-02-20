@@ -81,8 +81,11 @@ for obj in df:
 
         edges[id2][id1] += 1
 
+
+
 for e in nodes:
 
+    counts = {}
     
     network = {}
 
@@ -128,6 +131,16 @@ for e in nodes:
                 "color" : "orange"
             })
 
+            if e not in counts:
+                counts[e] = 0
+
+            counts[e] += count
+
+            if e1 not in counts:
+                counts[e1] = 0
+
+            counts[e1] += count
+
             if e not in exists:
                 exists.append(e)
 
@@ -160,6 +173,16 @@ for e in nodes:
                     "color" : "lightgrey"
                 })
 
+                if e1 not in counts:
+                    counts[e1] = 0
+
+                counts[e1] += count
+
+                if e2 not in counts:
+                    counts[e2] = 0
+
+                counts[e2] += count
+
                 if e1 not in exists:
                     exists.append(e1)
 
@@ -172,7 +195,9 @@ for e in nodes:
 
     for key in nodes_map:
         if key in exists:
-            nodes_f.append(nodes_map[key])
+            node = nodes_map[key]
+            node["count"] = counts[key]
+            nodes_f.append(node)
 
     network = {
         "nodes": nodes_f,

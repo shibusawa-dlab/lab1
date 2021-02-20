@@ -13,6 +13,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "id": "西村勝三",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "西村勝三",
@@ -23,6 +24,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "id": "八十島親徳",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "八十島親徳",

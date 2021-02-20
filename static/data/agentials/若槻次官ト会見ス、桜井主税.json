@@ -103,6 +103,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "description": "奥田 正香（おくだ まさか、弘化4年3月（1847年） - 1921年（大正10年）1月31日）は、明治時代に活動した日本の実業家。元は尾張藩の藩士。味噌・醤油製造で財を成し、その後名古屋で多くの有力企業の設立に関与して「名古屋の渋沢栄一」と呼ばれた。名古屋商業会議所（後の名古屋商工会議所）の会頭を長く務め、愛知県会議員としての活動歴もある。",
             "id": "奥田正香",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
@@ -114,6 +115,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 60,
             "id": "佐々木勇之助",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木勇之助",
@@ -124,6 +126,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "田中栄八郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "田中栄八郎",
@@ -134,6 +137,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "id": "植村澄",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "植村澄",
@@ -144,6 +148,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "平岡熙",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "平岡熙",
@@ -154,6 +159,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 9,
             "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
             "id": "浅野総一郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
@@ -165,6 +171,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "梅浦精一",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "梅浦精一",
@@ -175,6 +182,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 5,
             "description": "市原 盛宏（いちはら もりひろ、安政5年4月5日（1858年5月17日） - 大正4年（1915年）10月4日）は日本の銀行家、政治家。肥後国（現熊本県）生まれ。1879年同志社英学校を卒業後、同志社で教鞭をとる。また市原は新島襄を校内で補佐し、新島の二度の欧米旅行中、校内で社長代理を務めた。学生の指導に関しては新島と市原は好対照で、市原はあくまでも高圧的で、「学生は教師にはだまって服従すべきもの。批判はけしからぬ」と市原が言い放って学生に怒りを買っていた。こうした高姿勢に対して反発を強めたのが、徳富蘇峰である。学生のストが生じるが、新島襄の自責の杖事件でひとまず収拾を見た。のちに東華学校で教鞭をとる。留学を経て、同志社に復帰した。この間、小崎弘道の社長代理を務めた。1895年、日本銀行に入行。第一銀行横浜支店長、横浜市長を歴任した後、朝鮮銀行初代総裁に就任。現職のまま、京城で死去。葬儀はキリスト教式によって行われた。",
             "id": "市原盛宏",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichihara_Morihiro.jpg?width=300",
@@ -186,6 +194,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "佐々木清麿",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木清麿",
@@ -196,6 +205,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "description": "清水 泰（しみず ゆたか、1896年(明治29年) - 1969年(昭和44年)9月13日）は、国文学者。山梨県生まれ。1925年京都帝国大学（現・京都大学）文学部国文科卒。龍谷大学教授、立命館大学教授。1964年退任、名誉教授。1962年「継子物語の研究」で京都大学文学博士。",
             "id": "清水泰",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
@@ -207,6 +217,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 8,
             "description": "日下義雄（くさか よしお、嘉永4年12月25日（1852年1月16日） - 大正12年（1923年）3月18日）は、明治から大正時代の政治家、実業家。",
             "id": "日下義雄",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kusaka_Yoshio.jpg?width=300",
@@ -218,6 +229,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "吉岡新五郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "吉岡新五郎",
@@ -228,6 +240,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "久米良作",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "久米良作",
@@ -238,6 +251,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "西脇長太郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "西脇長太郎",
@@ -248,6 +262,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "市原盛宏二",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "市原盛宏二",
@@ -258,6 +273,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "description": "仙石 貢（せんごく みつぎ/せんごく みつぐ、安政4年6月2日（1857年7月22日）- 昭和6年（1931年）10月30日）は、日本の鉄道官僚、実業家、政治家。高知県高知市出身。工学博士。没後勲一等旭日大綬章追贈（昭和6年10月30日付）。「雷大臣」などといわれ、一生奇行で通した人物であるが、鉄道技術者、経営者として果たした功績は大きい。",
             "id": "仙石貢",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sengoku_Mitsugi.jpg?width=300",
@@ -269,6 +285,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "横山徳次郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "横山徳次郎",
@@ -279,6 +296,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "今井清彦",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "今井清彦",

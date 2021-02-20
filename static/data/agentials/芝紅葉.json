@@ -2,13 +2,13 @@
     "edges": [
         {
             "color": "lightgrey",
-            "from": "添田壽一",
+            "from": "添田寿一",
             "to": "市原盛宏",
             "value": 3
         },
         {
             "color": "lightgrey",
-            "from": "添田壽一",
+            "from": "添田寿一",
             "to": "植村澄",
             "value": 3
         },
@@ -91,10 +91,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "description": "添田 壽一（そえだ じゅいち、元治元年8月15日（1864年9月15日） - 昭和4年（1929年）7月4日）は、明治・大正期の財政家（大蔵官僚）・銀行家・実業家・経済学者・官庁エコノミスト。筑前（福岡県）の出身。日本法律学校（現日本大学）の設立に加わった。近代日本における財政確立の功労者の一人であるとともに、経済学の教育・普及に尽力した「官庁エコノミスト」の先駆け的人物として知られている。",
-            "id": "添田壽一",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Juichi_Soyeda.jpg?width=300",
-            "label": "添田壽一",
+            "count": 6,
+            "id": "添田寿一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "添田寿一",
             "shape": "image"
         },
         {
@@ -102,6 +102,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 27,
             "description": "市原 盛宏（いちはら もりひろ、安政5年4月5日（1858年5月17日） - 大正4年（1915年）10月4日）は日本の銀行家、政治家。肥後国（現熊本県）生まれ。1879年同志社英学校を卒業後、同志社で教鞭をとる。また市原は新島襄を校内で補佐し、新島の二度の欧米旅行中、校内で社長代理を務めた。学生の指導に関しては新島と市原は好対照で、市原はあくまでも高圧的で、「学生は教師にはだまって服従すべきもの。批判はけしからぬ」と市原が言い放って学生に怒りを買っていた。こうした高姿勢に対して反発を強めたのが、徳富蘇峰である。学生のストが生じるが、新島襄の自責の杖事件でひとまず収拾を見た。のちに東華学校で教鞭をとる。留学を経て、同志社に復帰した。この間、小崎弘道の社長代理を務めた。1895年、日本銀行に入行。第一銀行横浜支店長、横浜市長を歴任した後、朝鮮銀行初代総裁に就任。現職のまま、京城で死去。葬儀はキリスト教式によって行われた。",
             "id": "市原盛宏",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichihara_Morihiro.jpg?width=300",
@@ -113,6 +114,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 14,
             "id": "久米良作",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "久米良作",
@@ -123,6 +125,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 7,
             "id": "畑弥右衛門",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "畑弥右衛門",
@@ -133,6 +136,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "description": "清水 泰（しみず ゆたか、1896年(明治29年) - 1969年(昭和44年)9月13日）は、国文学者。山梨県生まれ。1925年京都帝国大学（現・京都大学）文学部国文科卒。龍谷大学教授、立命館大学教授。1964年退任、名誉教授。1962年「継子物語の研究」で京都大学文学博士。",
             "id": "清水泰",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
@@ -144,6 +148,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 5,
             "id": "梅浦精一",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "梅浦精一",
@@ -154,6 +159,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 8,
             "id": "佐々木勇之助",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木勇之助",
@@ -164,6 +170,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
             "id": "浅野総一郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
@@ -175,6 +182,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "description": "中野 武営（なかの たけなか、なかの ぶえい、嘉永元年1月3日（1848年2月7日） - 大正7年（1918年）10月8日）は、明治・大正時代の官僚出身政治家、実業家。幼名は「権之助」または「作造」。号は「随郷」。",
             "id": "中野武営",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakano_Takenaka.jpg?width=300",
@@ -186,6 +194,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "植村澄",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "植村澄",
@@ -196,6 +205,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "ナリキ",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "ナリキ",
@@ -206,6 +216,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "description": "成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。",
             "id": "成瀬仁蔵",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
@@ -217,6 +228,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "佐々木清麿",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木清麿",
@@ -227,6 +239,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "id": "八十島親徳",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "八十島親徳",
@@ -237,6 +250,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 5,
             "description": "高松 豊吉（たかまつ とよきち、1852年10月23日（嘉永5年9月11日） - 1937年（昭和12年）9月27日）は、東京の浅草阿部川町出身の化学技術者、応用化学者、工学博士。1884年（明治14年）より東京大学教授を務め、1886年（明治16年）からは帝国大学の発足と共に東京帝国大学工科大学（現:東京大学）応用化学科の教授を日本人として初めて担当した。1888年（明治18年）工学博士修得。東京職工学校（後の東京工業大学）でも色染学について教鞭を執った。1903年（明治36年）に教授を退職。同年、実業家で東京瓦斯株式会社初代社長を務めていた渋沢栄一から懇請されて東京ガスの常務取締役を務め、1909年（明治42年）から1914年（大正3年）まで第二代東京ガス社長に就任した。同年1914年に東京ガス社長を退職し、この頃農商務省に設置された化学工業調査会の筆頭委員となって化学工業の育成に尽力した。1915年（大正4年）から1924年（大正13年）にかけては東京工業試験所の第二代所長を歴任した。その他、理化学研究所や学術研究会議（後の日本学術会議）の設置に貢献。工業化学会（現:日本化学会）、日本薬学会などの会長や役員を務め、技術史学者の山崎俊雄は豊吉を「日本の工業化学の元老」と評した。また、技術評論家である星野芳郎は豊吉の生涯を「日本の化学技術界の教育、行政の発展そのものと言って良いほどである」とも評した。1923年（大正12年）3月10日に学士院会員に選ばれた。",
             "id": "高松豊吉",
             "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Takamatsu_Toyokichi.jpg?width=300",
@@ -248,6 +262,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "大橋新太郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "大橋新太郎",
