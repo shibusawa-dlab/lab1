@@ -181,7 +181,7 @@ export default class about extends Vue {
 
     /// //
 
-    const counts = {}
+    const counts: any = {}
     for (let i = 0; i < nodes.length; i++) {
       const node = nodes[i]
       counts[node.label] = node.count
