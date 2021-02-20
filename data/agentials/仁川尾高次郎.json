@@ -2,13 +2,13 @@
     "edges": [
         {
             "color": "lightgrey",
-            "from": "渡邊嘉一",
+            "from": "渡辺嘉一",
             "to": "浅野総一郎",
             "value": 4
         },
         {
             "color": "lightgrey",
-            "from": "渡邊嘉一",
+            "from": "渡辺嘉一",
             "to": "岸精一",
             "value": 3
         }
@@ -19,10 +19,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "description": "渡邊 嘉一（わたなべ かいち、1858年3月22日（安政5年2月8日） - 1932年12月4日）は日本の土木技術者、実業家。日本土木史の父と呼ばれる。旧姓、宇治橋。",
-            "id": "渡邊嘉一",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Watanabe_Kaichi.jpg?width=300",
-            "label": "渡邊嘉一",
+            "count": 7,
+            "id": "渡辺嘉一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渡辺嘉一",
             "shape": "image"
         },
         {
@@ -30,6 +30,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
             "id": "浅野総一郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
@@ -41,6 +42,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "岸精一",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "岸精一",

@@ -243,7 +243,7 @@
         {
             "color": "lightgrey",
             "from": "市原盛宏",
-            "to": "添田壽一",
+            "to": "添田寿一",
             "value": 3
         },
         {
@@ -273,7 +273,7 @@
         {
             "color": "lightgrey",
             "from": "浅野総一郎",
-            "to": "渡邊嘉一",
+            "to": "渡辺嘉一",
             "value": 4
         },
         {
@@ -391,6 +391,7 @@
             "color": {
                 "border": "white"
             },
+            "count": 6,
             "id": "西脇長太郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "西脇長太郎",
@@ -401,6 +402,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 29,
             "description": "日下義雄（くさか よしお、嘉永4年12月25日（1852年1月16日） - 大正12年（1923年）3月18日）は、明治から大正時代の政治家、実業家。",
             "id": "日下義雄",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kusaka_Yoshio.jpg?width=300",
@@ -412,6 +414,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 20,
             "id": "萩原源太郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "萩原源太郎",
@@ -422,6 +425,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 16,
             "id": "佐々木清麿",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木清麿",
@@ -432,6 +436,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 34,
             "id": "八十島親徳",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "八十島親徳",
@@ -442,6 +447,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 22,
             "id": "足立太郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "足立太郎",
@@ -452,6 +458,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 60,
             "id": "佐々木勇之助",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木勇之助",
@@ -462,6 +469,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 27,
             "description": "市原 盛宏（いちはら もりひろ、安政5年4月5日（1858年5月17日） - 大正4年（1915年）10月4日）は日本の銀行家、政治家。肥後国（現熊本県）生まれ。1879年同志社英学校を卒業後、同志社で教鞭をとる。また市原は新島襄を校内で補佐し、新島の二度の欧米旅行中、校内で社長代理を務めた。学生の指導に関しては新島と市原は好対照で、市原はあくまでも高圧的で、「学生は教師にはだまって服従すべきもの。批判はけしからぬ」と市原が言い放って学生に怒りを買っていた。こうした高姿勢に対して反発を強めたのが、徳富蘇峰である。学生のストが生じるが、新島襄の自責の杖事件でひとまず収拾を見た。のちに東華学校で教鞭をとる。留学を経て、同志社に復帰した。この間、小崎弘道の社長代理を務めた。1895年、日本銀行に入行。第一銀行横浜支店長、横浜市長を歴任した後、朝鮮銀行初代総裁に就任。現職のまま、京城で死去。葬儀はキリスト教式によって行われた。",
             "id": "市原盛宏",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichihara_Morihiro.jpg?width=300",
@@ -473,6 +481,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 91,
             "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
             "id": "浅野総一郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
@@ -484,6 +493,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 6,
             "description": "豊川 良平（とよかわ りょうへい、嘉永5年1月16日（1852年2月5日） - 1920年（大正9年）6月12日）は、近代日本の実業家、貴族院勅選議員。荘田平五郎や近藤廉平など三菱財閥に多くの人材を紹介し、いとこの岩崎弥太郎を支えた。なお本名は小野 春彌（おの はるや）だが、豊臣の豊、徳川の川、張良の良、陳平の平をそれぞれ一字ずつ取って改名している。",
             "id": "豊川良平",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TOYOKAWA_Ryohei.jpg?width=300",
@@ -495,6 +505,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 23,
             "id": "梅浦精一",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "梅浦精一",
@@ -505,10 +516,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "description": "渡邊 嘉一（わたなべ かいち、1858年3月22日（安政5年2月8日） - 1932年12月4日）は日本の土木技術者、実業家。日本土木史の父と呼ばれる。旧姓、宇治橋。",
-            "id": "渡邊嘉一",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Watanabe_Kaichi.jpg?width=300",
-            "label": "渡邊嘉一",
+            "count": 4,
+            "id": "渡辺嘉一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渡辺嘉一",
             "shape": "image"
         },
         {
@@ -516,6 +527,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 10,
             "id": "瓜生震",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "瓜生震",
@@ -526,6 +538,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 8,
             "description": "大川 平三郎（おおかわ へいざぶろう、万延元年10月25日（1860年12月7日） - 1936年（昭和11年）12月30日）は、明治から昭和初期の実業家。「日本の製紙王」と呼ばれ、「大川財閥」を築いた。江戸時代の剣豪で農民の出ながら武蔵国川越藩の剣術師範となった大川平兵衛は平三郎の祖父にあたる。",
             "id": "大川平三郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Heizaburo_ohkawa.jpg?width=300",
@@ -537,6 +550,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "宇野保太郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "宇野保太郎",
@@ -547,6 +561,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 14,
             "description": "清水 泰（しみず ゆたか、1896年(明治29年) - 1969年(昭和44年)9月13日）は、国文学者。山梨県生まれ。1925年京都帝国大学（現・京都大学）文学部国文科卒。龍谷大学教授、立命館大学教授。1964年退任、名誉教授。1962年「継子物語の研究」で京都大学文学博士。",
             "id": "清水泰",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
@@ -558,6 +573,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 15,
             "description": "安達 憲忠（あだち けんちゅう/のりただ、安政4年8月3日（1857年9月20日） - 昭和5年（1930年）12月2日）は、備前国赤坂郡小野田村（現・赤磐市熊山町）出身の社会実業家。東京市養育院幹事。",
             "id": "安達憲忠",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adachi_Noritada.jpg?width=300",
@@ -569,6 +585,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 8,
             "description": "尾崎 三良（おざき さぶろう、天保13年1月22日（1842年3月3日）- 大正7年（1918年）10月13日）は、日本の官僚。男爵。諱は盛茂、別名・戸田 雅楽（とだ うた）。京都郊外の西院村で代々里長を務める家に生まれる。「憲政の神様」と呼ばれた明治・大正・昭和にわたって活動した政治家・尾崎行雄は女婿にあたる。",
             "id": "尾崎三良",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ozaki_Saburō.jpg?width=300",
@@ -580,6 +597,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 14,
             "description": "竹内 綱（たけうち（たけのうち） つな、天保10年12月26日（1840年1月30日） - 大正11年（1922年）1月9日）は、日本の武士（土佐藩士）、実業家、政治家。内閣総理大臣を務めた吉田茂は五男、麻生太郎は外曾孫。",
             "id": "竹内綱",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuna_Takeuchi.jpg?width=300",
@@ -591,6 +609,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "description": "成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。",
             "id": "成瀬仁蔵",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
@@ -602,6 +621,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "伊藤半次郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "伊藤半次郎",
@@ -612,6 +632,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "description": "大江 卓（おおえ たく、弘化4年9月25日（1847年11月2日） - 大正10年（1921年）9月21日）は日本の政治家・実業家。土佐国幡多郡柏島（現在の大月町）出身。幼名は秀馬、斎原治一郎。後藤象二郎は義父にあたり、妻は後藤象二郎次女、小苗。",
             "id": "大江卓",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oe_Taku.jpg?width=300",
@@ -623,6 +644,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "description": "大倉 喜八郎（おおくら きはちろう、天保8年9月24日（1837年10月23日） - 昭和3年（1928年）4月22日）は、明治・大正期に貿易、建設、化学、製鉄、繊維、食品などの企業を数多く興した日本の実業家、中堅財閥である大倉財閥の設立者。渋沢栄一らと共に、鹿鳴館、帝国ホテル、帝国劇場などを設立。東京経済大学の前身である大倉商業学校の創設者でもある。従三位男爵。号は鶴彦。",
             "id": "大倉喜八郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kihachiro_Okura_cropped.jpg?width=300",
@@ -634,6 +656,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "ナリキ",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "ナリキ",
@@ -644,6 +667,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 6,
             "description": "皆川 四郎（みながわ しろう、1852年 - 1911年）は日本の実業家。旧姓は岩崎。幼名は馬之助。信濃国伊那郡中村（現長野県飯田市）に生まれ、飯田城下の皆川家の養子となる。維新後に上京し、安井息軒に師事した後、代言人となったが実業界に転身する。渋沢栄一夫人の妹と結婚し、第一銀行に入行し、石巻支店長を経て、東京電灯会社支配人となる。また株式会社化した東京歌舞伎座（第2期）を創立した。1898年第5回衆議院議員総選挙に長野県第7区から出馬し当選した。",
             "id": "皆川四郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
@@ -655,6 +679,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 6,
             "id": "久米良作",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "久米良作",
@@ -665,6 +690,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "id": "井口正之",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "井口正之",
@@ -675,6 +701,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "押川方義",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "押川方義",
@@ -685,6 +712,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "id": "吉川三次郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "吉川三次郎",
@@ -695,6 +723,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 7,
             "id": "植村澄",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "植村澄",
@@ -705,6 +734,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "平岡熙",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "平岡熙",
@@ -715,6 +745,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 8,
             "id": "尾高次郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "尾高次郎",
@@ -725,6 +756,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "池田謙三",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "池田謙三",
@@ -735,6 +767,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "id": "西村勝三",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "西村勝三",
@@ -745,10 +778,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "description": "添田 壽一（そえだ じゅいち、元治元年8月15日（1864年9月15日） - 昭和4年（1929年）7月4日）は、明治・大正期の財政家（大蔵官僚）・銀行家・実業家・経済学者・官庁エコノミスト。筑前（福岡県）の出身。日本法律学校（現日本大学）の設立に加わった。近代日本における財政確立の功労者の一人であるとともに、経済学の教育・普及に尽力した「官庁エコノミスト」の先駆け的人物として知られている。",
-            "id": "添田壽一",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Juichi_Soyeda.jpg?width=300",
-            "label": "添田壽一",
+            "count": 3,
+            "id": "添田寿一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "添田寿一",
             "shape": "image"
         },
         {
@@ -756,6 +789,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "横山徳次郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "横山徳次郎",
@@ -766,6 +800,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "description": "阪谷 芳郎（さかたに よしろう、文久3年1月16日（1863年3月5日） - 昭和16年（1941年）11月14日）は、日本の大蔵官僚、政治家。子爵、法学博士。岡山県美星町（現井原市）出身。大蔵大臣、東京市長、貴族院議員等を歴任。曾孫久美子は元首相橋本龍太郎夫人。",
             "id": "阪谷芳郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoshiro_Sakatani.jpg?width=300",
@@ -777,6 +812,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 6,
             "id": "前川益",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "前川益",
@@ -787,6 +823,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "description": "仙石 貢（せんごく みつぎ/せんごく みつぐ、安政4年6月2日（1857年7月22日）- 昭和6年（1931年）10月30日）は、日本の鉄道官僚、実業家、政治家。高知県高知市出身。工学博士。没後勲一等旭日大綬章追贈（昭和6年10月30日付）。「雷大臣」などといわれ、一生奇行で通した人物であるが、鉄道技術者、経営者として果たした功績は大きい。",
             "id": "仙石貢",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sengoku_Mitsugi.jpg?width=300",
@@ -798,6 +835,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 6,
             "id": "吉岡新五郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "吉岡新五郎",
@@ -808,6 +846,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "穂積歌子",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "穂積歌子",
@@ -818,6 +857,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 6,
             "id": "田中栄八郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "田中栄八郎",
@@ -828,6 +868,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "市原盛宏二",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "市原盛宏二",
@@ -838,6 +879,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "今井清彦",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "今井清彦",

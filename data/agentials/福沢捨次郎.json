@@ -43,6 +43,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 8,
             "id": "井口正之",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "井口正之",
@@ -53,6 +54,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 6,
             "description": "阪谷 芳郎（さかたに よしろう、文久3年1月16日（1863年3月5日） - 昭和16年（1941年）11月14日）は、日本の大蔵官僚、政治家。子爵、法学博士。岡山県美星町（現井原市）出身。大蔵大臣、東京市長、貴族院議員等を歴任。曾孫久美子は元首相橋本龍太郎夫人。",
             "id": "阪谷芳郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoshiro_Sakatani.jpg?width=300",
@@ -64,6 +66,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 6,
             "description": "豊川 良平（とよかわ りょうへい、嘉永5年1月16日（1852年2月5日） - 1920年（大正9年）6月12日）は、近代日本の実業家、貴族院勅選議員。荘田平五郎や近藤廉平など三菱財閥に多くの人材を紹介し、いとこの岩崎弥太郎を支えた。なお本名は小野 春彌（おの はるや）だが、豊臣の豊、徳川の川、張良の良、陳平の平をそれぞれ一字ずつ取って改名している。",
             "id": "豊川良平",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TOYOKAWA_Ryohei.jpg?width=300",
@@ -75,6 +78,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "description": "成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。",
             "id": "成瀬仁蔵",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
@@ -86,6 +90,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 4,
             "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
             "id": "浅野総一郎",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
@@ -97,6 +102,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "梅浦精一",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "梅浦精一",
@@ -107,6 +113,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "池田謙三",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "池田謙三",
@@ -117,6 +124,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "description": "内田 康哉（うちだ こうさい（やすや）、1865年11月17日（慶応元年9月29日） - 1936年（昭和11年）3月12日は、日本の外交官・政治家。伯爵。明治・大正・昭和の3代にわたって外務大臣を務めた唯一の人物。戦前期日本を代表する外政家だが、その外交姿勢は時期によって揺れがあり、単純ではない。外相在職期間通算7年5か月は、現在に至るまで最長である。",
             "id": "内田康哉",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kosai_Uchida.jpg?width=300",
@@ -128,6 +136,7 @@
             "color": {
                 "border": "lightgreen"
             },
+            "count": 3,
             "id": "萩原源太郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "萩原源太郎",
