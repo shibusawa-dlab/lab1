@@ -157,14 +157,6 @@ export default class about extends Vue {
         icon: 'mdi-tag',
       },
       {
-        label: this.$t('map'),
-        path: {
-          name: 'map',
-        },
-        description: '',
-        icon: 'mdi-map',
-      },
-      {
         label: this.$t('network'),
         path: {
           name: 'network',
@@ -172,6 +164,15 @@ export default class about extends Vue {
         description: '',
         icon: 'mdi-account-network',
       },
+      {
+        label: this.$t('map'),
+        path: {
+          name: 'map',
+        },
+        description: '',
+        icon: 'mdi-map',
+      },
+
       /*
       {
         label: '渋沢栄一日記リスト',
