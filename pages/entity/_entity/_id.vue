@@ -145,11 +145,13 @@ import config from '@/plugins/algolia.config.js'
 import { GChart } from 'vue-google-charts'
 import axios from 'axios'
 import ResultOption from '~/components/display/ResultOption.vue'
+import HorizontalItems from '~/components/display/HorizontalItems.vue'
 
 export default {
   components: {
     GChart,
     ResultOption,
+    HorizontalItems,
   },
   async asyncData({ payload, app }) {
     if (payload) {
@@ -159,7 +161,7 @@ export default {
       const field = app.context.params.entity
 
       const client = algoliasearch(config.appId, config.apiKey)
-      const index = client.initIndex('dev_MAIN') // _temporal_asc
+      const index = client.initIndex(config.index) // _temporal_asc
 
       const facets = await index.searchForFacetValues('year', '', {
         filters: field + ':' + id,
@@ -382,7 +384,7 @@ export default {
       // const field = this.$route.params.entity
 
       const client = algoliasearch(config.appId, config.apiKey)
-      const index = client.initIndex('dev_MAIN') // _temporal_asc
+      const index = client.initIndex(config.index) // _temporal_asc
 
       const facets = await index.searchForFacetValues(field, '', {
         filters: this.field + ':' + id, // 重要。条件のほうはentityに基づく
@@ -512,10 +514,8 @@ export default {
       this.fields[field] = moreLikeThisData0
     },
     getQuery(label, value) {
-      const field = `dev_MAIN[refinementList][${label}][0]`
-      const query = {
-        // 'dev_MAIN[sortBy]': 'dev_MAIN', // _temporal_asc',
-      }
+      const field = `${config.index}[refinementList][${label}][0]`
+      const query = {}
       query[field] = value
       return query
     },

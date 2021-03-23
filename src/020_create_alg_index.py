@@ -14,6 +14,13 @@ import numpy as np
 # import resource
 # resource.setrlimit(resource.RLIMIT_NOFILE, (8192, 9223372036854775807))
 
+DATE = "20210302"
+alg_index = "main"
+# prefix0 = "https://shibusawa-dlab.github.io/lab1"
+prefix0 = "https://shibusawa-lab1.web.app"
+
+###################
+
 all = Graph()
 items = Graph()
 
@@ -94,15 +101,12 @@ def wakachi(text):
  
 #文書ベクトル化関数
 def vecs_array(documents):
-    
- 
     docs = np.array(documents)
     vectorizer = TfidfVectorizer(analyzer=wakachi,binary=True,use_idf=False)
     vecs = vectorizer.fit_transform(docs)
     return vecs.toarray()
 
-
-
+# When属性が存在しない場合には、エラーを返す
 def getDate(entry):
     dates = entry.find("head").find_all("date")
     
@@ -112,7 +116,10 @@ def getDate(entry):
     '''
 
     for date in dates:
-        return date["when"]
+        try:
+            return date["when"]
+        except Exception as e:
+            return None
 
 def getTime(entry):
 
@@ -221,6 +228,7 @@ def addYears(years, yearAndMonth):
 
     return years
 
+# graph(all)に対して、rdfの情報を挿入する。
 def setNijl(subject, all, map, prefix):
     if not map:
         return
@@ -230,7 +238,7 @@ def setNijl(subject, all, map, prefix):
         stmt = (subject, URIRef("http://schema.org/url"), URIRef(url))
         all.add(stmt)
 
-        stmt = (subject, URIRef("http://schema.org/associatedMedia"), URIRef("https://shibusawa-dlab.github.io/lab1/iiif/{}/manifest.json".format(str(subject).split("/")[-1])))
+        stmt = (subject, URIRef("http://schema.org/associatedMedia"), URIRef(prefix + "/iiif/{}/manifest.json".format(str(subject).split("/")[-1])))
         all.add(stmt)
 
     stmt = (subject, URIRef("http://schema.org/provider"), Literal(map["own2"]))
@@ -244,7 +252,7 @@ def setNijl(subject, all, map, prefix):
 
 # files = glob.glob("data/*_manifest.xml")
 
-files = glob.glob("data/*_20210113.xml")
+files = glob.glob("data/tei/*_{}.xml".format(DATE))
 
 titles = ["DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)", "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表"]
 
@@ -256,14 +264,15 @@ index = []
 
 sims = {} # getSims(files)
 
-prefix0 = "https://shibusawa-dlab.github.io/lab1"
+
+
 prefix = prefix0 + "/api"
 
-top_uri = URIRef("https://shibusawa-dlab.github.io/lab1/api/items/top")
+top_uri = URIRef(prefix0 + "/api/items/top")
 stmt = (top_uri, RDFS.label, Literal("TOP"))
 all.add(stmt)
 
-stmt = (top_uri, URIRef("http://schema.org/associatedMedia"), URIRef("https://shibusawa-dlab.github.io/lab1/iiif/collection/top.json"))
+stmt = (top_uri, URIRef("http://schema.org/associatedMedia"), URIRef(prefix0 + "/iiif/collection/top.json"))
 all.add(stmt)
 
 for j in range(len(files)):
@@ -271,6 +280,8 @@ for j in range(len(files)):
     currentPb = initialPbs[j]
 
     file = files[j]
+
+    print(j+1, len(files), file)
 
     source = prefix0 + "/data/" + file.split("/")[-1]
 
@@ -298,18 +309,33 @@ for j in range(len(files)):
     stmt = (file_uri, URIRef("http://schema.org/sourceData"), URIRef(source))
     all.add(stmt)
 
-    stmt = (file_uri, URIRef("http://schema.org/associatedMedia"), URIRef("https://shibusawa-dlab.github.io/lab1/iiif/collection/{}.json".format(file_id)))
+    stmt = (file_uri, URIRef("http://schema.org/associatedMedia"), URIRef(prefix0 + "/iiif/collection/{}.json".format(file_id)))
     all.add(stmt)
 
-    for text in texts:
+    for t in range(len(texts)):
+
+        text = texts[t]
+
+        if text.get("type") == "diary" or text.get("type") == "schedule":
+            continue
 
         text_id = text.get("xml:id")# .replace("DKB", "").replace("m", "")
+
+        # if t % 100 == 0:
+        print(t+1, len(texts), text_id)
 
         front = text.find("front")
 
         frontHead = front.find("head").text.replace("\n", "").strip()
 
         ad = front.find(type="archival-description")
+        
+        # print("\n=======================\n")
+        # print(text)
+
+        if text_id == None:
+            print(text_id)
+            continue
 
         subject = URIRef(prefix + "/items/"+text_id)
         stmt = (subject, URIRef(prefix+"/properties/xml"), Literal(ad))
@@ -324,7 +350,7 @@ for j in range(len(files)):
         stmt = (subject, URIRef("http://schema.org/sourceData"), URIRef(source))
         all.add(stmt)
 
-        search = prefix0 + "/search?"+("dev_MAIN[hierarchicalMenu][category.lvl0][0]="+titles[j]+"&dev_MAIN[hierarchicalMenu][category.lvl0][1]="+text_id+" "+frontHead)
+        search = prefix0 + "/search?"+(alg_index + "[hierarchicalMenu][category.lvl0][0]="+titles[j]+"&"+alg_index+"[hierarchicalMenu][category.lvl0][1]="+text_id+" "+frontHead)
 
         stmt = (subject, URIRef("http://schema.org/relatedLink"), Literal(search))
         all.add(stmt)
@@ -334,7 +360,9 @@ for j in range(len(files)):
             stmt = (subject, URIRef("http://schema.org/image"), URIRef(thumb))
             all.add(stmt)
 
-        setNijl(subject, all, nijls[text_id], prefix)
+        # 日記の場合？日時通知表はNIJLの画像に含まれない。
+        if text_id in nijls:
+            setNijl(subject, all, nijls[text_id], prefix)
 
         types = ["diary-entry", "note"]
 
@@ -373,6 +401,12 @@ for j in range(len(files)):
                     item["sort"] = getSort(entry)
 
                     date = getDate(entry)
+
+                    # Noneの場合は、日付なし
+                    if not date:
+                        print("When属性なし", entry.find("head"))
+                        continue
+
                     item["temporal"] = date
 
                     time = getTime(entry)
@@ -381,10 +415,7 @@ for j in range(len(files)):
                     yearAndMonth = getYearAndMonth(date)
                     if yearAndMonth:
                         item["yearAndMonth"] = yearAndMonth
-
                         years = addYears(years, yearAndMonth)
-
-                        
 
                     year = getYear(date)
                     if year:

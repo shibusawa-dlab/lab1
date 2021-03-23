@@ -171,9 +171,7 @@
               :to="
                 localePath({
                   name: 'search',
-                  query: {
-                    'dev_MAIN[refinementList][agential][0]': $route.params.id,
-                  },
+                  query: getQuery(),
                 })
               "
               ><v-icon>mdi-magnify</v-icon></nuxt-link
@@ -190,9 +188,7 @@
               :to="
                 localePath({
                   name: 'search',
-                  query: {
-                    'dev_MAIN[refinementList][agential][0]': $route.params.id,
-                  },
+                  query: getQuery(),
                 })
               "
               >もっと見る <v-icon>mdi-magnify</v-icon></nuxt-link
@@ -535,7 +531,7 @@ export default class about extends Vue {
 
     const field = 'agential'
     const client = algoliasearch(config.appId, config.apiKey)
-    const index = client.initIndex('dev_MAIN') // _temporal_asc
+    const index = client.initIndex(config.index) // _temporal_asc
 
     results = await index.search('', {
       filters: field + ':' + id,
@@ -711,6 +707,14 @@ export default class about extends Vue {
         },
       })
     )
+  }
+
+  getQuery() {
+    const query: any = {}
+    query[
+      `${config.index}[refinementList][agential][0]`
+    ] = this.$route.params.id
+    return query
   }
 }
 </script>

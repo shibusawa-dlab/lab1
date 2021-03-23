@@ -207,9 +207,13 @@
 <script lang="ts">
 import { Component, Vue, Watch } from 'nuxt-property-decorator'
 import axios from 'axios'
-// import grid from '~/components/Grid.vue'
+import ResultOption from '~/components/display/ResultOption.vue'
 
-@Component({})
+@Component({
+  components: {
+    ResultOption,
+  },
+})
 export default class PageCategory extends Vue {
   @Watch('$route', { deep: true })
   watchTmp(): void {

@@ -159,7 +159,7 @@ export default {
       const es = value.split('-')
 
       const client = algoliasearch(config.appId, config.apiKey)
-      const index = client.initIndex('dev_MAIN')
+      const index = client.initIndex(config.index)
       const query = es[0] + '-' + es[1]
 
       const results = await index.search('', {

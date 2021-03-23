@@ -455,7 +455,7 @@ export default {
     } else {
       const id = app.context.params.id
       const client = algoliasearch(config.appId, config.apiKey)
-      const index = client.initIndex('dev_MAIN')
+      const index = client.initIndex(config.index)
       const item = await index.getObject(id)
       return { item }
     }
@@ -514,37 +514,38 @@ export default {
       const date = dates[keys[keys.length - 1]]
       const es = date.split(' > ')
       const data = []
+      const index = config.index
       if (es.length >= 1) {
+        const query = {}
+        query[`${index}[hierarchicalMenu][date.lvl0][0]`] = es[0]
         data.push({
           id: 1,
           name: es[0],
           children: [],
-          query: {
-            'dev_MAIN[hierarchicalMenu][date.lvl0][0]': es[0],
-          },
+          query,
         })
       }
       if (es.length >= 2) {
+        const query = {}
+        query[`${index}[hierarchicalMenu][date.lvl0][0]`] = es[0]
+        query[`${index}[hierarchicalMenu][date.lvl0][1]`] = es[1]
         data[0].children.push({
           id: 2,
           name: es[1],
           children: [],
-          query: {
-            'dev_MAIN[hierarchicalMenu][date.lvl0][0]': es[0],
-            'dev_MAIN[hierarchicalMenu][date.lvl0][1]': es[1],
-          },
+          query,
         })
       }
 
       if (es.length === 3) {
+        const query = {}
+        query[`${index}[hierarchicalMenu][date.lvl0][0]`] = es[0]
+        query[`${index}[hierarchicalMenu][date.lvl0][1]`] = es[1]
+        query[`${index}[hierarchicalMenu][date.lvl0][2]`] = es[2]
         data[0].children[0].children.push({
           id: 3,
           name: es[2],
-          query: {
-            'dev_MAIN[hierarchicalMenu][date.lvl0][0]': es[0],
-            'dev_MAIN[hierarchicalMenu][date.lvl0][1]': es[1],
-            'dev_MAIN[hierarchicalMenu][date.lvl0][2]': es[2],
-          },
+          query,
         })
       }
       return data
@@ -554,21 +555,22 @@ export default {
       const keys = Object.keys(values)
       const value = values[keys[keys.length - 1]]
       const es = value.split(' > ')
+      const index = config.index
+      const query1 = {}
+      query1[`${index}[hierarchicalMenu][category.lvl0][0]`] = es[0]
+      const query2 = {}
+      query2[`${index}[hierarchicalMenu][category.lvl0][0]`] = es[0]
+      query2[`${index}[hierarchicalMenu][category.lvl0][1]`] = es[1]
       return [
         {
           id: 1,
           name: es[0],
-          query: {
-            'dev_MAIN[hierarchicalMenu][category.lvl0][0]': es[0],
-          },
+          query: query1,
           children: [
             {
               id: 2,
               name: es[1],
-              query: {
-                'dev_MAIN[hierarchicalMenu][category.lvl0][0]': es[0],
-                'dev_MAIN[hierarchicalMenu][category.lvl0][1]': es[1],
-              },
+              query: query2,
             },
           ],
         },
@@ -585,7 +587,7 @@ export default {
       return this.baseUrl + this.$route.path
     },
     jsonUrl() {
-      return `https://${config.appId}-dsn.algolia.net/1/indexes/dev_MAIN/${this.item.objectID}?X-Algolia-API-Key=${config.apiKey}&X-Algolia-Application-Id=${config.appId}`
+      return `https://${config.appId}-dsn.algolia.net/1/indexes/${config.index}/${this.item.objectID}?X-Algolia-API-Key=${config.apiKey}&X-Algolia-Application-Id=${config.appId}`
     },
     items() {
       return [
@@ -626,7 +628,7 @@ export default {
     const query = es.join(' ').substring(0, 128)
 
     const client = algoliasearch(config.appId, config.apiKey)
-    const index = client.initIndex('dev_MAIN')
+    const index = client.initIndex(config.index)
     const item2 = await index.search('', {
       similarQuery: query,
     })
@@ -792,10 +794,15 @@ export default {
       }
     },
     getQuery(label, value) {
-      const field = `dev_MAIN[refinementList][${label}][0]`
+      const index = config.index
+      const field = `${index}[refinementList][${label}][0]`
+      /*
       const query = {
         'dev_MAIN[sortBy]': 'dev_MAIN', // 'dev_MAIN_temporal_asc',
       }
+      */
+      const query = {}
+      query[`${index}[sortBy]`] = index
       query[field] = value
       return query
     },

@@ -10,8 +10,11 @@
       </v-container>
     </v-sheet>
 
-    <v-container>
-      <h1 class="my-5">{{ $t('map') }}</h1>
+    <v-container class="py-5">
+      <h2>{{ $t('map') }}</h2>
+      <p class="mt-2">
+        Wikipediaで位置情報が取得できた場所のみを表示しています。
+      </p>
       <div id="map-wrap" style="height: 80vh" class="my-2">
         <mapc :markers="markers" :zoom="2" :center="[38, 0]" />
       </div>

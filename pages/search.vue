@@ -3,7 +3,7 @@
     <ais-instant-search
       :routing="routing"
       :search-client="searchClient"
-      index-name="dev_MAIN"
+      :index-name="index"
     >
       <v-sheet color="grey lighten-2">
         <v-container fluid class="py-4">
@@ -267,6 +267,8 @@ export default {
     return {
       searchClient: algoliasearch(config.appId, config.apiKey),
 
+      index: config.index,
+
       routing: {
         stateMapping: simple(),
       },
@@ -275,7 +277,7 @@ export default {
       perPage: '',
 
       sortItems: [
-        { value: 'dev_MAIN', label: this.$t('relevance') },
+        { value: config.index, label: this.$t('relevance') },
         /*
         {
           value: 'dev_MAIN_temporal_asc',

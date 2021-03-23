@@ -1,37 +1,21 @@
-name: github pages
-
+name: Deployment (Staging)
 on:
   push:
     branches:
       - master
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-18.04
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-
-    - name: setup node
-      uses: actions/setup-node@v1
-      with:
-        node-version: '10.x'
-
-    - name: Cache dependencies
-      uses: actions/cache@v1
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
-
-    - name: install
-      run: npm ci
-
-    - name: generate
-      run: npm run generate:gh-pages
-
-    - name: deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Install Dependencies
+        run: yarn install
+      - name: Generate
+        run: yarn generate
+      - name: Deploy
+        run: yarn deploy
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

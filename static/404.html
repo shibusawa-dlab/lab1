@@ -2,7 +2,8 @@
 <head>
   <script>
     var pathName = window.location.pathname + window.location.search;
-    var repository = "lab1/"
+    //var repository = "lab1/"
+    var repository = ""
     if(pathName.includes("/api/")){
       var base = window.location.protocol + "//"+ window.location.host
       location.href = base+"/"+repository+"snorql/?describe="+encodeURI((base + pathName))
