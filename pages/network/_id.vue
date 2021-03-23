@@ -56,7 +56,7 @@
                 "
               >
                 <div class="mt-2">
-                  {{ nodesMap[$route.params.id].description }}
+                  {{ nodesMap[$route.params.id].description }}（Wikiepdiaより）
                 </div>
               </template>
             </div>
@@ -125,7 +125,7 @@
                 v-if="nodesMap[otherId] && nodesMap[otherId].description"
               >
                 <div class="mt-2">
-                  {{ nodesMap[otherId].description }}
+                  {{ nodesMap[otherId].description }}（Wikiepdiaより）
                 </div>
               </template>
             </div>
@@ -265,8 +265,8 @@
                         <!-- eslint-disable-next-line vue/no-v-html -->
                         <h3>{{ item.key }}</h3>
                       </nuxt-link>
-                      <div class="mt-2">
-                        {{ nodesMap[item.key].description }}
+                      <div v-if="nodesMap[item.key].description" class="mt-2">
+                        {{ nodesMap[item.key].description }}（Wikiepdiaより）
                       </div>
                     </v-list-item-content>
 

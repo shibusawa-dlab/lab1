@@ -761,7 +761,7 @@ export default {
           : [field === 'spatial' ? 'mdi-map' : 'mdi-account']
 
         if (hit.description) {
-          item._source.description = [hit.description]
+          item._source.description = [hit.description + '（Wikiepdiaより）']
         }
 
         item._source._thumbnail = image

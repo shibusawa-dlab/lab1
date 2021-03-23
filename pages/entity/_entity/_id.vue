@@ -15,7 +15,9 @@
     <v-container class="my-5">
       <h1>{{ id }}</h1>
 
-      <p v-if="entity.description" class="my-5">{{ entity.description }}</p>
+      <p v-if="entity.description" class="my-5">
+        {{ entity.description }}（Wikiepdiaより）
+      </p>
 
       <div class="text-center my-5">
         <v-tooltip bottom>
