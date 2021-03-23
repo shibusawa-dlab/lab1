@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "build:gh-pages": "DEPLOY_ENV=GH_PAGES NODE_ENV=\"production\" nuxt build",
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES NODE_ENV=\"production\" nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "deploy": "firebase deploy",
     "test": "jest"
   },
   "dependencies": {
