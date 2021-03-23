@@ -316,10 +316,11 @@ for j in range(len(files)):
 
         text = texts[t]
 
-        if text.get("type") == "diary" or text.get("type") == "schedule":
-            continue
-
         text_id = text.get("xml:id")# .replace("DKB", "").replace("m", "")
+
+        if text.get("type") == "diary" or text.get("type") == "schedule":
+            print("SKIP: type is ...", text.get("type"), text_id)
+            continue        
 
         # if t % 100 == 0:
         print(t+1, len(texts), text_id)
@@ -329,13 +330,6 @@ for j in range(len(files)):
         frontHead = front.find("head").text.replace("\n", "").strip()
 
         ad = front.find(type="archival-description")
-        
-        # print("\n=======================\n")
-        # print(text)
-
-        if text_id == None:
-            print(text_id)
-            continue
 
         subject = URIRef(prefix + "/items/"+text_id)
         stmt = (subject, URIRef(prefix+"/properties/xml"), Literal(ad))
@@ -386,95 +380,102 @@ for j in range(len(files)):
 
                 head = entry.find("head")
 
-                if head:
+                
+                if not head:
+                    print("SKIP: No head", entry.get("xml:id"))
+                    continue
 
-                    item = {}
-
-                    if len(index) < 10000:
-                        index.append(item)
-
-                    item["objectID"] = entry.get("xml:id")
-
-                    item["label"] = getTitle(entry)
+                item = {}
+                
+                '''
+                if len(index) < 10000:
                     
-                    # ソート項目
-                    item["sort"] = getSort(entry)
+                '''
+                index.append(item)
 
-                    date = getDate(entry)
 
-                    # Noneの場合は、日付なし
-                    if not date:
-                        print("When属性なし", entry.find("head"))
-                        continue
+                item["objectID"] = entry.get("xml:id")
 
-                    item["temporal"] = date
+                item["label"] = getTitle(entry)
+                
+                # ソート項目
+                item["sort"] = getSort(entry)
 
-                    time = getTime(entry)
-                    item["time"] = time
+                date = getDate(entry)
 
-                    yearAndMonth = getYearAndMonth(date)
-                    if yearAndMonth:
-                        item["yearAndMonth"] = yearAndMonth
-                        years = addYears(years, yearAndMonth)
+                # Noneの場合は、日付なし
+                if not date:
+                    print("SKIP: When属性なし", entry.get("xml:id"))
+                    continue
 
-                    year = getYear(date)
-                    if year:
-                        item["year"] = year
+                item["temporal"] = date
 
-                        item["date"] = {
-                            "lvl0": year
-                        }
+                time = getTime(entry)
+                item["time"] = time
 
-                        if yearAndMonth:
-                            item["date"]["lvl1"] = year + " > " + yearAndMonth
+                yearAndMonth = getYearAndMonth(date)
+                if yearAndMonth:
+                    item["yearAndMonth"] = yearAndMonth
+                    years = addYears(years, yearAndMonth)
 
-                            if yearAndMonth != date:
-                                item["date"]["lvl2"] = year + " > " + yearAndMonth + " > " + date
+                year = getYear(date)
+                if year:
+                    item["year"] = year
 
-                    places = getPlaces(entry)
-                    item["spatial"] = places
-
-                    persons = getPersons(entry)
-                    item["agential"] = persons
-
-                    item["description"] = entry.text
-
-                    item["xml"] = str(entry)
-
-                    title = titles[j]
-                    title2 = text_id+" "+frontHead
-
-                    item["category"] = {
-                        "lvl0": title,
-                        "lvl1": title + " > " + title2
+                    item["date"] = {
+                        "lvl0": year
                     }
 
-                    item["type"] = type
+                    if yearAndMonth:
+                        item["date"]["lvl1"] = year + " > " + yearAndMonth
 
-                    id = item["objectID"]
-                    if id in sims:
-                        item["texts"] = sims[id]
+                        if yearAndMonth != date:
+                            item["date"]["lvl2"] = year + " > " + yearAndMonth + " > " + date
 
-                    if i > 0:
-                        item["prev"] = entries[i-1].get("xml:id")
+                places = getPlaces(entry)
+                item["spatial"] = places
 
-                    if i != len(entries) - 1:
-                        item["next"] = entries[i+1].get("xml:id")
+                persons = getPersons(entry)
+                item["agential"] = persons
 
-                    item["source"] = source
+                item["description"] = entry.text
 
-                    if pb in toc:
-                        t = toc[pb]
-                        item["manifest"] = t["manifest"]
-                        item["canvas"] = t["canvas"]
-                    
-                    subject = URIRef(prefix + "/items/"+item["objectID"])
-                    stmt = (subject, URIRef("http://schema.org/isPartOf"), file_uri)
+                item["xml"] = str(entry)
+
+                title = titles[j]
+                title2 = text_id+" "+frontHead
+
+                item["category"] = {
+                    "lvl0": title,
+                    "lvl1": title + " > " + title2
+                }
+
+                item["type"] = type
+
+                id = item["objectID"]
+                if id in sims:
+                    item["texts"] = sims[id]
+
+                if i > 0:
+                    item["prev"] = entries[i-1].get("xml:id")
+
+                if i != len(entries) - 1:
+                    item["next"] = entries[i+1].get("xml:id")
+
+                item["source"] = source
+
+                if pb in toc:
+                    t = toc[pb]
+                    item["manifest"] = t["manifest"]
+                    item["canvas"] = t["canvas"]
+                
+                subject = URIRef(prefix + "/items/"+item["objectID"])
+                stmt = (subject, URIRef("http://schema.org/isPartOf"), file_uri)
+                items.add(stmt)
+
+                for person in persons:
+                    stmt = (subject, URIRef("https://jpsearch.go.jp/term/property#agential"), URIRef(prefix0+"/api/chname/"+person))
                     items.add(stmt)
-
-                    for person in persons:
-                        stmt = (subject, URIRef("https://jpsearch.go.jp/term/property#agential"), URIRef(prefix0+"/api/chname/"+person))
-                        items.add(stmt)
 
 print("index", len(index))
 

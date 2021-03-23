@@ -75,6 +75,12 @@
             "@type": "sc:Manifest",
             "label": "(渋沢栄一日記)　(昭和4年)",
             "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_00.jpg"
+        },
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20013m/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "(渋沢栄一日記)　(昭和5年)",
+            "thumbnail": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0029-0000_00.jpg"
         }
     ],
     "vhint": "use-thumb"

@@ -248,7 +248,7 @@ export default {
 
     const fileId = this.$route.params.id
     const query = this.$route.query
-    const url = query.u || this.baseUrl + '/data/' + fileId + '.xml'
+    const url = query.u || this.baseUrl + '/data/tei/' + fileId + '.xml'
     const CETEIcean = new CETEI()
 
     const id = this.$route.query.id

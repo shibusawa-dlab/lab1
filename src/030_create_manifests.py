@@ -47,7 +47,7 @@ for id in sorted(data_map):
 
     item_id = ad["@id"].split("/items/")[1]
 
-    print(url)
+    # print(url)
 
     # name = url.split("/")[-1]
     name = ad["@id"].split("/")[-1]
@@ -73,7 +73,7 @@ for id in sorted(data_map):
         if "http://base1.nijl.ac.jp/~jituhaku" in a and "\"" not in a and a not in imgs:
             imgs.append(a)
 
-    print(imgs)
+    # print(imgs)
 
     canvases = []
 
@@ -105,7 +105,7 @@ for id in sorted(data_map):
 
         w,h = im.size
 
-        print(w,h )
+        # print(w,h )
 
         canvases.append({
             "@id": "{}/canvas/p{}".format(prefix, index),
@@ -150,7 +150,7 @@ for id in sorted(data_map):
     metadata = []
     for tr in trs:
         tds = tr.find_all("td")
-        print(tds)
+        # print(tds)
         metadata.append({
             "label" : tds[0].text,
             "value" : tds[1].text.strip()

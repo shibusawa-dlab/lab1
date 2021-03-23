@@ -13,11 +13,11 @@ import shutil
 
 from PIL import Image
 
-
-
 images = {}
 
 files = glob.glob("data/*.json")
+
+DATE = "20210302"
 
 for file in files:
     json_open = open(file, 'r')
@@ -34,7 +34,7 @@ for file in files:
             for canvas in canvases:
                 images[manifest][canvas["@id"]] = canvas["images"][0]["resource"]["@id"]
     except Exception as e:
-        print(e)
+        print(e, file)
 
 def getToc():
     path = "data/toc.json"
@@ -47,7 +47,7 @@ def getToc():
 
 toc = getToc()
 
-files = glob.glob("data/*.xml")
+files = glob.glob("data/tei/*_{}.xml".format(DATE))
 
 titles = ["DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)", "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表"]
 
