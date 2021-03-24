@@ -40,7 +40,7 @@
         <v-tooltip bottom>
           <template #activator="{ on }">
             <v-btn
-              v-show="index != items.length - 1"
+              v-show="index != Object.keys(items).length - 1"
               fab
               dark
               small
@@ -88,10 +88,7 @@
               }px;`"
             >
               <div class="pa-4 px-5">
-                <TeiElement
-                  v-if="items.length > 0"
-                  :element="bbb(items[index])"
-                ></TeiElement>
+                <TeiElement :element="item"></TeiElement>
               </div>
             </v-card>
           </v-col>
@@ -149,16 +146,18 @@ export default {
       // canvas: '',
       manifest: null,
 
-      index: 0,
+      index: -1,
       // divs: [],
       ids: {},
       ids2: {},
-      items: [],
+      items: {},
 
       indexIdMap: {},
       idCanvasMap: {},
 
       menu: [],
+
+      item: {},
     }
   },
   head() {
@@ -224,6 +223,16 @@ export default {
 
       this.canvas = this.idCanvasMap[val]
 
+      const data = this.items[val]
+
+      const dfStr = convert.xml2json(data.outerHTML, {
+        compact: false,
+        spaces: 4,
+      })
+      const df = JSON.parse(dfStr)
+
+      this.item = df.elements[0]
+
       this.$router.push(
         this.localePath({
           name: 'viewer-id',
@@ -258,6 +267,8 @@ export default {
 
     const queryId = this.$route.query.id
 
+    let index = 0
+
     const self = this
     CETEIcean.getHTML5(url, function (data) {
       console.log('downloaded.')
@@ -274,15 +285,13 @@ export default {
         const source = sources[i]
         facs[$(source).attr('xml:id')] = $(source).attr('source')
       }
+      self.facs = facs
 
       // diary, undefined, schedule, yearについて取得
       const texts = $($(data).find('tei-text')[0]).find('tei-text')
 
       // const arr = []
       const mainItems = []
-      // const ids = {}
-      // const ids2 = {}
-      // const canvases = []
 
       const indexIdMap = {}
       const idCanvasMap = {}
@@ -333,22 +342,22 @@ export default {
           children: children2,
         })
 
-        self.facs = facs
-        // facs end
-
-        // メイン
-        // let currentCanvas = facs[Object.keys(facs)[0]]
-
         for (let i = 0; i < tmpArrFlat.length; i++) {
           const div = tmpArrFlat[i]
-          mainItems.push(div)
 
           let idLv2 = idLv1
           if ($(div).attr('xml:id')) {
             idLv2 = $(div).attr('xml:id')
           }
 
-          indexIdMap[mainItems.length - 1] = idLv2
+          mainItems[idLv2] = div
+
+          indexIdMap[Object.keys(mainItems).length - 1] = idLv2
+
+          // クエリIDと初期indexを合わせる
+          if (queryId === idLv2) {
+            index = Object.keys(mainItems).length - 1
+          }
 
           idCanvasMap[idLv2] = facs[idImageMap[idLv2]]
 
@@ -380,6 +389,8 @@ export default {
       self.loading = false
 
       console.log('processed.')
+
+      self.index = index
     })
   },
 
