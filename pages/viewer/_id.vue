@@ -17,7 +17,7 @@
         :temporary="false"
         :width="(256 * 3) / 2"
       >
-        <Menu :id="$route.query.id" :items="items"></Menu>
+        <Menu :id="$route.query.id" :items="menu"></Menu>
       </v-navigation-drawer>
 
       <v-navigation-drawer
@@ -40,7 +40,7 @@
         <v-tooltip bottom>
           <template #activator="{ on }">
             <v-btn
-              v-show="index != divs2.length - 1"
+              v-show="index != items.length - 1"
               fab
               dark
               small
@@ -89,8 +89,8 @@
             >
               <div class="pa-4 px-5">
                 <TeiElement
-                  v-if="divs2.length > 0"
-                  :element="bbb(divs2[index])"
+                  v-if="items.length > 0"
+                  :element="bbb(items[index])"
                 ></TeiElement>
               </div>
             </v-card>
@@ -150,12 +150,15 @@ export default {
       manifest: null,
 
       index: 0,
-      divs: [],
+      // divs: [],
       ids: {},
       ids2: {},
-      divs2: [],
-
       items: [],
+
+      indexIdMap: {},
+      idCanvasMap: {},
+
+      menu: [],
     }
   },
   head() {
@@ -213,10 +216,13 @@ export default {
   },
 
   watch: {
+    // IDが変わったら
     id(val) {
       if (!val) {
         return
       }
+
+      this.canvas = this.idCanvasMap[val]
 
       this.$router.push(
         this.localePath({
@@ -231,13 +237,12 @@ export default {
         () => {},
         () => {}
       )
-
-      this.index = this.ids[val]
     },
 
+    // 次へが押されたら
     index(val) {
-      this.id = this.ids2[val]
-      this.canvas = this.canvases[val]
+      const id = this.indexIdMap[val]
+      this.id = id
     },
   },
 
@@ -251,24 +256,40 @@ export default {
     const url = query.u || this.baseUrl + '/data/tei/' + fileId + '.xml'
     const CETEIcean = new CETEI()
 
-    const id = this.$route.query.id
+    const queryId = this.$route.query.id
 
     const self = this
     CETEIcean.getHTML5(url, function (data) {
       console.log('downloaded.')
       self.xml = data
 
+      // ① idImageMapの作成
+      const idImageMap = self.createIdImageMap(data)
+
+      // ② facsの作成
+      // facs
+      const sources = $(data).find('tei-source')
+      const facs = {}
+      for (let i = 0; i < sources.length; i++) {
+        const source = sources[i]
+        facs[$(source).attr('xml:id')] = $(source).attr('source')
+      }
+
+      // diary, undefined, schedule, yearについて取得
       const texts = $($(data).find('tei-text')[0]).find('tei-text')
 
-      const arr = []
-      const arr2 = []
-      const ids = {}
-      const ids2 = {}
-      const canvases = []
+      // const arr = []
+      const mainItems = []
+      // const ids = {}
+      // const ids2 = {}
+      // const canvases = []
 
-      const items = []
+      const indexIdMap = {}
+      const idCanvasMap = {}
 
-      let count = 0
+      const menu = []
+
+      // let index = 0
       for (let j = 0; j < texts.length; j++) {
         const text = texts[j]
 
@@ -278,81 +299,58 @@ export default {
           label = heads[0].textContent
         }
 
-        let id2 = count
-        if ($(text).attr('xml:id')) {
-          id2 = $(text).attr('xml:id')
+        // xml:idがあればid2
+        // let id2 = count
+        if (!$(text).attr('xml:id')) {
+          continue
         }
+
+        const idLv1 = $(text).attr('xml:id')
 
         // count += 1
 
+        // text の中の div 要素を取得する
+        // diary-entry, note, archival-description, month, day, 欄外
         const divs = $(text).find('tei-div')
 
         // とりあえずフラットに並べる
-        const arr = []
+        const tmpArrFlat = []
 
         for (let i = 0; i < divs.length; i++) {
           const div = divs[i]
-          arr.push(div)
+          tmpArrFlat.push(div)
           $(div).remove()
         }
 
-        arr.unshift(text)
+        tmpArrFlat.unshift(text)
         // 終了
 
         // 親の準備
         const children2 = []
-        items.push({
+        menu.push({
           label,
-          id: id2,
+          id: idLv1,
           children: children2,
         })
-        //
-
-        // facs
-        const sources = $(data).find('tei-source')
-        const facs = {}
-        for (let i = 0; i < sources.length; i++) {
-          const source = sources[i]
-          facs[$(source).attr('xml:id')] = $(source).attr('source')
-        }
 
         self.facs = facs
         // facs end
 
         // メイン
-        const currentCanvas = facs[Object.keys(facs)[0]]
-        for (let i = 0; i < arr.length; i++) {
-          const div = arr[i]
-          arr2.push(div)
+        // let currentCanvas = facs[Object.keys(facs)[0]]
 
-          const pbs = $(div).find('tei-pb')
-          let canvas = ''
-          if (pbs.length === 0) {
-            canvas = currentCanvas
-          } else {
-            const firstPb = pbs[0]
-            const currentN = $(firstPb).attr('n')
-            const previousIndex = Number(currentN.replace('B', '')) - 1
-            const pb = 'pageB' + previousIndex
-            canvas = facs[pb]
+        for (let i = 0; i < tmpArrFlat.length; i++) {
+          const div = tmpArrFlat[i]
+          mainItems.push(div)
 
-            const lastPb = pbs[pbs.length - 1]
-            currentCanvas = facs[$(lastPb).attr('corresp').replace('#', '')]
-          }
-
-          canvases.push(canvas)
-
+          let idLv2 = idLv1
           if ($(div).attr('xml:id')) {
-            ids[$(div).attr('xml:id')] = count
-            ids2[count] = $(div).attr('xml:id')
-          } else {
-            ids[count] = count
-            ids2[count] = count
+            idLv2 = $(div).attr('xml:id')
           }
 
-          if (id === ids2[count]) {
-            self.index = count
-          }
+          indexIdMap[mainItems.length - 1] = idLv2
+
+          idCanvasMap[idLv2] = facs[idImageMap[idLv2]]
 
           // 親の場合
           if (i !== 0) {
@@ -364,21 +362,16 @@ export default {
 
             children2.push({
               label: label2,
-              id: ids2[count],
+              id: idLv2, // ids2[count],
             })
           }
-
-          count += 1
         }
       }
 
-      self.items = items
-
-      self.divs = arr
-      self.divs2 = arr2
-      self.ids = ids
-      self.ids2 = ids2
-      self.canvases = canvases
+      self.menu = menu
+      self.items = mainItems
+      self.indexIdMap = indexIdMap
+      self.idCanvasMap = idCanvasMap
 
       // マニフェスト
       const manifest = $(data).find('tei-facsimile').attr('source')
@@ -408,6 +401,40 @@ export default {
       const df = JSON.parse(dfStr)
 
       return df.elements[0]
+    },
+
+    createIdImageMap(data) {
+      const pbs = data.outerHTML.split('<tei-pb') // TEIをつけることに注意
+      const map = {}
+      for (let i = 0; i < pbs.length; i++) {
+        const pb = pbs[i]
+
+        const sp = 'corresp="'
+
+        // correspを持たない場合
+        if (!pb.includes(sp)) {
+          continue
+        }
+
+        const corresp = pb.split(sp)[1].split('"')[0].replace('#', '')
+
+        const es = pb.split(' ')
+
+        for (let j = 0; j < es.length; j++) {
+          const e = es[j]
+          if (e.includes('xml:id=')) {
+            const id = e.split('"')[1]
+
+            if (!id.includes('DKB')) {
+              continue
+            }
+
+            map[id] = corresp
+          }
+        }
+      }
+
+      return map
     },
   },
 }

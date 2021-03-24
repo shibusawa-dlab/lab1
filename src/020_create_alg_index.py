@@ -62,6 +62,7 @@ def getNijl():
 
 nijls = getNijl()
 
+# こっちはNIJLのIIIFコレクション？
 def getCollection():
     json_open = open("../static/iiif/collection/top.json", 'r')
     df = json.load(json_open)
@@ -79,6 +80,8 @@ def getCollection():
 
 collection = getCollection()
 
+# マニフェストは別建て
+'''
 def getToc():
     path = "data/toc.json"
 
@@ -88,6 +91,7 @@ def getToc():
     return df
 
 toc = getToc()
+'''
 
 #わかち書き関数
 def wakachi(text):
@@ -134,7 +138,7 @@ def getTime(entry):
 
     for e in contents:
 
-        if e.name == "time":
+        if e.name == "time" and e.has_attr("time"):
             map[e["when"]] = []
             arr = map[e["when"]]
             arr.append(str(e))
@@ -256,7 +260,9 @@ files = glob.glob("data/tei/*_{}.xml".format(DATE))
 
 titles = ["DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)", "DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表"]
 
+'''
 initialPbs = ["B1001", "B2001"]
+'''
 
 years = {}
 
@@ -277,7 +283,7 @@ all.add(stmt)
 
 for j in range(len(files)):
 
-    currentPb = initialPbs[j]
+    # currentPb = initialPbs[j]
 
     file = files[j]
 
@@ -358,7 +364,7 @@ for j in range(len(files)):
         if text_id in nijls:
             setNijl(subject, all, nijls[text_id], prefix)
 
-        types = ["diary-entry", "note"]
+        types = ["diary-entry", "note", "day"]
 
         for type in types:
 
@@ -367,7 +373,9 @@ for j in range(len(files)):
             for i in range(len(entries)):
 
                 entry = entries[i]
-
+                
+                '''
+                # pbは別建て
                 pbs = entry.find_all("pb")
                 if len(pbs) == 0:
                     pb = currentPb
@@ -377,6 +385,7 @@ for j in range(len(files)):
 
                     lastPb = pbs[len(pbs) - 1]
                     currentPb = lastPb.get("n")
+                '''
 
                 head = entry.find("head")
 
@@ -387,11 +396,9 @@ for j in range(len(files)):
 
                 item = {}
                 
-                '''
-                if len(index) < 10000:
-                    
-                '''
-                index.append(item)
+                
+                if len(index) < 9999:
+                    index.append(item)        
 
 
                 item["objectID"] = entry.get("xml:id")
@@ -463,11 +470,14 @@ for j in range(len(files)):
                     item["next"] = entries[i+1].get("xml:id")
 
                 item["source"] = source
-
+                
+                '''
+                # マニフェストは別建て
                 if pb in toc:
                     t = toc[pb]
                     item["manifest"] = t["manifest"]
                     item["canvas"] = t["canvas"]
+                '''
                 
                 subject = URIRef(prefix + "/items/"+item["objectID"])
                 stmt = (subject, URIRef("http://schema.org/isPartOf"), file_uri)

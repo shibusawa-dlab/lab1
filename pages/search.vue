@@ -143,7 +143,9 @@
                         </small>
                       </div>
 
+                      <!-- この条件は今後要検討 -->
                       <p
+                        v-if="item._highlightResult"
                         class="mt-4"
                         style="max-height: 200px; overflow-y: auto"
                         v-html="
