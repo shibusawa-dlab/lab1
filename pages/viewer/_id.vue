@@ -97,7 +97,8 @@
             <iframe
               v-if="manifest"
               :src="
-                baseUrl + `/curation/?manifest=${manifest}&canvas=${canvas}`
+                baseUrl +
+                `/mirador/?manifest=${manifest}&canvas=${canvas}&bottomPanel=false`
               "
               width="100%"
               :style="`height: ${height * 0.8}px;`"
@@ -290,6 +291,10 @@ export default {
       // diary, undefined, schedule, yearについて取得
       const texts = $($(data).find('tei-text')[0]).find('tei-text')
 
+      console.log($($(data).find('tei-text')))
+
+      console.log(texts)
+
       // const arr = []
       const mainItems = []
 
@@ -369,10 +374,16 @@ export default {
               label2 = heads2[0].textContent
             }
 
-            children2.push({
+            const child = {
               label: label2,
               id: idLv2, // ids2[count],
-            })
+            }
+
+            if (!idLv2.includes('-')) {
+              child.disabled = true
+            }
+
+            children2.push(child)
           }
         }
       }

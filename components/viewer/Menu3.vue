@@ -13,7 +13,13 @@
       </template>
 
       <template v-for="(item2, key2) in item.children">
-        <v-list-item v-if="item2.label" :key="key2" @click="id = item2.id">
+        <!-- 一部のメニューはdisabledに -->
+        <v-list-item
+          v-if="item2.label"
+          :key="key2"
+          :disabled="item2.disabled"
+          @click="id = item2.id"
+        >
           <v-list-item-title>{{ item2.label }}</v-list-item-title>
         </v-list-item>
       </template>
