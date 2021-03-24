@@ -222,7 +222,8 @@ export default {
         return
       }
 
-      this.canvas = this.idCanvasMap[val]
+      // 枝番号がない場合は-1を付与する
+      this.canvas = this.idCanvasMap[val.includes('-') ? val : val + '-1']
 
       const data = this.items[val]
 
