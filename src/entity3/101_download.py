@@ -1,5 +1,5 @@
 import sys
-sys.path.append('../classes')
+sys.path.append('/Users/nakamurasatoru/git/d_hi/dd/ds_batch/classes')
 from entity import Entity as ent
 import json
 
@@ -22,21 +22,19 @@ with open(st_path) as f:
                 if value not in terms:
                     terms.append(value)
 
-path = "data/result.json"
+print("createJsonByJaDbpedia")
+jas = ent.createJsonByJaDbpedia(terms)
 
-searchResult = ent.createJsonByGoogleSearch(terms, path)
-# print(searchResult)
-
-jas = ent.createJsonByJaDbpedia(terms, "data/ja.json")
-# print(jas)
-
+print("redirects")
 rs = ent.redirects(terms)
-# print(rs)
 
 # リダイレクトがあったものは置換
 for term in jas:
     if term in rs:
         jas[term] = rs[term]
+
+print("createJsonByGoogleSearch")
+searchResult = ent.createJsonByGoogleSearch(terms, jas)
 
 # Googleでのみヒットしたもの
 for term in searchResult:
@@ -61,6 +59,23 @@ for term in searchResult:
 
 ########
 
+print("wikidata")
+count = 0
+for term in jas:
+
+    if count % 100 == 0:
+        print(count+1, len(jas), term)
+
+    obj = jas[term]
+    uri = obj["uri"]
+    map = ent.main(uri)
+    for key in map:
+        obj[key] = map[key]
+        
+    count += 1
+
+'''
 with open("data/map.json", 'w') as outfile:
     json.dump(jas,  outfile, ensure_ascii=False,
         indent=4, sort_keys=True, separators=(',', ': '))
+'''
