@@ -1,2 +1,0 @@
-yarn generate
-firebase deploy

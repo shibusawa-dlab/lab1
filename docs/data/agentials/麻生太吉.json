@@ -1,0 +1,231 @@
+{
+    "edges": [
+        {
+            "color": "orange",
+            "from": "麻生太吉",
+            "to": "雨宮敬次郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "大江卓",
+            "to": "竹内綱",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "大江卓",
+            "to": "足立太郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "大江卓",
+            "to": "尾高次郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "今村清之助",
+            "to": "安川敬一郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "林忠正",
+            "to": "井上金治郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "尾崎三良",
+            "to": "前島密",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "尾崎三良",
+            "to": "竹内綱",
+            "value": 9
+        },
+        {
+            "color": "lightgrey",
+            "from": "尾崎三良",
+            "to": "井上角五郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "尾崎三良",
+            "to": "日下義雄",
+            "value": 8
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "white"
+            },
+            "count": 3,
+            "description": "麻生 太吉（あそう たきち、1857年8月26日（安政4年7月7日） - 1933年（昭和8年）12月8日）は日本の炭鉱業者、実業家、政治家。第92代内閣総理大臣麻生太郎の曽祖父。麻生商店社長、石炭鉱業連合会会長、九州水力電気社長、衆議院議員、貴族院多額納税者議員等を歴任した。",
+            "id": "麻生太吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "麻生太吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "description": "大江 卓（おおえ たく、弘化4年9月25日（1847年11月2日） - 大正10年（1921年）9月21日）は日本の政治家・実業家。土佐国幡多郡柏島（現在の大月町）出身。幼名は秀馬、斎原治一郎。後藤象二郎は義父にあたり、妻は後藤象二郎次女、小苗。",
+            "id": "大江卓",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oe_Taku.jpg?width=300",
+            "label": "大江卓",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "今村 清之助（いまむら せいのすけ、1849年3月26日（嘉永2年3月3日） - 1902年（明治35年）9月26日）は、日本の実業家。",
+            "id": "今村清之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/今村清之助-肖像画.jpg?width=300",
+            "label": "今村清之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "雨宮 敬次郎（あめのみや けいじろう、あめみや けいじろう、弘化3年9月5日（1846年10月24日） - 1911年（明治44年）1月20日）は日本の実業家・投資家。「天下の雨敬」「投機界の魔王」と呼ばれた。結束して商売にあたった甲州商人、いわゆる「甲州財閥」と呼ばれる集団の一人である。",
+            "id": "雨宮敬次郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ame-mia_u1.jpg?width=300",
+            "label": "雨宮敬次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "林 忠正（はやし ただまさ、1853年12月7日（嘉永6年11月7日） - 1906年（明治39年）4月10日）は、明治時代に活躍した日本の美術商。越中国高岡（現在の富山県高岡市）出身。1878年（明治11年）に渡仏。多くの芸術的天才を生んだ19世紀末のパリに本拠を置き、オランダ、ベルギー、ドイツ、イギリス、アメリカ合衆国、中国（清）などを巡って、日本美術品を売り捌いた。美術品の販売ばかりではなく、日本文化や美術の紹介にも努め、研究者の仕事を助けたり、各国博物館の日本美術品の整理の担当をしたりした。1900年（明治33年）のパリ万国博覧会では日本事務局の事務官長を務めた。その文化的貢献に対し、フランス政府からは1894年（明治27年）に「教育文化功労章2級」を、1900年（明治33年）に「教育文化功労章1級」及び「レジオン・ドヌール3等章」を贈られた。また、浮世絵からヒントを得て、新しい絵画を創りつつあった印象派の画家たちと親交を結び、日本に初めて印象派の作品を紹介した。1883年（明治16年）に死没したエドゥアール・マネと親しんだのも、日本人として彼一人である。1905年（明治38年）の帰国に際し、500点もの印象派のコレクションを持ち帰り、自分の手で西洋近代美術館を建てようと計画したが、その翌年に果たせぬまま東京で死没した。52歳没。",
+            "id": "林忠正",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tadamasa_Hayashi.jpg?width=300",
+            "label": "林忠正",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 23,
+            "description": "尾崎 三良（おざき さぶろう、天保13年1月22日（1842年3月3日）- 大正7年（1918年）10月13日）は、日本の官僚。男爵。諱は盛茂、別名・戸田 雅楽（とだ うた）。京都郊外の西院村で代々里長を務める家に生まれる。「憲政の神様」と呼ばれた明治・大正・昭和にわたって活動した政治家・尾崎行雄は女婿にあたる。",
+            "id": "尾崎三良",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ozaki_Saburō.jpg?width=300",
+            "label": "尾崎三良",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 13,
+            "description": "竹内 綱（たけうち（たけのうち） つな、天保10年12月26日（1840年1月30日） - 大正11年（1922年）1月9日）は、日本の武士（土佐藩士）、実業家、政治家。内閣総理大臣を務めた吉田茂は五男、麻生太郎は外曾孫。",
+            "id": "竹内綱",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuna_Takeuchi.jpg?width=300",
+            "label": "竹内綱",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "足立太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "足立太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "尾高次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "尾高次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "description": "日下義雄（くさか よしお、嘉永4年12月25日（1852年1月16日） - 大正12年（1923年）3月18日）は、明治から大正時代の政治家、実業家。",
+            "id": "日下義雄",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kusaka_Yoshio.jpg?width=300",
+            "label": "日下義雄",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "井上 角五郎（いのうえ かくごろう、万延元年10月18日（1860年11月30日） - 昭和13年（1938年）9月23日）は、日本の実業家、政治家。東京府平民。 壬午事変後に朝鮮政府の顧問となり、朝鮮初の近代新聞「漢城旬報」を発刊。また初めて漢文・ハングル混合文体を実用化した「漢城周報」を創刊。甲申政変に深く関与し、金玉均・朴泳孝と関係を持った。第1回の帝国議会衆議院議員に当選以来連続当選14回、第47回まで14回代議士を務める。北海道炭礦鉄道社長、日本製鋼所設立者、会長、国民工業学院理事長、慶應義塾評議員等を歴任し、大正9年（1920年）緑綬褒章下賜。京釜鉄道、南満州鉄道の設立にも関わった。号は閔妃の実甥・閔泳翊から贈られた琢園。",
+            "id": "井上角五郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kakugoro_Inoue.jpg?width=300",
+            "label": "井上角五郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "安川 敬一郎（やすかわ けいいちろう、嘉永2年4月17日（1849年5月9日） - 昭和9年（1934年）11月30日）は日本の武士（福岡藩士）、戦前の政治家、実業家。貴族院議員、衆議院議員。大正9年（1920年）1月13日、男爵授爵。勲三等瑞宝章。地方財閥・安川財閥の創始者であり、国士的な実業家として知られる。号は撫松。",
+            "id": "安川敬一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/YASUKAWA_Keiichiro.jpg?width=300",
+            "label": "安川敬一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "井上金治郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井上金治郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "前島 密（まえじま ひそか、天保6年1月7日（1835年2月4日） - 大正8年（1919年）4月27日）は、日本の官僚、政治家。号は「鴻爪（こうそう）」。日本の近代郵便制度の創設者の一人で1円切手の肖像で知られる。「郵便」や「切手」、「葉書」という名称を定めた。その功績から「郵便制度の父」と呼ばれる。前島は晩年を別荘「如々山荘」で過ごした。この別荘は三浦半島西海岸にある浄土宗寺院、浄楽寺の境内にあった。前島夫妻の墓所も浄楽寺境内にある。郵政民営化を断行した小泉純一郎の選挙区（神奈川県第11区）内である。",
+            "id": "前島密",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hisoka_Maejima_01.jpg?width=300",
+            "label": "前島密",
+            "shape": "image"
+        }
+    ]
+}

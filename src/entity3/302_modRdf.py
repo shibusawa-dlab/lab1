@@ -91,6 +91,9 @@ with open(st_path) as f:
 
         if prefix == "chname":
             obj["@type"] = ["https://jpsearch.go.jp/term/type/Agent"]
+        
+        elif prefix == "place":
+            obj["@type"] = ["https://jpsearch.go.jp/term/type/Place"]
 
         term_map[suffix] = subject
 

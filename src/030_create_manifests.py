@@ -15,7 +15,11 @@ import shutil
 
 from PIL import Image
 
-path = "../static/data/ad.json"
+from my_module import my_function as c
+host_dir = c.settings["host_dir"]
+host_url = c.settings["host_url"]
+
+path = host_dir + "/data/ad.json"
 
 json_open = open(path, 'r')
 df = json.load(json_open)
@@ -30,7 +34,7 @@ dirs = {
 for dir in dirs:
     manifests[dir] = []
 
-prefix0 = "https://shibusawa-dlab.github.io/lab1/iiif/"
+prefix0 = host_url + "/iiif/"
 
 data_map = {}
 
@@ -192,7 +196,7 @@ for id in sorted(data_map):
         "thumbnail": thumbnail["@id"]
     })
 
-    path = "../static/iiif/{}/manifest.json".format(name)
+    path = host_dir + "/iiif/{}/manifest.json".format(name)
 
     dir = os.path.dirname(path)
 
@@ -215,7 +219,7 @@ for dir in manifests:
         "vhint": "use-thumb"
     }
 
-    path = "../static/iiif/collection/{}.json".format(dir)
+    path = host_dir + "/iiif/collection/{}.json".format(dir)
     dir = os.path.dirname(path)
     os.makedirs(dir, exist_ok=True)
 
@@ -239,7 +243,7 @@ collection = {
     "vhint": "use-thumb"
 }
 
-path = "../static/iiif/collection/top.json".format(name)
+path = host_dir + "/iiif/collection/top.json".format(name)
 dir = os.path.dirname(path)
 os.makedirs(dir, exist_ok=True)
 

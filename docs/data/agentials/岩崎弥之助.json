@@ -1,0 +1,342 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "押川方義",
+            "to": "梅浦精一",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "阪谷芳郎",
+            "to": "梅浦精一",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "阪谷芳郎",
+            "to": "内田康哉",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "今村清之助",
+            "to": "安川敬一郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹内綱",
+            "to": "尾崎三良",
+            "value": 9
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹内綱",
+            "to": "前島密",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹内綱",
+            "to": "井上角五郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹内綱",
+            "to": "浅野総一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹内綱",
+            "to": "大江卓",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹内綱",
+            "to": "尾高次郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹内綱",
+            "to": "瓜生震",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹内綱",
+            "to": "日下義雄",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹内綱",
+            "to": "成瀬仁蔵",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "竹内綱",
+            "to": "徳川厚",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢喜作",
+            "to": "宇野保太郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢喜作",
+            "to": "大倉喜八郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢喜作",
+            "to": "井上角五郎",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "押川方義",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "押川方義",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "阪谷 芳郎（さかたに よしろう、文久3年1月16日（1863年3月5日） - 昭和16年（1941年）11月14日）は、日本の大蔵官僚、政治家。子爵、法学博士。岡山県美星町（現井原市）出身。大蔵大臣、東京市長、貴族院議員等を歴任。曾孫久美子は元首相橋本龍太郎夫人。",
+            "id": "阪谷芳郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoshiro_Sakatani.jpg?width=300",
+            "label": "阪谷芳郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "今村 清之助（いまむら せいのすけ、1849年3月26日（嘉永2年3月3日） - 1902年（明治35年）9月26日）は、日本の実業家。",
+            "id": "今村清之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/今村清之助-肖像画.jpg?width=300",
+            "label": "今村清之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 50,
+            "description": "竹内 綱（たけうち（たけのうち） つな、天保10年12月26日（1840年1月30日） - 大正11年（1922年）1月9日）は、日本の武士（土佐藩士）、実業家、政治家。内閣総理大臣を務めた吉田茂は五男、麻生太郎は外曾孫。",
+            "id": "竹内綱",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuna_Takeuchi.jpg?width=300",
+            "label": "竹内綱",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "渋沢喜作",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渋沢喜作",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "梅浦精一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "梅浦精一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "瓜生震",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "瓜生震",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "大江 卓（おおえ たく、弘化4年9月25日（1847年11月2日） - 大正10年（1921年）9月21日）は日本の政治家・実業家。土佐国幡多郡柏島（現在の大月町）出身。幼名は秀馬、斎原治一郎。後藤象二郎は義父にあたり、妻は後藤象二郎次女、小苗。",
+            "id": "大江卓",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oe_Taku.jpg?width=300",
+            "label": "大江卓",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "description": "尾崎 三良（おざき さぶろう、天保13年1月22日（1842年3月3日）- 大正7年（1918年）10月13日）は、日本の官僚。男爵。諱は盛茂、別名・戸田 雅楽（とだ うた）。京都郊外の西院村で代々里長を務める家に生まれる。「憲政の神様」と呼ばれた明治・大正・昭和にわたって活動した政治家・尾崎行雄は女婿にあたる。",
+            "id": "尾崎三良",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ozaki_Saburō.jpg?width=300",
+            "label": "尾崎三良",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "内田 康哉（うちだ こうさい（やすや）、1865年11月17日（慶応元年9月29日） - 1936年（昭和11年）3月12日は、日本の外交官・政治家。伯爵。明治・大正・昭和の3代にわたって外務大臣を務めた唯一の人物。戦前期日本を代表する外政家だが、その外交姿勢は時期によって揺れがあり、単純ではない。外相在職期間通算7年5か月は、現在に至るまで最長である。",
+            "id": "内田康哉",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kosai_Uchida.jpg?width=300",
+            "label": "内田康哉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。",
+            "id": "成瀬仁蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
+            "label": "成瀬仁蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "安川 敬一郎（やすかわ けいいちろう、嘉永2年4月17日（1849年5月9日） - 昭和9年（1934年）11月30日）は日本の武士（福岡藩士）、戦前の政治家、実業家。貴族院議員、衆議院議員。大正9年（1920年）1月13日、男爵授爵。勲三等瑞宝章。地方財閥・安川財閥の創始者であり、国士的な実業家として知られる。号は撫松。",
+            "id": "安川敬一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/YASUKAWA_Keiichiro.jpg?width=300",
+            "label": "安川敬一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "description": "井上 角五郎（いのうえ かくごろう、万延元年10月18日（1860年11月30日） - 昭和13年（1938年）9月23日）は、日本の実業家、政治家。東京府平民。 壬午事変後に朝鮮政府の顧問となり、朝鮮初の近代新聞「漢城旬報」を発刊。また初めて漢文・ハングル混合文体を実用化した「漢城周報」を創刊。甲申政変に深く関与し、金玉均・朴泳孝と関係を持った。第1回の帝国議会衆議院議員に当選以来連続当選14回、第47回まで14回代議士を務める。北海道炭礦鉄道社長、日本製鋼所設立者、会長、国民工業学院理事長、慶應義塾評議員等を歴任し、大正9年（1920年）緑綬褒章下賜。京釜鉄道、南満州鉄道の設立にも関わった。号は閔妃の実甥・閔泳翊から贈られた琢園。",
+            "id": "井上角五郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kakugoro_Inoue.jpg?width=300",
+            "label": "井上角五郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "大倉 喜八郎（おおくら きはちろう、天保8年9月24日（1837年10月23日） - 昭和3年（1928年）4月22日）は、明治・大正期に貿易、建設、化学、製鉄、繊維、食品などの企業を数多く興した日本の実業家、中堅財閥である大倉財閥の設立者。渋沢栄一らと共に、鹿鳴館、帝国ホテル、帝国劇場などを設立。東京経済大学の前身である大倉商業学校の創設者でもある。従三位男爵。号は鶴彦。",
+            "id": "大倉喜八郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kihachiro_Okura_cropped.jpg?width=300",
+            "label": "大倉喜八郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "前島 密（まえじま ひそか、天保6年1月7日（1835年2月4日） - 大正8年（1919年）4月27日）は、日本の官僚、政治家。号は「鴻爪（こうそう）」。日本の近代郵便制度の創設者の一人で1円切手の肖像で知られる。「郵便」や「切手」、「葉書」という名称を定めた。その功績から「郵便制度の父」と呼ばれる。前島は晩年を別荘「如々山荘」で過ごした。この別荘は三浦半島西海岸にある浄土宗寺院、浄楽寺の境内にあった。前島夫妻の墓所も浄楽寺境内にある。郵政民営化を断行した小泉純一郎の選挙区（神奈川県第11区）内である。",
+            "id": "前島密",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hisoka_Maejima_01.jpg?width=300",
+            "label": "前島密",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "尾高次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "尾高次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "description": "日下義雄（くさか よしお、嘉永4年12月25日（1852年1月16日） - 大正12年（1923年）3月18日）は、明治から大正時代の政治家、実業家。",
+            "id": "日下義雄",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kusaka_Yoshio.jpg?width=300",
+            "label": "日下義雄",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "德川 厚（とくがわ あつし、1874年（明治7年）9月2日 - 1930年（昭和5年）6月12日）は、日本の実業家、政治家。爵位は男爵。号は龍山。新字体で徳川 厚（とくがわ あつし）とも表記される。東明火災海上保険株式会社取締役、貴族院議員などを歴任した。",
+            "id": "徳川厚",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Atsushi_Tokugawa.jpg?width=300",
+            "label": "徳川厚",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "宇野保太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "宇野保太郎",
+            "shape": "image"
+        }
+    ]
+}

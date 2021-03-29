@@ -1,0 +1,165 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0018-0000_00/manifest.json",
+    "@type": "sc:Manifest",
+    "attribution": "国文学研究資料館",
+    "label": "(渋沢栄一日記)　(大正6年)",
+    "license": "http://base1.nijl.ac.jp/~jituhaku/",
+    "metadata": [
+        {
+            "label": "史料群番号",
+            "value": "37TGH"
+        },
+        {
+            "label": "請求番号",
+            "value": "37TGH/0955-0018-0000"
+        },
+        {
+            "label": "史料群名(コレクション名)",
+            "value": "日本実業史博物館準備室旧蔵資料-文書・書籍"
+        },
+        {
+            "label": "シリーズ名",
+            "value": "中項目：渋沢／小項目：栄一編著"
+        },
+        {
+            "label": "資料名・表題",
+            "value": "(渋沢栄一日記)　(大正6年)"
+        },
+        {
+            "label": "和暦",
+            "value": "無年"
+        },
+        {
+            "label": "数量",
+            "value": "1冊"
+        },
+        {
+            "label": "法量",
+            "value": "20㎝"
+        },
+        {
+            "label": "史料群概要情報リンク",
+            "value": "概要へリンク(史料情報共有化データベ－スへ)"
+        },
+        {
+            "label": "管理情報",
+            "value": "||実博旧番号：955-18"
+        },
+        {
+            "label": "データ作成日",
+            "value": "20160331"
+        },
+        {
+            "label": "ID",
+            "value": "37TGH-0955-0018-0000_00"
+        }
+    ],
+    "related": {
+        "@id": "http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0018-0000_00",
+        "format": "text/html"
+    },
+    "sequences": [
+        {
+            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0018-0000_00/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0018-0000_00/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2448,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0018-0000_00/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0018-0000_00/canvas/p1",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0018-0000_00.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2448,
+                                "width": 3264
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0018-0000_00.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 2448,
+                        "width": 3264
+                    },
+                    "width": 3264
+                },
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0018-0000_00/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 2301,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0018-0000_00/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0018-0000_00/canvas/p2",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0018-0000_01.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2301,
+                                "width": 3185
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0018-0000_01.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 2301,
+                        "width": 3185
+                    },
+                    "width": 3185
+                },
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0018-0000_00/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "height": 2368,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0018-0000_00/annotation/p3-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/G0000002JITUHAKU_37TGH-0955-0018-0000_00/canvas/p3",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0018-0000_02.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2368,
+                                "width": 3217
+                            }
+                        }
+                    ],
+                    "label": "[3]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0018-0000_02.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 2368,
+                        "width": 3217
+                    },
+                    "width": 3217
+                }
+            ]
+        }
+    ],
+    "thumbnail": {
+        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0018-0000_00.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "height": 2448,
+        "width": 3264
+    },
+    "viewingDirection": "right-to-left"
+}

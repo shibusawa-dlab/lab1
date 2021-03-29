@@ -2,6 +2,9 @@ import json
 import glob
 import itertools
 
+from my_module import my_function as c
+host_dir = c.settings["host_dir"]
+
 json_open = open("entity/data/all.json", 'r')
 all = json.load(json_open)
 allMap = {}
@@ -121,6 +124,6 @@ network = {
     "edges": edgesArray
 }
 
-with open("../static/data/agentials.json", 'w') as outfile:
+with open(host_dir + "/data/agentials.json", 'w') as outfile:
     json.dump(network,  outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))

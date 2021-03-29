@@ -6,6 +6,9 @@ from rdflib import URIRef, BNode, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF, XSD
 from rdflib import Namespace
 
+from my_module import my_function as c
+host_url = c.settings["host_url"]
+
 all = Graph()
 
 for i in range(1, 11):
@@ -20,7 +23,7 @@ for i in range(1, 11):
         suffix = div.find(class_="name2").text.replace(" ", "")
 
         prefix = "chname"
-        subject = URIRef("https://shibusawa-dlab.github.io/lab1/api/"+prefix+"/"+suffix)
+        subject = URIRef(host_url + "/api/"+prefix+"/"+suffix)
         print(subject)
 
         stmt = (subject, RDFS.label, Literal(suffix))

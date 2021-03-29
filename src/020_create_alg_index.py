@@ -14,10 +14,15 @@ import numpy as np
 # import resource
 # resource.setrlimit(resource.RLIMIT_NOFILE, (8192, 9223372036854775807))
 
+from my_module import my_function as c
+host_dir = c.settings["host_dir"]
+alg_index = c.settings["algolia_index"]
+prefix0 = c.settings["host_url"]
+
+
+
 DATE = "20210302"
-alg_index = "main"
-# prefix0 = "https://shibusawa-dlab.github.io/lab1"
-prefix0 = "https://shibusawa-lab1.web.app"
+
 
 ###################
 
@@ -64,7 +69,7 @@ nijls = getNijl()
 
 # こっちはNIJLのIIIFコレクション？
 def getCollection():
-    json_open = open("../static/iiif/collection/top.json", 'r')
+    json_open = open(host_dir + "/iiif/collection/top.json", 'r')
     df = json.load(json_open)
     collections = df["collections"]
 
@@ -493,11 +498,11 @@ with open("data/index.json", 'w') as outfile:
     json.dump(index,  outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))
 
-with open("../static/data/years.json", 'w') as outfile:
+with open(host_dir + "/data/years.json", 'w') as outfile:
     json.dump(years,  outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))
 
-path = "../static/data/ad.json"
+path = host_dir + "/data/ad.json"
 all.serialize(destination=path, format='json-ld')
 
 path = "data/all.json"

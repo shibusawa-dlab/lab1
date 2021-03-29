@@ -1,0 +1,36 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "雨宮敬次郎",
+            "to": "麻生太吉",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "雨宮 敬次郎（あめのみや けいじろう、あめみや けいじろう、弘化3年9月5日（1846年10月24日） - 1911年（明治44年）1月20日）は日本の実業家・投資家。「天下の雨敬」「投機界の魔王」と呼ばれた。結束して商売にあたった甲州商人、いわゆる「甲州財閥」と呼ばれる集団の一人である。",
+            "id": "雨宮敬次郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ame-mia_u1.jpg?width=300",
+            "label": "雨宮敬次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "麻生 太吉（あそう たきち、1857年8月26日（安政4年7月7日） - 1933年（昭和8年）12月8日）は日本の炭鉱業者、実業家、政治家。第92代内閣総理大臣麻生太郎の曽祖父。麻生商店社長、石炭鉱業連合会会長、九州水力電気社長、衆議院議員、貴族院多額納税者議員等を歴任した。",
+            "id": "麻生太吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "麻生太吉",
+            "shape": "image"
+        }
+    ]
+}

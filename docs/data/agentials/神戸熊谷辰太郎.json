@@ -1,0 +1,117 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "阪谷芳郎",
+            "to": "梅浦精一",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "阪谷芳郎",
+            "to": "内田康哉",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中太郎",
+            "to": "横山徳次郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中太郎",
+            "to": "明石照男",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中太郎",
+            "to": "植村澄",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "阪谷 芳郎（さかたに よしろう、文久3年1月16日（1863年3月5日） - 昭和16年（1941年）11月14日）は、日本の大蔵官僚、政治家。子爵、法学博士。岡山県美星町（現井原市）出身。大蔵大臣、東京市長、貴族院議員等を歴任。曾孫久美子は元首相橋本龍太郎夫人。",
+            "id": "阪谷芳郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoshiro_Sakatani.jpg?width=300",
+            "label": "阪谷芳郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "description": "田中 太郎（たなか たろう）田中太郎 (事業家) (1870-1932) - 社会事業家。田中太郎 (画家) - 昭和期の画家。田中太郎 (彫刻家) (1911-1992) - 彫刻家。田中太郎 (ジャーナリスト) - 『日経ビジネス』副編集長。プロフィール。田中太郎 (声優) - 声優。11月14日生まれ。福岡県出身。以前は、青二プロダクションに所属していた。うちゅう人 田中太郎 - ながとしやすなりの漫画。 __DISAMBIG__",
+            "id": "田中太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "梅浦精一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "梅浦精一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "植村澄",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "植村澄",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "内田 康哉（うちだ こうさい（やすや）、1865年11月17日（慶応元年9月29日） - 1936年（昭和11年）3月12日は、日本の外交官・政治家。伯爵。明治・大正・昭和の3代にわたって外務大臣を務めた唯一の人物。戦前期日本を代表する外政家だが、その外交姿勢は時期によって揺れがあり、単純ではない。外相在職期間通算7年5か月は、現在に至るまで最長である。",
+            "id": "内田康哉",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kosai_Uchida.jpg?width=300",
+            "label": "内田康哉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "横山徳次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "横山徳次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "明石 照男（あかし てるお、1881年3月30日 - 1956年9月29日）は、岡山県和気郡英保村（現・備前市吉永町）出身の実業家、銀行家。",
+            "id": "明石照男",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "明石照男",
+            "shape": "image"
+        }
+    ]
+}

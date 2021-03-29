@@ -1,0 +1,68 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "白石喜太郎",
+            "to": "岡田純夫",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "白石喜太郎",
+            "to": "高田利吉",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "高田利吉",
+            "to": "渡辺得男",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "白石喜太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白石喜太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "岡田純夫",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "岡田純夫",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "高田利吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高田利吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "渡辺得男",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渡辺得男",
+            "shape": "image"
+        }
+    ]
+}

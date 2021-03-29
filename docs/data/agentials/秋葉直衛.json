@@ -1,0 +1,35 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "江間政",
+            "to": "福地源一郎",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "江間政",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "江間政",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "福地 源一郎（ふくち げんいちろう、天保12年3月23日（1841年5月13日） - 明治39年（1906年）1月4日）は、幕末から明治時代にかけての武士（幕臣）・ジャーナリスト・作家・劇作家・政治家。衆議院議員。幼名は八十吉（やそきち）。号は櫻癡（おうち、新字体：桜痴）。福地 桜痴（ふくち おうち）として知られる。執筆に吾曹子の名を用いて、吾曹先生とも呼ばれた。",
+            "id": "福地源一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Genichiro_Fukuchi_3.jpg?width=300",
+            "label": "福地源一郎",
+            "shape": "image"
+        }
+    ]
+}

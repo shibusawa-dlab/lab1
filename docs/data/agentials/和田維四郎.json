@@ -1,0 +1,71 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "仙石貢",
+            "to": "安川敬一郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "仙石貢",
+            "to": "佐々木勇之助",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "安川敬一郎",
+            "to": "今村清之助",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "仙石 貢（せんごく みつぎ/せんごく みつぐ、安政4年6月2日（1857年7月22日）- 昭和6年（1931年）10月30日）は、日本の鉄道官僚、実業家、政治家。高知県高知市出身。工学博士。没後勲一等旭日大綬章追贈（昭和6年10月30日付）。「雷大臣」などといわれ、一生奇行で通した人物であるが、鉄道技術者、経営者として果たした功績は大きい。",
+            "id": "仙石貢",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sengoku_Mitsugi.jpg?width=300",
+            "label": "仙石貢",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "安川 敬一郎（やすかわ けいいちろう、嘉永2年4月17日（1849年5月9日） - 昭和9年（1934年）11月30日）は日本の武士（福岡藩士）、戦前の政治家、実業家。貴族院議員、衆議院議員。大正9年（1920年）1月13日、男爵授爵。勲三等瑞宝章。地方財閥・安川財閥の創始者であり、国士的な実業家として知られる。号は撫松。",
+            "id": "安川敬一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/YASUKAWA_Keiichiro.jpg?width=300",
+            "label": "安川敬一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "今村 清之助（いまむら せいのすけ、1849年3月26日（嘉永2年3月3日） - 1902年（明治35年）9月26日）は、日本の実業家。",
+            "id": "今村清之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/今村清之助-肖像画.jpg?width=300",
+            "label": "今村清之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "佐々木勇之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木勇之助",
+            "shape": "image"
+        }
+    ]
+}
