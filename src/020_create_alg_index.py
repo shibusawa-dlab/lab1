@@ -19,6 +19,7 @@ host_dir = c.settings["host_dir"]
 app_dir = c.settings["app_dir"]
 alg_index = c.settings["algolia_index"]
 prefix0 = c.settings["host_url"]
+app_prefix = c.settings["app_url"]
 
 DATE = "20210302"
 
@@ -291,7 +292,7 @@ def setNijl(subject, all, map, prefix):
         stmt = (subject, URIRef("http://schema.org/url"), URIRef(url))
         all.add(stmt)
 
-        stmt = (subject, URIRef("http://schema.org/associatedMedia"), URIRef(prefix + "/iiif/{}/manifest.json".format(str(subject).split("/")[-1])))
+        stmt = (subject, URIRef("http://schema.org/associatedMedia"), URIRef(prefix0 + "/iiif/{}/manifest.json".format(str(subject).split("/")[-1])))
         all.add(stmt)
 
     stmt = (subject, URIRef("http://schema.org/provider"), Literal(map["own2"]))
@@ -399,7 +400,7 @@ for j in range(len(files)):
         stmt = (subject, URIRef("http://schema.org/sourceData"), URIRef(source))
         all.add(stmt)
 
-        search = prefix0 + "/search?"+(alg_index + "[hierarchicalMenu][category.lvl0][0]="+titles[j]+"&"+alg_index+"[hierarchicalMenu][category.lvl0][1]="+text_id+" "+frontHead)
+        search = app_prefix + "/search?"+(alg_index + "[hierarchicalMenu][category.lvl0][0]="+titles[j]+"&"+alg_index+"[hierarchicalMenu][category.lvl0][1]="+text_id+" "+frontHead)
 
         stmt = (subject, URIRef("http://schema.org/relatedLink"), Literal(search))
         all.add(stmt)

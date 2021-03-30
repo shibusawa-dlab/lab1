@@ -1,4 +1,5 @@
 host_dir: "/Users/nakamurasatoru/git/d_shibusawa/lab1-data/docs"
 app_dir: "/Users/nakamurasatoru/git/d_shibusawa/lab1/static"
 host_url: "https://shibusawa-dlab.github.io/lab1"
+app_url: "https://shibusawa-lab1.web.app"
 algolia_index: "main"
