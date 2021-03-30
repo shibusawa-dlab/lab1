@@ -16,6 +16,7 @@ import numpy as np
 
 from my_module import my_function as c
 host_dir = c.settings["host_dir"]
+app_dir = c.settings["app_dir"]
 alg_index = c.settings["algolia_index"]
 prefix0 = c.settings["host_url"]
 
@@ -337,7 +338,7 @@ for j in range(len(files)):
 
     print(j+1, len(files), file)
 
-    source = prefix0 + "/data/" + file.split("/")[-1]
+    source = prefix0 + "/tei/" + file.split("/")[-1].split("_")[0]+".xml"
 
     soup = BeautifulSoup(open(file,'r'), "xml")
 
@@ -548,11 +549,11 @@ with open("data/index.json", 'w') as outfile:
     json.dump(index,  outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))
 
-with open(host_dir + "/data/years.json", 'w') as outfile:
+with open(app_dir + "/data/years.json", 'w') as outfile:
     json.dump(years,  outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))
 
-path = host_dir + "/data/ad.json"
+path = app_dir + "/data/ad.json"
 all.serialize(destination=path, format='json-ld')
 
 path = "data/all.json"

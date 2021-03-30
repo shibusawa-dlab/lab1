@@ -51,8 +51,8 @@ sys.path.append('/Users/nakamurasatoru/git/d_shibusawa/lab1-data/src/my_module')
 
 # from my_module import my_function as c
 import my_function as c
-host_dir = c.settings["host_dir"]
+app_dir = c.settings["app_dir"]
 
-with open(host_dir + "/data/spatial.json", 'w') as outfile:
+with open(app_dir + "/data/spatial.json", 'w') as outfile:
     json.dump(items,  outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))

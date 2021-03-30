@@ -1,9 +1,10 @@
 import json
 import glob
 import itertools
-
+import os
 from my_module import my_function as c
 host_dir = c.settings["host_dir"]
+app_dir = c.settings["app_dir"]
 
 thres = 4
 
@@ -212,7 +213,11 @@ for e in nodes:
         "edges": edges_f
     }
 
+    opath = app_dir + "/data/agentials/"+e+".json"
 
-    with open(host_dir + "/data/agentials/"+e+".json", 'w') as outfile:
+    dirname = os.path.dirname(opath)
+    os.makedirs(dirname, exist_ok=True)
+
+    with open(opath, 'w') as outfile:
         json.dump(network,  outfile, ensure_ascii=False,
                 indent=4, sort_keys=True, separators=(',', ': '))

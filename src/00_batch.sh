@@ -15,16 +15,17 @@ python 040_add_images2tei.py
 python 041_copy.py
 
 # RDF
+cd entity
 if [ false ]; then
     ## downloadは時間がかかります。
     # python 101_download.py
-    cd entity
     python 102_createMap.py
     python 301_createRdf.py
-    python 302_modRdf.py
-    python 303_createSpatial.py
-
-    cd ../
+fi
+python 302_modRdf.py
+python 303_createSpatial.py
+python 401_crateItemRdf.py
+cd ../
 
 # インデックスの再更新
 python 020_create_alg_index.py

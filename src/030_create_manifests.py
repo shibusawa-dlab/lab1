@@ -17,9 +17,10 @@ from PIL import Image
 
 from my_module import my_function as c
 host_dir = c.settings["host_dir"]
+app_dir = c.settings["app_dir"]
 host_url = c.settings["host_url"]
 
-path = host_dir + "/data/ad.json"
+path = app_dir + "/data/ad.json"
 
 json_open = open(path, 'r')
 df = json.load(json_open)

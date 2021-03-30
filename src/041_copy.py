@@ -22,6 +22,6 @@ for file in files:
     tei_path = file+"_manifest.xml"
 
     if "DKB01" in file:
-        shutil.copy(tei_path, host_dir + "/data/tei/DKB01.xml")
+        shutil.copy(tei_path, host_dir + "/tei/DKB01.xml")
     else:
-        shutil.copy(tei_path, host_dir + "/data/tei/DKB02.xml")
+        shutil.copy(tei_path, host_dir + "/tei/DKB02.xml")
