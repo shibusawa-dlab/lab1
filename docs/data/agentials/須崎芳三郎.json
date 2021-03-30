@@ -4,25 +4,19 @@
             "color": "lightgrey",
             "from": "萩原源太郎",
             "to": "八十島親徳",
-            "value": 4
-        },
-        {
-            "color": "lightgrey",
-            "from": "萩原源太郎",
-            "to": "足立太郎",
-            "value": 3
+            "value": 7
         },
         {
             "color": "lightgrey",
             "from": "萩原源太郎",
             "to": "梅浦精一",
-            "value": 3
+            "value": 6
         },
         {
             "color": "lightgrey",
             "from": "萩原源太郎",
-            "to": "植村澄",
-            "value": 3
+            "to": "植村澄三郎",
+            "value": 5
         },
         {
             "color": "lightgrey",
@@ -33,8 +27,8 @@
         {
             "color": "lightgrey",
             "from": "萩原源太郎",
-            "to": "豊川良平",
-            "value": 3
+            "to": "郷隆三郎",
+            "value": 4
         }
     ],
     "nodes": [
@@ -43,7 +37,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 20,
+            "count": 26,
             "id": "萩原源太郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "萩原源太郎",
@@ -54,7 +48,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
+            "count": 7,
             "id": "八十島親徳",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "八十島親徳",
@@ -65,18 +59,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
-            "id": "足立太郎",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "足立太郎",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 3,
+            "count": 6,
             "id": "梅浦精一",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "梅浦精一",
@@ -87,10 +70,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
-            "id": "植村澄",
+            "count": 5,
+            "id": "植村澄三郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "植村澄",
+            "label": "植村澄三郎",
             "shape": "image"
         },
         {
@@ -110,11 +93,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
-            "description": "豊川 良平（とよかわ りょうへい、嘉永5年1月16日（1852年2月5日） - 1920年（大正9年）6月12日）は、近代日本の実業家、貴族院勅選議員。荘田平五郎や近藤廉平など三菱財閥に多くの人材を紹介し、いとこの岩崎弥太郎を支えた。なお本名は小野 春彌（おの はるや）だが、豊臣の豊、徳川の川、張良の良、陳平の平をそれぞれ一字ずつ取って改名している。",
-            "id": "豊川良平",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TOYOKAWA_Ryohei.jpg?width=300",
-            "label": "豊川良平",
+            "count": 4,
+            "id": "郷隆三郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "郷隆三郎",
             "shape": "image"
         }
     ]

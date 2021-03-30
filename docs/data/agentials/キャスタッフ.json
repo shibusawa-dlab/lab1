@@ -1,0 +1,141 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "浅野総一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "中野",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "成瀬仁蔵",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "早稲田",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "蓮沼門三",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "徳川",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "鈴木文治",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 33,
+            "id": "大隅国",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大隅国",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "中野",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "中野",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。",
+            "id": "成瀬仁蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
+            "label": "成瀬仁蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "description": "早稲田（わせだ）は、東京都新宿区の広域地名。",
+            "id": "早稲田",
+            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Natsume-zaka_street.JPG?width=300",
+            "label": "早稲田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "蓮沼 門三（はすぬま もんぞう、1882年2月22日 - 1980年6月6日）は、社会教育団体「修養団」を設立した日本の社会教育家。",
+            "id": "蓮沼門三",
+            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Statue_of_Hasunuma_Monzou.jpg?width=300",
+            "label": "蓮沼門三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "徳川",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "徳川",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "鈴木 文治（すずき ぶんじ、男性、1885年9月4日 - 1946年3月12日）は大正・昭和期の政治家、労働運動家。友愛会創始者。日本の労働運動の草分け的存在といわれる。",
+            "id": "鈴木文治",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bunji_Suzuki.jpg?width=300",
+            "label": "鈴木文治",
+            "shape": "image"
+        }
+    ]
+}

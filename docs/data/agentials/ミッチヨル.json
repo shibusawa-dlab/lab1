@@ -1,0 +1,290 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "梅浦精一",
+            "value": 8
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "佐々木勇之助",
+            "value": 13
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "佐々木清麿",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "清水泰吉",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "足立太郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "浅野総一郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "八十島親徳",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "根岸練次郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "市原盛宏",
+            "to": "横山徳次郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "高松豊吉",
+            "to": "佐々木勇之助",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "高松豊吉",
+            "to": "久米良作",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田克徳",
+            "to": "堀江助保",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田克徳",
+            "to": "馬越恭平",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田克徳",
+            "to": "益田孝",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田克徳",
+            "to": "高橋義雄",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 54,
+            "description": "市原 盛宏（いちはら もりひろ、安政5年4月5日（1858年5月17日） - 大正4年（1915年）10月4日）は日本の銀行家、政治家。肥後国（現熊本県）生まれ。1879年同志社英学校を卒業後、同志社で教鞭をとる。また市原は新島襄を校内で補佐し、新島の二度の欧米旅行中、校内で社長代理を務めた。学生の指導に関しては新島と市原は好対照で、市原はあくまでも高圧的で、「学生は教師にはだまって服従すべきもの。批判はけしからぬ」と市原が言い放って学生に怒りを買っていた。こうした高姿勢に対して反発を強めたのが、徳富蘇峰である。学生のストが生じるが、新島襄の自責の杖事件でひとまず収拾を見た。のちに東華学校で教鞭をとる。留学を経て、同志社に復帰した。この間、小崎弘道の社長代理を務めた。1895年、日本銀行に入行。第一銀行横浜支店長、横浜市長を歴任した後、朝鮮銀行初代総裁に就任。現職のまま、京城で死去。葬儀はキリスト教式によって行われた。",
+            "id": "市原盛宏",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichihara_Morihiro.jpg?width=300",
+            "label": "市原盛宏",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "description": "高松 豊吉（たかまつ とよきち、1852年10月23日（嘉永5年9月11日） - 1937年（昭和12年）9月27日）は、東京の浅草阿部川町出身の化学技術者、応用化学者、工学博士。1884年（明治14年）より東京大学教授を務め、1886年（明治16年）からは帝国大学の発足と共に東京帝国大学工科大学（現:東京大学）応用化学科の教授を日本人として初めて担当した。1888年（明治18年）工学博士修得。東京職工学校（後の東京工業大学）でも色染学について教鞭を執った。1903年（明治36年）に教授を退職。同年、実業家で東京瓦斯株式会社初代社長を務めていた渋沢栄一から懇請されて東京ガスの常務取締役を務め、1909年（明治42年）から1914年（大正3年）まで第二代東京ガス社長に就任した。同年1914年に東京ガス社長を退職し、この頃農商務省に設置された化学工業調査会の筆頭委員となって化学工業の育成に尽力した。1915年（大正4年）から1924年（大正13年）にかけては東京工業試験所の第二代所長を歴任した。その他、理化学研究所や学術研究会議（後の日本学術会議）の設置に貢献。工業化学会（現:日本化学会）、日本薬学会などの会長や役員を務め、技術史学者の山崎俊雄は豊吉を「日本の工業化学の元老」と評した。また、技術評論家である星野芳郎は豊吉の生涯を「日本の化学技術界の教育、行政の発展そのものと言って良いほどである」とも評した。1923年（大正12年）3月10日に学士院会員に選ばれた。",
+            "id": "高松豊吉",
+            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Takamatsu_Toyokichi.jpg?width=300",
+            "label": "高松豊吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 17,
+            "description": "益田 克徳（ますだ こくとく、1852年（嘉永5年）1月 - 1903年（明治36年）4月8日）は、幕末期の幕臣で明治期の官吏、実業家、政治家。東京海上保険創立者。幼名は荘作。号は無為庵、非黙。",
+            "id": "益田克徳",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "益田克徳",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "id": "梅浦精一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "梅浦精一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 17,
+            "id": "佐々木勇之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木勇之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "佐々木清麿",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木清麿",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "清水泰吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "清水泰吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "足立太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "足立太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "益田 孝（ますだ たかし、嘉永元年10月17日（1848年11月12日） - 昭和13年（1938年）12月28日）は、日本の実業家。草創期の日本経済を動かし、三井財閥を支えた実業家である。明治維新後世界初の総合商社・三井物産の設立に関わり、日本経済新聞の前身である中外物価新報を創刊した。茶人としても高名で鈍翁と号し、「千利休以来の大茶人」と称された。男爵。",
+            "id": "益田孝",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masuda_Takashi.jpg?width=300",
+            "label": "益田孝",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "八十島親徳",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "八十島親徳",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "根岸練次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "根岸練次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "横山徳次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "横山徳次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "久米良作",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "久米良作",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "堀江助保",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "堀江助保",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "馬越 恭平（まこし きょうへい、1844年11月21日（天保15年10月12日） - 1933年（昭和8年）4月20日）は、日本の実業家。三井物産に勤務し、大日本麦酒（日本麦酒、朝日麦酒、札幌麦酒の合併会社）の社長を務めた人物。大日本麦酒の大合同合併を画策し、｢日本のビール王｣とよばれた。衆議院議員（1期）、貴族院勅選議員。茶人・馬越化生としても知られた。",
+            "id": "馬越恭平",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MAGOSHI_Kyohei.jpg?width=300",
+            "label": "馬越恭平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "高橋 義雄（たかはし よしお） 高橋義雄 (サッカー選手) - 元サッカー選手。  高橋義雄 (茶人) - 実業家・茶人。 __DISAMBIG__",
+            "id": "高橋義雄",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高橋義雄",
+            "shape": "image"
+        }
+    ]
+}

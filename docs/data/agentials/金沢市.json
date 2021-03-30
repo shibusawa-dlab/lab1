@@ -1,0 +1,51 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "田中",
+            "to": "千葉豊治",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中",
+            "to": "徳川",
+            "value": 6
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "id": "田中",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "千葉豊治",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "千葉豊治",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "徳川",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "徳川",
+            "shape": "image"
+        }
+    ]
+}

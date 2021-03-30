@@ -5,6 +5,8 @@ import itertools
 from my_module import my_function as c
 host_dir = c.settings["host_dir"]
 
+thres = 4
+
 json_open = open("entity/data/all.json", 'r')
 all = json.load(json_open)
 allMap = {}
@@ -25,6 +27,9 @@ nodes = {}
 edges = {}
 
 for obj in df:
+    if "agential" not in obj:
+        continue
+
     agential = obj["agential"]
     es = []
     for a in agential:
@@ -103,7 +108,7 @@ for e in nodes:
     nodes_map = {}
     edges_f = []
 
-    thres = 2
+    
 
     exists = []
 
@@ -167,7 +172,7 @@ for e in nodes:
 
             id = "_".join(sorted([e1, e2]))
 
-            if count > thres and id not in exists2:
+            if count >= thres and id not in exists2:
 
                 edges_f.append({
                     "from": e1,

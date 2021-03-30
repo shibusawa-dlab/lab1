@@ -1,0 +1,103 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "井上",
+            "to": "渋沢敬三",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "井上",
+            "to": "田山",
+            "value": 9
+        },
+        {
+            "color": "lightgrey",
+            "from": "井上",
+            "to": "浅野良三",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "井上",
+            "to": "服部",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "井上",
+            "to": "木島孝蔵",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 22,
+            "id": "井上",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井上",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "渋沢 敬三（しぶさわ けいぞう、正字体：澁澤 敬三、1896年（明治29年）8月25日 - 1963年（昭和38年）10月25日）は、日本の財界人、民俗学者、第16代日本銀行総裁、大蔵大臣（幣原内閣）、旧子爵。祖父は渋沢栄一。",
+            "id": "渋沢敬三",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Keizo_Shibusawa.jpg?width=300",
+            "label": "渋沢敬三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "id": "田山",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田山",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "浅野良三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "浅野良三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "服部",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "服部",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "木島孝蔵",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "木島孝蔵",
+            "shape": "image"
+        }
+    ]
+}

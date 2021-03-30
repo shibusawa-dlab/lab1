@@ -1,0 +1,34 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "次郎",
+            "to": "簗田",
+            "value": 9
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "id": "次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "id": "簗田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "簗田",
+            "shape": "image"
+        }
+    ]
+}

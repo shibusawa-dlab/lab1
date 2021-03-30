@@ -1,4 +1,117 @@
 {
-    "edges": [],
-    "nodes": []
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "瓜生喜三郎",
+            "to": "蓮沼門三",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "瓜生喜三郎",
+            "to": "春樹街",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "瓜生喜三郎",
+            "to": "高田利吉",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "瓜生喜三郎",
+            "to": "大川平三郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "安田善次郎",
+            "to": "朝吹英二",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 16,
+            "id": "瓜生喜三郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "瓜生喜三郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "安田 善次郎（やすだ ぜんじろう、天保9年10月9日〈1838年11月25日〉 - 大正10年〈1921年〉9月28日）は、富山県富山市出身の実業家。幼名は岩次郎。安田財閥の祖。",
+            "id": "安田善次郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zenjiro_Yasuda.jpg?width=300",
+            "label": "安田善次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "蓮沼 門三（はすぬま もんぞう、1882年2月22日 - 1980年6月6日）は、社会教育団体「修養団」を設立した日本の社会教育家。",
+            "id": "蓮沼門三",
+            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Statue_of_Hasunuma_Monzou.jpg?width=300",
+            "label": "蓮沼門三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "春樹街",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "春樹街",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "高田利吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高田利吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "大川 平三郎（おおかわ へいざぶろう、万延元年10月25日（1860年12月7日） - 1936年（昭和11年）12月30日）は、明治から昭和初期の実業家。「日本の製紙王」と呼ばれ、「大川財閥」を築いた。江戸時代の剣豪で農民の出ながら武蔵国川越藩の剣術師範となった大川平兵衛は平三郎の祖父にあたる。",
+            "id": "大川平三郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Heizaburo_ohkawa.jpg?width=300",
+            "label": "大川平三郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "朝吹 英二（あさぶき えいじ、嘉永2年2月18日（1849年3月12日） - 大正7年（1918年）1月31日）は、日本の実業家。幼名は萬吉、鐵之助。",
+            "id": "朝吹英二",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asabuki_eiji.jpg?width=300",
+            "label": "朝吹英二",
+            "shape": "image"
+        }
+    ]
 }

@@ -3,20 +3,26 @@
         {
             "color": "lightgrey",
             "from": "日下義雄",
-            "to": "宇野保太郎",
-            "value": 3
+            "to": "足立太郎",
+            "value": 5
         },
         {
             "color": "lightgrey",
             "from": "日下義雄",
             "to": "佐々木勇之助",
-            "value": 8
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "前島密",
+            "value": 4
         },
         {
             "color": "lightgrey",
             "from": "日下義雄",
             "to": "尾崎三良",
-            "value": 8
+            "value": 9
         },
         {
             "color": "lightgrey",
@@ -31,7 +37,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 29,
+            "count": 38,
             "description": "日下義雄（くさか よしお、嘉永4年12月25日（1852年1月16日） - 大正12年（1923年）3月18日）は、明治から大正時代の政治家、実業家。",
             "id": "日下義雄",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kusaka_Yoshio.jpg?width=300",
@@ -43,18 +49,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
-            "id": "宇野保太郎",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "宇野保太郎",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 8,
+            "count": 10,
             "id": "佐々木勇之助",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "佐々木勇之助",
@@ -65,7 +60,29 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 8,
+            "count": 5,
+            "id": "足立太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "足立太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "前島密",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "前島密",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
             "description": "尾崎 三良（おざき さぶろう、天保13年1月22日（1842年3月3日）- 大正7年（1918年）10月13日）は、日本の官僚。男爵。諱は盛茂、別名・戸田 雅楽（とだ うた）。京都郊外の西院村で代々里長を務める家に生まれる。「憲政の神様」と呼ばれた明治・大正・昭和にわたって活動した政治家・尾崎行雄は女婿にあたる。",
             "id": "尾崎三良",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ozaki_Saburō.jpg?width=300",

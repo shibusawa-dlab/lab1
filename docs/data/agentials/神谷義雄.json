@@ -1,4 +1,64 @@
 {
-    "edges": [],
-    "nodes": []
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "山辺丈夫",
+            "to": "斎藤恒三",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "近藤廉平",
+            "to": "春樹街",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "山辺 丈夫（やまのべ たけお、1851年12月30日（嘉永4年12月8日） - 1920年5月14日）は、明治期の実業家、紡績技師、津和野藩士。従五位。",
+            "id": "山辺丈夫",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "山辺丈夫",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "近藤 廉平（こんどう れんぺい、1848年12月20日（嘉永元年11月25日） - 1921年（大正10年）2月9日）は、日本の男爵。徳島藩士、日清汽船社長、日本郵船会社社長、貴族院男爵議員。",
+            "id": "近藤廉平",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rempei_Kondo.jpg?width=300",
+            "label": "近藤廉平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "斎藤恒三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "斎藤恒三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "春樹街",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "春樹街",
+            "shape": "image"
+        }
+    ]
 }

@@ -1,0 +1,152 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "久米良作",
+            "to": "福島甲子三",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "久米良作",
+            "to": "高松豊吉",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "久米良作",
+            "to": "浅野総一郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "佐々木勇之助",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "蓮沼門三",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "古河虎之助",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "原富太郎",
+            "value": 6
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 14,
+            "id": "久米良作",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "久米良作",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 18,
+            "id": "渋沢義一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渋沢義一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "古河 虎之助（ふるかわ とらのすけ、明治20年（1887年）1月1日 - 昭和15年（1940年）3月30日）は、日本の実業家。古河財閥創業者古河市兵衛の実子で、3代目当主。爵位は男爵。位階勲等は正四位勲三等瑞宝章。紺綬褒章受章。号は風可。古河財閥を多角化させ、総合財閥に発展させた。",
+            "id": "古河虎之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Toranosuke_Furukawa.jpg?width=300",
+            "label": "古河虎之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "福島甲子三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "福島甲子三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "佐々木勇之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木勇之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "高松 豊吉（たかまつ とよきち、1852年10月23日（嘉永5年9月11日） - 1937年（昭和12年）9月27日）は、東京の浅草阿部川町出身の化学技術者、応用化学者、工学博士。1884年（明治14年）より東京大学教授を務め、1886年（明治16年）からは帝国大学の発足と共に東京帝国大学工科大学（現:東京大学）応用化学科の教授を日本人として初めて担当した。1888年（明治18年）工学博士修得。東京職工学校（後の東京工業大学）でも色染学について教鞭を執った。1903年（明治36年）に教授を退職。同年、実業家で東京瓦斯株式会社初代社長を務めていた渋沢栄一から懇請されて東京ガスの常務取締役を務め、1909年（明治42年）から1914年（大正3年）まで第二代東京ガス社長に就任した。同年1914年に東京ガス社長を退職し、この頃農商務省に設置された化学工業調査会の筆頭委員となって化学工業の育成に尽力した。1915年（大正4年）から1924年（大正13年）にかけては東京工業試験所の第二代所長を歴任した。その他、理化学研究所や学術研究会議（後の日本学術会議）の設置に貢献。工業化学会（現:日本化学会）、日本薬学会などの会長や役員を務め、技術史学者の山崎俊雄は豊吉を「日本の工業化学の元老」と評した。また、技術評論家である星野芳郎は豊吉の生涯を「日本の化学技術界の教育、行政の発展そのものと言って良いほどである」とも評した。1923年（大正12年）3月10日に学士院会員に選ばれた。",
+            "id": "高松豊吉",
+            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Takamatsu_Toyokichi.jpg?width=300",
+            "label": "高松豊吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "蓮沼 門三（はすぬま もんぞう、1882年2月22日 - 1980年6月6日）は、社会教育団体「修養団」を設立した日本の社会教育家。",
+            "id": "蓮沼門三",
+            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Statue_of_Hasunuma_Monzou.jpg?width=300",
+            "label": "蓮沼門三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "原 富太郎（はら とみたろう、慶応4年8月23日（1868年10月8日） - 昭和14年（1939年）8月16日）は、実業家、茶人。号は三溪。美濃国厚見郡佐波村（現・岐阜県岐阜市）出身。",
+            "id": "原富太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "原富太郎",
+            "shape": "image"
+        }
+    ]
+}

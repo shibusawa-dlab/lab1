@@ -1,0 +1,34 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "井野辺",
+            "to": "高田",
+            "value": 29
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 29,
+            "id": "井野辺",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井野辺",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 29,
+            "id": "高田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高田",
+            "shape": "image"
+        }
+    ]
+}

@@ -1,0 +1,210 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "麻生正蔵",
+            "to": "水谷清",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "麻生正蔵",
+            "to": "堤茂太郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "麻生正蔵",
+            "to": "塘茂太郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "大隈",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "波多野",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "原",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "斎藤",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "床次",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "田中",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "植村",
+            "to": "内藤",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 12,
+            "description": "麻生 正蔵（あそう しょうぞう）麻生正蔵 (政治家) - 衆議院議員麻生正蔵 (教育者) - 日本女子大学の教員  __DISAMBIG__",
+            "id": "麻生正蔵",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "麻生正蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 29,
+            "id": "徳川",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "徳川",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "植村",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "植村",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "原",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "原",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "斎藤",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/齊異体字一覧.JPG?width=300",
+            "label": "斎藤",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "水谷清",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "水谷清",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "堤茂太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "堤茂太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "塘茂太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "塘茂太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "大隈",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大隈",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "波多野",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "波多野",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "床次",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "床次",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "田中",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "内藤",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "内藤",
+            "shape": "image"
+        }
+    ]
+}

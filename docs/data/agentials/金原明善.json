@@ -2,9 +2,45 @@
     "edges": [
         {
             "color": "lightgrey",
-            "from": "高野佐三郎",
-            "to": "山本長治",
-            "value": 3
+            "from": "増田明六",
+            "to": "横山徳次郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "井口正之",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "浅野総一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "春樹街",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "白石喜太郎",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "高田利吉",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "正木清一郎",
+            "to": "安達憲忠",
+            "value": 4
         }
     ],
     "nodes": [
@@ -13,11 +49,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
-            "description": "高野 佐三郎（たかの ささぶろう、文久2年6月13日（1862年7月9日） - 昭和25年（1950年）12月30日）は、日本の剣道家。流派は中西派一刀流剣術。称号は大日本武徳会剣道範士。諱は豊正。号は靖斎。警視庁撃剣世話掛、東京高等師範学校教授などを歴任した、昭和初期剣道界の第一人者。",
-            "id": "高野佐三郎",
+            "count": 37,
+            "id": "増田明六",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "高野佐三郎",
+            "label": "増田明六",
             "shape": "image"
         },
         {
@@ -25,10 +60,89 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
-            "id": "山本長治",
+            "count": 4,
+            "id": "正木清一郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "山本長治",
+            "label": "正木清一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "横山徳次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "横山徳次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "井口正之",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井口正之",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "春樹街",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "春樹街",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "白石喜太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白石喜太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "高田利吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高田利吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "安達 憲忠（あだち けんちゅう/のりただ、安政4年8月3日（1857年9月20日） - 昭和5年（1930年）12月2日）は、備前国赤坂郡小野田村（現・赤磐市熊山町）出身の社会実業家。東京市養育院幹事。",
+            "id": "安達憲忠",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adachi_Noritada.jpg?width=300",
+            "label": "安達憲忠",
             "shape": "image"
         }
     ]

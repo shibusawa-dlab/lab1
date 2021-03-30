@@ -23,18 +23,16 @@ for file in files:
     json_open = open(file, 'r')
     df = json.load(json_open)
 
-    try:
-        if df["@context"]:
-            canvases = df["sequences"][0]["canvases"]
+    if "@context" not in df:
+        continue
+    canvases = df["sequences"][0]["canvases"]
 
-            manifest = df["@id"]
+    manifest = df["@id"]
 
-            images[manifest] = {}
+    images[manifest] = {}
 
-            for canvas in canvases:
-                images[manifest][canvas["@id"]] = canvas["images"][0]["resource"]["@id"]
-    except Exception as e:
-        print(e, file)
+    for canvas in canvases:
+        images[manifest][canvas["@id"]] = canvas["images"][0]["resource"]["@id"]
 
 def getToc():
     path = "data/toc.json"

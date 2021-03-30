@@ -5,12 +5,206 @@
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20011m">
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20011m 昭和三年  1928</ns1:relatedLink>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10015m">
+    <ns2:xml><![CDATA[<div type="archival-description">
+</div>]]></ns2:xml>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns1:isPartOf>
+      <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB01">
+        <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+        <ns2:xml><![CDATA[<byline>
+     渋沢青淵記念財団竜門社編纂刊行
+    </byline>]]></ns2:xml>
+        <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/iiif/collection/DKB01.json"/>
+        <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/top"/>
+        <rdfs:label>DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)</rdfs:label>
+      </rdf:Description>
+    </ns1:isPartOf>
+    <ns2:contributor>－</ns2:contributor>
+    <ns1:provider>不明</ns1:provider>
+    <rdfs:label>明治四十年            1907</rdfs:label>
+    <ns2:provider>原本欠</ns2:provider>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10015m 明治四十年            1907</ns1:relatedLink>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10007m">
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10007m/manifest.json"/>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <rdfs:label></rdfs:label>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0004-0000</ns1:provider>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0004-0000_00.jpg"/>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns2:xml><![CDATA[<div type="archival-description">
+</div>]]></ns2:xml>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0004-0000_00"/>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10007m </ns1:relatedLink>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10020m">
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10020m/manifest.json"/>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。<date when="1912">明治四十五年</date>当用日記。</p>
+<p>体裁。四六判13.6cm×19.7cm背革金文字、表紙クロス、オリーブ色。見返シ、茶緑色白ヌキ松葉模様。</p>
+<p>扉。<date when="1912">明治四十五年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1912">神武天皇紀元二千五百七十二年</date><date evidence="year inferenced" when="1912">西暦紀元一千九百十二年</date>壬子。左下ニ<placeName>東京</placeName>博文館発行ト印刷、扉裏ニハ七曜表ヲ掲グ。</p>
+<p>本文。三七九頁。一日一頁宛トシ本文記入欄ノ様式前年ニ同ジ。記入ハ総テ鉛筆書キ。</p>
+<p>奥付。<date when="1911-10-07">明治四十四年十月七日</date>印刷、<date when="1911-10-10">明治四十四年十月十日</date>発行。三版。不許複製。当用日記中形特製奥付定価金五拾銭。○以下法定記載事項前年ニ同ジ、略ス。</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10020m 明治四十五年            1912</ns1:relatedLink>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0013-0000</ns1:provider>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0013-0000_00"/>
+    <rdfs:label>明治四十五年            1912</rdfs:label>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0013-0000_00.jpg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20026m">
+    <rdfs:label>大正十三年 1924</rdfs:label>
+    <ns1:isPartOf>
+      <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB02">
+        <rdfs:label>DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表</rdfs:label>
+        <ns2:xml><![CDATA[<byline> 渋沢青淵記念財団竜門社編纂刊行 </byline>]]></ns2:xml>
+        <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/top"/>
+        <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+        <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/iiif/collection/DKB02.json"/>
+      </rdf:Description>
+    </ns1:isPartOf>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20026m 大正十三年 1924</ns1:relatedLink>
+    <ns2:xml>None</ns2:xml>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10019m">
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10019m/manifest.json"/>
+    <rdfs:label>明治四十四年            1911</rdfs:label>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。<date when="1911">明治四十四年</date>当用日記。</p>
+<p>体裁。四六判13.6cm×19.7cm背革金文字。紙クロス濃茶色。見返シ、薄茶色白ヌキチラシ模様。</p>
+<p>扉。<date when="1911">明治四十四年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1911">神武天皇紀元二千五百七十一年</date>、<date evidence="year inferenced" when="1911">西暦紀元一千九百十一年辛亥</date>、左下ニ<placeName>東京</placeName>博文館発行ト印刷、扉裏ニハ七曜一覧ヲ掲グ。</p>
+<p>本文。三七八頁。一日一頁宛トシ、記入欄ノ様式前年ニ同ジ。記入ハ総テ鉛筆書キ。</p>
+<p>奥付。<date when="1910-11-07">明治四十三年十一月七日</date>印刷、<date when="1910-11-10">明治四十三年十一月十日</date>発行。発行兼編輯者<placeName>東京市日本橋区三丁目八番地</placeName><persName><surname>大橋</surname><forename>新太郎</forename></persName>。印刷者<placeName>東京市小石川区久堅町百〇八番地</placeName><persName><surname>水谷</surname><forename>景長</forename></persName>。印刷所<placeName>東京市小石川区久堅町百〇八番地</placeName>博文館印刷所。発行所<placeName>東京市</placeName><placeName>日本橋区本町三丁目</placeName>博文館。振替貯金口座東京二四〇番。販売部電話本局二六二〇番。（参版不許複製当用日記奥付特製。）（定価金五拾銭）</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0012-0000</ns1:provider>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10019m 明治四十四年            1911</ns1:relatedLink>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0012-0000_00"/>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0012-0000_00.jpg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20031m">
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns2:xml>None</ns2:xml>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20031m 昭和四年 1929</ns1:relatedLink>
+    <rdfs:label>昭和四年 1929</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20004m">
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
     <ns2:provider>文部省史料館</ns2:provider>
     <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <rdfs:label>昭和三年  1928</rdfs:label>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20011m/manifest.json"/>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0020-0000_00"/>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20004m/manifest.json"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20004m 大正八年  1919</ns1:relatedLink>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0020-0000</ns1:provider>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0020-0000_00.jpg"/>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。<date when="1919">大正八年</date>当用日記。</p>
+<p>体裁。四六判13.6cm×19.7cm.背革金文字。クロス濃緑色。見返シ、一―二日本地図、三―四世界地図。</p>
+<p>扉。<date when="1919">大正八年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1919">神武天皇紀元二千五百七十九年</date><date evidence="year inferenced" when="1919">西暦一千九百十九年己未</date>。左下ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。記入ハ総テ鉛筆書キ。</p>
+<p>本文。三七八頁。記入欄ノ様式前年ニ同ジ。</p>
+<p>奥付。三版。正価金九十銭。<date when="1918-10-12">大正七年十月十二日</date>印刷<date when="1918-10-15">大正七年十月十五日</date>発行。其他法定記載事項前年ニ同ジ。</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+    <rdfs:label>大正八年  1919</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10006m">
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10006m 明治十九年            1886</ns1:relatedLink>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0004-0000_00.jpg"/>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>体裁。洋綴小型手帖。12cm×8.5cm.厚サ、1.7cm,表紙茶ノ<placeName>麻布</placeName>。背及ビ角ヲ黒革ニテ被フ。金線模様アリ。見返シ、コゲ茶模様。表紙ノ一方ニゴム紐ヲ付ク、鉛筆挿付。総テ鉛筆書キ。</p>
+<p>本文。白紙一九八頁。記入ハ前後ヨリ初メ前部ハ「<persName><surname>原田</surname><forename>虎蔵</forename></persName>云々」以下「<placeName>陸奥</placeName>氏持株云々」マデ五頁ヲ記シ、相当ノ余白ヲオキテ　「<placeName>四日市</placeName><placeName>伏木</placeName><placeName>新潟</placeName>巡回紀行」（四三頁余）ヲ記ス。後部ハ「<placeName>亀井戸</placeName>観梅」以下ノ漢詩並ニ「<placeName>日光鉢石町</placeName><persName><surname>小西屋</surname><forename>喜一郎</forename></persName>云々」ノ八頁ヲ記シ、続イテ「<placeName>京坂</placeName>巡回紀行」（二八頁）ヲ記ス。ココニハ覚書ハ前部、後部共ニ、日記ノ後ニ一括収録セリ。</p>
+</div>]]></ns2:xml>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0004-0000_00"/>
+    <rdfs:label>明治十九年            1886</rdfs:label>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0004-0000</ns1:provider>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10006m/manifest.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10011m">
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10011m/manifest.json"/>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0008-0000_00"/>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0008-0000_00.jpg"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10011m 自             明治三十五年八月            至             明治三十六年十一月            1902―1903</ns1:relatedLink>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。万民重宝机上日記。</p>
+<p>体裁。菊版22.5cm×15cm.表紙鼠色紙クロス、見返シ、白無地。</p>
+<p>扉。万民重宝机上日記ト中央ニ、ソノ左下ニ約7.5cm×2.2cm.化粧罫カコミノ記入欄ヲ印刷ス。</p>
+<p>本文。縦罫十行淡青色刷、欄外上部各頁ニ詩歌格言等ヲ掲グ。総頁三二〇頁。総テ鉛筆書キ。</p>
+<p>奥付。<date when="1898-12-24">明治三十一年十二月廿四日</date>印刷、<date when="1898-12-27">明治三十一年十二月廿七日</date>発行。定価金参拾銭。発行者<placeName>東京市日本橋区本町三丁目八番地</placeName><persName><surname>大橋</surname><forename>新太郎</forename></persName>。印刷者<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地</placeName><persName><surname>愛敬</surname><forename>利世</forename></persName>。印刷所<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地</placeName>株式会社秀英舎第一工場。発兌元<placeName>東京市日本橋区本町三丁目</placeName>博文館。</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0008-0000</ns1:provider>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <rdfs:label>自             明治三十五年八月            至             明治三十六年十一月            1902―1903</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20030m">
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20030m 昭和三年 1928</ns1:relatedLink>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns2:xml>None</ns2:xml>
+    <rdfs:label>昭和三年 1928</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10014m">
+    <ns2:xml><![CDATA[<div type="archival-description">
+</div>]]></ns2:xml>
+    <ns2:provider>原本欠</ns2:provider>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns1:provider>不明</ns1:provider>
+    <ns2:contributor>－</ns2:contributor>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10014m 明治三十九年            1906</ns1:relatedLink>
+    <rdfs:label>明治三十九年            1906</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20012m">
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_00.jpg"/>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0028-0000_00"/>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0028-0000</ns1:provider>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。<date when="1929">昭和四年</date>当用日記。</p>
+<p>体裁。四六判13.0cm×19.3cm.背文字金箔。三方金。黒色総革装。見返シ、風景画。</p>
+<p>扉。当用日記<date when="1929">昭和四年</date>ト上部ニ印刷、果実<surname>盛合</surname>セノ籠ヲ意匠化シテ配ス。扉裏ニ七曜表ヲ掲グ。</p>
+<p>本文。三七八頁。記入欄ノ様式前年ニ同ジ。記入ハ総テ鉛筆書キ。</p>
+<p>奥付。<date when="1928-10-01">昭和三年十月一日</date>印刷、<date when="1928-10-04">昭和三年十月四日</date>発行。二版。<date when="1929">昭和四年</date>当用日記中形総革正価金弐円弐拾銭。製本<surname>大谷</surname>。MadeinJapan.ソノ他法定記載事項前年ニ同ジ。</p>
+<p>株式会社博文館小売部規定。略ス。</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20012m/manifest.json"/>
+    <rdfs:label>昭和四年  1929</rdfs:label>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20012m 昭和四年  1929</ns1:relatedLink>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20011m">
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
     <ns2:xml><![CDATA[<div type="archival-description">
 <p>○原本概要</p>
 <p>書名。<date when="1928">昭和三年</date>当用日記。</p>
@@ -21,23 +215,201 @@
 <p>株式会社博文館小売部規定。略ス。</p>
 <p>前付並ニ後付。略ス。</p>
 </div>]]></ns2:xml>
-    <ns1:isPartOf>
-      <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB02">
-        <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/iiif/collection/DKB02.json"/>
-        <ns2:xml><![CDATA[<byline> 渋沢青淵記念財団竜門社編纂刊行 </byline>]]></ns2:xml>
-        <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-        <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/top"/>
-        <rdfs:label>DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表</rdfs:label>
-      </rdf:Description>
-    </ns1:isPartOf>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20011m 昭和三年  1928</ns1:relatedLink>
     <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0027-0000_00.jpg"/>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <rdfs:label>昭和三年  1928</rdfs:label>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20011m/manifest.json"/>
     <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0027-0000_00"/>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
     <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0027-0000</ns1:provider>
   </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20001m">
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20001m 大正四年  大正五年  1915―1916</ns1:relatedLink>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。<date when="1915">大正四年</date>新案当用日記。</p>
+<p>体裁。四六判13.6cm×19.7cm.背文字銀地紺ヌキ、クロス紺色。見返シ、白無色。</p>
+<p>扉。淡青色地ニ墨色ニテ<date when="1915">大正四年</date>春陽堂発行新案当用日記<date evidence="year inferenced" when="1915">紀元二千五百七十五年</date><date evidence="year inferenced" when="1915">西暦千九百十五年</date>ト円ノ中ニ印刷、兎ノカツトヲ配ス。</p>
+<p>本文。四〇九頁（各月ノ初メニ二頁宛ソノ月ノ行事等ヲ掲グ）一日一頁宛トシ、本文記入欄十一行、毎右側ニ新旧月日、七曜、干支、九星、六曜、詩歌散文等ヲ掲グ。天候記入ノ欄ナシ。記入ハ総テ鉛筆書キ。</p>
+<p>奥付。<date when="1914-10-15">大正三年十月十五日</date>印刷、同年<date evidence="year inferenced" when="1915-10-18">十月十八日</date>発行、同年<date evidence="year inferenced" when="1915-11-20">十一月二十日</date>再版。新案当用日記定価金六拾銭、編輯者<persName><surname>柳川</surname><forename>春葉</forename></persName>・<persName><surname>斎藤</surname><forename>松洲</forename></persName>。発行者<placeName>東京市日本橋区通四丁目五番地</placeName><persName><surname>和田</surname><forename>静子</forename></persName>。印刷者<placeName>東京市京橋区南小田原町三丁目九番地</placeName><persName><surname>中野</surname><forename>鍈太郎</forename></persName>。印刷所<placeName>東京市芝区愛宕町三丁目二番地</placeName>東洋印刷株式会社。発行所<placeName>東京市日本橋区通四丁目五番地</placeName>春陽堂。電話本局五十一番。振替口座東京一六一七。不許複製・版権所有。</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+    <rdfs:label>大正四年  大正五年  1915―1916</rdfs:label>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20001m/manifest.json"/>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0016-0000_00.jpg"/>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0016-0000_00"/>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0016-0000</ns1:provider>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20002m">
+    <rdfs:label>大正六年  1917</rdfs:label>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0018-0000</ns1:provider>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0018-0000_00.jpg"/>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。<date when="1917">大正六年</date>当用日記。</p>
+<p>体裁。四六判13.6cm×19.7cm.背革金文字。クロス藍色。見返シ、一―二東洋地図、三―四世界地図。</p>
+<p>扉。<date when="1917">大正六年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1917">神武天皇紀元二千五百七十七年</date><date evidence="year inferenced" when="1917">西暦紀元一千九百十七年丁巳</date>。左下ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。</p>
+<p>本文。三七八頁。一日一頁宛トシ、本文記入欄十四行、上部欄外ニ新旧月日、七曜、干支、ソノ下ニ天気、寒暖、予記、発信受信ノ欄アリ、欄外下部ニ歴史事項ヲ掲グ。記入ハ総テ鉛筆書キ。</p>
+<p>奥付。七版。当用日記中形背革奥付正価金五拾五銭。不許複製。編輯兼発行者<persName><surname>大橋</surname><forename>新太郎</forename></persName><placeName>東京市日本橋区本町三丁目八番地</placeName>。印刷者<persName><surname>高橋</surname><forename>季吉</forename></persName><placeName>東京市小石川区久堅町百〇八番地</placeName>。印刷所博文館印刷所<placeName>東京市</placeName><surname>小石川区</surname><placeName>久堅町</placeName>百〇八番地。発行所振替口座東京二四〇番。博文館<placeName>東京市</placeName><placeName>日本橋区</placeName><surname>本町</surname>三丁目。<date when="1916-10-03">大正五年十月三日</date>印刷、<date when="1916-10-05">大正五年十月五日</date>発行。</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20002m/manifest.json"/>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0018-0000_00"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20002m 大正六年  1917</ns1:relatedLink>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20003m">
+    <rdfs:label>大正七年  1918</rdfs:label>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20003m 大正七年  1918</ns1:relatedLink>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0019-0000_00.jpg"/>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0019-0000_00"/>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20003m/manifest.json"/>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0019-0000</ns1:provider>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。<date when="1918">大正七年</date>当用日記。</p>
+<p>体裁。四六判13.6cm×19.7cm.背革金文字。クロス藍色。見返シ、一―二日本地図、三―四世界地図。</p>
+<p>扉。<date when="1918">大正七年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1918">神武天皇紀元二千五百七十八年</date><date evidence="year inferenced" when="1918">西暦紀元一千九百十八年戊午</date>。左ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。</p>
+<p>本文。三七八頁、本文記入欄ノ様式前年ニ同ジ。記入ハ総テ鉛筆書キ。</p>
+<p>奥付。正価金六十銭。<date when="1917-10-01">大正六年十月一日</date>印刷<date when="1917-10-04">大正六年十月四日</date>発行。五版。ソノ他法定記載事項前年ニ同ジ。</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10009m">
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0006-0000</ns1:provider>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。万民重宝机上日記。</p>
+<p>体裁。菊判22.5cm×15cm.表紙鼠色紙クロス、見返シ、白無地。</p>
+<p>扉。万民重宝机上日記ト中央ニ、ソノ左下ニ約7.5cm×2.2cm.化粧罫カコミノ記入欄ヲ印刷ス。</p>
+<p>本文。縦罫十行淡青色刷、欄外上部各頁ニ詩歌格言等ヲ掲グ。総頁三二〇頁。総テ鉛筆書キ。</p>
+<p>奥付。<date when="1898-12-24">明治三十一年十二月廿四日</date>印刷、<date when="1898-12-27">明治三十一年十二月廿七日</date>発行。定価金参拾銭。発行者<placeName>東京市日本橋区本町三丁目八番地</placeName><persName><surname>大橋</surname><forename>新太郎</forename></persName>。印刷者<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地</placeName><persName><surname>愛敬</surname><forename>利世</forename></persName>。印刷所<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地</placeName>株式会社秀英舎第一工場。発兌元<placeName>東京市日本橋区本町三丁目</placeName>博文館。</p>
+<p>前付並ニ後付。略ス。</p>
+<p>■■[img図]〓■第二号《（栄一鉛筆）》</p>
+<p>自<date when="1900-01-01">明治三十三年一月一日</date>至<date evidence="year inferenced" when="1900-04-05">三十四年四月五日</date>《（<date evidence="year inferenced, day" when="1900-05">五月</date>）》</p>
+</div>]]></ns2:xml>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0006-0000_00"/>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10009m/manifest.json"/>
+    <rdfs:label>自             明治三十三年一月            至             明治三十四年五月            1900―1901</rdfs:label>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0006-0000_00.jpg"/>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10009m 自             明治三十三年一月            至             明治三十四年五月            1900―1901</ns1:relatedLink>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20005m">
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0021-0000</ns1:provider>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。<date when="1920">大正九年</date>当用日記。</p>
+<p>体裁。四六判13.6cm×19.7cm.背革金文字。クロス紺色。見返シ、紫紺色花模様。</p>
+<p>扉。<date when="1920">大正九年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1920">神武天皇紀元二千五百八十年</date><date evidence="year inferenced" when="1920">西暦紀元一千九百二十年庚申</date>、左下ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。</p>
+<p>本文。三七九頁。記入欄ノ様式前年ニ同ジ。</p>
+<p>奥付。六版。<date when="1919-10-01">大正八年十月一日</date>印刷<date when="1919-10-04">大正八年十月四日</date>発行。編輯兼発行者<placeName>東京市日本橋区本石町三丁目十六番地</placeName>株式会社博文館代表者取締役社長<persName><surname>大橋</surname><forename>進一</forename></persName>。印刷者<placeName>東京市小石川区久堅町百八番地</placeName><persName><surname>高橋</surname><forename>季吉</forename></persName>。印刷所<placeName>東京市小石川区久堅町百八番地</placeName>株式会社博文館印刷所。発行所<placeName>東京市日本橋区本石町三丁目十六番地</placeName>株式会社博文館。不許複製。当用日記中形特製奥付。正価金九十五銭。</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0021-0000_00.jpg"/>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20005m/manifest.json"/>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0021-0000_00"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20005m 大正九年  1920</ns1:relatedLink>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <rdfs:label>大正九年  1920</rdfs:label>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10021m">
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10021m/manifest.json"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0014-0000</ns1:provider>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10021m 大正二年            1913</ns1:relatedLink>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0014-0000_00.jpg"/>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0014-0000_00"/>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <rdfs:label>大正二年            1913</rdfs:label>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。<date when="1913">大正二年</date>当用日記。</p>
+<p>体裁。四六判13.6cm×19.7cm背革金文字。クロス茶色。見返シ、淡青色白ヌキツナギ模様。</p>
+<p>扉。<date when="1913">大正二年</date>当用日記ト中央ニ、ソノ右肩ニ<date when="1913">神武天皇紀元二千五百七十三年</date><date when="1913">西暦紀元一千九百十三癸丑</date>、左下ニ東京博文館発行ト印刷。扉裏ニハ七曜表ヲ掲グ。</p>
+<p>本文。三七八頁。一日一頁宛トシ、本文記入欄ノ様式前年ニ同ジ。記入ハ総テ鉛筆書キ。</p>
+<p>奥付。<date when="1912-11-01">大正元年十一月一日</date>印刷、<date when="1912-11-03">大正元年十一月三日</date>発行。再版。○以下法定記載事項前年ニ同ジ。略ス。</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10018m">
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10018m 明治四十三年            1910</ns1:relatedLink>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0011-0000_00.jpg"/>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0011-0000_00"/>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10018m/manifest.json"/>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。<date when="1910">明治四十三年</date>当用日記。</p>
+<p>体裁。四六判13.6cm×19.7cm背革金文字。表紙、クロス金茶色。見返シ、白無地。</p>
+<p>扉。<date when="1910">明治四十三年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1910">神武天皇紀元二千五百七十年</date><date evidence="year inferenced" when="1910">西暦紀元一千九百十年</date>。左下ニ<placeName>東京</placeName>博文館発行ト印刷、扉裏ニハ七曜一覧ヲ掲グ。</p>
+<p>本文。三七八頁。一日一頁宛トシ、本文記入欄ヲ十行、ソノ上部ニ右カラ曜日、干支、月日、天気、寒暖ノ欄左側ニ発信、受信、摘要ノ記入欄アリ。尚欄外上辺ニ詩歌、俳句、下辺ニ歴史事項ヲ掲グ。総テ鉛筆書キ。</p>
+<p>奥付。<date when="1909-10-23">明治四十二年十月廿三日</date>印刷、<date when="1909-10-25">明治四十二年十月廿五日</date>発行。定価金五拾銭。発行兼編輯者<placeName>東京市日本橋区本町三丁目八番地</placeName><persName><surname>大橋</surname><forename>新太郎</forename></persName>。印刷者<placeName>東京市小石川区久堅町百八番地</placeName><persName><surname>市川</surname><forename>七作</forename></persName>。印刷所<placeName>東京市小石川区久堅町百八番地</placeName>博文館印刷所。発兌元<placeName>東京市日本橋区本町三丁目</placeName>博文館。振替貯金口座東京二百四十番。当用日記中形特製。版権所有不許複製。</p>
+<p>小売規程改正。略ス。</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0011-0000</ns1:provider>
+    <rdfs:label>明治四十三年            1910</rdfs:label>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10004m">
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0003-0000_00.jpg"/>
+    <rdfs:label>明治十七年            1884</rdfs:label>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>体裁。洋綴横長手帖。14cm×8.6cm.厚サ、1.5cm.表紙暗赤色ト黒ノ斑模様。背ト角ヲ濃茶ノクロスニテ被フ。見返シ、青ト黒ノ斑模様。</p>
+<p>本文。白紙。総頁一八四頁。総テ鉛筆書キ。</p>
+<p>一方ヨリ西遊日記（二四頁）ヲ記シ、ソノ<date evidence="year inferenced" when="1884-06-05">六月五日</date>ノ記事中ニ芳園百卉云々外二詩ヲ記ス。又反対ノ一方（裏）ヨリ、<surname>水野</surname>、<surname>伊藤</surname>二氏ノ宿所、金泉楼即事以下ノ詩五篇、<surname>中村</surname>氏外三氏ノ氏名、烏兎匇々ノ詩一篇ヲ記ス。是等ハ後部覚書トシテ日記末ニ収録セリ。</p>
+</div>]]></ns2:xml>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10004m 明治十七年            1884</ns1:relatedLink>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0003-0000_00"/>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10004m/manifest.json"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0003-0000</ns1:provider>
+    <ns2:provider>文部省史料館</ns2:provider>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20029m">
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns2:xml>None</ns2:xml>
+    <rdfs:label>昭和二年 1927</rdfs:label>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20029m 昭和二年 1927</ns1:relatedLink>
+  </rdf:Description>
   <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20007m">
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20007m/manifest.json"/>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <rdfs:label>大正十二年  1923</rdfs:label>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0023-0000_00"/>
     <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0023-0000</ns1:provider>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20007m 大正十二年  1923</ns1:relatedLink>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0023-0000_00.jpg"/>
+    <ns2:provider>文部省史料館</ns2:provider>
     <ns2:xml><![CDATA[<div type="archival-description">
 <p>○原本概要</p>
 <p>書名。紀元二五八三当用日記</p>
@@ -48,41 +420,159 @@
 <p>株式会社博文館小売部規定。略ス。</p>
 <p>前付並ニ後付。略ス。</p>
 </div>]]></ns2:xml>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0023-0000_00.jpg"/>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20007m/manifest.json"/>
-    <rdfs:label>大正十二年  1923</rdfs:label>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0023-0000_00"/>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20007m 大正十二年  1923</ns1:relatedLink>
   </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10003m">
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10003m 自               明治二年十月二十一日            至同年                      十一月十九日            1869</ns1:relatedLink>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20009m">
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0025-0000_00.jpg"/>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20009m/manifest.json"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0025-0000</ns1:provider>
     <ns2:xml><![CDATA[<div type="archival-description">
 <p>○原本概要</p>
-<p>体裁。和綴横帖。15.5cm×10.9cm.厚サ、0.4cm.表紙淡茶和紙。綴糸緑色。角布、濃緑布地。</p>
-<p>本文。雁皮紙、全九十四丁。木版刷竪罫十二行。丁裏欄外下部ニ「小（中カ）橋玉林堂」トアリ。</p>
-<p>記入ハ総毛筆書キ。三部分ヨリ成リ、第一部ハ常平倉関係ノ書類控ニテ第一丁ヨリ第六丁表ニ至リ、第六丁（裏）ヨリ更メテ「<date type="旧暦" when="1869-11-24">明治二年己巳十月廿一日</date>」ヲ記シ、二十三丁裏マデニテ止ム。更ニ余白二十七丁ヲ置キ、略々後半ヨリ「見廻書類請払」（四十一丁）ヲ記ス。「見廻書類請払」ハ栄一租税正任官当初ノ覚書ニシテ本資料第二巻、<date type="旧暦" when="1869-12-06">明治二年十一月四日</date>ノ条ニ収ム（第二一三頁以下）。ココニハ再録セズ。</p>
+<p>書名。紀元二五八六当用日記。</p>
+<p>体裁。四六判13.0cm×19.3cm.背革天金。背文字金箔。表紙濃緑色クロス。見返シ、梅ノ古木。</p>
+<p>扉。<date when="1926">大正十五年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1926">神武天皇紀元二千五百八十六年</date><date evidence="year inferenced" when="1926">西暦紀元一千九百二十六年</date>丙寅左下ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。</p>
+<p>本文。三七八頁。記入欄ノ様式前年ニ同ジ。但左右欄外ニ日出、日没、月出、月没各時間及ビ歌、俳句、俚諺等ヲ加フ。記入ハ総テ鉛筆書キ。</p>
+<p>奥付。<date when="1925-10-01">大正十四年十月一日</date>印刷<date when="1925-10-04">大正十四年十月四日</date>発行六版。印刷者<surname>上村</surname>新輔。<date when="1926">大正十五年</date>当用日記中形背革正価金壱円参拾銭。ソノ他ノ法定記載事項前年ニ同ジ。</p>
+<p>前付並ニ後付。略ス。</p>
 </div>]]></ns2:xml>
-    <ns1:isPartOf>
-      <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB01">
-        <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-        <rdfs:label>DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)</rdfs:label>
-        <ns2:xml><![CDATA[<byline>
-     渋沢青淵記念財団竜門社編纂刊行
-    </byline>]]></ns2:xml>
-        <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/iiif/collection/DKB01.json"/>
-        <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/top"/>
-      </rdf:Description>
-    </ns1:isPartOf>
+    <rdfs:label>大正十五年  1926</rdfs:label>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0025-0000_00"/>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20009m 大正十五年  1926</ns1:relatedLink>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20017m">
+    <rdfs:label>大正四年 1915</rdfs:label>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20017m 大正四年 1915</ns1:relatedLink>
+    <ns2:xml>None</ns2:xml>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20023m">
+    <rdfs:label>大正十年　1921</rdfs:label>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns2:xml>None</ns2:xml>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20023m 大正十年　1921</ns1:relatedLink>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20006m">
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0022-0000_00"/>
+    <rdfs:label>大正十年  大正十一年  1921―1922</rdfs:label>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20006m/manifest.json"/>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0022-0000_00.jpg"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20006m 大正十年  大正十一年  1921―1922</ns1:relatedLink>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0022-0000（大正10年・大正11年）</ns1:provider>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。<date when="1921">大正十年</date>当用日記。</p>
+<p>体裁。四六判13.6cm×19.7cm.背金文字。クロス濃緑色。見返シ、花模様。</p>
+<p>扉。<date when="1921">大正十年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1921">神武天皇紀元二千五百八十一年</date><date evidence="year inferenced" when="1921">西暦紀元一千九百二十一年</date>辛酉、左下ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。</p>
+<p>本文。三七八頁。記入欄ノ様式前年ニ同ジ。</p>
+<p>奥付。六版。<date when="1920-10-01">大正九年十月一日</date>印刷<date when="1920-10-04">大正九年十月四日</date>発行。編輯兼発行者<placeName>東京市</placeName><placeName>日本橋区</placeName><placeName>本石町</placeName>三丁目十六番地株式会社博文館代表者取締役社長<persName><surname>大橋</surname><forename>進一</forename></persName>。印刷者<placeName>東京市</placeName><persName><surname>小石川区</surname><placeName>久堅町</placeName>百八番地<surname>吉岡</surname><forename>泰次郎</forename></persName>。印刷所<placeName>東京市</placeName><surname>小石川区</surname><placeName>久堅町</placeName>百八番地株式会社博文館印刷所。発行所<placeName>東京</placeName>市<placeName>日本橋</placeName>区<placeName>本石町</placeName>三丁目株式会社博文館。<date when="1921">大正十年</date>当用日記中形上製正価金壱円廿銭。不許複製MadeinJapan.</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20032m">
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns2:xml>None</ns2:xml>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <rdfs:label>昭和五年 1930</rdfs:label>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20032m 昭和五年 1930</ns1:relatedLink>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20021m">
+    <ns2:xml>None</ns2:xml>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20021m 大正八年 1919</ns1:relatedLink>
+    <rdfs:label>大正八年 1919</rdfs:label>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10022m">
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。<date when="1914">大正三年</date>新式当用日記。</p>
+<p>体裁。四六判13.6cm×19.7cm背金文字。クロース茶色。見返シ一ニ<date when="1914">大正三年</date>暦要覧ヲ印刷、二、三、四ハ白無地。</p>
+<p>扉。大正参年新式当用日記ト上部ニ右横読ミニ印刷、中央ニ花形カツト、下辺ニカコミ空欄ヲ掲グ。</p>
+<p>本文。四〇九頁。各月ノ初メニ二頁宛ソノ月ノ行事等ヲ掲グ。一日一頁宛トシ、本文記入欄十四行、ソノ上部ニ、曜日、新旧月日、干支、経過未経過日数、重要記事記入欄、気象記入カツトヲ掲グ。尚欄外ノド側ニ詩歌格言、九星運勢等、ミミ側ニ粍目盛ヲ印刷ス。記入ハ総テ鉛筆書キ。</p>
+<p>奥付。<date when="1913-11-01">大正二年十一月一日</date>印刷、<date when="1913-11-07">大正二年十一月七日</date>発行。新式当用日記奥付正価金五拾五銭。編輯兼発行者<placeName>東京市日本橋区通一丁目十九番地</placeName><persName><surname>大倉</surname><forename>保五郎</forename></persName>。印刷者<placeName>東京市日本橋区通一丁目十九番地</placeName><persName><surname>村田</surname><forename>豊吉</forename></persName>。印刷所<placeName>東京市京橋区新栄町五丁目七番地</placeName>大倉印刷所。発行所<placeName>東京市日本橋通一丁目十九番地</placeName>大倉書店。電話本局四一四番・二四〇四番。振替口座東京二三八番。</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0015-0000</ns1:provider>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0015-0000_00.jpg"/>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
     <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns1:provider>渋沢栄一記念財団　※桑原さんに確認済</ns1:provider>
-    <ns2:provider>渋沢青渊記念財団竜門社</ns2:provider>
-    <rdfs:label>自               明治二年十月二十一日            至同年                      十一月十九日            1869</rdfs:label>
+    <rdfs:label>大正三年            1914</rdfs:label>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0015-0000_00"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10022m 大正三年            1914</ns1:relatedLink>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10022m/manifest.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10012m">
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0009-0000_00"/>
+    <rdfs:label>自             明治三十六年十一月            至             明治三十七年四月            1903―1904</rdfs:label>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。万民重宝机上日記。</p>
+<p>体裁。菊版22.5cm×15cm.表紙鼠色紙クロス、見返シ、白無地。</p>
+<p>扉。万民重宝机上日記ト中央ニ、ソノ左下ニ約7.5cm×2.2cm.化粧罫カコミノ記入欄ヲ印刷ス。</p>
+<p>本文。縦罫十行淡青色刷、欄外上部各頁ニ詩歌格言等ヲ掲グ。総頁三二〇頁。総テ鉛筆書キ。</p>
+<p>奥付。<date when="1898-12-24">明治三十一年十二月廿四日</date>印刷、<date when="1898-12-27">明治三十一年十二月廿七日</date>発行。定価金参拾銭。発行者<placeName>東京市日本橋区本町三丁目八番地</placeName><persName><surname>大橋</surname><forename>新太郎</forename></persName>。印刷者<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地</placeName><persName><surname>愛敬</surname><forename>利世</forename></persName>。印刷所<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地株式会社</placeName>秀英舎第一工場。発兌元<placeName>東京市日本橋区本町三丁目</placeName>博文館。</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0009-0000_00.jpg"/>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10012m/manifest.json"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10012m 自             明治三十六年十一月            至             明治三十七年四月            1903―1904</ns1:relatedLink>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0009-0000</ns1:provider>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20018m">
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20018m 大正五年 1916</ns1:relatedLink>
+    <rdfs:label>大正五年 1916</rdfs:label>
+    <ns2:xml>None</ns2:xml>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20028m">
+    <rdfs:label>大正十五年　1926  昭和元年</rdfs:label>
+    <ns2:xml>None</ns2:xml>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20028m 大正十五年　1926  昭和元年</ns1:relatedLink>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10016m">
+    <ns2:xml><![CDATA[<div type="archival-description">
+</div>]]></ns2:xml>
+    <ns2:provider>原本欠</ns2:provider>
     <ns2:contributor>－</ns2:contributor>
+    <ns1:provider>不明</ns1:provider>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <rdfs:label>明治四十一年            1908</rdfs:label>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10016m 明治四十一年            1908</ns1:relatedLink>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10017m">
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <rdfs:label>明治四十二年            1909</rdfs:label>
+    <ns2:xml><![CDATA[<div type="archival-description">
+</div>]]></ns2:xml>
+    <ns2:provider>原本欠</ns2:provider>
+    <ns2:contributor>－</ns2:contributor>
+    <ns1:provider>不明</ns1:provider>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10017m 明治四十二年            1909</ns1:relatedLink>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10010m">
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10010m 自             明治三十四年五月            至             明治三十五年八月            1901―1902</ns1:relatedLink>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0007-0000_00"/>
     <ns2:xml><![CDATA[<div type="archival-description">
 <p>○原本概要</p>
 <p>書名。万民重宝机上日記。</p>
@@ -95,313 +585,40 @@
 <p>（欄外）</p>
 <p>［<date evidence="year inferenced" when="1901-05-06">五月六日</date>ヨリ別冊第二号日記ノ続キ</p>
 </div>]]></ns2:xml>
-    <rdfs:label>自             明治三十四年五月            至             明治三十五年八月            1901―1902</rdfs:label>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10010m/manifest.json"/>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0007-0000_00"/>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
     <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0007-0000</ns1:provider>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10010m 自             明治三十四年五月            至             明治三十五年八月            1901―1902</ns1:relatedLink>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
     <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
     <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <rdfs:label>自             明治三十四年五月            至             明治三十五年八月            1901―1902</rdfs:label>
+    <ns2:provider>文部省史料館</ns2:provider>
     <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0007-0000_00.jpg"/>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10010m/manifest.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10005m">
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0003-0000_00.jpg"/>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <rdfs:label>甲申京摂巡回日記　　　　　　（株式会社第一銀行京都支店所蔵）</rdfs:label>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0003-0000_00"/>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10005m/manifest.json"/>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10005m 甲申京摂巡回日記　　　　　　（株式会社第一銀行京都支店所蔵）</ns1:relatedLink>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0003-0000</ns1:provider>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>甲申京摂巡回日記ハ、上掲手帖ノ記事ヲ整理セシモノニシテ、<date evidence="year inferenced" when="1884-06-17">六月十七日</date>以後<date evidence="year inferenced" when="1884-07-01">七月一日</date>マデヲ補足ス。原本ハ第一国立銀行美濃紙罫紙九枚。</p>
-</div>]]></ns2:xml>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10003m">
+    <rdfs:label>自               明治二年十月二十一日            至同年                      十一月十九日            1869</rdfs:label>
     <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20009m">
-    <rdfs:label>大正十五年  1926</rdfs:label>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0025-0000</ns1:provider>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。紀元二五八六当用日記。</p>
-<p>体裁。四六判13.0cm×19.3cm.背革天金。背文字金箔。表紙濃緑色クロス。見返シ、梅ノ古木。</p>
-<p>扉。<date when="1926">大正十五年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1926">神武天皇紀元二千五百八十六年</date><date evidence="year inferenced" when="1926">西暦紀元一千九百二十六年</date>丙寅左下ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。</p>
-<p>本文。三七八頁。記入欄ノ様式前年ニ同ジ。但左右欄外ニ日出、日没、月出、月没各時間及ビ歌、俳句、俚諺等ヲ加フ。記入ハ総テ鉛筆書キ。</p>
-<p>奥付。<date when="1925-10-01">大正十四年十月一日</date>印刷<date when="1925-10-04">大正十四年十月四日</date>発行六版。印刷者<surname>上村</surname>新輔。<date when="1926">大正十五年</date>当用日記中形背革正価金壱円参拾銭。ソノ他ノ法定記載事項前年ニ同ジ。</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0025-0000_00.jpg"/>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20009m/manifest.json"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20009m 大正十五年  1926</ns1:relatedLink>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0025-0000_00"/>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10014m">
-    <ns1:provider>不明</ns1:provider>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <ns2:provider>原本欠</ns2:provider>
     <ns2:contributor>－</ns2:contributor>
-    <rdfs:label>明治三十九年            1906</rdfs:label>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10014m 明治三十九年            1906</ns1:relatedLink>
+    <ns1:provider>渋沢栄一記念財団　※桑原さんに確認済</ns1:provider>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>体裁。和綴横帖。15.5cm×10.9cm.厚サ、0.4cm.表紙淡茶和紙。綴糸緑色。角布、濃緑布地。</p>
+<p>本文。雁皮紙、全九十四丁。木版刷竪罫十二行。丁裏欄外下部ニ「小（中カ）橋玉林堂」トアリ。</p>
+<p>記入ハ総毛筆書キ。三部分ヨリ成リ、第一部ハ常平倉関係ノ書類控ニテ第一丁ヨリ第六丁表ニ至リ、第六丁（裏）ヨリ更メテ「<date type="旧暦" when="1869-11-24">明治二年己巳十月廿一日</date>」ヲ記シ、二十三丁裏マデニテ止ム。更ニ余白二十七丁ヲ置キ、略々後半ヨリ「見廻書類請払」（四十一丁）ヲ記ス。「見廻書類請払」ハ栄一租税正任官当初ノ覚書ニシテ本資料第二巻、<date type="旧暦" when="1869-12-06">明治二年十一月四日</date>ノ条ニ収ム（第二一三頁以下）。ココニハ再録セズ。</p>
+</div>]]></ns2:xml>
+    <ns2:provider>渋沢青渊記念財団竜門社</ns2:provider>
     <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns2:xml><![CDATA[<div type="archival-description">
-</div>]]></ns2:xml>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10002m">
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0002-0000_00.jpg"/>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10002m/manifest.json"/>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0002-0000_00"/>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>体裁。洋綴手帖。15.3cm×10.2cm厚サ、1.2cm表紙黒色クロス。表紙一方ニゴム平紐ヲ付ク。細鉛筆付見返シ、茶ト紺ノマーブル模様。</p>
-<p>本文。用紙淡青色方眼紙。総頁一五六頁。総テ鉛筆書キ日記ノ部分五〇頁。略々中央ヨリ杉浦差引（二頁）。抹消（二頁）。黄賓行公費（四頁）。東京府滞在中公費（三頁）。英国生徒御手当差引（二頁）。他（四頁）ヲ記ス。仏文書翰控ハ最後ノ頁ヨリ横書キニシ二頁余。</p>
-</div>]]></ns2:xml>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0002-0000</ns1:provider>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10002m 自             明治元年十一月三日            至同             二年正月十八日            1868―1869</ns1:relatedLink>
-    <rdfs:label>自             明治元年十一月三日            至同             二年正月十八日            1868―1869</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20019m">
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20019m 大正六年 1917</ns1:relatedLink>
-    <ns2:xml>None</ns2:xml>
-    <rdfs:label>大正六年 1917</rdfs:label>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20003m">
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20003m/manifest.json"/>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0019-0000</ns1:provider>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0019-0000_00.jpg"/>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。<date when="1918">大正七年</date>当用日記。</p>
-<p>体裁。四六判13.6cm×19.7cm.背革金文字。クロス藍色。見返シ、一―二日本地図、三―四世界地図。</p>
-<p>扉。<date when="1918">大正七年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1918">神武天皇紀元二千五百七十八年</date><date evidence="year inferenced" when="1918">西暦紀元一千九百十八年戊午</date>。左ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。</p>
-<p>本文。三七八頁、本文記入欄ノ様式前年ニ同ジ。記入ハ総テ鉛筆書キ。</p>
-<p>奥付。正価金六十銭。<date when="1917-10-01">大正六年十月一日</date>印刷<date when="1917-10-04">大正六年十月四日</date>発行。五版。ソノ他法定記載事項前年ニ同ジ。</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20003m 大正七年  1918</ns1:relatedLink>
-    <rdfs:label>大正七年  1918</rdfs:label>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0019-0000_00"/>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20008m">
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0024-0000_00.jpg"/>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0024-0000</ns1:provider>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20008m/manifest.json"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20008m 大正十四年  1925</ns1:relatedLink>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。紀元二五八五当用日記。</p>
-<p>体裁。四六判13.0cm×19.3cm.背文字金箔。表紙コバルト色総クロス。見返シ、花模様。</p>
-<p>扉。<date when="1925">大正十四年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1925">神武天皇紀元二千五百八十五年</date><date evidence="year inferenced" when="1925">西暦紀元一千九百二十五年乙丑</date>左下ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。</p>
-<p>本文。三七八頁。記入欄ノ様式<date when="1923">大正十二年</date>日記ニ同ジ。</p>
-<p>奥付。<date when="1924-10-01">大正十三年十月一日</date>印刷<date when="1924-10-04">大正十三年十月四日</date>発行八版。<date when="1925">大正十四年</date>当用日記中形上製正価金九拾五銭。ソノ他法定記載事項<date when="1923">大正十二年</date>日記ニ同ジ。</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0024-0000_00"/>
-    <rdfs:label>大正十四年  1925</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20027m">
-    <rdfs:label>大正十四年 1925</rdfs:label>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20027m 大正十四年 1925</ns1:relatedLink>
-    <ns2:xml>None</ns2:xml>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20021m">
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20021m 大正八年 1919</ns1:relatedLink>
-    <ns2:xml>None</ns2:xml>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <rdfs:label>大正八年 1919</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20005m">
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。<date when="1920">大正九年</date>当用日記。</p>
-<p>体裁。四六判13.6cm×19.7cm.背革金文字。クロス紺色。見返シ、紫紺色花模様。</p>
-<p>扉。<date when="1920">大正九年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1920">神武天皇紀元二千五百八十年</date><date evidence="year inferenced" when="1920">西暦紀元一千九百二十年庚申</date>、左下ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。</p>
-<p>本文。三七九頁。記入欄ノ様式前年ニ同ジ。</p>
-<p>奥付。六版。<date when="1919-10-01">大正八年十月一日</date>印刷<date when="1919-10-04">大正八年十月四日</date>発行。編輯兼発行者<placeName>東京市日本橋区本石町三丁目十六番地</placeName>株式会社博文館代表者取締役社長<persName><surname>大橋</surname><forename>進一</forename></persName>。印刷者<placeName>東京市小石川区久堅町百八番地</placeName><persName><surname>高橋</surname><forename>季吉</forename></persName>。印刷所<placeName>東京市小石川区久堅町百八番地</placeName>株式会社博文館印刷所。発行所<placeName>東京市日本橋区本石町三丁目十六番地</placeName>株式会社博文館。不許複製。当用日記中形特製奥付。正価金九十五銭。</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <rdfs:label>大正九年  1920</rdfs:label>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0021-0000</ns1:provider>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20005m/manifest.json"/>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0021-0000_00.jpg"/>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0021-0000_00"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20005m 大正九年  1920</ns1:relatedLink>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10017m">
-    <ns2:xml><![CDATA[<div type="archival-description">
-</div>]]></ns2:xml>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10017m 明治四十二年            1909</ns1:relatedLink>
-    <ns1:provider>不明</ns1:provider>
-    <ns2:provider>原本欠</ns2:provider>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <rdfs:label>明治四十二年            1909</rdfs:label>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns2:contributor>－</ns2:contributor>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20006m">
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0022-0000（大正10年・大正11年）</ns1:provider>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0022-0000_00"/>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。<date when="1921">大正十年</date>当用日記。</p>
-<p>体裁。四六判13.6cm×19.7cm.背金文字。クロス濃緑色。見返シ、花模様。</p>
-<p>扉。<date when="1921">大正十年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1921">神武天皇紀元二千五百八十一年</date><date evidence="year inferenced" when="1921">西暦紀元一千九百二十一年</date>辛酉、左下ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。</p>
-<p>本文。三七八頁。記入欄ノ様式前年ニ同ジ。</p>
-<p>奥付。六版。<date when="1920-10-01">大正九年十月一日</date>印刷<date when="1920-10-04">大正九年十月四日</date>発行。編輯兼発行者<placeName>東京市</placeName><placeName>日本橋区</placeName><placeName>本石町</placeName>三丁目十六番地株式会社博文館代表者取締役社長<persName><surname>大橋</surname><forename>進一</forename></persName>。印刷者<placeName>東京市</placeName><persName><surname>小石川区</surname><placeName>久堅町</placeName>百八番地<surname>吉岡</surname><forename>泰次郎</forename></persName>。印刷所<placeName>東京市</placeName><surname>小石川区</surname><placeName>久堅町</placeName>百八番地株式会社博文館印刷所。発行所<placeName>東京</placeName>市<placeName>日本橋</placeName>区<placeName>本石町</placeName>三丁目株式会社博文館。<date when="1921">大正十年</date>当用日記中形上製正価金壱円廿銭。不許複製MadeinJapan.</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20006m 大正十年  大正十一年  1921―1922</ns1:relatedLink>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20006m/manifest.json"/>
-    <rdfs:label>大正十年  大正十一年  1921―1922</rdfs:label>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0022-0000_00.jpg"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20002m">
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。<date when="1917">大正六年</date>当用日記。</p>
-<p>体裁。四六判13.6cm×19.7cm.背革金文字。クロス藍色。見返シ、一―二東洋地図、三―四世界地図。</p>
-<p>扉。<date when="1917">大正六年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1917">神武天皇紀元二千五百七十七年</date><date evidence="year inferenced" when="1917">西暦紀元一千九百十七年丁巳</date>。左下ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。</p>
-<p>本文。三七八頁。一日一頁宛トシ、本文記入欄十四行、上部欄外ニ新旧月日、七曜、干支、ソノ下ニ天気、寒暖、予記、発信受信ノ欄アリ、欄外下部ニ歴史事項ヲ掲グ。記入ハ総テ鉛筆書キ。</p>
-<p>奥付。七版。当用日記中形背革奥付正価金五拾五銭。不許複製。編輯兼発行者<persName><surname>大橋</surname><forename>新太郎</forename></persName><placeName>東京市日本橋区本町三丁目八番地</placeName>。印刷者<persName><surname>高橋</surname><forename>季吉</forename></persName><placeName>東京市小石川区久堅町百〇八番地</placeName>。印刷所博文館印刷所<placeName>東京市</placeName><surname>小石川区</surname><placeName>久堅町</placeName>百〇八番地。発行所振替口座東京二四〇番。博文館<placeName>東京市</placeName><placeName>日本橋区</placeName><surname>本町</surname>三丁目。<date when="1916-10-03">大正五年十月三日</date>印刷、<date when="1916-10-05">大正五年十月五日</date>発行。</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20002m/manifest.json"/>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0018-0000_00"/>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0018-0000</ns1:provider>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <rdfs:label>大正六年  1917</rdfs:label>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0018-0000_00.jpg"/>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20002m 大正六年  1917</ns1:relatedLink>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10001m">
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>体裁。洋綴手帖。15.7cm×9.3cm.厚サ、0.8cm表紙黒革。見返シ、マーブル。細鉛筆挿付（破損ス）。ゴム組紐付。</p>
-<p>本文。用紙淡青色方眼紙。全六十一葉（一二二頁）。他ニ一葉破棄セシ跡アリ。見返シ、前後共本文側裏面ニ本文用紙ヲ貼ル。記入ハ此ノ頁ヨリナサレタレバ、総記入ハ一二四頁。総テ鉛筆書キ。</p>
-<p>中間記入覚書、末尾記入覚書ハ共ニ逆ノ方面ヨリ記入サル。</p>
-</div>]]></ns2:xml>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10001m/manifest.json"/>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0001-0000_00"/>
-    <rdfs:label>自               慶応四年六月十四日            至               明治元年十一月二日            1868</rdfs:label>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10001m 自               慶応四年六月十四日            至               明治元年十一月二日            1868</ns1:relatedLink>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0001-0000_00.jpg"/>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0001-0000</ns1:provider>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10016m">
-    <ns2:contributor>－</ns2:contributor>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <rdfs:label>明治四十一年            1908</rdfs:label>
-    <ns2:xml><![CDATA[<div type="archival-description">
-</div>]]></ns2:xml>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10016m 明治四十一年            1908</ns1:relatedLink>
-    <ns1:provider>不明</ns1:provider>
-    <ns2:provider>原本欠</ns2:provider>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10006m">
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0004-0000_00.jpg"/>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0004-0000</ns1:provider>
-    <rdfs:label>明治十九年            1886</rdfs:label>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10006m 明治十九年            1886</ns1:relatedLink>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>体裁。洋綴小型手帖。12cm×8.5cm.厚サ、1.7cm,表紙茶ノ<placeName>麻布</placeName>。背及ビ角ヲ黒革ニテ被フ。金線模様アリ。見返シ、コゲ茶模様。表紙ノ一方ニゴム紐ヲ付ク、鉛筆挿付。総テ鉛筆書キ。</p>
-<p>本文。白紙一九八頁。記入ハ前後ヨリ初メ前部ハ「<persName><surname>原田</surname><forename>虎蔵</forename></persName>云々」以下「<placeName>陸奥</placeName>氏持株云々」マデ五頁ヲ記シ、相当ノ余白ヲオキテ　「<placeName>四日市</placeName><placeName>伏木</placeName><placeName>新潟</placeName>巡回紀行」（四三頁余）ヲ記ス。後部ハ「<placeName>亀井戸</placeName>観梅」以下ノ漢詩並ニ「<placeName>日光鉢石町</placeName><persName><surname>小西屋</surname><forename>喜一郎</forename></persName>云々」ノ八頁ヲ記シ、続イテ「<placeName>京坂</placeName>巡回紀行」（二八頁）ヲ記ス。ココニハ覚書ハ前部、後部共ニ、日記ノ後ニ一括収録セリ。</p>
-</div>]]></ns2:xml>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0004-0000_00"/>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10006m/manifest.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10019m">
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10019m 明治四十四年            1911</ns1:relatedLink>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10019m/manifest.json"/>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <rdfs:label>明治四十四年            1911</rdfs:label>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0012-0000</ns1:provider>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。<date when="1911">明治四十四年</date>当用日記。</p>
-<p>体裁。四六判13.6cm×19.7cm背革金文字。紙クロス濃茶色。見返シ、薄茶色白ヌキチラシ模様。</p>
-<p>扉。<date when="1911">明治四十四年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1911">神武天皇紀元二千五百七十一年</date>、<date evidence="year inferenced" when="1911">西暦紀元一千九百十一年辛亥</date>、左下ニ<placeName>東京</placeName>博文館発行ト印刷、扉裏ニハ七曜一覧ヲ掲グ。</p>
-<p>本文。三七八頁。一日一頁宛トシ、記入欄ノ様式前年ニ同ジ。記入ハ総テ鉛筆書キ。</p>
-<p>奥付。<date when="1910-11-07">明治四十三年十一月七日</date>印刷、<date when="1910-11-10">明治四十三年十一月十日</date>発行。発行兼編輯者<placeName>東京市日本橋区三丁目八番地</placeName><persName><surname>大橋</surname><forename>新太郎</forename></persName>。印刷者<placeName>東京市小石川区久堅町百〇八番地</placeName><persName><surname>水谷</surname><forename>景長</forename></persName>。印刷所<placeName>東京市小石川区久堅町百〇八番地</placeName>博文館印刷所。発行所<placeName>東京市</placeName><placeName>日本橋区本町三丁目</placeName>博文館。振替貯金口座東京二四〇番。販売部電話本局二六二〇番。（参版不許複製当用日記奥付特製。）（定価金五拾銭）</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0012-0000_00.jpg"/>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0012-0000_00"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10020m">
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10020m/manifest.json"/>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0013-0000_00"/>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。<date when="1912">明治四十五年</date>当用日記。</p>
-<p>体裁。四六判13.6cm×19.7cm背革金文字、表紙クロス、オリーブ色。見返シ、茶緑色白ヌキ松葉模様。</p>
-<p>扉。<date when="1912">明治四十五年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1912">神武天皇紀元二千五百七十二年</date><date evidence="year inferenced" when="1912">西暦紀元一千九百十二年</date>壬子。左下ニ<placeName>東京</placeName>博文館発行ト印刷、扉裏ニハ七曜表ヲ掲グ。</p>
-<p>本文。三七九頁。一日一頁宛トシ本文記入欄ノ様式前年ニ同ジ。記入ハ総テ鉛筆書キ。</p>
-<p>奥付。<date when="1911-10-07">明治四十四年十月七日</date>印刷、<date when="1911-10-10">明治四十四年十月十日</date>発行。三版。不許複製。当用日記中形特製奥付定価金五拾銭。○以下法定記載事項前年ニ同ジ、略ス。</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10020m 明治四十五年            1912</ns1:relatedLink>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0013-0000</ns1:provider>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <rdfs:label>明治四十五年            1912</rdfs:label>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0013-0000_00.jpg"/>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10003m 自               明治二年十月二十一日            至同年                      十一月十九日            1869</ns1:relatedLink>
   </rdf:Description>
   <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10013m">
-    <ns2:provider>文部省史料館</ns2:provider>
-    <rdfs:label>明治三十八年            1905</rdfs:label>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0010-0000_00.jpg"/>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10013m/manifest.json"/>
     <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <rdfs:label>明治三十八年            1905</rdfs:label>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0010-0000_00"/>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10013m 明治三十八年            1905</ns1:relatedLink>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0010-0000</ns1:provider>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0010-0000_00.jpg"/>
     <ns2:xml><![CDATA[<div type="archival-description">
 <p>○原本概要</p>
 <p>書名。<date when="1905">明治三十八年</date>当用日記。</p>
@@ -411,15 +628,16 @@
 <p>奥付。<date when="1904-10-08">明治三十七年十月八日</date>印刷、<date when="1904-10-11">明治三十七年十月十一日</date>発行。当用日記大形上製定価五拾銭。編輯兼発行者<placeName>東京市日本橋区本町三丁目八番地</placeName><persName><surname>大橋</surname><forename>新太郎</forename></persName>。印刷者<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地</placeName><persName><surname>飯田</surname><forename>三千太郎</forename></persName>。印刷所<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地株式会社</placeName>秀英舎工場。発兌元<placeName>東京市日本橋区本町三丁目</placeName>博文館。</p>
 <p>前付並ニ後付。略ス。</p>
 </div>]]></ns2:xml>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0010-0000</ns1:provider>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0010-0000_00"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10013m 明治三十八年            1905</ns1:relatedLink>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10013m/manifest.json"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20013m">
     <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0029-0000_00"/>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0029-0000_00.jpg"/>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0029-0000</ns1:provider>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20013m 昭和五年  1930</ns1:relatedLink>
+    <rdfs:label>昭和五年  1930</rdfs:label>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
     <ns2:xml><![CDATA[<div type="archival-description">
 <pb n="B2316"/>
 <p>○原本概要</p>
@@ -431,145 +649,17 @@
                                                   in Japan.ソノ他法定記載事項前年ニ同ジ。</p>
 <p>前付並ニ後付。略ス。</p>
 </div>]]></ns2:xml>
-    <rdfs:label>昭和五年  1930</rdfs:label>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20013m 昭和五年  1930</ns1:relatedLink>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0029-0000_00.jpg"/>
     <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20013m/manifest.json"/>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0029-0000</ns1:provider>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20030m">
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns2:xml>None</ns2:xml>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <rdfs:label>昭和三年 1928</rdfs:label>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20030m 昭和三年 1928</ns1:relatedLink>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20001m">
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <rdfs:label>大正四年  大正五年  1915―1916</rdfs:label>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20001m 大正四年  大正五年  1915―1916</ns1:relatedLink>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20001m/manifest.json"/>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0016-0000_00"/>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。<date when="1915">大正四年</date>新案当用日記。</p>
-<p>体裁。四六判13.6cm×19.7cm.背文字銀地紺ヌキ、クロス紺色。見返シ、白無色。</p>
-<p>扉。淡青色地ニ墨色ニテ<date when="1915">大正四年</date>春陽堂発行新案当用日記<date evidence="year inferenced" when="1915">紀元二千五百七十五年</date><date evidence="year inferenced" when="1915">西暦千九百十五年</date>ト円ノ中ニ印刷、兎ノカツトヲ配ス。</p>
-<p>本文。四〇九頁（各月ノ初メニ二頁宛ソノ月ノ行事等ヲ掲グ）一日一頁宛トシ、本文記入欄十一行、毎右側ニ新旧月日、七曜、干支、九星、六曜、詩歌散文等ヲ掲グ。天候記入ノ欄ナシ。記入ハ総テ鉛筆書キ。</p>
-<p>奥付。<date when="1914-10-15">大正三年十月十五日</date>印刷、同年<date evidence="year inferenced" when="1915-10-18">十月十八日</date>発行、同年<date evidence="year inferenced" when="1915-11-20">十一月二十日</date>再版。新案当用日記定価金六拾銭、編輯者<persName><surname>柳川</surname><forename>春葉</forename></persName>・<persName><surname>斎藤</surname><forename>松洲</forename></persName>。発行者<placeName>東京市日本橋区通四丁目五番地</placeName><persName><surname>和田</surname><forename>静子</forename></persName>。印刷者<placeName>東京市京橋区南小田原町三丁目九番地</placeName><persName><surname>中野</surname><forename>鍈太郎</forename></persName>。印刷所<placeName>東京市芝区愛宕町三丁目二番地</placeName>東洋印刷株式会社。発行所<placeName>東京市日本橋区通四丁目五番地</placeName>春陽堂。電話本局五十一番。振替口座東京一六一七。不許複製・版権所有。</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0016-0000_00.jpg"/>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0016-0000</ns1:provider>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20004m">
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <rdfs:label>大正八年  1919</rdfs:label>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。<date when="1919">大正八年</date>当用日記。</p>
-<p>体裁。四六判13.6cm×19.7cm.背革金文字。クロス濃緑色。見返シ、一―二日本地図、三―四世界地図。</p>
-<p>扉。<date when="1919">大正八年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1919">神武天皇紀元二千五百七十九年</date><date evidence="year inferenced" when="1919">西暦一千九百十九年己未</date>。左下ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。記入ハ総テ鉛筆書キ。</p>
-<p>本文。三七八頁。記入欄ノ様式前年ニ同ジ。</p>
-<p>奥付。三版。正価金九十銭。<date when="1918-10-12">大正七年十月十二日</date>印刷<date when="1918-10-15">大正七年十月十五日</date>発行。其他法定記載事項前年ニ同ジ。</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0020-0000_00.jpg"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20004m 大正八年  1919</ns1:relatedLink>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20004m/manifest.json"/>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0020-0000</ns1:provider>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0020-0000_00"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10021m">
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0014-0000_00"/>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。<date when="1913">大正二年</date>当用日記。</p>
-<p>体裁。四六判13.6cm×19.7cm背革金文字。クロス茶色。見返シ、淡青色白ヌキツナギ模様。</p>
-<p>扉。<date when="1913">大正二年</date>当用日記ト中央ニ、ソノ右肩ニ<date when="1913">神武天皇紀元二千五百七十三年</date><date when="1913">西暦紀元一千九百十三癸丑</date>、左下ニ東京博文館発行ト印刷。扉裏ニハ七曜表ヲ掲グ。</p>
-<p>本文。三七八頁。一日一頁宛トシ、本文記入欄ノ様式前年ニ同ジ。記入ハ総テ鉛筆書キ。</p>
-<p>奥付。<date when="1912-11-01">大正元年十一月一日</date>印刷、<date when="1912-11-03">大正元年十一月三日</date>発行。再版。○以下法定記載事項前年ニ同ジ。略ス。</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0014-0000_00.jpg"/>
-    <rdfs:label>大正二年            1913</rdfs:label>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10021m 大正二年            1913</ns1:relatedLink>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10021m/manifest.json"/>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0014-0000</ns1:provider>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20012m">
-    <rdfs:label>昭和四年  1929</rdfs:label>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0028-0000_00"/>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20012m/manifest.json"/>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0028-0000</ns1:provider>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_00.jpg"/>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。<date when="1929">昭和四年</date>当用日記。</p>
-<p>体裁。四六判13.0cm×19.3cm.背文字金箔。三方金。黒色総革装。見返シ、風景画。</p>
-<p>扉。当用日記<date when="1929">昭和四年</date>ト上部ニ印刷、果実<surname>盛合</surname>セノ籠ヲ意匠化シテ配ス。扉裏ニ七曜表ヲ掲グ。</p>
-<p>本文。三七八頁。記入欄ノ様式前年ニ同ジ。記入ハ総テ鉛筆書キ。</p>
-<p>奥付。<date when="1928-10-01">昭和三年十月一日</date>印刷、<date when="1928-10-04">昭和三年十月四日</date>発行。二版。<date when="1929">昭和四年</date>当用日記中形総革正価金弐円弐拾銭。製本<surname>大谷</surname>。MadeinJapan.ソノ他法定記載事項前年ニ同ジ。</p>
-<p>株式会社博文館小売部規定。略ス。</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20012m 昭和四年  1929</ns1:relatedLink>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20023m">
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20023m 大正十年　1921</ns1:relatedLink>
-    <ns2:xml>None</ns2:xml>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <rdfs:label>大正十年　1921</rdfs:label>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10012m">
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0009-0000_00.jpg"/>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0009-0000_00"/>
-    <rdfs:label>自             明治三十六年十一月            至             明治三十七年四月            1903―1904</rdfs:label>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10012m/manifest.json"/>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。万民重宝机上日記。</p>
-<p>体裁。菊版22.5cm×15cm.表紙鼠色紙クロス、見返シ、白無地。</p>
-<p>扉。万民重宝机上日記ト中央ニ、ソノ左下ニ約7.5cm×2.2cm.化粧罫カコミノ記入欄ヲ印刷ス。</p>
-<p>本文。縦罫十行淡青色刷、欄外上部各頁ニ詩歌格言等ヲ掲グ。総頁三二〇頁。総テ鉛筆書キ。</p>
-<p>奥付。<date when="1898-12-24">明治三十一年十二月廿四日</date>印刷、<date when="1898-12-27">明治三十一年十二月廿七日</date>発行。定価金参拾銭。発行者<placeName>東京市日本橋区本町三丁目八番地</placeName><persName><surname>大橋</surname><forename>新太郎</forename></persName>。印刷者<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地</placeName><persName><surname>愛敬</surname><forename>利世</forename></persName>。印刷所<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地株式会社</placeName>秀英舎第一工場。発兌元<placeName>東京市日本橋区本町三丁目</placeName>博文館。</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0009-0000</ns1:provider>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10012m 自             明治三十六年十一月            至             明治三十七年四月            1903―1904</ns1:relatedLink>
   </rdf:Description>
   <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20010m">
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0026-0000</ns1:provider>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20010m/manifest.json"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20010m 昭和二年  1927</ns1:relatedLink>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
     <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0026-0000_00"/>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0026-0000</ns1:provider>
     <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0026-0000_00.jpg"/>
-    <rdfs:label>昭和二年  1927</rdfs:label>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20010m/manifest.json"/>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns2:provider>文部省史料館</ns2:provider>
     <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
     <ns2:xml><![CDATA[<div type="archival-description">
 <p>○原本概要</p>
@@ -581,52 +671,109 @@
 <p>株式会社博文館小売部規定。略ス。</p>
 <p>前付並ニ後付。略ス。</p>
 </div>]]></ns2:xml>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20020m">
-    <ns2:xml>None</ns2:xml>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20020m 大正七年 1918</ns1:relatedLink>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <rdfs:label>大正七年 1918</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20031m">
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20031m 昭和四年 1929</ns1:relatedLink>
-    <rdfs:label>昭和四年 1929</rdfs:label>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns2:xml>None</ns2:xml>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20010m 昭和二年  1927</ns1:relatedLink>
+    <rdfs:label>昭和二年  1927</rdfs:label>
     <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10009m">
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10001m">
     <ns2:xml><![CDATA[<div type="archival-description">
 <p>○原本概要</p>
-<p>書名。万民重宝机上日記。</p>
-<p>体裁。菊判22.5cm×15cm.表紙鼠色紙クロス、見返シ、白無地。</p>
-<p>扉。万民重宝机上日記ト中央ニ、ソノ左下ニ約7.5cm×2.2cm.化粧罫カコミノ記入欄ヲ印刷ス。</p>
-<p>本文。縦罫十行淡青色刷、欄外上部各頁ニ詩歌格言等ヲ掲グ。総頁三二〇頁。総テ鉛筆書キ。</p>
-<p>奥付。<date when="1898-12-24">明治三十一年十二月廿四日</date>印刷、<date when="1898-12-27">明治三十一年十二月廿七日</date>発行。定価金参拾銭。発行者<placeName>東京市日本橋区本町三丁目八番地</placeName><persName><surname>大橋</surname><forename>新太郎</forename></persName>。印刷者<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地</placeName><persName><surname>愛敬</surname><forename>利世</forename></persName>。印刷所<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地</placeName>株式会社秀英舎第一工場。発兌元<placeName>東京市日本橋区本町三丁目</placeName>博文館。</p>
-<p>前付並ニ後付。略ス。</p>
-<p>■■[img図]〓■第二号《（栄一鉛筆）》</p>
-<p>自<date when="1900-01-01">明治三十三年一月一日</date>至<date evidence="year inferenced" when="1900-04-05">三十四年四月五日</date>《（<date evidence="year inferenced, day" when="1900-05">五月</date>）》</p>
+<p>体裁。洋綴手帖。15.7cm×9.3cm.厚サ、0.8cm表紙黒革。見返シ、マーブル。細鉛筆挿付（破損ス）。ゴム組紐付。</p>
+<p>本文。用紙淡青色方眼紙。全六十一葉（一二二頁）。他ニ一葉破棄セシ跡アリ。見返シ、前後共本文側裏面ニ本文用紙ヲ貼ル。記入ハ此ノ頁ヨリナサレタレバ、総記入ハ一二四頁。総テ鉛筆書キ。</p>
+<p>中間記入覚書、末尾記入覚書ハ共ニ逆ノ方面ヨリ記入サル。</p>
 </div>]]></ns2:xml>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0001-0000</ns1:provider>
     <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0006-0000</ns1:provider>
+    <rdfs:label>自               慶応四年六月十四日            至               明治元年十一月二日            1868</rdfs:label>
     <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10009m/manifest.json"/>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0006-0000_00"/>
-    <rdfs:label>自             明治三十三年一月            至             明治三十四年五月            1900―1901</rdfs:label>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0006-0000_00.jpg"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10009m 自             明治三十三年一月            至             明治三十四年五月            1900―1901</ns1:relatedLink>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0001-0000_00.jpg"/>
     <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10001m 自               慶応四年六月十四日            至               明治元年十一月二日            1868</ns1:relatedLink>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10001m/manifest.json"/>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0001-0000_00"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20020m">
+    <rdfs:label>大正七年 1918</rdfs:label>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20020m 大正七年 1918</ns1:relatedLink>
+    <ns2:xml>None</ns2:xml>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20008m">
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0024-0000_00"/>
+    <rdfs:label>大正十四年  1925</rdfs:label>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>書名。紀元二五八五当用日記。</p>
+<p>体裁。四六判13.0cm×19.3cm.背文字金箔。表紙コバルト色総クロス。見返シ、花模様。</p>
+<p>扉。<date when="1925">大正十四年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1925">神武天皇紀元二千五百八十五年</date><date evidence="year inferenced" when="1925">西暦紀元一千九百二十五年乙丑</date>左下ニ<placeName>東京</placeName>博文館発行ト印刷。扉裏ニ七曜表ヲ掲グ。</p>
+<p>本文。三七八頁。記入欄ノ様式<date when="1923">大正十二年</date>日記ニ同ジ。</p>
+<p>奥付。<date when="1924-10-01">大正十三年十月一日</date>印刷<date when="1924-10-04">大正十三年十月四日</date>発行八版。<date when="1925">大正十四年</date>当用日記中形上製正価金九拾五銭。ソノ他法定記載事項<date when="1923">大正十二年</date>日記ニ同ジ。</p>
+<p>前付並ニ後付。略ス。</p>
+</div>]]></ns2:xml>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB20008m/manifest.json"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0024-0000</ns1:provider>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20008m 大正十四年  1925</ns1:relatedLink>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0024-0000_00.jpg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20025m">
+    <ns2:xml>None</ns2:xml>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20025m 大正十二年　1923</ns1:relatedLink>
+    <rdfs:label>大正十二年　1923</rdfs:label>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10005m">
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0003-0000</ns1:provider>
+    <ns2:provider>文部省史料館</ns2:provider>
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0003-0000_00"/>
+    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10005m/manifest.json"/>
+    <rdfs:label>甲申京摂巡回日記　　　　　　（株式会社第一銀行京都支店所蔵）</rdfs:label>
+    <ns2:xml><![CDATA[<div type="archival-description">
+<p>○原本概要</p>
+<p>甲申京摂巡回日記ハ、上掲手帖ノ記事ヲ整理セシモノニシテ、<date evidence="year inferenced" when="1884-06-17">六月十七日</date>以後<date evidence="year inferenced" when="1884-07-01">七月一日</date>マデヲ補足ス。原本ハ第一国立銀行美濃紙罫紙九枚。</p>
+</div>]]></ns2:xml>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0003-0000_00.jpg"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10005m 甲申京摂巡回日記　　　　　　（株式会社第一銀行京都支店所蔵）</ns1:relatedLink>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20024m">
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <rdfs:label>大正十一年 1922</rdfs:label>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns2:xml>None</ns2:xml>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20024m 大正十一年 1922</ns1:relatedLink>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20016m">
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20016m 大正三年 1914</ns1:relatedLink>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns2:xml>None</ns2:xml>
+    <rdfs:label>大正三年 1914</rdfs:label>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20033m">
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20033m 昭和六年 1931</ns1:relatedLink>
+    <ns2:xml>None</ns2:xml>
+    <rdfs:label>昭和六年 1931</rdfs:label>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10008m">
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0005-0000</ns1:provider>
     <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10008m/manifest.json"/>
-    <rdfs:label>明治三十二年            1899</rdfs:label>
     <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
     <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0005-0000_00.jpg"/>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
+    <rdfs:label>明治三十二年            1899</rdfs:label>
+    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0005-0000</ns1:provider>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10008m 明治三十二年            1899</ns1:relatedLink>
     <ns2:xml><![CDATA[<div type="archival-description">
 <p>○原本概要</p>
 <p>書名。万民重宝机上日記。</p>
@@ -639,202 +786,55 @@
 <p>自<date evidence="day" when="1899-01">明治三十二年一月</date>至同年<date evidence="year inferenced, day" when="1899-12">十二月</date></p>
 </div>]]></ns2:xml>
     <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10008m 明治三十二年            1899</ns1:relatedLink>
     <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0005-0000_00"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20033m">
-    <rdfs:label>昭和六年 1931</rdfs:label>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20033m 昭和六年 1931</ns1:relatedLink>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns2:xml>None</ns2:xml>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20029m">
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20029m 昭和二年 1927</ns1:relatedLink>
-    <rdfs:label>昭和二年 1927</rdfs:label>
-    <ns2:xml>None</ns2:xml>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10018m">
-    <rdfs:label>明治四十三年            1910</rdfs:label>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0011-0000</ns1:provider>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10002m">
+    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0002-0000_00"/>
     <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0011-0000_00.jpg"/>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0011-0000_00"/>
+    <rdfs:label>自             明治元年十一月三日            至同             二年正月十八日            1868―1869</rdfs:label>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10002m/manifest.json"/>
     <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10018m 明治四十三年            1910</ns1:relatedLink>
     <ns2:xml><![CDATA[<div type="archival-description">
 <p>○原本概要</p>
-<p>書名。<date when="1910">明治四十三年</date>当用日記。</p>
-<p>体裁。四六判13.6cm×19.7cm背革金文字。表紙、クロス金茶色。見返シ、白無地。</p>
-<p>扉。<date when="1910">明治四十三年</date>当用日記ト中央ニ、ソノ右肩ニ<date evidence="year inferenced" when="1910">神武天皇紀元二千五百七十年</date><date evidence="year inferenced" when="1910">西暦紀元一千九百十年</date>。左下ニ<placeName>東京</placeName>博文館発行ト印刷、扉裏ニハ七曜一覧ヲ掲グ。</p>
-<p>本文。三七八頁。一日一頁宛トシ、本文記入欄ヲ十行、ソノ上部ニ右カラ曜日、干支、月日、天気、寒暖ノ欄左側ニ発信、受信、摘要ノ記入欄アリ。尚欄外上辺ニ詩歌、俳句、下辺ニ歴史事項ヲ掲グ。総テ鉛筆書キ。</p>
-<p>奥付。<date when="1909-10-23">明治四十二年十月廿三日</date>印刷、<date when="1909-10-25">明治四十二年十月廿五日</date>発行。定価金五拾銭。発行兼編輯者<placeName>東京市日本橋区本町三丁目八番地</placeName><persName><surname>大橋</surname><forename>新太郎</forename></persName>。印刷者<placeName>東京市小石川区久堅町百八番地</placeName><persName><surname>市川</surname><forename>七作</forename></persName>。印刷所<placeName>東京市小石川区久堅町百八番地</placeName>博文館印刷所。発兌元<placeName>東京市日本橋区本町三丁目</placeName>博文館。振替貯金口座東京二百四十番。当用日記中形特製。版権所有不許複製。</p>
-<p>小売規程改正。略ス。</p>
-<p>前付並ニ後付。略ス。</p>
+<p>体裁。洋綴手帖。15.3cm×10.2cm厚サ、1.2cm表紙黒色クロス。表紙一方ニゴム平紐ヲ付ク。細鉛筆付見返シ、茶ト紺ノマーブル模様。</p>
+<p>本文。用紙淡青色方眼紙。総頁一五六頁。総テ鉛筆書キ日記ノ部分五〇頁。略々中央ヨリ杉浦差引（二頁）。抹消（二頁）。黄賓行公費（四頁）。東京府滞在中公費（三頁）。英国生徒御手当差引（二頁）。他（四頁）ヲ記ス。仏文書翰控ハ最後ノ頁ヨリ横書キニシ二頁余。</p>
 </div>]]></ns2:xml>
+    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0002-0000</ns1:provider>
     <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10018m/manifest.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10004m">
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0003-0000</ns1:provider>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0003-0000_00"/>
-    <rdfs:label>明治十七年            1884</rdfs:label>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10004m/manifest.json"/>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>体裁。洋綴横長手帖。14cm×8.6cm.厚サ、1.5cm.表紙暗赤色ト黒ノ斑模様。背ト角ヲ濃茶ノクロスニテ被フ。見返シ、青ト黒ノ斑模様。</p>
-<p>本文。白紙。総頁一八四頁。総テ鉛筆書キ。</p>
-<p>一方ヨリ西遊日記（二四頁）ヲ記シ、ソノ<date evidence="year inferenced" when="1884-06-05">六月五日</date>ノ記事中ニ芳園百卉云々外二詩ヲ記ス。又反対ノ一方（裏）ヨリ、<surname>水野</surname>、<surname>伊藤</surname>二氏ノ宿所、金泉楼即事以下ノ詩五篇、<surname>中村</surname>氏外三氏ノ氏名、烏兎匇々ノ詩一篇ヲ記ス。是等ハ後部覚書トシテ日記末ニ収録セリ。</p>
-</div>]]></ns2:xml>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0003-0000_00.jpg"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10002m 自             明治元年十一月三日            至同             二年正月十八日            1868―1869</ns1:relatedLink>
     <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10004m 明治十七年            1884</ns1:relatedLink>
+    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0002-0000_00.jpg"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20015m">
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20015m 大正二年 1913</ns1:relatedLink>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns2:xml>None</ns2:xml>
     <rdfs:label>大正二年 1913</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20032m">
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
     <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20032m 昭和五年 1930</ns1:relatedLink>
     <ns2:xml>None</ns2:xml>
-    <rdfs:label>昭和五年 1930</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10022m">
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10022m/manifest.json"/>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。<date when="1914">大正三年</date>新式当用日記。</p>
-<p>体裁。四六判13.6cm×19.7cm背金文字。クロース茶色。見返シ一ニ<date when="1914">大正三年</date>暦要覧ヲ印刷、二、三、四ハ白無地。</p>
-<p>扉。大正参年新式当用日記ト上部ニ右横読ミニ印刷、中央ニ花形カツト、下辺ニカコミ空欄ヲ掲グ。</p>
-<p>本文。四〇九頁。各月ノ初メニ二頁宛ソノ月ノ行事等ヲ掲グ。一日一頁宛トシ、本文記入欄十四行、ソノ上部ニ、曜日、新旧月日、干支、経過未経過日数、重要記事記入欄、気象記入カツトヲ掲グ。尚欄外ノド側ニ詩歌格言、九星運勢等、ミミ側ニ粍目盛ヲ印刷ス。記入ハ総テ鉛筆書キ。</p>
-<p>奥付。<date when="1913-11-01">大正二年十一月一日</date>印刷、<date when="1913-11-07">大正二年十一月七日</date>発行。新式当用日記奥付正価金五拾五銭。編輯兼発行者<placeName>東京市日本橋区通一丁目十九番地</placeName><persName><surname>大倉</surname><forename>保五郎</forename></persName>。印刷者<placeName>東京市日本橋区通一丁目十九番地</placeName><persName><surname>村田</surname><forename>豊吉</forename></persName>。印刷所<placeName>東京市京橋区新栄町五丁目七番地</placeName>大倉印刷所。発行所<placeName>東京市日本橋通一丁目十九番地</placeName>大倉書店。電話本局四一四番・二四〇四番。振替口座東京二三八番。</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0015-0000</ns1:provider>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10022m 大正三年            1914</ns1:relatedLink>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0015-0000_00.jpg"/>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0015-0000_00"/>
-    <rdfs:label>大正三年            1914</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10015m">
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns2:xml><![CDATA[<div type="archival-description">
-</div>]]></ns2:xml>
-    <ns2:provider>原本欠</ns2:provider>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <ns1:provider>不明</ns1:provider>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10015m 明治四十年            1907</ns1:relatedLink>
-    <rdfs:label>明治四十年            1907</rdfs:label>
-    <ns2:contributor>－</ns2:contributor>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10007m">
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10007m/manifest.json"/>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10007m </ns1:relatedLink>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-    <ns2:xml><![CDATA[<div type="archival-description">
-</div>]]></ns2:xml>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0004-0000_00.jpg"/>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0004-0000_00"/>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0004-0000</ns1:provider>
-    <rdfs:label></rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20025m">
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20025m 大正十二年　1923</ns1:relatedLink>
-    <rdfs:label>大正十二年　1923</rdfs:label>
-    <ns2:xml>None</ns2:xml>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20017m">
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <ns2:xml>None</ns2:xml>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <rdfs:label>大正四年 1915</rdfs:label>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20017m 大正四年 1915</ns1:relatedLink>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20018m">
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <rdfs:label>大正五年 1916</rdfs:label>
-    <ns2:xml>None</ns2:xml>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20018m 大正五年 1916</ns1:relatedLink>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20028m">
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
-    <rdfs:label>大正十五年　1926  昭和元年</rdfs:label>
-    <ns2:xml>None</ns2:xml>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20028m 大正十五年　1926  昭和元年</ns1:relatedLink>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB10011m">
-    <ns2:xml><![CDATA[<div type="archival-description">
-<p>○原本概要</p>
-<p>書名。万民重宝机上日記。</p>
-<p>体裁。菊版22.5cm×15cm.表紙鼠色紙クロス、見返シ、白無地。</p>
-<p>扉。万民重宝机上日記ト中央ニ、ソノ左下ニ約7.5cm×2.2cm.化粧罫カコミノ記入欄ヲ印刷ス。</p>
-<p>本文。縦罫十行淡青色刷、欄外上部各頁ニ詩歌格言等ヲ掲グ。総頁三二〇頁。総テ鉛筆書キ。</p>
-<p>奥付。<date when="1898-12-24">明治三十一年十二月廿四日</date>印刷、<date when="1898-12-27">明治三十一年十二月廿七日</date>発行。定価金参拾銭。発行者<placeName>東京市日本橋区本町三丁目八番地</placeName><persName><surname>大橋</surname><forename>新太郎</forename></persName>。印刷者<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地</placeName><persName><surname>愛敬</surname><forename>利世</forename></persName>。印刷所<placeName>東京市牛込区市ケ谷加賀町一丁目十二番地</placeName>株式会社秀英舎第一工場。発兌元<placeName>東京市日本橋区本町三丁目</placeName>博文館。</p>
-<p>前付並ニ後付。略ス。</p>
-</div>]]></ns2:xml>
-    <ns1:image rdf:resource="http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0008-0000_00.jpg"/>
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/api/iiif/DKB10011m/manifest.json"/>
-    <ns2:contributor>国文研実業史博物館コレクションデータベース（http://base5.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU ; http://base1.nijl.ac.jp/~jituhaku/）</ns2:contributor>
-    <ns1:provider>国文学研究資料館（日本実業史博物館コレクション）:37TGH-0955-0008-0000</ns1:provider>
-    <rdfs:label>自             明治三十五年八月            至             明治三十六年十一月            1902―1903</rdfs:label>
-    <ns1:url rdf:resource="http://base1.nijl.ac.jp/infolib/meta_pub/G0000002JITUHAKU_37TGH-0955-0008-0000_00"/>
-    <ns2:provider>文部省史料館</ns2:provider>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB01 渋沢栄一伝記資料. 別巻第1 日記 (慶応4年-大正3年)&amp;main[hierarchicalMenu][category.lvl0][1]=DKB10011m 自             明治三十五年八月            至             明治三十六年十一月            1902―1903</ns1:relatedLink>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB01"/>
-    <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB01_20210302.xml"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20026m">
-    <rdfs:label>大正十三年 1924</rdfs:label>
-    <ns2:xml>None</ns2:xml>
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20026m 大正十三年 1924</ns1:relatedLink>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20015m 大正二年 1913</ns1:relatedLink>
     <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20022m">
     <ns2:xml>None</ns2:xml>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20022m 大正九年 1920</ns1:relatedLink>
     <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
     <rdfs:label>大正九年 1920</rdfs:label>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20022m 大正九年 1920</ns1:relatedLink>
     <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20024m">
-    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20019m">
+    <rdfs:label>大正六年 1917</rdfs:label>
     <ns2:xml>None</ns2:xml>
-    <rdfs:label>大正十一年 1922</rdfs:label>
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20024m 大正十一年 1922</ns1:relatedLink>
     <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20019m 大正六年 1917</ns1:relatedLink>
+    <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20016m">
-    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20016m 大正三年 1914</ns1:relatedLink>
-    <ns2:xml>None</ns2:xml>
-    <rdfs:label>大正三年 1914</rdfs:label>
+  <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/DKB20027m">
     <ns1:sourceData rdf:resource="https://shibusawa-dlab.github.io/lab1/data/DKB02_20210302.xml"/>
+    <ns2:xml>None</ns2:xml>
+    <rdfs:label>大正十四年 1925</rdfs:label>
     <ns1:isPartOf rdf:resource="https://shibusawa-dlab.github.io/lab1/api/items/DKB02"/>
+    <ns1:relatedLink>https://shibusawa-dlab.github.io/lab1/search?main[hierarchicalMenu][category.lvl0][0]=DKB02 渋沢栄一伝記資料. 別巻第2 日記 (大正4年-昭和5年), 集会日時通知表&amp;main[hierarchicalMenu][category.lvl0][1]=DKB20027m 大正十四年 1925</ns1:relatedLink>
   </rdf:Description>
   <rdf:Description rdf:about="https://shibusawa-dlab.github.io/lab1/api/items/top">
-    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/iiif/collection/top.json"/>
     <rdfs:label>TOP</rdfs:label>
+    <ns1:associatedMedia rdf:resource="https://shibusawa-dlab.github.io/lab1/iiif/collection/top.json"/>
   </rdf:Description>
 </rdf:RDF>

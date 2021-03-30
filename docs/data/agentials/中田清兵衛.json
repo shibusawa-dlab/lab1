@@ -1,0 +1,35 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "早稲田",
+            "to": "大隈",
+            "value": 10
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "description": "早稲田（わせだ）は、東京都新宿区の広域地名。",
+            "id": "早稲田",
+            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Natsume-zaka_street.JPG?width=300",
+            "label": "早稲田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "id": "大隈",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大隈",
+            "shape": "image"
+        }
+    ]
+}

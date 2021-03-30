@@ -1,0 +1,52 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "原",
+            "to": "徳川",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "原",
+            "to": "目賀田種太郎",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "id": "原",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "原",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "徳川",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "徳川",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "目賀田 種太郎（めがた たねたろう、1853年8月25日（嘉永6年7月21日） - 1926年（大正15年）9月10日）は、日本の政治家・官僚・法学者・裁判官・弁護士・貴族院議員・国際連盟大使・枢密顧問官。男爵。専修学校（現：専修大学）の創始者の一人である。また、東京音楽学校（現：東京藝術大学）創設者の一人でもある。",
+            "id": "目賀田種太郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tanetaro_Megata.jpg?width=300",
+            "label": "目賀田種太郎",
+            "shape": "image"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "高橋是清",
+            "to": "益田孝",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "田中元三郎",
+            "to": "竹田政智",
+            "value": 5
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "高橋 是清（たかはし これきよ、1854年9月19日〈嘉永7年閏7月27日〉 - 1936年〈昭和11年〉2月26日）は、日本の幕末の武士(仙台藩士)、明治、大正、昭和時代初期の官僚、政治家。立憲政友会第4代総裁。第20代内閣総理大臣（在任 : 1921年〈大正10年〉11月13日 - 1922年〈大正11年〉6月12日）。栄典は大勲位子爵。幼名は和喜次（わきじ）。財政家として知られているため総理大臣としてよりも大蔵大臣としての評価の方が高い。",
+            "id": "高橋是清",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Korekiyo_Takahashi_2.jpg?width=300",
+            "label": "高橋是清",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "田中元三郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中元三郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "益田 孝（ますだ たかし、嘉永元年10月17日（1848年11月12日） - 昭和13年（1938年）12月28日）は、日本の実業家。草創期の日本経済を動かし、三井財閥を支えた実業家である。明治維新後世界初の総合商社・三井物産の設立に関わり、日本経済新聞の前身である中外物価新報を創刊した。茶人としても高名で鈍翁と号し、「千利休以来の大茶人」と称された。男爵。",
+            "id": "益田孝",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masuda_Takashi.jpg?width=300",
+            "label": "益田孝",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "竹田政智",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "竹田政智",
+            "shape": "image"
+        }
+    ]
+}

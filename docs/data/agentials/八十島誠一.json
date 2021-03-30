@@ -4,7 +4,7 @@
             "color": "lightgrey",
             "from": "西村勝三",
             "to": "八十島親徳",
-            "value": 4
+            "value": 5
         }
     ],
     "nodes": [
@@ -13,7 +13,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
+            "count": 5,
             "id": "西村勝三",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "西村勝三",
@@ -24,7 +24,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 4,
+            "count": 5,
             "id": "八十島親徳",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "八十島親徳",

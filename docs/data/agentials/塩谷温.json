@@ -2,15 +2,75 @@
     "edges": [
         {
             "color": "lightgrey",
-            "from": "渡辺得男",
-            "to": "高田利吉",
-            "value": 3
+            "from": "高田利吉",
+            "to": "白石喜太郎",
+            "value": 8
         },
         {
             "color": "lightgrey",
             "from": "高田利吉",
-            "to": "白石喜太郎",
-            "value": 3
+            "to": "増田明六",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "高田利吉",
+            "to": "中村孝也",
+            "value": 9
+        },
+        {
+            "color": "lightgrey",
+            "from": "福島甲子三",
+            "to": "久米良作",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "福島甲子三",
+            "to": "畑弥右衛門",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "渡辺得男",
+            "to": "春樹街",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "大隈",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "波多野",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "原",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "斎藤",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "床次",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "田中",
+            "value": 6
         }
     ],
     "nodes": [
@@ -19,18 +79,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
-            "id": "渡辺得男",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "渡辺得男",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 6,
+            "count": 21,
             "id": "高田利吉",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "高田利吉",
@@ -41,10 +90,165 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
+            "count": 8,
+            "id": "福島甲子三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "福島甲子三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "渡辺得男",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渡辺得男",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 29,
+            "id": "徳川",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "徳川",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "増田明六",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "増田明六",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
             "id": "白石喜太郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "白石喜太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "畑弥右衛門",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "畑弥右衛門",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "description": "中村 孝也（なかむら こうや、1885年（明治18年）1月2日 - 1970年（昭和45年）2月5日）は、大正・昭和期の日本の歴史学者。東京帝国大学名誉教授。専門は日本近世史。文学博士（東京帝国大学、1926年）（学位論文「元禄及び享保時代における経済思想の研究」）。群馬県出身。",
+            "id": "中村孝也",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "中村孝也",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "春樹街",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "春樹街",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "久米良作",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "久米良作",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "原",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "原",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "大隈",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大隈",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "波多野",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "波多野",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "斎藤",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/齊異体字一覧.JPG?width=300",
+            "label": "斎藤",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "床次",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "床次",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "田中",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中",
             "shape": "image"
         }
     ]

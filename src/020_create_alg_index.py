@@ -19,8 +19,6 @@ host_dir = c.settings["host_dir"]
 alg_index = c.settings["algolia_index"]
 prefix0 = c.settings["host_url"]
 
-
-
 DATE = "20210302"
 
 
@@ -29,6 +27,7 @@ DATE = "20210302"
 all = Graph()
 items = Graph()
 
+'''
 def getNorms():
 
     json_open = open("entity/data/dict.json", 'r')
@@ -37,6 +36,7 @@ def getNorms():
     return df
 
 norms = getNorms()
+'''
 
 def getNijl():
 
@@ -84,6 +84,8 @@ def getCollection():
     return map
 
 collection = getCollection()
+
+
 
 # マニフェストは別建て
 '''
@@ -164,36 +166,77 @@ def getTime(entry):
 
     return times
 
+# LOD
+def getTerms():
+    json_open = open("entity/data/terms.json", 'r')
+    return json.load(json_open)
+
+terms = getTerms()
+
 def getPlaces(entry):
     places = entry.find_all("placeName")
 
     results = []
+    uris = []
 
     for place in places:
         text = place.text.strip()
+        '''
         if text in norms:
             text = norms[text]
+        '''
+
+        uri = None
+
+        if text in terms:
+            uri = terms[text]
+            text = uri.split("/")[-1]
+
+
         if text not in results:
             results.append(text)
 
-    return results
+            if uri and uri not in uris:
+                uris.append(uri)
+
+    return {
+        "labels" : results,
+        "uris" : uris
+    }
 
 def getPersons(entry):
     tags = ["persName"]
     
     results = []
+    uris = []
 
     for tag in tags:
         values = entry.find_all(tag)
 
         for value in values:
             text = value.text.strip()
+            '''
             if text in norms:
                 text = norms[text]
+            '''
+
+            uri = None
+
+            if text in terms:
+                uri = terms[text]
+                text = uri.split("/")[-1]
+
+
             if text not in results:
                 results.append(text)
 
-    return results
+                if uri and uri not in uris:
+                    uris.append(uri)
+
+    return {
+        "labels" : results,
+        "uris" : uris
+    }
 
 def getSort(entry):
     ids = entry.get("xml:id").split("-")
@@ -369,7 +412,7 @@ for j in range(len(files)):
         if text_id in nijls:
             setNijl(subject, all, nijls[text_id], prefix)
 
-        types = ["diary-entry", "note", "day"]
+        types = ["diary-entry", "day"] # "note", 
 
         for type in types:
 
@@ -402,7 +445,7 @@ for j in range(len(files)):
                 item = {}
                 
                 
-                if len(index) < 9999:
+                if len(index) < 10000:
                     index.append(item)        
 
 
@@ -445,10 +488,12 @@ for j in range(len(files)):
                             item["date"]["lvl2"] = year + " > " + yearAndMonth + " > " + date
 
                 places = getPlaces(entry)
-                item["spatial"] = places
+                item["spatial"] = places["labels"]
+                item["spatial_uri"] = places["uris"]
 
                 persons = getPersons(entry)
-                item["agential"] = persons
+                item["agential"] = persons["labels"]
+                item["agential_uri"] = persons["uris"]
 
                 item["description"] = entry.text
 
@@ -484,13 +529,18 @@ for j in range(len(files)):
                     item["canvas"] = t["canvas"]
                 '''
                 
+                '''
+                RDFの作成
+
                 subject = URIRef(prefix + "/items/"+item["objectID"])
                 stmt = (subject, URIRef("http://schema.org/isPartOf"), file_uri)
                 items.add(stmt)
 
-                for person in persons:
+                
+                for person in persons["uris"]:
                     stmt = (subject, URIRef("https://jpsearch.go.jp/term/property#agential"), URIRef(prefix0+"/api/chname/"+person))
                     items.add(stmt)
+                '''
 
 print("index", len(index))
 
@@ -508,5 +558,9 @@ all.serialize(destination=path, format='json-ld')
 path = "data/all.json"
 all.serialize(destination=path.replace(".json", ".rdf"), format='pretty-xml')
 
+'''
+# RDFの作成
+
 path = "data/items.json"
 items.serialize(destination=path.replace(".json", ".rdf"), format='pretty-xml')
+'''

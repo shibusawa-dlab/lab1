@@ -1,0 +1,202 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "大野正",
+            "to": "清水釘吉",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "朝吹英二",
+            "to": "益田孝",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "朝吹英二",
+            "to": "安田善次郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "中村",
+            "to": "渋沢義一",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "中村",
+            "to": "高田",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "斎藤惣一",
+            "to": "春樹街",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "斎藤惣一",
+            "to": "長尾半平",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "常盤",
+            "to": "山科礼蔵",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "大野正",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大野正",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "description": "朝吹 英二（あさぶき えいじ、嘉永2年2月18日（1849年3月12日） - 大正7年（1918年）1月31日）は、日本の実業家。幼名は萬吉、鐵之助。",
+            "id": "朝吹英二",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asabuki_eiji.jpg?width=300",
+            "label": "朝吹英二",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "中村",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "中村",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "id": "斎藤惣一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "斎藤惣一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "常盤",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "常盤",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "清水 釘吉（しみず ていきち、慶応3年11月10日（1867年12月5日） - 昭和23年（1948年）9月7日）は、日本の実業家。清水組代表取締役社長。旧姓・小野。",
+            "id": "清水釘吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "清水釘吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "益田 孝（ますだ たかし、嘉永元年10月17日（1848年11月12日） - 昭和13年（1938年）12月28日）は、日本の実業家。草創期の日本経済を動かし、三井財閥を支えた実業家である。明治維新後世界初の総合商社・三井物産の設立に関わり、日本経済新聞の前身である中外物価新報を創刊した。茶人としても高名で鈍翁と号し、「千利休以来の大茶人」と称された。男爵。",
+            "id": "益田孝",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masuda_Takashi.jpg?width=300",
+            "label": "益田孝",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "安田 善次郎（やすだ ぜんじろう、天保9年10月9日〈1838年11月25日〉 - 大正10年〈1921年〉9月28日）は、富山県富山市出身の実業家。幼名は岩次郎。安田財閥の祖。",
+            "id": "安田善次郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Zenjiro_Yasuda.jpg?width=300",
+            "label": "安田善次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "渋沢義一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渋沢義一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "山科礼蔵",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "山科礼蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "高田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "春樹街",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "春樹街",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "長尾 半平（ながお はんぺい、慶応元年（1865年）7月 - 昭和11年（1936年）6月20日）は、明治から昭和にかけて活躍した日本の土木技術者、鉄道技術者、教育者、政治家、実業家。俳人でもあり、「秋邨」と号した。",
+            "id": "長尾半平",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nagao_Hanpei.jpg?width=300",
+            "label": "長尾半平",
+            "shape": "image"
+        }
+    ]
+}

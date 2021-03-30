@@ -1,0 +1,70 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "大江卓",
+            "to": "尾高次郎",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "大江卓",
+            "to": "竹内綱",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "大江卓",
+            "to": "足立太郎",
+            "value": 5
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 16,
+            "description": "大江 卓（おおえ たく、弘化4年9月25日（1847年11月2日） - 大正10年（1921年）9月21日）は日本の政治家・実業家。土佐国幡多郡柏島（現在の大月町）出身。幼名は秀馬、斎原治一郎。後藤象二郎は義父にあたり、妻は後藤象二郎次女、小苗。",
+            "id": "大江卓",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oe_Taku.jpg?width=300",
+            "label": "大江卓",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "足立太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "足立太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "尾高次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "尾高次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "竹内 綱（たけうち（たけのうち） つな、天保10年12月26日（1840年1月30日） - 大正11年（1922年）1月9日）は、日本の武士（土佐藩士）、実業家、政治家。内閣総理大臣を務めた吉田茂は五男、麻生太郎は外曾孫。",
+            "id": "竹内綱",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuna_Takeuchi.jpg?width=300",
+            "label": "竹内綱",
+            "shape": "image"
+        }
+    ]
+}

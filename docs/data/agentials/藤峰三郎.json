@@ -1,4 +1,148 @@
 {
-    "edges": [],
-    "nodes": []
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "古河虎之助",
+            "to": "渋沢義一",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "大隈",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "波多野",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "原",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "斎藤",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "床次",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "徳川",
+            "to": "田中",
+            "value": 6
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "古河 虎之助（ふるかわ とらのすけ、明治20年（1887年）1月1日 - 昭和15年（1940年）3月30日）は、日本の実業家。古河財閥創業者古河市兵衛の実子で、3代目当主。爵位は男爵。位階勲等は正四位勲三等瑞宝章。紺綬褒章受章。号は風可。古河財閥を多角化させ、総合財閥に発展させた。",
+            "id": "古河虎之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Toranosuke_Furukawa.jpg?width=300",
+            "label": "古河虎之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 29,
+            "id": "徳川",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "徳川",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "渋沢義一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渋沢義一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "大隈",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大隈",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "波多野",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "波多野",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "原",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "原",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "斎藤",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/齊異体字一覧.JPG?width=300",
+            "label": "斎藤",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "床次",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "床次",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "田中",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中",
+            "shape": "image"
+        }
+    ]
 }

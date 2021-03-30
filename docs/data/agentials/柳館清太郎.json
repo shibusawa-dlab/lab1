@@ -4,31 +4,67 @@
             "color": "lightgrey",
             "from": "青柳有美",
             "to": "成瀬仁蔵",
-            "value": 3
+            "value": 4
         },
         {
             "color": "lightgrey",
-            "from": "畑弥右衛門",
-            "to": "成瀬仁蔵",
-            "value": 3
+            "from": "青柳有美",
+            "to": "春樹街",
+            "value": 5
         },
         {
             "color": "lightgrey",
-            "from": "畑弥右衛門",
+            "from": "青柳有美",
             "to": "中野武営",
             "value": 4
         },
         {
             "color": "lightgrey",
-            "from": "添田寿一",
-            "to": "市原盛宏",
-            "value": 3
+            "from": "畑弥右衛門",
+            "to": "福島甲子三",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "畑弥右衛門",
+            "to": "尾崎行雄",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "畑弥右衛門",
+            "to": "中野武営",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "畑弥右衛門",
+            "to": "成瀬仁蔵",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "畑弥右衛門",
+            "to": "春樹街",
+            "value": 14
         },
         {
             "color": "lightgrey",
             "from": "添田寿一",
-            "to": "植村澄",
-            "value": 3
+            "to": "浅野総一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "吉池慶正",
+            "to": "春樹街",
+            "value": 8
+        },
+        {
+            "color": "lightgrey",
+            "from": "吉池慶正",
+            "to": "横山徳次郎",
+            "value": 4
         }
     ],
     "nodes": [
@@ -37,7 +73,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
+            "count": 13,
             "description": "青柳 有美（あおやぎ ゆうび、1873年9月27日 - 1945年7月10日）は、ジャーナリスト、随筆家、牧師。秋田県生まれ。本名は猛。共立学校で学んだ後、ハリソンのバイブルクラスで英語を学び、キリスト教に入信して、1887年C・E・ガルストより洗礼を受ける。同志社普通学校卒。明治女学院で教えながら、関口教会で牧師をする。1893年から『女学雑誌』に関係し、1903年、主幹となる。大正期には実業之世界社で編集者となり、『女の世界』を発行した。女性問題、性、恋愛問題についての著作が多い。",
             "id": "青柳有美",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aoyagi_Yubi.JPG?width=300",
@@ -49,7 +85,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 7,
+            "count": 35,
             "id": "畑弥右衛門",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "畑弥右衛門",
@@ -60,7 +96,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 6,
+            "count": 4,
             "id": "添田寿一",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "添田寿一",
@@ -71,7 +107,41 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 6,
+            "count": 12,
+            "id": "吉池慶正",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "吉池慶正",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 27,
+            "id": "春樹街",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "春樹街",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
             "description": "成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。",
             "id": "成瀬仁蔵",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
@@ -84,6 +154,17 @@
                 "border": "lightgreen"
             },
             "count": 4,
+            "id": "横山徳次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "横山徳次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
             "description": "中野 武営（なかの たけなか、なかの ぶえい、嘉永元年1月3日（1848年2月7日） - 大正7年（1918年）10月8日）は、明治・大正時代の官僚出身政治家、実業家。幼名は「権之助」または「作造」。号は「随郷」。",
             "id": "中野武営",
             "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakano_Takenaka.jpg?width=300",
@@ -95,11 +176,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
-            "description": "市原 盛宏（いちはら もりひろ、安政5年4月5日（1858年5月17日） - 大正4年（1915年）10月4日）は日本の銀行家、政治家。肥後国（現熊本県）生まれ。1879年同志社英学校を卒業後、同志社で教鞭をとる。また市原は新島襄を校内で補佐し、新島の二度の欧米旅行中、校内で社長代理を務めた。学生の指導に関しては新島と市原は好対照で、市原はあくまでも高圧的で、「学生は教師にはだまって服従すべきもの。批判はけしからぬ」と市原が言い放って学生に怒りを買っていた。こうした高姿勢に対して反発を強めたのが、徳富蘇峰である。学生のストが生じるが、新島襄の自責の杖事件でひとまず収拾を見た。のちに東華学校で教鞭をとる。留学を経て、同志社に復帰した。この間、小崎弘道の社長代理を務めた。1895年、日本銀行に入行。第一銀行横浜支店長、横浜市長を歴任した後、朝鮮銀行初代総裁に就任。現職のまま、京城で死去。葬儀はキリスト教式によって行われた。",
-            "id": "市原盛宏",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichihara_Morihiro.jpg?width=300",
-            "label": "市原盛宏",
+            "count": 4,
+            "id": "福島甲子三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "福島甲子三",
             "shape": "image"
         },
         {
@@ -107,10 +187,11 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
-            "id": "植村澄",
-            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
-            "label": "植村澄",
+            "count": 5,
+            "description": "尾崎 行雄（おざき ゆきお、安政5年11月20日（1858年12月24日） - 昭和29年（1954年）10月6日）は、日本の政治家。日本の議会政治の黎明期から戦後に至るまで衆議院議員を務め、当選回数・議員勤続年数・最高齢議員記録と複数の日本記録を有することから「憲政の神様」「議会政治の父」と呼ばれる。正三位勲一等（1946年（昭和21年）5月4日付返上）。伊勢神宮内宮前・合格神社の祭神。号は咢堂（がくどう。最初学堂。愕堂を経て咢堂）。称号は衆議院名誉議員、東京都名誉都民。世界連邦建設同盟（現、世界連邦運動協会）初代会長。",
+            "id": "尾崎行雄",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yukio_Ozaki.jpg?width=300",
+            "label": "尾崎行雄",
             "shape": "image"
         }
     ]

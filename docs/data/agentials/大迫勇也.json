@@ -1,0 +1,53 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "野依秀市",
+            "to": "青柳有美",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "野依秀市",
+            "to": "畑弥右衛門",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "description": "野依 秀市（のより ひでいち、1885年（明治18年）7月19日 - 1968年（昭和43年）3月31日）は、明治・大正・昭和の3つの時代にわたる日本のジャーナリスト、思想家、歴史家、評論家。また、政治家としても活躍して、戦前・戦中・戦後の日本に大きな影響をあたえた。本名同じ。旧名義は野依 秀一（のより しゅういち）。筆名は不屈生。雑誌『実業之世界』、日刊紙『帝都日日新聞』、仏教雑誌『真宗の世界』等を創刊・運営。「右翼ジャーナリスト」、「言論ギャング」、「ブラックジャーナリズムの祖」等の異名を持つ。敗戦後のGHQ検閲による没収図書は個人ではダントツの1位であり、表の言論史では抹殺された存在である。戦後の新右翼である児玉誉士夫や四宮正貴らから師として仰がれている。",
+            "id": "野依秀市",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hideichi_noyori.jpg?width=300",
+            "label": "野依秀市",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "青柳 有美（あおやぎ ゆうび、1873年9月27日 - 1945年7月10日）は、ジャーナリスト、随筆家、牧師。秋田県生まれ。本名は猛。共立学校で学んだ後、ハリソンのバイブルクラスで英語を学び、キリスト教に入信して、1887年C・E・ガルストより洗礼を受ける。同志社普通学校卒。明治女学院で教えながら、関口教会で牧師をする。1893年から『女学雑誌』に関係し、1903年、主幹となる。大正期には実業之世界社で編集者となり、『女の世界』を発行した。女性問題、性、恋愛問題についての著作が多い。",
+            "id": "青柳有美",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aoyagi_Yubi.JPG?width=300",
+            "label": "青柳有美",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "畑弥右衛門",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "畑弥右衛門",
+            "shape": "image"
+        }
+    ]
+}

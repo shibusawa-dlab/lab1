@@ -1,0 +1,51 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "崎山比佐衛",
+            "to": "埼山比佐衛",
+            "value": 7
+        },
+        {
+            "color": "lightgrey",
+            "from": "崎山比佐衛",
+            "to": "春樹街",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "崎山比佐衛",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "崎山比佐衛",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "春樹街",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "春樹街",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "id": "埼山比佐衛",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "埼山比佐衛",
+            "shape": "image"
+        }
+    ]
+}

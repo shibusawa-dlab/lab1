@@ -3,14 +3,32 @@
         {
             "color": "lightgrey",
             "from": "原胤昭",
-            "to": "横山徳次郎",
-            "value": 3
+            "to": "安達憲忠",
+            "value": 4
         },
         {
             "color": "lightgrey",
-            "from": "内田康哉",
-            "to": "阪谷芳郎",
-            "value": 3
+            "from": "原胤昭",
+            "to": "横山徳次郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "河村隆実",
+            "to": "佐分利一嗣",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "河村隆実",
+            "to": "岡部広",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "河村隆実",
+            "to": "林策一郎",
+            "value": 4
         }
     ],
     "nodes": [
@@ -19,7 +37,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
+            "count": 8,
             "description": "原 胤昭（はら たねあき、嘉永6年2月2日（1853年3月11日）- 昭和17年（1942年）2月23日）は、明治時代のクリスチャンの実業家、浮世絵商である。",
             "id": "原胤昭",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
@@ -31,11 +49,10 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
-            "description": "内田 康哉（うちだ こうさい（やすや）、1865年11月17日（慶応元年9月29日） - 1936年（昭和11年）3月12日は、日本の外交官・政治家。伯爵。明治・大正・昭和の3代にわたって外務大臣を務めた唯一の人物。戦前期日本を代表する外政家だが、その外交姿勢は時期によって揺れがあり、単純ではない。外相在職期間通算7年5か月は、現在に至るまで最長である。",
-            "id": "内田康哉",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kosai_Uchida.jpg?width=300",
-            "label": "内田康哉",
+            "count": 12,
+            "id": "河村隆実",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "河村隆実",
             "shape": "image"
         },
         {
@@ -43,22 +60,55 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
+            "count": 4,
+            "id": "林策一郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "林策一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "岡部広",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "岡部広",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "安達 憲忠（あだち けんちゅう/のりただ、安政4年8月3日（1857年9月20日） - 昭和5年（1930年）12月2日）は、備前国赤坂郡小野田村（現・赤磐市熊山町）出身の社会実業家。東京市養育院幹事。",
+            "id": "安達憲忠",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adachi_Noritada.jpg?width=300",
+            "label": "安達憲忠",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "佐分利一嗣",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐分利一嗣",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
             "id": "横山徳次郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "横山徳次郎",
-            "shape": "image"
-        },
-        {
-            "borderWidth": 4,
-            "color": {
-                "border": "lightgreen"
-            },
-            "count": 3,
-            "description": "阪谷 芳郎（さかたに よしろう、文久3年1月16日（1863年3月5日） - 昭和16年（1941年）11月14日）は、日本の大蔵官僚、政治家。子爵、法学博士。岡山県美星町（現井原市）出身。大蔵大臣、東京市長、貴族院議員等を歴任。曾孫久美子は元首相橋本龍太郎夫人。",
-            "id": "阪谷芳郎",
-            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yoshiro_Sakatani.jpg?width=300",
-            "label": "阪谷芳郎",
             "shape": "image"
         }
     ]

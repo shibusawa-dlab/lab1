@@ -1,0 +1,35 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "高田慎蔵",
+            "to": "瓜生震",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "高田 慎蔵（たかた しんぞう、嘉永5年2月2日〈1852年2月21日〉 - 大正10年〈1921年〉12月26日）は、明治大正期の機械貿易商。",
+            "id": "高田慎蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Takada_shinzo.jpg?width=300",
+            "label": "高田慎蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "瓜生震",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "瓜生震",
+            "shape": "image"
+        }
+    ]
+}

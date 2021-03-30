@@ -5,6 +5,8 @@ import itertools
 from my_module import my_function as c
 host_dir = c.settings["host_dir"]
 
+thres = 4
+
 json_open = open("entity/data/all.json", 'r')
 all = json.load(json_open)
 allMap = {}
@@ -23,6 +25,9 @@ edges = {}
 network = {}
 
 for obj in df:
+    if "agential" not in obj:
+        continue
+
     agential = obj["agential"]
     for a in agential:
         
@@ -88,7 +93,7 @@ for key in edges:
     for key2 in edges[key]:
         count = edges[key][key2]
 
-        if count >= 3:
+        if count >= thres:
             edgesArray.append({
                 "from" : key,
                 "to" : key2,

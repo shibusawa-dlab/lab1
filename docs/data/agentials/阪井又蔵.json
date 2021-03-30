@@ -4,7 +4,13 @@
             "color": "lightgrey",
             "from": "瓜生喜三郎",
             "to": "蓮沼門三",
-            "value": 3
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "瓜生喜三郎",
+            "to": "春樹街",
+            "value": 6
         }
     ],
     "nodes": [
@@ -13,7 +19,7 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
+            "count": 10,
             "id": "瓜生喜三郎",
             "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
             "label": "瓜生喜三郎",
@@ -24,11 +30,22 @@
             "color": {
                 "border": "lightgreen"
             },
-            "count": 3,
+            "count": 4,
             "description": "蓮沼 門三（はすぬま もんぞう、1882年2月22日 - 1980年6月6日）は、社会教育団体「修養団」を設立した日本の社会教育家。",
             "id": "蓮沼門三",
             "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Statue_of_Hasunuma_Monzou.jpg?width=300",
             "label": "蓮沼門三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "春樹街",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "春樹街",
             "shape": "image"
         }
     ]

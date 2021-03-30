@@ -1,0 +1,1074 @@
+{
+    "edges": [
+        {
+            "color": "orange",
+            "from": "足利貞氏",
+            "to": "塩沢昌",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "浅野総一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "中野",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "成瀬仁蔵",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "早稲田",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "蓮沼門三",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "徳川",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "大隅国",
+            "to": "鈴木文治",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "大野正",
+            "to": "清水釘吉",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "原",
+            "to": "徳川",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "原",
+            "to": "目賀田種太郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "中野武営",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "佐々木勇之助",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "井上準之助",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "蓮沼門三",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "古河虎之助",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "原富太郎",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "茂木惣兵衛",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "指田義雄",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "中村",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "市原盛宏",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "白岩竜平",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "植村澄三郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "渋沢元治",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "安達憲忠",
+            "value": 8
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "佐々木勇之助",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "久米良作",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "竹田政智",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "穂積陳重",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "穂積歌子",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "西野恵之助",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "川田鉄弥",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "田中太郎",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "皆川四郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "浅野総一郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "尾高次郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "原胤昭",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "増田明六",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "成瀬仁蔵",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "吉池慶正",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "青柳有美",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "春樹街",
+            "value": 12
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "中野武営",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "鈴木紋次郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "白石喜太郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "横山徳次郎",
+            "to": "金子喜代太",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "山口",
+            "to": "勝",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "安達憲忠",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "中野武営",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "薄井佳久",
+            "value": 7
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "井上準之助",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "成瀬仁蔵",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "徳川厚",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "酒匂常明",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "吉田耕作",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "麻生正蔵",
+            "to": "水谷清",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "麻生正蔵",
+            "to": "堤茂太郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "麻生正蔵",
+            "to": "塘茂太郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "麻生正蔵",
+            "to": "加島敏郎",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "麻生正蔵",
+            "to": "徳川",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "麻生正蔵",
+            "to": "原泰一",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "原泰一",
+            "to": "穂積歌子",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "原泰一",
+            "to": "白岩竜平",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "原泰一",
+            "to": "高田",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "white"
+            },
+            "count": 4,
+            "id": "足利貞氏",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "足利貞氏",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 33,
+            "id": "大隅国",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大隅国",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "大野正",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大野正",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "塩沢昌",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "塩沢昌",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "id": "原",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "原",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 33,
+            "id": "渋沢義一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渋沢義一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 110,
+            "id": "横山徳次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "横山徳次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "山口",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "山口",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 35,
+            "description": "郷 誠之助（ごう せいのすけ、元治2年1月8日（1865年2月3日） - 昭和17年（1942年）1月19日）は、日本の実業家。日本経済聯盟会会長、日本商工会議所会頭を歴任。貴族院議員。",
+            "id": "郷誠之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Seinosuke_Go.jpg?width=300",
+            "label": "郷誠之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 21,
+            "description": "麻生 正蔵（あそう しょうぞう）麻生正蔵 (政治家) - 衆議院議員麻生正蔵 (教育者) - 日本女子大学の教員  __DISAMBIG__",
+            "id": "麻生正蔵",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "麻生正蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 12,
+            "description": "原 泰一（はら たいいち、明治17年（1884年）11月 - 昭和52年（1977年）7月23日）は、貴族院勅選議員、日本赤十字社副社長。救護法の大家であり、方面委員（現在の民生委員制度）を考案した。",
+            "id": "原泰一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "原泰一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "高田",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "description": "中野 武営（なかの たけなか、なかの ぶえい、嘉永元年1月3日（1848年2月7日） - 大正7年（1918年）10月8日）は、明治・大正時代の官僚出身政治家、実業家。幼名は「権之助」または「作造」。号は「随郷」。",
+            "id": "中野武営",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakano_Takenaka.jpg?width=300",
+            "label": "中野武営",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "中野",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "中野",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 12,
+            "description": "成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。",
+            "id": "成瀬仁蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
+            "label": "成瀬仁蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 10,
+            "description": "早稲田（わせだ）は、東京都新宿区の広域地名。",
+            "id": "早稲田",
+            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Natsume-zaka_street.JPG?width=300",
+            "label": "早稲田",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "id": "佐々木勇之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木勇之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "description": "蓮沼 門三（はすぬま もんぞう、1882年2月22日 - 1980年6月6日）は、社会教育団体「修養団」を設立した日本の社会教育家。",
+            "id": "蓮沼門三",
+            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Statue_of_Hasunuma_Monzou.jpg?width=300",
+            "label": "蓮沼門三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "id": "白岩竜平",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白岩竜平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 13,
+            "id": "徳川",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "徳川",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "鈴木 文治（すずき ぶんじ、男性、1885年9月4日 - 1946年3月12日）は大正・昭和期の政治家、労働運動家。友愛会創始者。日本の労働運動の草分け的存在といわれる。",
+            "id": "鈴木文治",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bunji_Suzuki.jpg?width=300",
+            "label": "鈴木文治",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "田中 太郎（たなか たろう）田中太郎 (事業家) (1870-1932) - 社会事業家。田中太郎 (画家) - 昭和期の画家。田中太郎 (彫刻家) (1911-1992) - 彫刻家。田中太郎 (ジャーナリスト) - 『日経ビジネス』副編集長。プロフィール。田中太郎 (声優) - 声優。11月14日生まれ。福岡県出身。以前は、青二プロダクションに所属していた。うちゅう人 田中太郎 - ながとしやすなりの漫画。 __DISAMBIG__",
+            "id": "田中太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "植村澄三郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "植村澄三郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "description": "井上 準之助（いのうえ じゅんのすけ、明治2年3月25日（1869年5月6日） - 昭和7年（1932年）2月9日）は、日本の政治家、財政家。日本銀行第9、11代総裁。山本、濱口、第2次若槻内閣で大蔵大臣に就任。貴族院議員。",
+            "id": "井上準之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inoue_Junnosuke_1-2.jpg?width=300",
+            "label": "井上準之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "西野恵之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "西野恵之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "中村",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "中村",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "description": "安達 憲忠（あだち けんちゅう/のりただ、安政4年8月3日（1857年9月20日） - 昭和5年（1930年）12月2日）は、備前国赤坂郡小野田村（現・赤磐市熊山町）出身の社会実業家。東京市養育院幹事。",
+            "id": "安達憲忠",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adachi_Noritada.jpg?width=300",
+            "label": "安達憲忠",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "塘茂太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "塘茂太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "尾高次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "尾高次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "清水 釘吉（しみず ていきち、慶応3年11月10日（1867年12月5日） - 昭和23年（1948年）9月7日）は、日本の実業家。清水組代表取締役社長。旧姓・小野。",
+            "id": "清水釘吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "清水釘吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "青柳 有美（あおやぎ ゆうび、1873年9月27日 - 1945年7月10日）は、ジャーナリスト、随筆家、牧師。秋田県生まれ。本名は猛。共立学校で学んだ後、ハリソンのバイブルクラスで英語を学び、キリスト教に入信して、1887年C・E・ガルストより洗礼を受ける。同志社普通学校卒。明治女学院で教えながら、関口教会で牧師をする。1893年から『女学雑誌』に関係し、1903年、主幹となる。大正期には実業之世界社で編集者となり、『女の世界』を発行した。女性問題、性、恋愛問題についての著作が多い。",
+            "id": "青柳有美",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aoyagi_Yubi.JPG?width=300",
+            "label": "青柳有美",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "勝",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "勝",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "川田鉄弥",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "川田鉄弥",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "目賀田 種太郎（めがた たねたろう、1853年8月25日（嘉永6年7月21日） - 1926年（大正15年）9月10日）は、日本の政治家・官僚・法学者・裁判官・弁護士・貴族院議員・国際連盟大使・枢密顧問官。男爵。専修学校（現：専修大学）の創始者の一人である。また、東京音楽学校（現：東京藝術大学）創設者の一人でもある。",
+            "id": "目賀田種太郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tanetaro_Megata.jpg?width=300",
+            "label": "目賀田種太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "渋沢 元治（しぶさわ もとじ、1876年10月25日 - 1975年2月22日）は、日本の電気工学者。東京帝国大学名誉教授。名古屋帝国大学初代総長（1939年 - 1946年）。渋沢栄一の甥にあたる。妻は穂積陳重と栄一の娘の長女である。",
+            "id": "渋沢元治",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渋沢元治",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "水谷清",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "水谷清",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "指田義雄",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "指田義雄",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 12,
+            "id": "春樹街",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "春樹街",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "id": "穂積歌子",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "穂積歌子",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "増田明六",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "増田明六",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "堤茂太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "堤茂太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "古河 虎之助（ふるかわ とらのすけ、明治20年（1887年）1月1日 - 昭和15年（1940年）3月30日）は、日本の実業家。古河財閥創業者古河市兵衛の実子で、3代目当主。爵位は男爵。位階勲等は正四位勲三等瑞宝章。紺綬褒章受章。号は風可。古河財閥を多角化させ、総合財閥に発展させた。",
+            "id": "古河虎之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Toranosuke_Furukawa.jpg?width=300",
+            "label": "古河虎之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "原 富太郎（はら とみたろう、慶応4年8月23日（1868年10月8日） - 昭和14年（1939年）8月16日）は、実業家、茶人。号は三溪。美濃国厚見郡佐波村（現・岐阜県岐阜市）出身。",
+            "id": "原富太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "原富太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "茂木 惣兵衛（もぎ そうべえ、1827年12月8日（文政10年10月20日） - 1894年（明治27年）8月21日）は、横浜の実業家であり、原善三郎と並ぶ明治時代における横浜商人の象徴的人物である。茂木惣兵衛は上野国高崎（現群馬県高崎市）にて、質商大黒屋茂木惣七の長男として生まれた。幼名は惣次郎。10歳で新田郡太田の太物商今井仙七の家に奉公し、才能を認められ支配人に抜擢される。26歳には桐生の絹物商新井長兵衛の養嗣子となった。その後開港間もない横浜における野沢屋庄三郎率いる野沢屋と協力し、生糸商人として頭角をあらわす。万延元年（1860年）に養子として、横浜商人石川屋平右衛門の石川屋を相続するが、文久元年（1861年）9月の野沢屋庄三郎の死をきっかけとし、一年ほどして野沢屋の暖簾を譲り受け石川屋を野沢屋と改称し、野沢屋惣兵衛として独立した。野沢屋庄三郎は諸説あるが、横浜開港の年より生糸を取り扱った横浜最初の生糸売込商人と言われている。惣兵衛の故郷高崎は生糸の生産地である関東北部や信州からも近く、彼自身生糸に詳しかったことが推測され、その後の地道な努力により幕末の混乱期を乗り切り、明治9年（1876年）には生糸売込商首座となり、それは惣兵衛の生存中ほぼ維持された。温厚で謙虚な人物であり、人相では耳たぶの大きな福耳に特色があったと伝えられている。晩年は明治16年（1883年）に茂木保平を名乗り保平家を新たに興し、甥の保次郎に惣兵衛家を譲った。茂木惣兵衛は惣兵衛家の家督を持つものが名乗り、三代目まで存在する。惣兵衛没後野沢屋は茂木商会を合名会社とし、野沢屋呉服店、野沢屋輸出店、野沢屋絹商店、茂木銀行、茂木土地部など、多角的に事業を行い総合総社化し、茂木財閥として大拡張したが、大正の第一次世界大戦後の不況に巻き込まれ、三代目茂木惣兵衛のとき崩壊した。野沢屋の暖簾が消えることを惜しんだ絹物輸出商の亀井信次郎と、茂木家の縁者であった名古屋の瀧家の瀧定助（正太郎）により、野沢屋呉服店は独立し、後に野沢屋百貨店と改められた。現在の横浜松坂屋であり、横浜松坂屋は茂木惣兵衛を創業者として尊重している。墓地は横浜市中区の相沢墓地にある。",
+            "id": "茂木惣兵衛",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "茂木惣兵衛",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "吉池慶正",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "吉池慶正",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "久米良作",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "久米良作",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "原 胤昭（はら たねあき、嘉永6年2月2日（1853年3月11日）- 昭和17年（1942年）2月23日）は、明治時代のクリスチャンの実業家、浮世絵商である。",
+            "id": "原胤昭",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "原胤昭",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "市原 盛宏（いちはら もりひろ、安政5年4月5日（1858年5月17日） - 大正4年（1915年）10月4日）は日本の銀行家、政治家。肥後国（現熊本県）生まれ。1879年同志社英学校を卒業後、同志社で教鞭をとる。また市原は新島襄を校内で補佐し、新島の二度の欧米旅行中、校内で社長代理を務めた。学生の指導に関しては新島と市原は好対照で、市原はあくまでも高圧的で、「学生は教師にはだまって服従すべきもの。批判はけしからぬ」と市原が言い放って学生に怒りを買っていた。こうした高姿勢に対して反発を強めたのが、徳富蘇峰である。学生のストが生じるが、新島襄の自責の杖事件でひとまず収拾を見た。のちに東華学校で教鞭をとる。留学を経て、同志社に復帰した。この間、小崎弘道の社長代理を務めた。1895年、日本銀行に入行。第一銀行横浜支店長、横浜市長を歴任した後、朝鮮銀行初代総裁に就任。現職のまま、京城で死去。葬儀はキリスト教式によって行われた。",
+            "id": "市原盛宏",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichihara_Morihiro.jpg?width=300",
+            "label": "市原盛宏",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "竹田政智",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "竹田政智",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "穂積 陳重（ほづみ のぶしげ、1855年8月23日（安政2年7月11日） - 1926年（大正15年）4月7日）は、明治から大正期の日本の法学者。日本初の法学博士の一人。東京帝国大学法学部長。英吉利法律学校（中央大学の前身）の創立者の一人。貴族院議員（勅選）。男爵。枢密院議長。勲一等旭日桐花大綬章。現在の愛媛県宇和島市出身。",
+            "id": "穂積陳重",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_the_late_Nobushige_Hozumi.jpg?width=300",
+            "label": "穂積陳重",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "皆川 四郎（みながわ しろう、1852年 - 1911年）は日本の実業家。旧姓は岩崎。幼名は馬之助。信濃国伊那郡中村（現長野県飯田市）に生まれ、飯田城下の皆川家の養子となる。維新後に上京し、安井息軒に師事した後、代言人となったが実業界に転身する。渋沢栄一夫人の妹と結婚し、第一銀行に入行し、石巻支店長を経て、東京電灯会社支配人となる。また株式会社化した東京歌舞伎座（第2期）を創立した。1898年第5回衆議院議員総選挙に長野県第7区から出馬し当選した。",
+            "id": "皆川四郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "皆川四郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "酒匂常明",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "酒匂常明",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "吉田耕作",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "吉田耕作",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "鈴木紋次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "鈴木紋次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "白石喜太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白石喜太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "金子喜代太",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "金子喜代太",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "id": "薄井佳久",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "薄井佳久",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "德川 厚（とくがわ あつし、1874年（明治7年）9月2日 - 1930年（昭和5年）6月12日）は、日本の実業家、政治家。爵位は男爵。号は龍山。新字体で徳川 厚（とくがわ あつし）とも表記される。東明火災海上保険株式会社取締役、貴族院議員などを歴任した。",
+            "id": "徳川厚",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Atsushi_Tokugawa.jpg?width=300",
+            "label": "徳川厚",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "加島敏郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "加島敏郎",
+            "shape": "image"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "安藤",
+            "to": "安東",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "安藤",
+            "to": "喬",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "喬",
+            "to": "安東",
+            "value": 7
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "id": "安藤",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "安藤",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "喬",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "喬",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 12,
+            "id": "安東",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "安東",
+            "shape": "image"
+        }
+    ]
+}

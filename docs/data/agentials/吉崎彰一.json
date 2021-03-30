@@ -1,0 +1,63 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "水谷清",
+            "to": "麻生正蔵",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "坂井徳太郎",
+            "to": "阪井徳太郎",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "水谷清",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "水谷清",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "坂井徳太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "坂井徳太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "阪井徳太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "阪井徳太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "麻生 正蔵（あそう しょうぞう）麻生正蔵 (政治家) - 衆議院議員麻生正蔵 (教育者) - 日本女子大学の教員  __DISAMBIG__",
+            "id": "麻生正蔵",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "麻生正蔵",
+            "shape": "image"
+        }
+    ]
+}

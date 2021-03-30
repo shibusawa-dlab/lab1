@@ -1,0 +1,233 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "安藤",
+            "to": "安東",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "安藤",
+            "to": "喬",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "馬越恭平",
+            "to": "中野武営",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "馬越恭平",
+            "to": "益田孝",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "馬越恭平",
+            "to": "浅田正文",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "馬越恭平",
+            "to": "益田克徳",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "馬越恭平",
+            "to": "白岩竜平",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "三好退蔵",
+            "to": "清浦奎吾",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "三好退蔵",
+            "to": "安達憲忠",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "三好退蔵",
+            "to": "山本徳尚",
+            "value": 3
+        },
+        {
+            "color": "lightgrey",
+            "from": "三好退蔵",
+            "to": "中村秋香",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "id": "安藤",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "安藤",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 17,
+            "description": "馬越 恭平（まこし きょうへい、1844年11月21日（天保15年10月12日） - 1933年（昭和8年）4月20日）は、日本の実業家。三井物産に勤務し、大日本麦酒（日本麦酒、朝日麦酒、札幌麦酒の合併会社）の社長を務めた人物。大日本麦酒の大合同合併を画策し、｢日本のビール王｣とよばれた。衆議院議員（1期）、貴族院勅選議員。茶人・馬越化生としても知られた。",
+            "id": "馬越恭平",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MAGOSHI_Kyohei.jpg?width=300",
+            "label": "馬越恭平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 14,
+            "description": "三好 退蔵（みよし たいぞう、弘化2年5月12日（1845年6月16日） - 1908年（明治31年）8月20日）は、日本の法曹。検事総長・大審院院長を務め、退官後は弁護士となった。錦鶏間祗候。",
+            "id": "三好退蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Miyoshi_Taizo.jpg?width=300",
+            "label": "三好退蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "安東",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "安東",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "喬",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "喬",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "中野 武営（なかの たけなか、なかの ぶえい、嘉永元年1月3日（1848年2月7日） - 大正7年（1918年）10月8日）は、明治・大正時代の官僚出身政治家、実業家。幼名は「権之助」または「作造」。号は「随郷」。",
+            "id": "中野武営",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakano_Takenaka.jpg?width=300",
+            "label": "中野武営",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "益田 孝（ますだ たかし、嘉永元年10月17日（1848年11月12日） - 昭和13年（1938年）12月28日）は、日本の実業家。草創期の日本経済を動かし、三井財閥を支えた実業家である。明治維新後世界初の総合商社・三井物産の設立に関わり、日本経済新聞の前身である中外物価新報を創刊した。茶人としても高名で鈍翁と号し、「千利休以来の大茶人」と称された。男爵。",
+            "id": "益田孝",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masuda_Takashi.jpg?width=300",
+            "label": "益田孝",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "浅田正文",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "浅田正文",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "益田 克徳（ますだ こくとく、1852年（嘉永5年）1月 - 1903年（明治36年）4月8日）は、幕末期の幕臣で明治期の官吏、実業家、政治家。東京海上保険創立者。幼名は荘作。号は無為庵、非黙。",
+            "id": "益田克徳",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "益田克徳",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "安達 憲忠（あだち けんちゅう/のりただ、安政4年8月3日（1857年9月20日） - 昭和5年（1930年）12月2日）は、備前国赤坂郡小野田村（現・赤磐市熊山町）出身の社会実業家。東京市養育院幹事。",
+            "id": "安達憲忠",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adachi_Noritada.jpg?width=300",
+            "label": "安達憲忠",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "白岩竜平",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白岩竜平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "description": "清浦 奎吾（きようら けいご、1850年3月27日（嘉永3年2月14日） - 1942年（昭和17年）11月5日）は、日本の司法官僚、政治家。位階は正二位。勲等は大勲位。爵位は伯爵。幼名は普寂（ふじゃく）。旧姓は大久保（おおくぼ）。貴族院議員、司法大臣、農商務大臣、内務大臣、枢密顧問官、枢密院副議長、枢密院議長、内閣総理大臣などを歴任した。",
+            "id": "清浦奎吾",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kiyoura_Keigo_2.jpg?width=300",
+            "label": "清浦奎吾",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "山本徳尚",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "山本徳尚",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 3,
+            "id": "中村秋香",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "中村秋香",
+            "shape": "image"
+        }
+    ]
+}

@@ -1,0 +1,258 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "今村清之助",
+            "to": "益田孝",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "足立太郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "佐々木勇之助",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "前島密",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "尾崎三良",
+            "value": 9
+        },
+        {
+            "color": "lightgrey",
+            "from": "日下義雄",
+            "to": "竹内綱",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "益田孝",
+            "value": 9
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "瓜生震",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "吉川三次郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "浅野総一郎",
+            "value": 7
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "佐々木勇之助",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "市原盛宏",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "竹内綱",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "大江卓",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "足立太郎",
+            "to": "尾高次郎",
+            "value": 5
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "今村 清之助（いまむら せいのすけ、1849年3月26日（嘉永2年3月3日） - 1902年（明治35年）9月26日）は、日本の実業家。",
+            "id": "今村清之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/今村清之助-肖像画.jpg?width=300",
+            "label": "今村清之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 38,
+            "description": "日下義雄（くさか よしお、嘉永4年12月25日（1852年1月16日） - 大正12年（1923年）3月18日）は、明治から大正時代の政治家、実業家。",
+            "id": "日下義雄",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kusaka_Yoshio.jpg?width=300",
+            "label": "日下義雄",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 53,
+            "id": "足立太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "足立太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 14,
+            "description": "益田 孝（ますだ たかし、嘉永元年10月17日（1848年11月12日） - 昭和13年（1938年）12月28日）は、日本の実業家。草創期の日本経済を動かし、三井財閥を支えた実業家である。明治維新後世界初の総合商社・三井物産の設立に関わり、日本経済新聞の前身である中外物価新報を創刊した。茶人としても高名で鈍翁と号し、「千利休以来の大茶人」と称された。男爵。",
+            "id": "益田孝",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masuda_Takashi.jpg?width=300",
+            "label": "益田孝",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "大江 卓（おおえ たく、弘化4年9月25日（1847年11月2日） - 大正10年（1921年）9月21日）は日本の政治家・実業家。土佐国幡多郡柏島（現在の大月町）出身。幼名は秀馬、斎原治一郎。後藤象二郎は義父にあたり、妻は後藤象二郎次女、小苗。",
+            "id": "大江卓",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oe_Taku.jpg?width=300",
+            "label": "大江卓",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "description": "尾崎 三良（おざき さぶろう、天保13年1月22日（1842年3月3日）- 大正7年（1918年）10月13日）は、日本の官僚。男爵。諱は盛茂、別名・戸田 雅楽（とだ うた）。京都郊外の西院村で代々里長を務める家に生まれる。「憲政の神様」と呼ばれた明治・大正・昭和にわたって活動した政治家・尾崎行雄は女婿にあたる。",
+            "id": "尾崎三良",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ozaki_Saburō.jpg?width=300",
+            "label": "尾崎三良",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 15,
+            "id": "佐々木勇之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木勇之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "市原 盛宏（いちはら もりひろ、安政5年4月5日（1858年5月17日） - 大正4年（1915年）10月4日）は日本の銀行家、政治家。肥後国（現熊本県）生まれ。1879年同志社英学校を卒業後、同志社で教鞭をとる。また市原は新島襄を校内で補佐し、新島の二度の欧米旅行中、校内で社長代理を務めた。学生の指導に関しては新島と市原は好対照で、市原はあくまでも高圧的で、「学生は教師にはだまって服従すべきもの。批判はけしからぬ」と市原が言い放って学生に怒りを買っていた。こうした高姿勢に対して反発を強めたのが、徳富蘇峰である。学生のストが生じるが、新島襄の自責の杖事件でひとまず収拾を見た。のちに東華学校で教鞭をとる。留学を経て、同志社に復帰した。この間、小崎弘道の社長代理を務めた。1895年、日本銀行に入行。第一銀行横浜支店長、横浜市長を歴任した後、朝鮮銀行初代総裁に就任。現職のまま、京城で死去。葬儀はキリスト教式によって行われた。",
+            "id": "市原盛宏",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichihara_Morihiro.jpg?width=300",
+            "label": "市原盛宏",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "瓜生震",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "瓜生震",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "尾高次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "尾高次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "前島密",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "前島密",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 14,
+            "description": "竹内 綱（たけうち（たけのうち） つな、天保10年12月26日（1840年1月30日） - 大正11年（1922年）1月9日）は、日本の武士（土佐藩士）、実業家、政治家。内閣総理大臣を務めた吉田茂は五男、麻生太郎は外曾孫。",
+            "id": "竹内綱",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tsuna_Takeuchi.jpg?width=300",
+            "label": "竹内綱",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "吉川三次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "吉川三次郎",
+            "shape": "image"
+        }
+    ]
+}

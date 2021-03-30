@@ -36,6 +36,9 @@ nodes[a] = {
 }
 
 for obj in df:
+    if "agential" not in obj:
+        continue
+    
     agential = obj["agential"]
     for a in agential:
         
