@@ -446,10 +446,8 @@ for j in range(len(files)):
 
                 item = {}
                 
-                
                 if len(index) < 10000:
-                    index.append(item)        
-
+                    index.append(item)
 
                 item["objectID"] = entry.get("xml:id")
 
