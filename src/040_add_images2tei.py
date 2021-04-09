@@ -13,11 +13,12 @@ import shutil
 
 from PIL import Image
 
+from my_module import my_function as c
+DATE = c.settings["date"]
+
 images = {}
 
 files = glob.glob("data/*.json")
-
-DATE = "20210302"
 
 for file in files:
     json_open = open(file, 'r')

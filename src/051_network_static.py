@@ -28,10 +28,10 @@ nodes = {}
 edges = {}
 
 for obj in df:
-    if "agential" not in obj:
+    if "fullname" not in obj:
         continue
 
-    agential = obj["agential"]
+    agential = obj["fullname"]
     es = []
     for a in agential:
         

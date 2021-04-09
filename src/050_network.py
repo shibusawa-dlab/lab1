@@ -26,10 +26,10 @@ edges = {}
 network = {}
 
 for obj in df:
-    if "agential" not in obj:
+    if "fullname" not in obj:
         continue
 
-    agential = obj["agential"]
+    agential = obj["fullname"]
     for a in agential:
         
         if len(a) > 10:
@@ -116,7 +116,20 @@ for key in edges:
             if key2 not in nodeIds:
                 nodeIds.append(key2)
 
+
+
 print(len(nodeIds))
+
+'''
+counts_sorted = sorted(counts.items(), key=lambda x:x[1], reverse=True)
+
+for i in range(len(counts_sorted)):
+    item = counts_sorted[i]
+    print(item)
+
+    if i > 100:
+        break
+'''
 
 nodeArray = []
 for key in nodes:

@@ -14,7 +14,7 @@ import shutil
 from my_module import my_function as c
 host_dir = c.settings["host_dir"]
 
-DATE = "20210302"
+DATE = c.settings["date"]
 
 files = glob.glob("data/tei/*_{}.xml".format(DATE))
 

@@ -21,7 +21,9 @@ alg_index = c.settings["algolia_index"]
 prefix0 = c.settings["host_url"]
 app_prefix = c.settings["app_url"]
 
-DATE = "20210302"
+DATE = c.settings["date"]
+
+limit_flg = False
 
 
 ###################
@@ -147,7 +149,7 @@ def getTime(entry):
 
     for e in contents:
 
-        if e.name == "time" and e.has_attr("time"):
+        if e.name == "time" and e.has_attr("when"):
             map[e["when"]] = []
             arr = map[e["when"]]
             arr.append(str(e))
@@ -211,12 +213,36 @@ def getPersons(entry):
     
     results = []
     uris = []
+    surnames = []
+    forenames = []
+    fullnames = []
 
     for tag in tags:
         values = entry.find_all(tag)
 
         for value in values:
             text = value.text.strip()
+
+            surname = ""
+            forename = ""
+
+            if value.find("surname") and value.find("forename"):
+                fullname = value.find("surname").text + value.find("forename").text
+                if fullname not in fullnames:
+                    fullnames.append(fullname)
+
+            if value.find("surname"):
+                surname = value.find("surname").text
+
+            if value.find("forename"):
+                forename = value.find("forename").text
+
+            if surname not in surnames:
+                surnames.append(surname)
+
+            if forename not in forenames:
+                forenames.append(forename)
+
             '''
             if text in norms:
                 text = norms[text]
@@ -237,7 +263,10 @@ def getPersons(entry):
 
     return {
         "labels" : results,
-        "uris" : uris
+        "uris" : uris,
+        "surnames" : surnames,
+        "forenames" : forenames,
+        "fullnames" : fullnames
     }
 
 def getSort(entry):
@@ -414,7 +443,7 @@ for j in range(len(files)):
         if text_id in nijls:
             setNijl(subject, all, nijls[text_id], prefix)
 
-        types = ["diary-entry", "day"] # "note", 
+        types = ["diary-entry", "day", "note"]
 
         for type in types:
 
@@ -446,7 +475,7 @@ for j in range(len(files)):
 
                 item = {}
                 
-                if len(index) < 10000:
+                if len(index) < 10000 or not limit_flg:
                     index.append(item)
 
                 item["objectID"] = entry.get("xml:id")
@@ -494,6 +523,9 @@ for j in range(len(files)):
                 persons = getPersons(entry)
                 item["agential"] = persons["labels"]
                 item["agential_uri"] = persons["uris"]
+                # item["surname"] = persons["surnames"]
+                # item["forename"] = persons["forenames"]
+                item["fullname"] = persons["fullnames"]
 
                 item["description"] = entry.text
 

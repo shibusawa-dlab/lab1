@@ -13,7 +13,9 @@ import shutil
 
 from PIL import Image
 
-DATE = "20210302"
+from my_module import my_function as c
+
+DATE = c.settings["date"]
 
 files = glob.glob("data/tei/*_{}.xml".format(DATE))
 
