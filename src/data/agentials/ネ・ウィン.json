@@ -1,0 +1,54 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "馬越恭平",
+            "to": "中野武営",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "馬越恭平",
+            "to": "益田克徳",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "description": "馬越 恭平（まこし きょうへい、1844年11月21日（天保15年10月12日） - 1933年（昭和8年）4月20日）は、日本の実業家。三井物産に勤務し、大日本麦酒（日本麦酒、朝日麦酒、札幌麦酒の合併会社）の社長を務めた人物。大日本麦酒の大合同合併を画策し、｢日本のビール王｣とよばれた。衆議院議員（1期）、貴族院勅選議員。茶人・馬越化生としても知られた。",
+            "id": "馬越恭平",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MAGOSHI_Kyohei.jpg?width=300",
+            "label": "馬越恭平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "中野 武営（なかの たけなか、なかの ぶえい、嘉永元年1月3日（1848年2月7日） - 大正7年（1918年）10月8日）は、明治・大正時代の官僚出身政治家、実業家。幼名は「権之助」または「作造」。号は「随郷」。",
+            "id": "中野武営",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakano_Takenaka.jpg?width=300",
+            "label": "中野武営",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "益田 克徳（ますだ こくとく、1852年（嘉永5年）1月 - 1903年（明治36年）4月8日）は、幕末期の幕臣で明治期の官吏、実業家、政治家。東京海上保険創立者。幼名は荘作。号は無為庵、非黙。",
+            "id": "益田克徳",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "益田克徳",
+            "shape": "image"
+        }
+    ]
+}
