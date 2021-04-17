@@ -1,0 +1,177 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "油谷恭一",
+            "to": "添田敬一郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "油谷恭一",
+            "to": "木村雄次",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "油谷恭一",
+            "to": "白岩竜平",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "白石喜太郎",
+            "to": "増田明六",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "白石喜太郎",
+            "to": "岡田純夫",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "白石喜太郎",
+            "to": "高田利吉",
+            "value": 8
+        },
+        {
+            "color": "lightgrey",
+            "from": "岡田純夫",
+            "to": "尾高豊作",
+            "value": 13
+        },
+        {
+            "color": "lightgrey",
+            "from": "穂積陳重",
+            "to": "横山徳次郎",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 15,
+            "id": "油谷恭一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "油谷恭一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 25,
+            "id": "白石喜太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白石喜太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 19,
+            "id": "岡田純夫",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "岡田純夫",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "穂積 陳重（ほづみ のぶしげ、1855年8月23日（安政2年7月11日） - 1926年（大正15年）4月7日）は、明治から大正期の日本の法学者。日本初の法学博士の一人。東京帝国大学法学部長。英吉利法律学校（中央大学の前身）の創立者の一人。貴族院議員（勅選）。男爵。枢密院議長。勲一等旭日桐花大綬章。現在の愛媛県宇和島市出身。",
+            "id": "穂積陳重",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_the_late_Nobushige_Hozumi.jpg?width=300",
+            "label": "穂積陳重",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "添田 敬一郎（そえだ けいいちろう、1871年10月12日（明治4年8月28日） - 1953年（昭和28年）10月20日）は、日本の内務官僚、政治家。衆議院議員、埼玉県知事、山梨県知事、山形県知事などの要職を歴任した。",
+            "id": "添田敬一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Soeda_Keiichiro.jpg?width=300",
+            "label": "添田敬一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "木村雄次",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "木村雄次",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "id": "高田利吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高田利吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "横山徳次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "横山徳次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "白岩竜平",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白岩竜平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "増田明六",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "増田明六",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 13,
+            "id": "尾高豊作",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "尾高豊作",
+            "shape": "image"
+        }
+    ]
+}

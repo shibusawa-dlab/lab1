@@ -1,0 +1,152 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "高田利吉",
+            "to": "白石喜太郎",
+            "value": 8
+        },
+        {
+            "color": "lightgrey",
+            "from": "高田利吉",
+            "to": "増田明六",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "高田利吉",
+            "to": "中村孝也",
+            "value": 12
+        },
+        {
+            "color": "lightgrey",
+            "from": "大倉喜八郎",
+            "to": "浅野総一郎",
+            "value": 7
+        },
+        {
+            "color": "lightgrey",
+            "from": "大倉喜八郎",
+            "to": "益田孝",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "大倉喜八郎",
+            "to": "井上角五郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "大倉喜八郎",
+            "to": "渋沢喜作",
+            "value": 5
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 24,
+            "id": "高田利吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高田利吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 21,
+            "description": "大倉 喜八郎（おおくら きはちろう、天保8年9月24日（1837年10月23日） - 昭和3年（1928年）4月22日）は、明治・大正期に貿易、建設、化学、製鉄、繊維、食品などの企業を数多く興した日本の実業家、中堅財閥である大倉財閥の設立者。渋沢栄一らと共に、鹿鳴館、帝国ホテル、帝国劇場などを設立。東京経済大学の前身である大倉商業学校の創設者でもある。従三位男爵。号は鶴彦。",
+            "id": "大倉喜八郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kihachiro_Okura_cropped.jpg?width=300",
+            "label": "大倉喜八郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "増田明六",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "増田明六",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "id": "白石喜太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白石喜太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 12,
+            "description": "中村 孝也（なかむら こうや、1885年（明治18年）1月2日 - 1970年（昭和45年）2月5日）は、大正・昭和期の日本の歴史学者。東京帝国大学名誉教授。専門は日本近世史。文学博士（東京帝国大学、1926年）（学位論文「元禄及び享保時代における経済思想の研究」）。群馬県出身。",
+            "id": "中村孝也",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "中村孝也",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "益田 孝（ますだ たかし、嘉永元年10月17日（1848年11月12日） - 昭和13年（1938年）12月28日）は、日本の実業家。草創期の日本経済を動かし、三井財閥を支えた実業家である。明治維新後世界初の総合商社・三井物産の設立に関わり、日本経済新聞の前身である中外物価新報を創刊した。茶人としても高名で鈍翁と号し、「千利休以来の大茶人」と称された。男爵。",
+            "id": "益田孝",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masuda_Takashi.jpg?width=300",
+            "label": "益田孝",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "井上 角五郎（いのうえ かくごろう、万延元年10月18日（1860年11月30日） - 昭和13年（1938年）9月23日）は、日本の実業家、政治家。東京府平民。 壬午事変後に朝鮮政府の顧問となり、朝鮮初の近代新聞「漢城旬報」を発刊。また初めて漢文・ハングル混合文体を実用化した「漢城周報」を創刊。甲申政変に深く関与し、金玉均・朴泳孝と関係を持った。第1回の帝国議会衆議院議員に当選以来連続当選14回、第47回まで14回代議士を務める。北海道炭礦鉄道社長、日本製鋼所設立者、会長、国民工業学院理事長、慶應義塾評議員等を歴任し、大正9年（1920年）緑綬褒章下賜。京釜鉄道、南満州鉄道の設立にも関わった。号は閔妃の実甥・閔泳翊から贈られた琢園。",
+            "id": "井上角五郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kakugoro_Inoue.jpg?width=300",
+            "label": "井上角五郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "渋沢喜作",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渋沢喜作",
+            "shape": "image"
+        }
+    ]
+}

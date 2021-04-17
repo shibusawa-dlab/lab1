@@ -1,0 +1,35 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "山辺丈夫",
+            "to": "斎藤恒三",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "山辺 丈夫（やまのべ たけお、1851年12月30日（嘉永4年12月8日） - 1920年5月14日）は、明治期の実業家、紡績技師、津和野藩士。従五位。",
+            "id": "山辺丈夫",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "山辺丈夫",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "斎藤恒三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "斎藤恒三",
+            "shape": "image"
+        }
+    ]
+}

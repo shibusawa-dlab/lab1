@@ -2,11 +2,14 @@ import json
 import glob
 import itertools
 import os
+import shutil
 from my_module import my_function as c
 host_dir = c.settings["host_dir"]
-app_dir = c.settings["app_dir"]
+# app_dir = c.settings["app_dir"]
 
 thres = 4
+
+shutil.rmtree("data/agentials")
 
 json_open = open("entity/data/all.json", 'r')
 all = json.load(json_open)
@@ -213,7 +216,7 @@ for e in nodes:
         "edges": edges_f
     }
 
-    opath = app_dir + "/data/agentials/"+e+".json"
+    opath = "data/agentials/"+e+".json"
 
     dirname = os.path.dirname(opath)
     os.makedirs(dirname, exist_ok=True)

@@ -1,0 +1,183 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "中野武営",
+            "to": "安川敬一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "中野武営",
+            "to": "馬越恭平",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "中野武営",
+            "to": "郷誠之助",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "中野武営",
+            "to": "成瀬仁蔵",
+            "value": 10
+        },
+        {
+            "color": "lightgrey",
+            "from": "中野武営",
+            "to": "川田鉄弥",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "中野武営",
+            "to": "畑弥右衛門",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "中野武営",
+            "to": "青柳有美",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "薄井佳久",
+            "value": 7
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "井上準之助",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "郷誠之助",
+            "to": "成瀬仁蔵",
+            "value": 5
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 37,
+            "description": "中野 武営（なかの たけなか、なかの ぶえい、嘉永元年1月3日（1848年2月7日） - 大正7年（1918年）10月8日）は、明治・大正時代の官僚出身政治家、実業家。幼名は「権之助」または「作造」。号は「随郷」。",
+            "id": "中野武営",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakano_Takenaka.jpg?width=300",
+            "label": "中野武営",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 23,
+            "description": "郷 誠之助（ごう せいのすけ、元治2年1月8日（1865年2月3日） - 昭和17年（1942年）1月19日）は、日本の実業家。日本経済聯盟会会長、日本商工会議所会頭を歴任。貴族院議員。",
+            "id": "郷誠之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Seinosuke_Go.jpg?width=300",
+            "label": "郷誠之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "安川 敬一郎（やすかわ けいいちろう、嘉永2年4月17日（1849年5月9日） - 昭和9年（1934年）11月30日）は日本の武士（福岡藩士）、戦前の政治家、実業家。貴族院議員、衆議院議員。大正9年（1920年）1月13日、男爵授爵。勲三等瑞宝章。地方財閥・安川財閥の創始者であり、国士的な実業家として知られる。号は撫松。",
+            "id": "安川敬一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/YASUKAWA_Keiichiro.jpg?width=300",
+            "label": "安川敬一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "馬越 恭平（まこし きょうへい、1844年11月21日（天保15年10月12日） - 1933年（昭和8年）4月20日）は、日本の実業家。三井物産に勤務し、大日本麦酒（日本麦酒、朝日麦酒、札幌麦酒の合併会社）の社長を務めた人物。大日本麦酒の大合同合併を画策し、｢日本のビール王｣とよばれた。衆議院議員（1期）、貴族院勅選議員。茶人・馬越化生としても知られた。",
+            "id": "馬越恭平",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MAGOSHI_Kyohei.jpg?width=300",
+            "label": "馬越恭平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 15,
+            "description": "成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。",
+            "id": "成瀬仁蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
+            "label": "成瀬仁蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "川田鉄弥",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "川田鉄弥",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "畑弥右衛門",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "畑弥右衛門",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "青柳 有美（あおやぎ ゆうび、1873年9月27日 - 1945年7月10日）は、ジャーナリスト、随筆家、牧師。秋田県生まれ。本名は猛。共立学校で学んだ後、ハリソンのバイブルクラスで英語を学び、キリスト教に入信して、1887年C・E・ガルストより洗礼を受ける。同志社普通学校卒。明治女学院で教えながら、関口教会で牧師をする。1893年から『女学雑誌』に関係し、1903年、主幹となる。大正期には実業之世界社で編集者となり、『女の世界』を発行した。女性問題、性、恋愛問題についての著作が多い。",
+            "id": "青柳有美",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aoyagi_Yubi.JPG?width=300",
+            "label": "青柳有美",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "井上 準之助（いのうえ じゅんのすけ、明治2年3月25日（1869年5月6日） - 昭和7年（1932年）2月9日）は、日本の政治家、財政家。日本銀行第9、11代総裁。山本、濱口、第2次若槻内閣で大蔵大臣に就任。貴族院議員。",
+            "id": "井上準之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inoue_Junnosuke_1-2.jpg?width=300",
+            "label": "井上準之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "id": "薄井佳久",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "薄井佳久",
+            "shape": "image"
+        }
+    ]
+}

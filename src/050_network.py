@@ -3,7 +3,7 @@ import glob
 import itertools
 
 from my_module import my_function as c
-app_dir = c.settings["app_dir"]
+# app_dir = c.settings["app_dir"]
 host_dir = c.settings["host_dir"]
 
 thres = 4
@@ -143,6 +143,6 @@ network = {
     "edges": edgesArray
 }
 
-with open(app_dir + "/data/agentials.json", 'w') as outfile:
+with open("data/agentials.json", 'w') as outfile:
     json.dump(network,  outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))

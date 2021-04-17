@@ -1,0 +1,151 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "尾高豊作",
+            "to": "岡田純夫",
+            "value": 13
+        },
+        {
+            "color": "lightgrey",
+            "from": "仙石貢",
+            "to": "渡辺嘉一",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "仙石貢",
+            "to": "佐々木勇之助",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "佐々木勇之助",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "蓮沼門三",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "古河虎之助",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "渋沢義一",
+            "to": "原富太郎",
+            "value": 6
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 13,
+            "id": "尾高豊作",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "尾高豊作",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "description": "仙石 貢（せんごく みつぎ/せんごく みつぐ、安政4年6月2日（1857年7月22日）- 昭和6年（1931年）10月30日）は、日本の鉄道官僚、実業家、政治家。高知県高知市出身。工学博士。没後勲一等旭日大綬章追贈（昭和6年10月30日付）。「雷大臣」などといわれ、一生奇行で通した人物であるが、鉄道技術者、経営者として果たした功績は大きい。",
+            "id": "仙石貢",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sengoku_Mitsugi.jpg?width=300",
+            "label": "仙石貢",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 18,
+            "id": "渋沢義一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渋沢義一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "古河 虎之助（ふるかわ とらのすけ、明治20年（1887年）1月1日 - 昭和15年（1940年）3月30日）は、日本の実業家。古河財閥創業者古河市兵衛の実子で、3代目当主。爵位は男爵。位階勲等は正四位勲三等瑞宝章。紺綬褒章受章。号は風可。古河財閥を多角化させ、総合財閥に発展させた。",
+            "id": "古河虎之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Toranosuke_Furukawa.jpg?width=300",
+            "label": "古河虎之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "蓮沼 門三（はすぬま もんぞう、1882年2月22日 - 1980年6月6日）は、社会教育団体「修養団」を設立した日本の社会教育家。",
+            "id": "蓮沼門三",
+            "image": "http://ja.wikipedia.org/wiki/Special:FilePath/Statue_of_Hasunuma_Monzou.jpg?width=300",
+            "label": "蓮沼門三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "渡辺嘉一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渡辺嘉一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 13,
+            "id": "岡田純夫",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "岡田純夫",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "id": "佐々木勇之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木勇之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "原 富太郎（はら とみたろう、慶応4年8月23日（1868年10月8日） - 昭和14年（1939年）8月16日）は、実業家、茶人。号は三溪。美濃国厚見郡佐波村（現・岐阜県岐阜市）出身。",
+            "id": "原富太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "原富太郎",
+            "shape": "image"
+        }
+    ]
+}

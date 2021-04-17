@@ -1,0 +1,227 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "梅浦精一",
+            "to": "佐々木勇之助",
+            "value": 7
+        },
+        {
+            "color": "lightgrey",
+            "from": "梅浦精一",
+            "to": "浅野総一郎",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "梅浦精一",
+            "to": "益田孝",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "梅浦精一",
+            "to": "八十島親徳",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "梅浦精一",
+            "to": "萩原源太郎",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "梅浦精一",
+            "to": "皆川四郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "梅浦精一",
+            "to": "市原盛宏",
+            "value": 8
+        },
+        {
+            "color": "lightgrey",
+            "from": "梅浦精一",
+            "to": "北垣国道",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "梅浦精一",
+            "to": "大川平三郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "梅浦精一",
+            "to": "渡辺嘉一",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "梅浦精一",
+            "to": "平沢道次",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "梅浦精一",
+            "to": "前田青莎",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 62,
+            "id": "梅浦精一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "梅浦精一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 7,
+            "id": "佐々木勇之助",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐々木勇之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "益田 孝（ますだ たかし、嘉永元年10月17日（1848年11月12日） - 昭和13年（1938年）12月28日）は、日本の実業家。草創期の日本経済を動かし、三井財閥を支えた実業家である。明治維新後世界初の総合商社・三井物産の設立に関わり、日本経済新聞の前身である中外物価新報を創刊した。茶人としても高名で鈍翁と号し、「千利休以来の大茶人」と称された。男爵。",
+            "id": "益田孝",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masuda_Takashi.jpg?width=300",
+            "label": "益田孝",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "八十島親徳",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "八十島親徳",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "萩原源太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "萩原源太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "皆川 四郎（みながわ しろう、1852年 - 1911年）は日本の実業家。旧姓は岩崎。幼名は馬之助。信濃国伊那郡中村（現長野県飯田市）に生まれ、飯田城下の皆川家の養子となる。維新後に上京し、安井息軒に師事した後、代言人となったが実業界に転身する。渋沢栄一夫人の妹と結婚し、第一銀行に入行し、石巻支店長を経て、東京電灯会社支配人となる。また株式会社化した東京歌舞伎座（第2期）を創立した。1898年第5回衆議院議員総選挙に長野県第7区から出馬し当選した。",
+            "id": "皆川四郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "皆川四郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "description": "市原 盛宏（いちはら もりひろ、安政5年4月5日（1858年5月17日） - 大正4年（1915年）10月4日）は日本の銀行家、政治家。肥後国（現熊本県）生まれ。1879年同志社英学校を卒業後、同志社で教鞭をとる。また市原は新島襄を校内で補佐し、新島の二度の欧米旅行中、校内で社長代理を務めた。学生の指導に関しては新島と市原は好対照で、市原はあくまでも高圧的で、「学生は教師にはだまって服従すべきもの。批判はけしからぬ」と市原が言い放って学生に怒りを買っていた。こうした高姿勢に対して反発を強めたのが、徳富蘇峰である。学生のストが生じるが、新島襄の自責の杖事件でひとまず収拾を見た。のちに東華学校で教鞭をとる。留学を経て、同志社に復帰した。この間、小崎弘道の社長代理を務めた。1895年、日本銀行に入行。第一銀行横浜支店長、横浜市長を歴任した後、朝鮮銀行初代総裁に就任。現職のまま、京城で死去。葬儀はキリスト教式によって行われた。",
+            "id": "市原盛宏",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ichihara_Morihiro.jpg?width=300",
+            "label": "市原盛宏",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "北垣 国道（きたがき くにみち、1836年9月17日（天保7年8月7日） - 1916年（大正5年）1月16日）は、幕末期の志士、明治時代の官僚、政治家。幼名は捨蔵。通称は晋太郎。号は静屋。高知県令（第4代）、徳島県令（第7・8代）、京都府知事（第3代）、北海道庁長官（第4代）、貴族院議員（勅選）、枢密顧問官を歴任した。",
+            "id": "北垣国道",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitagaki_Kunimichi.jpg?width=300",
+            "label": "北垣国道",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "大川 平三郎（おおかわ へいざぶろう、万延元年10月25日（1860年12月7日） - 1936年（昭和11年）12月30日）は、明治から昭和初期の実業家。「日本の製紙王」と呼ばれ、「大川財閥」を築いた。江戸時代の剣豪で農民の出ながら武蔵国川越藩の剣術師範となった大川平兵衛は平三郎の祖父にあたる。",
+            "id": "大川平三郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Heizaburo_ohkawa.jpg?width=300",
+            "label": "大川平三郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "渡辺嘉一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "渡辺嘉一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "平沢道次",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "平沢道次",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "前田青莎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "前田青莎",
+            "shape": "image"
+        }
+    ]
+}

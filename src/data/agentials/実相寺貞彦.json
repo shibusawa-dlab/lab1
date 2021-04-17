@@ -1,0 +1,69 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "油谷恭一",
+            "to": "添田敬一郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "油谷恭一",
+            "to": "木村雄次",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "油谷恭一",
+            "to": "白岩竜平",
+            "value": 6
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 15,
+            "id": "油谷恭一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "油谷恭一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "添田 敬一郎（そえだ けいいちろう、1871年10月12日（明治4年8月28日） - 1953年（昭和28年）10月20日）は、日本の内務官僚、政治家。衆議院議員、埼玉県知事、山梨県知事、山形県知事などの要職を歴任した。",
+            "id": "添田敬一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Soeda_Keiichiro.jpg?width=300",
+            "label": "添田敬一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "木村雄次",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "木村雄次",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "白岩竜平",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白岩竜平",
+            "shape": "image"
+        }
+    ]
+}

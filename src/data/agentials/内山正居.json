@@ -1,0 +1,36 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "朝吹英二",
+            "to": "益田孝",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "朝吹 英二（あさぶき えいじ、嘉永2年2月18日（1849年3月12日） - 大正7年（1918年）1月31日）は、日本の実業家。幼名は萬吉、鐵之助。",
+            "id": "朝吹英二",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asabuki_eiji.jpg?width=300",
+            "label": "朝吹英二",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "益田 孝（ますだ たかし、嘉永元年10月17日（1848年11月12日） - 昭和13年（1938年）12月28日）は、日本の実業家。草創期の日本経済を動かし、三井財閥を支えた実業家である。明治維新後世界初の総合商社・三井物産の設立に関わり、日本経済新聞の前身である中外物価新報を創刊した。茶人としても高名で鈍翁と号し、「千利休以来の大茶人」と称された。男爵。",
+            "id": "益田孝",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masuda_Takashi.jpg?width=300",
+            "label": "益田孝",
+            "shape": "image"
+        }
+    ]
+}

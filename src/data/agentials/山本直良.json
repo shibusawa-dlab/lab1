@@ -1,0 +1,108 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "各務謙吉",
+            "to": "各務鎌吉",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "高木陸郎",
+            "to": "倉知鉄吉",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "高木陸郎",
+            "to": "春田茂",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "斎藤惣一",
+            "to": "長尾半平",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "id": "各務謙吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "各務謙吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "各務 鎌吉（かがみ けんきち、明治元年12月22日（1869年2月3日） - 昭和14年（1939年）5月27日）は、明治から昭和にかけての日本の実業家。三菱財閥系の東京海上火災保険の社長・会長をはじめ、三菱財閥の要職を務めて三井財閥の池田成彬とともに内外より重んじられ貴族院議員を務めた。その業績は、日本では「損害保険業界の父」といわれ、国際的にも世界保健殿堂に日本人として初めて選出されている。",
+            "id": "各務鎌吉",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/KAGAMI_Kenkichi.jpg?width=300",
+            "label": "各務鎌吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "id": "高木陸郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高木陸郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "斎藤惣一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "斎藤惣一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "倉知鉄吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "倉知鉄吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "春田茂",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "春田茂",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "長尾半平",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "長尾半平",
+            "shape": "image"
+        }
+    ]
+}

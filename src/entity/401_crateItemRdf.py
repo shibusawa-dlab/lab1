@@ -16,7 +16,7 @@ from rdflib.namespace import RDF, RDFS, FOAF, XSD
 from rdflib import Namespace
 
 import sys
-sys.path.append('/Users/nakamurasatoru/git/d_shibusawa/lab1-data/src/my_module')
+sys.path.append('/Users/nakamurasatoru/git/d_shibusawa/lab1/src/my_module')
 
 # from my_module import my_function as c
 import my_function as c

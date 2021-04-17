@@ -1,0 +1,341 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "横山徳次郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "井口正之",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "浅野総一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "白石喜太郎",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "高田利吉",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "浅野良三",
+            "to": "浅野総一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "浅野良三",
+            "to": "金子喜代太",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "鈴木文治",
+            "to": "安達憲忠",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "鈴木文治",
+            "to": "成瀬仁蔵",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "倉知鉄吉",
+            "to": "白岩竜平",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "倉知鉄吉",
+            "to": "窪田四郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "倉知鉄吉",
+            "to": "高木陸郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "脇田勇",
+            "to": "松下軍治",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "木島孝蔵",
+            "to": "井上準之助",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "藤山雷太",
+            "to": "安達憲忠",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "藤山雷太",
+            "to": "和田豊治",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 27,
+            "id": "増田明六",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "増田明六",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "id": "浅野良三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "浅野良三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "description": "鈴木 文治（すずき ぶんじ、男性、1885年9月4日 - 1946年3月12日）は大正・昭和期の政治家、労働運動家。友愛会創始者。日本の労働運動の草分け的存在といわれる。",
+            "id": "鈴木文治",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bunji_Suzuki.jpg?width=300",
+            "label": "鈴木文治",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 13,
+            "id": "倉知鉄吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "倉知鉄吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "脇田勇",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "脇田勇",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "木島孝蔵",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "木島孝蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "description": "藤山 雷太（ふじやま らいた、1863年9月13日（旧暦文久3年8月1日）- 1938年（昭和13年）12月19日）は、佐賀藩出身の明治・大正・昭和の実業家、貴族院勅選議員。東京商業会議所会頭、芝浦製作所所長、大日本製糖社長、藤山同族社長、大日本製氷会長、日印協会理事、また三井財閥・安田財閥・共同の各信託会社の相談役・取締役等を歴任し、藤山コンツェルンを創立した。正五位勲三等。1919年（大正8年）に藍綬褒章、1923年（大正12年）に紺綬褒章を受章。次いでフランス政府からレジオン・ドヌール・シュバリエ勲章を受章。安南（現在のベトナム）国王からはグラン・オフィシェ・ド・ランテン勲章を贈られた。",
+            "id": "藤山雷太",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fujiyama_Raita.jpg?width=300",
+            "label": "藤山雷太",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "description": "安達 憲忠（あだち けんちゅう/のりただ、安政4年8月3日（1857年9月20日） - 昭和5年（1930年）12月2日）は、備前国赤坂郡小野田村（現・赤磐市熊山町）出身の社会実業家。東京市養育院幹事。",
+            "id": "安達憲忠",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Adachi_Noritada.jpg?width=300",
+            "label": "安達憲忠",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。",
+            "id": "成瀬仁蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
+            "label": "成瀬仁蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "井口正之",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井口正之",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "白岩竜平",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白岩竜平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "横山徳次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "横山徳次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "白石喜太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白石喜太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "井上 準之助（いのうえ じゅんのすけ、明治2年3月25日（1869年5月6日） - 昭和7年（1932年）2月9日）は、日本の政治家、財政家。日本銀行第9、11代総裁。山本、濱口、第2次若槻内閣で大蔵大臣に就任。貴族院議員。",
+            "id": "井上準之助",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inoue_Junnosuke_1-2.jpg?width=300",
+            "label": "井上準之助",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "高田利吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高田利吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "高木陸郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高木陸郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "和田 豊治（わだ とよじ、1861年12月19日（文久元年11月18日） - 1924年（大正13年）3月4日）は、日本の明治・大正期の財界人、貴族院勅選挙議員。富士紡績会社や理化学研究所など、創立に携わった会社は数十社を超え、渋沢栄一に続く大正時代の「財界世話人」として君臨した。従五位勲三等瑞宝章（1924年）。藍綬褒章（1911年）。",
+            "id": "和田豊治",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wada_Toyoji.jpg?width=300",
+            "label": "和田豊治",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "id": "金子喜代太",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "金子喜代太",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "窪田 四郎（くぼた しろう、1873年5月25日 - 1944年9月14日）は日本の実業家。茨城県生まれ。高等商業学校（現一橋大学）卒業。富士製紙（後の王子製紙）社長、元日魯漁業（現ニチロ）社長などを歴任。実業家の内田信也は実弟。",
+            "id": "窪田四郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "窪田四郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "松下軍治",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "松下軍治",
+            "shape": "image"
+        }
+    ]
+}

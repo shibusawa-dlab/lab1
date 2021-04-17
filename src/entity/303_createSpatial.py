@@ -46,13 +46,6 @@ for uri in all:
             "long" : lon
         }
 
-import sys
-sys.path.append('/Users/nakamurasatoru/git/d_shibusawa/lab1-data/src/my_module')
-
-# from my_module import my_function as c
-import my_function as c
-app_dir = c.settings["app_dir"]
-
-with open(app_dir + "/data/spatial.json", 'w') as outfile:
+with open("../data/spatial.json", 'w') as outfile:
     json.dump(items,  outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))

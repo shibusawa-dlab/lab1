@@ -1,0 +1,89 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "益田克徳",
+            "to": "堀江助保",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田克徳",
+            "to": "馬越恭平",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田克徳",
+            "to": "益田孝",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "益田克徳",
+            "to": "高橋義雄",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 17,
+            "description": "益田 克徳（ますだ こくとく、1852年（嘉永5年）1月 - 1903年（明治36年）4月8日）は、幕末期の幕臣で明治期の官吏、実業家、政治家。東京海上保険創立者。幼名は荘作。号は無為庵、非黙。",
+            "id": "益田克徳",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "益田克徳",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "堀江助保",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "堀江助保",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "馬越 恭平（まこし きょうへい、1844年11月21日（天保15年10月12日） - 1933年（昭和8年）4月20日）は、日本の実業家。三井物産に勤務し、大日本麦酒（日本麦酒、朝日麦酒、札幌麦酒の合併会社）の社長を務めた人物。大日本麦酒の大合同合併を画策し、｢日本のビール王｣とよばれた。衆議院議員（1期）、貴族院勅選議員。茶人・馬越化生としても知られた。",
+            "id": "馬越恭平",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MAGOSHI_Kyohei.jpg?width=300",
+            "label": "馬越恭平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "益田 孝（ますだ たかし、嘉永元年10月17日（1848年11月12日） - 昭和13年（1938年）12月28日）は、日本の実業家。草創期の日本経済を動かし、三井財閥を支えた実業家である。明治維新後世界初の総合商社・三井物産の設立に関わり、日本経済新聞の前身である中外物価新報を創刊した。茶人としても高名で鈍翁と号し、「千利休以来の大茶人」と称された。男爵。",
+            "id": "益田孝",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masuda_Takashi.jpg?width=300",
+            "label": "益田孝",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "高橋 義雄（たかはし よしお） 高橋義雄 (サッカー選手) - 元サッカー選手。  高橋義雄 (茶人) - 実業家・茶人。 __DISAMBIG__",
+            "id": "高橋義雄",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高橋義雄",
+            "shape": "image"
+        }
+    ]
+}

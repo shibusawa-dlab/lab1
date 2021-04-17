@@ -1,0 +1,68 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "河村隆実",
+            "to": "佐分利一嗣",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "河村隆実",
+            "to": "岡部広",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "河村隆実",
+            "to": "林策一郎",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 12,
+            "id": "河村隆実",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "河村隆実",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "林策一郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "林策一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "岡部広",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "岡部広",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "佐分利一嗣",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "佐分利一嗣",
+            "shape": "image"
+        }
+    ]
+}

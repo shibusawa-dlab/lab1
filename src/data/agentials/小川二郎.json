@@ -1,0 +1,35 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "宇野保太郎",
+            "to": "田中源太郎",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "宇野保太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "宇野保太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "田中 源太郎（たなか げんたろう、嘉永6年1月3日（1853年2月10日） - 大正11年（1922年）4月3日）は、京都府旧桑田郡亀山北町生まれの政治家、実業家。衆議院議員当選3回（1、2、3回総選挙）、貴族院多額納税者議員。",
+            "id": "田中源太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "田中源太郎",
+            "shape": "image"
+        }
+    ]
+}

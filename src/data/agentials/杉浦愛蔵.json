@@ -1,0 +1,51 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "平岡四郎",
+            "to": "大久保一翁",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "平岡四郎",
+            "to": "平岡庄七",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "id": "平岡四郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "平岡四郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "平岡庄七",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "平岡庄七",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "大久保一翁",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "大久保一翁",
+            "shape": "image"
+        }
+    ]
+}

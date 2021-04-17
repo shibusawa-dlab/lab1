@@ -1,0 +1,35 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "工藤鉄男",
+            "to": "工藤鉄雄",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "white"
+            },
+            "count": 4,
+            "id": "工藤鉄雄",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "工藤鉄雄",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "工藤 鉄男（くどう てつお、1875年8月5日 - 1953年6月16日）は、大正・昭和期の日本の男性政治家。元国務大臣。本名は工藤 鐵男（読みは同じ）。",
+            "id": "工藤鉄男",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kudo_Tetsuo.jpg?width=300",
+            "label": "工藤鉄男",
+            "shape": "image"
+        }
+    ]
+}

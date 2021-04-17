@@ -1,0 +1,35 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "北垣国道",
+            "to": "梅浦精一",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "北垣 国道（きたがき くにみち、1836年9月17日（天保7年8月7日） - 1916年（大正5年）1月16日）は、幕末期の志士、明治時代の官僚、政治家。幼名は捨蔵。通称は晋太郎。号は静屋。高知県令（第4代）、徳島県令（第7・8代）、京都府知事（第3代）、北海道庁長官（第4代）、貴族院議員（勅選）、枢密顧問官を歴任した。",
+            "id": "北垣国道",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kitagaki_Kunimichi.jpg?width=300",
+            "label": "北垣国道",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "梅浦精一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "梅浦精一",
+            "shape": "image"
+        }
+    ]
+}

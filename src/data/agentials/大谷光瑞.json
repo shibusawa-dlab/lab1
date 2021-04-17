@@ -1,0 +1,196 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "木村雄次",
+            "to": "油谷恭一",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "斎藤恒三",
+            "to": "山辺丈夫",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "和田豊治",
+            "to": "藤山雷太",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "和田豊治",
+            "to": "浅野総一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "横山徳次郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "井口正之",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "浅野総一郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "白石喜太郎",
+            "value": 11
+        },
+        {
+            "color": "lightgrey",
+            "from": "増田明六",
+            "to": "高田利吉",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "木村雄次",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "木村雄次",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "斎藤恒三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "斎藤恒三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "description": "和田 豊治（わだ とよじ、1861年12月19日（文久元年11月18日） - 1924年（大正13年）3月4日）は、日本の明治・大正期の財界人、貴族院勅選挙議員。富士紡績会社や理化学研究所など、創立に携わった会社は数十社を超え、渋沢栄一に続く大正時代の「財界世話人」として君臨した。従五位勲三等瑞宝章（1924年）。藍綬褒章（1911年）。",
+            "id": "和田豊治",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Wada_Toyoji.jpg?width=300",
+            "label": "和田豊治",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 27,
+            "id": "増田明六",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "増田明六",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 11,
+            "id": "白石喜太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白石喜太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "横山徳次郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "横山徳次郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "井口正之",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "井口正之",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "藤山 雷太（ふじやま らいた、1863年9月13日（旧暦文久3年8月1日）- 1938年（昭和13年）12月19日）は、佐賀藩出身の明治・大正・昭和の実業家、貴族院勅選議員。東京商業会議所会頭、芝浦製作所所長、大日本製糖社長、藤山同族社長、大日本製氷会長、日印協会理事、また三井財閥・安田財閥・共同の各信託会社の相談役・取締役等を歴任し、藤山コンツェルンを創立した。正五位勲三等。1919年（大正8年）に藍綬褒章、1923年（大正12年）に紺綬褒章を受章。次いでフランス政府からレジオン・ドヌール・シュバリエ勲章を受章。安南（現在のベトナム）国王からはグラン・オフィシェ・ド・ランテン勲章を贈られた。",
+            "id": "藤山雷太",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fujiyama_Raita.jpg?width=300",
+            "label": "藤山雷太",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "油谷恭一",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "油谷恭一",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "山辺 丈夫（やまのべ たけお、1851年12月30日（嘉永4年12月8日） - 1920年5月14日）は、明治期の実業家、紡績技師、津和野藩士。従五位。",
+            "id": "山辺丈夫",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "山辺丈夫",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "高田利吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高田利吉",
+            "shape": "image"
+        }
+    ]
+}

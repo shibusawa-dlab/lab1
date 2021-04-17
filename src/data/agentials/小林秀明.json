@@ -1,0 +1,36 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "村井吉兵衛",
+            "to": "浅野総一郎",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "村井 吉兵衛（むらい きちべえ、文久4年1月22日（1864年2月29日） - 大正15年（1926年）1月2日）は、日本の実業家。明治時代に「煙草王」と呼ばれた。事業を多角化し村井財閥を形成。東京府平民。村井銀行社長。",
+            "id": "村井吉兵衛",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "村井吉兵衛",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "浅野 総一郎（淺野總一郎　あさの そういちろう、1848年4月13日（嘉永元年3月10日） - 1930年（昭和5年）11月9日）は日本の実業家。一代で浅野財閥を築いた。",
+            "id": "浅野総一郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano_souichiro.jpg?width=300",
+            "label": "浅野総一郎",
+            "shape": "image"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "高田早苗",
+            "to": "諸井恒平",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "高田 早苗（たかた さなえ、1860年4月4日（安政7年3月14日） - 1938年（昭和13年）12月3日）は、明治・大正・昭和期の政治家、政治学者、教育家、文芸批評家。衆議院議員、貴族院議員、早稲田大学総長、文部大臣などを歴任した。号は半峰。妻は前島密長女。",
+            "id": "高田早苗",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sanae_Takata.jpg?width=300",
+            "label": "高田早苗",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "諸井 恒平（もろい つねへい、1862年6月23日（文久2年5月26日） - 1941年（昭和16年）2月14日）は、武蔵国児玉郡本庄宿（現在の埼玉県本庄市）出身の実業家。多くの事業を進め、セメント製造事業の開拓を手掛けた事から「セメント王」とも呼ばれた。諱を直道、号を素泉と称した。正六位勲六等。",
+            "id": "諸井恒平",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "諸井恒平",
+            "shape": "image"
+        }
+    ]
+}

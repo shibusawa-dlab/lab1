@@ -1,0 +1,36 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "山本条太郎",
+            "to": "益田孝",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "山本 条太郎（やまもと じょうたろう、1867年11月6日（慶応3年10月11日） - 1936年（昭和11年）3月25日）は日本の実業家・政治家。",
+            "id": "山本条太郎",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jyotaro_yamamoto.jpg?width=300",
+            "label": "山本条太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "益田 孝（ますだ たかし、嘉永元年10月17日（1848年11月12日） - 昭和13年（1938年）12月28日）は、日本の実業家。草創期の日本経済を動かし、三井財閥を支えた実業家である。明治維新後世界初の総合商社・三井物産の設立に関わり、日本経済新聞の前身である中外物価新報を創刊した。茶人としても高名で鈍翁と号し、「千利休以来の大茶人」と称された。男爵。",
+            "id": "益田孝",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Masuda_Takashi.jpg?width=300",
+            "label": "益田孝",
+            "shape": "image"
+        }
+    ]
+}

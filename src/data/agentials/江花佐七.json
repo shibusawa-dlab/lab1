@@ -1,0 +1,133 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "郷隆三郎",
+            "to": "萩原源太郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "畑弥右衛門",
+            "to": "福島甲子三",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "畑弥右衛門",
+            "to": "尾崎行雄",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "畑弥右衛門",
+            "to": "中野武営",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "畑弥右衛門",
+            "to": "成瀬仁蔵",
+            "value": 6
+        },
+        {
+            "color": "lightgrey",
+            "from": "福島甲子三",
+            "to": "久米良作",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "郷隆三郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "郷隆三郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 21,
+            "id": "畑弥右衛門",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "畑弥右衛門",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 8,
+            "id": "福島甲子三",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "福島甲子三",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "萩原源太郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "萩原源太郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "中野 武営（なかの たけなか、なかの ぶえい、嘉永元年1月3日（1848年2月7日） - 大正7年（1918年）10月8日）は、明治・大正時代の官僚出身政治家、実業家。幼名は「権之助」または「作造」。号は「随郷」。",
+            "id": "中野武営",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nakano_Takenaka.jpg?width=300",
+            "label": "中野武営",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 5,
+            "description": "尾崎 行雄（おざき ゆきお、安政5年11月20日（1858年12月24日） - 昭和29年（1954年）10月6日）は、日本の政治家。日本の議会政治の黎明期から戦後に至るまで衆議院議員を務め、当選回数・議員勤続年数・最高齢議員記録と複数の日本記録を有することから「憲政の神様」「議会政治の父」と呼ばれる。正三位勲一等（1946年（昭和21年）5月4日付返上）。伊勢神宮内宮前・合格神社の祭神。号は咢堂（がくどう。最初学堂。愕堂を経て咢堂）。称号は衆議院名誉議員、東京都名誉都民。世界連邦建設同盟（現、世界連邦運動協会）初代会長。",
+            "id": "尾崎行雄",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Yukio_Ozaki.jpg?width=300",
+            "label": "尾崎行雄",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 6,
+            "description": "成瀬 仁蔵（なるせ じんぞう、1858年8月2日（安政5年6月23日） - 1919年（大正8年）3月4日）は、明治から大正のキリスト教牧師（プロテスタント）であり、日本における女子高等教育の開拓者の1人であり、日本女子大学（日本女子大学校）の創設者として知られる。",
+            "id": "成瀬仁蔵",
+            "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jinzo_Naruse.JPG?width=300",
+            "label": "成瀬仁蔵",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "久米良作",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "久米良作",
+            "shape": "image"
+        }
+    ]
+}

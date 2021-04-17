@@ -16,7 +16,6 @@ import numpy as np
 
 from my_module import my_function as c
 host_dir = c.settings["host_dir"]
-app_dir = c.settings["app_dir"]
 alg_index = c.settings["algolia_index"]
 prefix0 = c.settings["host_url"]
 app_prefix = c.settings["app_url"]
@@ -44,7 +43,7 @@ norms = getNorms()
 
 def getNijl():
 
-    df = pd.read_excel("data/渋沢栄一日記リスト_kim_shige.xlsx", sheet_name=0, header=None, index_col=None, engine='openpyxl')
+    df = pd.read_excel("data/渋沢栄一日記リスト_kim_shige_naka.xlsx", sheet_name=0, header=None, index_col=None, engine='openpyxl')
 
     r_count = len(df.index)
     c_count = len(df.columns)
@@ -60,6 +59,7 @@ def getNijl():
             for id in ids:
                 if "DKB" in id:
                     map[id] = {
+                        "label": df.iloc[j, 6],
                         "nijl" : df.iloc[j, 12],
                         "url" : df.iloc[j, 13],
                         "attribution" : df.iloc[j, 14],
@@ -229,6 +229,9 @@ def getPersons(entry):
             if value.find("surname") and value.find("forename"):
                 fullname = value.find("surname").text + value.find("forename").text
                 if fullname not in fullnames:
+                    if fullname in terms:
+                        uri = terms[fullname]
+                        fullname = uri.split("/")[-1]
                     fullnames.append(fullname)
 
             if value.find("surname"):
@@ -315,6 +318,9 @@ def addYears(years, yearAndMonth):
 def setNijl(subject, all, map, prefix):
     if not map:
         return
+
+    stmt = (subject, RDFS.label, Literal(map["label"]))
+    all.add(stmt)
 
     url = map["url"]
     if not pd.isnull(url):
@@ -403,6 +409,12 @@ for j in range(len(files)):
 
         text_id = text.get("xml:id")# .replace("DKB", "").replace("m", "")
 
+        text_id_mod = text_id
+        if text_id in ["DKB20015m", "DKB20016m", "DKB20017m", "DKB20018m", "DKB20019m", "DKB20020m", "DKB20021m", "DKB20022m", "DKB20023m"
+        , "DKB20022m", "DKB20023m", "DKB20024m", "DKB20025m", "DKB20026m", "DKB20027m", "DKB20028m", "DKB20029m"
+        , "DKB20030m", "DKB20031m", "DKB20032m", "DKB20033m"]:
+            text_id_mod = "DKB20014m"
+
         if text.get("type") == "diary" or text.get("type") == "schedule":
             print("SKIP: type is ...", text.get("type"), text_id)
             continue        
@@ -416,12 +428,21 @@ for j in range(len(files)):
 
         ad = front.find(type="archival-description")
 
-        subject = URIRef(prefix + "/items/"+text_id)
+        subject = URIRef(prefix + "/items/"+text_id_mod) # このサブジェクトURIはADのもの
+
+        if not ad:
+            ad = '''「集会日時通知表」とは、飛鳥山邸と渋沢事務所との間で、来訪者や栄一の訪問先き、会合等を相互に連絡し合うために用いられた表である。
+　用紙は厚手の洋紙で、大きさは38×26.5cm.一枚を半月分として日付其他が印刷されている。一日は更に時間割に細分されていて（写真参照）、これに飛鳥山邸なり、渋沢事務所なりで必要事項を書き込んだものである。
+　栄一が飛鳥山邸を出る時、この表は折って革の袋に入れ、自動車の運転手に渡された。運転手はこの表に従って行く先きをきめた――と言われている。渋沢事務所に着くと、表は運転手から係に渡された。表の中に「御出勤」とあるのはその時間を示すものである。事務所では新たに発生した予定があれば書き加えた。その上で其日の会合や訪問に赴く時、表は再び運転手に渡り、運転手はこれに依って行動した。臨時に変更があった時は、書き込んだ予定を消したと伝えられているが、消し残しもあったであろうと想像される従って栄一の一日の行動の大部分はこの表に依って知り得ると言ってよいであろう。
+　しかし、予定という点から言えば、飽くまで予定であって、事実を知ろうとすれば更に傍証を必要とする性質のものであるが、大体はこの通り行われたと見て大差はないし、少くともここに示されたものについては、栄一が面会や訪問、出席の意志のあった事は明白である。又、面会を約しながら時間が無くなって余儀なく打ち切ったり、出席すべき会合に欠席した場合も考えられるし、臨時の来訪者や急の訪問先きの変更等のあったことは、日記を参照すればこの表以外に更に多い事を知り得るが、主たるものはここに記入されているのである。急患の生じた場合で抹消されずにいるものもある。ここにはそれらを斟酌せず原本のままを活字とした。とまれ多岐にわたる栄一の行動はこの表に最も簡単に示されている。
+　この表は大正二年末から昭和六年（歿年）に至る十八カ年余が渋沢家に保存されていた。即ち栄一晩年の活動の記録というべきであり、この期間は日記も十分には書かれていないので、その補充としても不可欠の資料である。
+　尚、この表を渋沢事務所で整理したと見られる「集会控」と呼ぶ帳面二冊があるが、大正十五年十一月二十六日以降のものであり、「集会日時通知表」の方が更に古くから有るので「集会控」は収録しない事とした。又、竜門雑誌第四三三号（大正十三年十月）以後に掲載せられた「青渊先生動静大要」は「集会控」に依ったものと思われる。'''
+        
         stmt = (subject, URIRef(prefix+"/properties/xml"), Literal(ad))
         all.add(stmt)
 
-        stmt = (subject, RDFS.label, Literal(frontHead))
-        all.add(stmt)
+        # stmt = (subject, RDFS.label, Literal(frontHead))
+        # all.add(stmt)
 
         stmt = (subject, URIRef("http://schema.org/isPartOf"), URIRef(file_uri))
         all.add(stmt)
@@ -429,9 +450,14 @@ for j in range(len(files)):
         stmt = (subject, URIRef("http://schema.org/sourceData"), URIRef(source))
         all.add(stmt)
 
+        '''
         search = app_prefix + "/search?"+(alg_index + "[hierarchicalMenu][category.lvl0][0]="+titles[j]+"&"+alg_index+"[hierarchicalMenu][category.lvl0][1]="+text_id+" "+frontHead)
 
         stmt = (subject, URIRef("http://schema.org/relatedLink"), Literal(search))
+        all.add(stmt)
+        '''
+
+        stmt = (subject, URIRef("http://schema.org/name"), Literal(frontHead))
         all.add(stmt)
 
         if text_id in collection:
@@ -440,8 +466,8 @@ for j in range(len(files)):
             all.add(stmt)
 
         # 日記の場合？日時通知表はNIJLの画像に含まれない。
-        if text_id in nijls:
-            setNijl(subject, all, nijls[text_id], prefix)
+        if text_id_mod in nijls:
+            setNijl(subject, all, nijls[text_id_mod], prefix)
 
         types = ["diary-entry", "day", "note"]
 
@@ -580,11 +606,11 @@ with open("data/index.json", 'w') as outfile:
     json.dump(index,  outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))
 
-with open(app_dir + "/data/years.json", 'w') as outfile:
+with open("data/years.json", 'w') as outfile:
     json.dump(years,  outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))
 
-path = app_dir + "/data/ad.json"
+path = "data/ad.json"
 all.serialize(destination=path, format='json-ld')
 
 path = "data/all.json"

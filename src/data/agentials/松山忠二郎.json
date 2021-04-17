@@ -1,0 +1,86 @@
+{
+    "edges": [
+        {
+            "color": "lightgrey",
+            "from": "倉知鉄吉",
+            "to": "白岩竜平",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "倉知鉄吉",
+            "to": "窪田四郎",
+            "value": 4
+        },
+        {
+            "color": "lightgrey",
+            "from": "倉知鉄吉",
+            "to": "高木陸郎",
+            "value": 5
+        },
+        {
+            "color": "lightgrey",
+            "from": "高木陸郎",
+            "to": "春田茂",
+            "value": 4
+        }
+    ],
+    "nodes": [
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 13,
+            "id": "倉知鉄吉",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "倉知鉄吉",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 9,
+            "id": "高木陸郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "高木陸郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "description": "窪田 四郎（くぼた しろう、1873年5月25日 - 1944年9月14日）は日本の実業家。茨城県生まれ。高等商業学校（現一橋大学）卒業。富士製紙（後の王子製紙）社長、元日魯漁業（現ニチロ）社長などを歴任。実業家の内田信也は実弟。",
+            "id": "窪田四郎",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "窪田四郎",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "白岩竜平",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "白岩竜平",
+            "shape": "image"
+        },
+        {
+            "borderWidth": 4,
+            "color": {
+                "border": "lightgreen"
+            },
+            "count": 4,
+            "id": "春田茂",
+            "image": "https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png",
+            "label": "春田茂",
+            "shape": "image"
+        }
+    ]
+}
