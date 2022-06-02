@@ -67,7 +67,7 @@
                 {
                     "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p1",
                     "@type": "sc:Canvas",
-                    "height": 1857,
+                    "height": 3744,
                     "images": [
                         {
                             "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p1-image",
@@ -75,28 +75,28 @@
                             "motivation": "sc:painting",
                             "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p1",
                             "resource": {
-                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_00.jpg",
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00001.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
-                                "height": 1857,
-                                "width": 2300
+                                "height": 3744,
+                                "width": 5616
                             }
                         }
                     ],
                     "label": "[1]",
                     "thumbnail": {
-                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_00.jpg",
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00001.jpg",
                         "@type": "dctypes:Image",
                         "format": "image/jpeg",
-                        "height": 1857,
-                        "width": 2300
+                        "height": 3744,
+                        "width": 5616
                     },
-                    "width": 2300
+                    "width": 5616
                 },
                 {
                     "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p2",
                     "@type": "sc:Canvas",
-                    "height": 3114,
+                    "height": 3744,
                     "images": [
                         {
                             "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p2-image",
@@ -104,28 +104,28 @@
                             "motivation": "sc:painting",
                             "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p2",
                             "resource": {
-                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_01.jpg",
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00002.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
-                                "height": 3114,
-                                "width": 4188
+                                "height": 3744,
+                                "width": 5616
                             }
                         }
                     ],
                     "label": "[2]",
                     "thumbnail": {
-                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_01.jpg",
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00002.jpg",
                         "@type": "dctypes:Image",
                         "format": "image/jpeg",
-                        "height": 3114,
-                        "width": 4188
+                        "height": 3744,
+                        "width": 5616
                     },
-                    "width": 4188
+                    "width": 5616
                 },
                 {
                     "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p3",
                     "@type": "sc:Canvas",
-                    "height": 1901,
+                    "height": 3744,
                     "images": [
                         {
                             "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p3-image",
@@ -133,28 +133,28 @@
                             "motivation": "sc:painting",
                             "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p3",
                             "resource": {
-                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_02.jpg",
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00003.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
-                                "height": 1901,
-                                "width": 2546
+                                "height": 3744,
+                                "width": 5616
                             }
                         }
                     ],
                     "label": "[3]",
                     "thumbnail": {
-                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_02.jpg",
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00003.jpg",
                         "@type": "dctypes:Image",
                         "format": "image/jpeg",
-                        "height": 1901,
-                        "width": 2546
+                        "height": 3744,
+                        "width": 5616
                     },
-                    "width": 2546
+                    "width": 5616
                 },
                 {
                     "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p4",
                     "@type": "sc:Canvas",
-                    "height": 1874,
+                    "height": 3744,
                     "images": [
                         {
                             "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p4-image",
@@ -162,28 +162,28 @@
                             "motivation": "sc:painting",
                             "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p4",
                             "resource": {
-                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_03.jpg",
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00004.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
-                                "height": 1874,
-                                "width": 2527
+                                "height": 3744,
+                                "width": 5616
                             }
                         }
                     ],
                     "label": "[4]",
                     "thumbnail": {
-                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_03.jpg",
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00004.jpg",
                         "@type": "dctypes:Image",
                         "format": "image/jpeg",
-                        "height": 1874,
-                        "width": 2527
+                        "height": 3744,
+                        "width": 5616
                     },
-                    "width": 2527
+                    "width": 5616
                 },
                 {
                     "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p5",
                     "@type": "sc:Canvas",
-                    "height": 1944,
+                    "height": 3744,
                     "images": [
                         {
                             "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p5-image",
@@ -191,28 +191,28 @@
                             "motivation": "sc:painting",
                             "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p5",
                             "resource": {
-                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_04.jpg",
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00005.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
-                                "height": 1944,
-                                "width": 2592
+                                "height": 3744,
+                                "width": 5616
                             }
                         }
                     ],
                     "label": "[5]",
                     "thumbnail": {
-                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_04.jpg",
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00005.jpg",
                         "@type": "dctypes:Image",
                         "format": "image/jpeg",
-                        "height": 1944,
-                        "width": 2592
+                        "height": 3744,
+                        "width": 5616
                     },
-                    "width": 2592
+                    "width": 5616
                 },
                 {
                     "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p6",
                     "@type": "sc:Canvas",
-                    "height": 3035,
+                    "height": 3744,
                     "images": [
                         {
                             "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p6-image",
@@ -220,28 +220,28 @@
                             "motivation": "sc:painting",
                             "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p6",
                             "resource": {
-                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_05.jpg",
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00006.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
-                                "height": 3035,
-                                "width": 4015
+                                "height": 3744,
+                                "width": 5616
                             }
                         }
                     ],
                     "label": "[6]",
                     "thumbnail": {
-                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_05.jpg",
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00006.jpg",
                         "@type": "dctypes:Image",
                         "format": "image/jpeg",
-                        "height": 3035,
-                        "width": 4015
+                        "height": 3744,
+                        "width": 5616
                     },
-                    "width": 4015
+                    "width": 5616
                 },
                 {
                     "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p7",
                     "@type": "sc:Canvas",
-                    "height": 2302,
+                    "height": 3744,
                     "images": [
                         {
                             "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p7-image",
@@ -249,33 +249,352 @@
                             "motivation": "sc:painting",
                             "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p7",
                             "resource": {
-                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_06.jpg",
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00007.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
-                                "height": 2302,
-                                "width": 3072
+                                "height": 3744,
+                                "width": 5616
                             }
                         }
                     ],
                     "label": "[7]",
                     "thumbnail": {
-                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_06.jpg",
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00007.jpg",
                         "@type": "dctypes:Image",
                         "format": "image/jpeg",
-                        "height": 2302,
-                        "width": 3072
+                        "height": 3744,
+                        "width": 5616
                     },
-                    "width": 3072
+                    "width": 5616
+                },
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p8",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p8-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p8",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00008.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[8]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00008.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 3744,
+                        "width": 5616
+                    },
+                    "width": 5616
+                },
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p9",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p9-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p9",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00009.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[9]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00009.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 3744,
+                        "width": 5616
+                    },
+                    "width": 5616
+                },
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p10",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p10-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p10",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00010.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[10]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00010.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 3744,
+                        "width": 5616
+                    },
+                    "width": 5616
+                },
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p11",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p11-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p11",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00011.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[11]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00011.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 3744,
+                        "width": 5616
+                    },
+                    "width": 5616
+                },
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p12",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p12-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p12",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00012.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[12]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00012.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 3744,
+                        "width": 5616
+                    },
+                    "width": 5616
+                },
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p13",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p13-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p13",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00013.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[13]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00013.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 3744,
+                        "width": 5616
+                    },
+                    "width": 5616
+                },
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p14",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p14-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p14",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00014.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[14]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00014.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 3744,
+                        "width": 5616
+                    },
+                    "width": 5616
+                },
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p15",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p15-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p15",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00015.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[15]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00015.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 3744,
+                        "width": 5616
+                    },
+                    "width": 5616
+                },
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p16",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p16-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p16",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00016.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[16]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00016.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 3744,
+                        "width": 5616
+                    },
+                    "width": 5616
+                },
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p17",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p17-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p17",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00017.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[17]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00017.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 3744,
+                        "width": 5616
+                    },
+                    "width": 5616
+                },
+                {
+                    "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p18",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/annotation/p18-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://shibusawa-dlab.github.io/lab1/iiif/DKB20012m/canvas/p18",
+                            "resource": {
+                                "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00018.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[18]",
+                    "thumbnail": {
+                        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00018.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg",
+                        "height": 3744,
+                        "width": 5616
+                    },
+                    "width": 5616
                 }
             ]
         }
     ],
     "thumbnail": {
-        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-0000_00.jpg",
+        "@id": "http://base1.nijl.ac.jp/~jituhaku/37TGH/37TGH-0955-0028-00001.jpg",
         "@type": "dctypes:Image",
         "format": "image/jpeg",
-        "height": 1857,
-        "width": 2300
+        "height": 3744,
+        "width": 5616
     },
     "viewingDirection": "right-to-left"
 }
