@@ -1,0 +1,5083 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>自
+      
+       明治元年十一月三日
+      
+      至同
+      
+       二年正月十八日
+      
+      1868―1869</title></titleStmt><publicationStmt><p>渋沢栄一伝記資料別巻第一日記（TEI/XML版）</p></publicationStmt><sourceDesc><p/></sourceDesc></fileDesc></teiHeader><facsimile><surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/53" xml:id="pageB1027">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/53/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/54" xml:id="pageB1028">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/54/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/55" xml:id="pageB1029">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/55/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/56" xml:id="pageB1030">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/56/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/57" xml:id="pageB1031">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/57/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/58" xml:id="pageB1032">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/58/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/59" xml:id="pageB1033">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/59/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/60" xml:id="pageB1034">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/60/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/61" xml:id="pageB1035">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/61/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/62" xml:id="pageB1036">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/62/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/63" xml:id="pageB1037">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/63/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/64" xml:id="pageB1038">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/64/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/65" xml:id="pageB1039">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/65/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/66" xml:id="pageB1040">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/66/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/67" xml:id="pageB1041">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/67/full/max/0/default.jpg"/>
+  </surface>
+  </facsimile><text n="41000000000" xml:id="DKB10002m">
+    <front>
+     <pb corresp="#pageB1027" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/53/full/max/0/default.jpg" n="B1027" source="#pageB1027"/>
+     <head>
+      自
+      <date when="1868-11-03">
+       明治元年十一月三日
+      </date>
+      至同
+      <date evidence="year inferenced" when="1868-01-18">
+       二年正月十八日
+      </date>
+      1868―1869
+     </head>
+     <div type="archival-description">
+      <p>
+       ○原本概要
+      </p>
+      <p>
+       体裁。洋綴手帖。15.3cm×10.2cm厚サ、1.2cm表紙黒色クロス。表紙一方ニゴム平紐ヲ付ク。細鉛筆付見返シ、茶ト紺ノマーブル模様。
+      </p>
+      <p>
+       本文。用紙淡青色方眼紙。総頁一五六頁。総テ鉛筆書キ日記ノ部分五〇頁。略々中央ヨリ杉浦差引（二頁）。抹消（二頁）。黄賓行公費（四頁）。東京府滞在中公費（三頁）。英国生徒御手当差引（二頁）。他（四頁）ヲ記ス。仏文書翰控ハ最後ノ頁ヨリ横書キニシ二頁余。
+      </p>
+     </div>
+    </front>
+    <body>
+     <div type="diary-entry" xml:id="DKB10002m-0001">
+      <head>
+       <date type="旧暦" when="1868-12-16">
+        十一月三日
+       </date>
+       晴　火
+       <date when="1868-12-16">
+        十二月十六日
+       </date>
+      </head>
+      <p>
+       風静にして〓行席のことし、暁より富峰を見る、山の半腹迄白雪に掩はれ旭日に映して恰も銀山のことし、尤快然の想をなせり、
+       <time when="12:00:00">
+        午時
+       </time>
+       頃
+       <placeName corresp="#place_伊豆">
+        伊豆
+       </placeName>
+       七島を際して〓行す、
+       <placeName corresp="#place_浦賀">
+        浦賀
+       </placeName>
+       港を船の左辺に認む、追々相房の湾口に入る、第
+       <time when="14:00:00">
+        二時
+       </time>
+       頃
+       <placeName corresp="#place_本牧">
+        本牧
+       </placeName>
+       の鼻を〓行す、初而
+       <placeName corresp="#place_横浜">
+        横賓《（浜）》
+       </placeName>
+       の湾を認む、第
+       <time when="16:30:00">
+        四時半
+       </time>
+       <placeName corresp="#place_横浜">
+        横賓
+       </placeName>
+       御着船、直ニ
+       <placeName corresp="#place_駿府">
+        駿府
+       </placeName>
+       より罷出し御迎として、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_浜中儀左衛門">
+        <surname>
+         浜中
+        </surname>
+        <forename>
+         儀左衛門
+        </forename>
+       </persName>
+       罷出る、其外
+       <persName corresp="#pers_塩田三郎">
+        <surname>
+         塩田
+        </surname>
+        <forename>
+         三郎
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_保科俊太郎">
+        <surname>
+         保科
+        </surname>
+        <forename>
+         俊太郎
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_川路寛堂">
+        <surname>
+         川路
+        </surname>
+        <forename>
+         太郎
+        </forename>
+       </persName>
+       抔、或は仏国士官に雇はれ居り又は帰田せしとて様々の姿ニ而罷出る、仏国公使の使として治部助といふ通弁官罷出る但仏人なり、公使館御訊問の儀申上る、第
+       <time when="18:30:00">
+        六時半
+       </time>
+       御越之積、答差遣す、水戸表より罷出し御迎之者、手筈打合として
+       <persName corresp="#pers_井坂泉太郎">
+        <surname>
+         井坂
+        </surname>
+        <forename>
+         泉太郎
+        </forename>
+       </persName>
+       上陸、夜
+       <time when="20:00:00">
+        八時
+       </time>
+       頃御迎之者一同帰来る、夜に入たれは仏公使御訊問は御見合ニ而直ニ御上陸、小舟ニ而
+       <placeName corresp="#place_神奈川">
+        神奈川
+       </placeName>
+       御越、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       諸事取扱として御供いたす
+       <lb/>
+       <persName corresp="#pers_渋沢栄一">
+        <surname>
+         渋沢
+        </surname>
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_浜中儀左衛門">
+        <surname>
+         浜中
+        </surname>
+        <forename>
+         儀左衛門
+        </forename>
+       </persName>
+       は
+       <placeName corresp="#place_横浜">
+        横賓
+       </placeName>
+       上陸、明日荷物請取方御為替取組の手筈のため、同所一泊いたす
+       <lb/>
+       <persName corresp="#pers_渋沢栄一">
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+       、夜、
+       <persName corresp="#pers_川路寛堂">
+        <surname>
+         川路
+        </surname>
+        <forename>
+         太郎
+        </forename>
+       </persName>
+       旅宿を
+       <placeName corresp="#place_横浜">
+        横浜
+       </placeName>
+       ニ而訊問、
+       <persName corresp="#pers_田辺太一">
+        <surname>
+         田辺
+        </surname>
+        <forename>
+         太一
+        </forename>
+       </persName>
+       罷来り、終夜旧情を話す
+       <lb/>
+       此夜
+       <persName corresp="#pers_儀左衛門">
+        <forename>
+         儀左衛門
+        </forename>
+       </persName>
+       は小舟もて
+       <placeName corresp="#place_神奈川">
+        神奈川
+       </placeName>
+       へ罷越す
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0002">
+      <head>
+       <date type="旧暦" when="1868-12-17">
+        十一月四日
+       </date>
+       晴　水
+       <date when="1868-12-17">
+        十二月十七日
+       </date>
+      </head>
+      <p>
+       朝、
+       <placeName corresp="#place_神奈川">
+        神奈川
+       </placeName>
+       御発し、小舟ニ而
+       <placeName corresp="#place_品川">
+        品川
+       </placeName>
+       宿御上陸、御迎の御馬等も罷出居、御乗切ニ而
+       <placeName corresp="#place_小石川">
+        小石川
+       </placeName>
+       御館御着
+       <lb/>
+       <placeName corresp="#place_フランス">
+        仏国
+       </placeName>
+       より御附添せし御供も、御迎之者御乗馬御供の外は歩行ニ而
+       <placeName corresp="#place_小石川">
+        小石川
+       </placeName>
+       江罷越す
+       <lb/>
+       昨夜、元神川調役組頭《（奈脱カ）》、其外新政府御用取扱之者御旅宿江罷出、差上品有之ニ付被下物いたす
+       <lb/>
+       <persName corresp="#pers_渋沢栄一">
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+       は朝
+       <time when="05:30:00">
+        五時半
+       </time>
+       頃より
+       <persName corresp="#pers_伊東玄伯">
+        <surname>
+         伊東
+        </surname>
+        <forename>
+         玄伯
+        </forename>
+       </persName>
+       を尋ね、御供ニ而
+       <placeName corresp="#place_東京">
+        東京
+       </placeName>
+       行の申談いたし夫より昨夜申談置し船場ニ而船を雇へ、飛脚船に罷越、荷物請取方取扱第
+       <time when="12:00:00">
+        十二時
+       </time>
+       頃
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_浜中儀左衛門">
+        <surname>
+         浜中
+        </surname>
+        <forename>
+         儀左衛門
+        </forename>
+       </persName>
+       御立払相済しとて飛脚船へ来る、第
+       <time when="16:30:00">
+        四時半
+       </time>
+       頃荷物請取済ニ而、
+       <placeName corresp="#place_水戸">
+        水戸
+       </placeName>
+       表より罷出し上乗の者に荷宰領為致、
+       <pb corresp="#pageB1028" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/54/full/max/0/default.jpg" n="B1028" source="#pageB1028"/>
+       <persName corresp="#pers_渋沢栄一">
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+       外両人は
+       <placeName corresp="#place_横浜">
+        横賓
+       </placeName>
+       上陸いたす、夜、
+       <persName corresp="#pers_杉浦譲">
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_渋沢栄一">
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_田辺太一">
+        <surname>
+         田辺
+        </surname>
+        <forename>
+         太一
+        </forename>
+       </persName>
+       宿所へ罷越す
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0003">
+      <head>
+       <date type="旧暦" when="1868-12-18">
+        十一月五日
+       </date>
+       晴　水
+       <date when="1868-12-18">
+        十二月十八日
+       </date>
+      </head>
+      <p>
+       <persName corresp="#pers_渋沢栄一">
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+       は
+       <persName corresp="#pers_杉浦譲">
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       同行ニ而
+       <placeName corresp="#place_フランス">
+        仏国
+       </placeName>
+       公使館に罷越し、治部助面会、公子仏館御越なき挨拶いたし、夫より御買上物及御為替金手筈いたす、
+       <persName corresp="#pers_儀左衛門">
+        <forename>
+         儀左衛門
+        </forename>
+       </persName>
+       は御残荷物四箇を飛船会社ニ而請取、積出し取計、夕方
+       <placeName corresp="#place_横浜">
+        横浜
+       </placeName>
+       出立、三人同行、竹兜子ニ而
+       <placeName corresp="#place_金川">
+        金川
+       </placeName>
+       着、
+       <persName corresp="#pers_鈴木">
+        <surname>
+         鈴木
+        </surname>
+       </persName>
+       といふ客舎一泊
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0004">
+      <head>
+       <date type="旧暦" when="1868-12-19">
+        十一月六日
+       </date>
+       曇　金
+       <date when="1868-12-19">
+        十二月十九日
+       </date>
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_渋沢栄一">
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_儀左衛門">
+        <forename>
+         儀左衛門
+        </forename>
+       </persName>
+       小舟ニ而
+       <placeName corresp="#place_横浜">
+        横賓
+       </placeName>
+       罷越、御為替金残御用取扱英国東洋為替所等罷越し、夕
+       <time when="17:00:00">
+        五時
+       </time>
+       頃御用済、
+       <placeName corresp="#place_金川">
+        金川
+       </placeName>
+       着、其夜三人共同所一泊いたす
+       <lb/>
+       此夜駿君
+       <placeName corresp="#place_東京府">
+        東京府
+       </placeName>
+       御越ニ而、同所御旅館あれハ、三人共御旅館罷出、其筋之者面会、公子御着の手続逐一申立る
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0005">
+      <head>
+       <date type="旧暦" when="1868-12-20">
+        十一月七日
+       </date>
+       晴　土
+       <date when="1868-12-20">
+        十二月廿日
+       </date>
+      </head>
+      <p>
+       朝、三人共
+       <placeName corresp="#place_神奈川">
+        神奈川
+       </placeName>
+       発し、
+       <placeName corresp="#place_東京府">
+        東京府
+       </placeName>
+       罷越す、此日は西国の藩士北国の戦争相済しとて引揚る兵隊多し、総而元込の小銃を携ひ、服色は銘々の勝手次第と見へて種々の風俗なり、
+       <placeName corresp="#place_品川">
+        品川
+       </placeName>
+       の宿頭ニ而
+       <persName corresp="#pers_儀左衛門">
+        <forename>
+         儀左衛門
+        </forename>
+       </persName>
+       に別れ、
+       <persName corresp="#pers_杉浦譲">
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_渋沢栄一">
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+       は夕
+       <time when="18:00:00">
+        六時
+       </time>
+       頃礫邸着、御殿内ニ而一泊いたす
+       <lb/>
+       着後両人とも拝謁被　仰付、品々申上る
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0006">
+      <head>
+       <date type="旧暦" when="1868-12-21">
+        十一月八日
+       </date>
+       晴　日
+       <date when="1868-12-21">
+        十二月廿一日
+       </date>
+      </head>
+      <p>
+       朝拝謁、御供にて後楽園といふ邸中の御庭拝見被仰付、午後
+       <persName corresp="#pers_儀左衛門">
+        <forename>
+         儀左衛門
+        </forename>
+       </persName>
+       罷出、三人同道ニ而田安御殿罷出、
+       <persName corresp="#pers_森川荘次郎">
+        <surname>
+         森川
+        </surname>
+        <forename>
+         荘次郎
+        </forename>
+       </persName>
+       面会、夫より明神下ニ而
+       <persName corresp="#pers_西吉十郎">
+        <surname>
+         西
+        </surname>
+        <forename>
+         吉十郎
+        </forename>
+       </persName>
+       を訪ひ面会、同行ニ而麦斗といふ楼ニ而一酌いたす、夜る時雨来る
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0007">
+      <head>
+       <date type="旧暦" when="1868-12-22">
+        十一月九日
+       </date>
+       曇　月
+       <date when="1868-12-22">
+        十二月廿二日
+       </date>
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_西吉十郎">
+        <surname>
+         西
+        </surname>
+        <forename>
+         吉十郎
+        </forename>
+       </persName>
+       面会、夫より
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       縁戚の
+       <placeName corresp="#place_両国広小路">
+        両国広小路
+       </placeName>
+       を尋、
+       <persName corresp="#pers_吉田次郎">
+        <surname>
+         吉田
+        </surname>
+        <forename>
+         次郎
+        </forename>
+       </persName>
+       面会《
+       <placeName corresp="#place_箱舘">
+        箱舘
+       </placeName>
+       の新報承る》いたす
+       <lb/>
+       夕方独行ニ而
+       <persName corresp="#pers_梅田慎之助">
+        <surname>
+         梅田
+        </surname>
+        <forename>
+         慎之助
+        </forename>
+       </persName>
+       を尋、留守中ニ付婦人面会、折節郷里の従妹罷越居りしとて、呼寄、面会、旧話徹夜
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0008">
+      <head>
+       <date type="旧暦" when="1868-12-23">
+        十一月十日
+       </date>
+       晴　火
+       <date when="1868-12-23">
+        十二月廿三日
+       </date>
+      </head>
+      <p>
+       朝、礫邸江帰る、御用荷物不残到着、取調引取、内、連発銃
+       <persName corresp="#pers_赤松則良">
+        <surname>
+         赤松
+        </surname>
+        <forename>
+         大三郎
+        </forename>
+       </persName>
+       頼之分壱品不足いたす
+       <lb/>
+       夕、
+       <persName corresp="#pers_細井□吉《（今カ）》">
+        <surname>
+         細井
+        </surname>
+        <forename>
+         □吉《（今カ）》
+        </forename>
+       </persName>
+       罷来る
+       <lb/>
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       来る、滞留中宿所之儀取計之旨申聞る
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0009">
+      <head>
+       <date type="旧暦" when="1868-12-24">
+        十一月十一日
+       </date>
+       晴　水
+       <date when="1868-12-24">
+        十二月廿四日
+       </date>
+      </head>
+      <p>
+       朝より荷物御開きいたす、御為替之儀ニ付三ツ井呼出し、申談す
+       <lb/>
+       <persName corresp="#pers_野村彜之助">
+        <surname>
+         野村
+        </surname>
+        <forename>
+         彜之助
+        </forename>
+       </persName>
+       面会いたす、
+       <persName corresp="#pers_井坂泉太郎">
+        <surname>
+         井坂
+        </surname>
+        <forename>
+         泉太郎
+        </forename>
+       </persName>
+       同行
+       <lb/>
+       <persName corresp="#pers_山高信離">
+        <surname>
+         山高
+        </surname>
+       </persName>
+       石見、
+       <persName corresp="#pers_小出涌之助">
+        <surname>
+         小出
+        </surname>
+        <forename>
+         涌之助
+        </forename>
+       </persName>
+       江書状遣す、夜、
+       <placeName corresp="#place_深川">
+        深川
+       </placeName>
+       出火
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0010">
+      <head>
+       <date type="旧暦" when="1868-12-25">
+        十一月十二日
+       </date>
+       晴　木
+       <date when="1868-12-25">
+        十二月廿五日
+       </date>
+      </head>
+      <p>
+       朝、
+       <placeName corresp="#place_黄賓">
+        黄賓
+       </placeName>
+       行之儀ニ付、
+       <persName corresp="#pers_井坂泉太郎">
+        <forename>
+         泉太郎
+        </forename>
+       </persName>
+       申談いたす
+       <lb/>
+       ヒストル三四挺、銀時計五ツ計御買上之積申談有之
+       <lb/>
+       荷物調分いたす、三ツ井手代来る、金子受取、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       来、黄行之儀申談、明後
+       <date type="旧暦" when="1868-12-27">
+        十四日
+       </date>
+       出立之積申談、諸勘定いたす
+       <lb/>
+       <persName corresp="#pers_吉田次郎">
+        <surname>
+         吉田
+        </surname>
+        <forename>
+         次郎
+        </forename>
+       </persName>
+       来、仏行書状之儀申談
+      </p>
+     </div>
+     <pb corresp="#pageB1029" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/55/full/max/0/default.jpg" n="B1029" source="#pageB1029"/>
+     <div type="diary-entry" xml:id="DKB10002m-0011">
+      <head>
+       <date type="旧暦" when="1868-12-26">
+        十一月十三日
+       </date>
+       曇時雨　金
+       <date when="1868-12-26">
+        十二月廿六日
+       </date>
+      </head>
+      <p>
+       一　散弾　　大小取交　　　三袋計
+       <lb/>
+       一　西洋墨　　　　　　　　壱壷
+       <lb/>
+       一　沓塗油　　　　　　　　壱壷
+       <lb/>
+       一　銀時計　　　　　　　　五ツ計
+       <lb/>
+       一　ヒストル　　　　　　　三挺程
+       <lb/>
+       一　シヤスポウ之弾　　　　四挺分
+       <lb/>
+       一　牛肉
+       <persName corresp="#pers_森川荘次郎">
+        <surname>
+         森川
+        </surname>
+        <forename>
+         荘次郎
+        </forename>
+       </persName>
+       分塩田へ引合之事
+       <lb/>
+       朝、
+       <persName corresp="#pers_小出涌之助">
+        <surname>
+         小出
+        </surname>
+        <forename>
+         涌之助
+        </forename>
+       </persName>
+       家来
+       <persName corresp="#pers_木村忠三">
+        <surname>
+         木村
+        </surname>
+        <forename>
+         忠三
+        </forename>
+       </persName>
+       罷出、諸荷物勘定書及金子等相渡、引続き
+       <persName corresp="#pers_山高信離">
+        <surname>
+         山高
+        </surname>
+       </persName>
+       石見来る、荷物金子勘定書等相渡
+       <lb/>
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       来、博覧会残品同人立会取調、
+       <placeName corresp="#place_浅草">
+        浅草
+       </placeName>
+       <placeName corresp="#place_森田町">
+        森田丁
+       </placeName>
+       瑞穂や
+       <persName corresp="#pers_清水卯三郎">
+        <forename>
+         卯三郎
+        </forename>
+       </persName>
+       方差立る、但荷数十箇、此車代金四両弐分相払
+       <lb/>
+       <placeName corresp="#place_横浜">
+        横浜
+       </placeName>
+       行之儀ニ付
+       <persName corresp="#pers_井坂泉太郎">
+        <surname>
+         井坂
+        </surname>
+        <forename>
+         泉太郎
+        </forename>
+       </persName>
+       より同行之者召連面会いたす、第
+       <time when="14:00:00">
+        二時
+       </time>
+       頃、
+       <persName corresp="#pers_杉浦譲">
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       同行田安御殿に出
+       <lb/>
+       御印章之儀
+       <persName corresp="#pers_森田荘次郎">
+        <surname>
+         森田
+        </surname>
+        <forename>
+         荘次郎
+        </forename>
+       </persName>
+       へ申立、御留守居方引合およふ、明朝受取可相渡旨申聞る、夫より
+       <placeName corresp="#place_駿河台">
+        駿河台
+       </placeName>
+       <persName corresp="#pers_川勝">
+        <surname>
+         川勝
+        </surname>
+       </persName>
+       近江尋問面会、帰路
+       <placeName corresp="#place_柳原">
+        柳原
+       </placeName>
+       <persName corresp="#pers_梅田">
+        <surname>
+         梅田
+        </surname>
+       </persName>
+       を訪ふ、夫より明神下に罷越、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       面会、同所一泊いたす
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0012">
+      <head>
+       <date type="旧暦" when="1868-12-27">
+        十一月十四日
+       </date>
+       風雨　土
+       <date when="1868-12-27">
+        十二月廿七日
+       </date>
+      </head>
+      <p>
+       朝、礫邸へ罷帰り、支度を整ひ出立之手続いたす、御用之儀ニ付公子拝謁いたす、第
+       <time when="10:00:00">
+        十時
+       </time>
+       礫邸を発し、同行三人ニ而田安御殿へ出、印章を受取、夫より登途、雨降路あしけれは駕を雇へ、第
+       <time when="13:00:00">
+        一時
+       </time>
+       頃
+       <placeName corresp="#place_品川">
+        品川
+       </placeName>
+       着
+       <lb/>
+       壱弗
+       <lb/>
+       弗九千百八十九枚四分八厘　但
+       <lb/>
+       四十九匁九分四厘
+       <lb/>
+       此金七千六百四十八両弐分三朱弐百三十弐文
+       <lb/>
+       残金三百五拾壱両壱分一朱也
+       <lb/>
+       此日風雨強く寒威甚し、第
+       <time when="17:30:00">
+        五時半
+       </time>
+       頃、
+       <placeName corresp="#place_川崎">
+        川崎
+       </placeName>
+       着、藤やといふ駅舎に投宿夜に入て雨歇て風稍静なりしか、寒威は更に烈し
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0013">
+      <head>
+       <date type="旧暦" when="1868-12-28">
+        十一月十五日
+       </date>
+       半晴
+       <date when="1868-12-28">
+        十二月廿八日
+       </date>
+      </head>
+      <p>
+       朝
+       <time when="07:00:00">
+        七時
+       </time>
+       頃客舎を発し
+       <placeName corresp="#place_神奈川">
+        神奈川
+       </placeName>
+       に至り、宮の河岸より用船を雇へ、第
+       <time when="12:00:00">
+        十二時
+       </time>
+       頃
+       <placeName corresp="#place_黄賓">
+        黄賓
+       </placeName>
+       着、
+       <placeName corresp="#place_駒形町">
+        駒形町
+       </placeName>
+       <persName corresp="#pers_幸二屋清兵衛">
+        幸二屋
+        <forename>
+         清兵衛
+        </forename>
+       </persName>
+       といふ者．水戸御用達
+       <persName corresp="#pers_山中隣之助">
+        <surname>
+         山中
+        </surname>
+        <forename>
+         隣之助
+        </forename>
+       </persName>
+       知合ニ付投宿、午飯後仏商モスネ方罷越、銃一覧、夫より亜壱番ニ而英銃シナイドル一覧、此日洋銀買上之積なりしが相場高直なれば見合せぬ
+       <lb/>
+       夜に入裁判所に至り到着を届、印章引替を請ひ、夫より仲通丸屋方尋問
+       <time when="19:00:00">
+        七時
+       </time>
+       頃幸二や帰宿
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0014">
+      <head>
+       <date type="旧暦" when="1868-12-29">
+        十一月十六日
+       </date>
+       曇
+       <date when="1868-12-29">
+        十二月廿九日
+       </date>
+      </head>
+      <p>
+       昨日一覧せし銃決議相成兼ニ付、買上方之者より昨夜
+       <placeName corresp="#place_東京">
+        東京
+       </placeName>
+       礫邸へ伺相立たれば、此日ハ右報答あるまて閑暇なりとて午時頃
+       <persName corresp="#pers_塩田三郎">
+        <surname>
+         塩田
+        </surname>
+        <forename>
+         三郎
+        </forename>
+       </persName>
+       を訪ひ、
+       <persName corresp="#pers_トロリヘラルト">
+        トロリヘラルト
+       </persName>
+       行書翰之儀相托す、
+       <persName corresp="#pers_田辺太一">
+        <surname>
+         田辺
+        </surname>
+        <forename>
+         太一
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_富永市蔵">
+        <surname>
+         富永
+        </surname>
+        <forename>
+         市蔵
+        </forename>
+       </persName>
+       抔相集りて旧を話す、夕
+       <time when="17:00:00">
+        五時
+       </time>
+       頃
+       <persName corresp="#pers_田辺太一">
+        <surname>
+         田辺
+        </surname>
+        <forename>
+         太一
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_伊東玄伯">
+        <surname>
+         伊東
+        </surname>
+        <forename>
+         玄伯
+        </forename>
+       </persName>
+       を《（とカ）》同しく佐野やといふ茶肆ニ而一酌、其夜丸屋方一宿いたす
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0015">
+      <head>
+       <date type="旧暦" when="1868-12-30">
+        十一月十七日
+       </date>
+       曇
+       <date when="1868-12-30">
+        十二月三十日
+       </date>
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_山中隣之助">
+        <surname>
+         山中
+        </surname>
+        <forename>
+         隣之助
+        </forename>
+       </persName>
+       丸屋迄来る、洋銀買上方取計、三ツ井ニ而邦金を渡し夫より亜壱番の商館へ越し、シナイトル銃直段申談、折節瑞西九十番に同断之品有之下直之由ニ付、同所に罷越一覧、直段取極、三百六十挺買上之積取究、代金相渡、約定を取替せいたす、夜に入て幸二屋帰宿
+      </p>
+     </div>
+     <pb corresp="#pageB1030" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/56/full/max/0/default.jpg" n="B1030" source="#pageB1030"/>
+     <div type="diary-entry" xml:id="DKB10002m-0016">
+      <head>
+       <date type="旧暦" when="1868-12-31">
+        十一月十八日
+       </date>
+       晴
+       <date when="1868-12-31">
+        十二月三十一日
+       </date>
+      </head>
+      <p>
+       朝より空晴て寒威更に甚し、第
+       <time when="08:00:00">
+        八時
+       </time>
+       頃
+       <persName corresp="#pers_塩田三郎">
+        <surname>
+         塩田
+        </surname>
+        <forename>
+         三郎
+        </forename>
+       </persName>
+       を訪ひ、
+       <persName corresp="#pers_ポール_フルーリ_エラール">
+        <surname>
+         フロリ
+        </surname>
+        <forename>
+         ヘラルト
+        </forename>
+       </persName>
+       へ差出候書翰本書并訳書とも出来、
+       <persName corresp="#pers_三郎">
+        <forename>
+         三郎
+        </forename>
+       </persName>
+       へ托し治部助へも一応申談、
+       <placeName corresp="#place_フランス">
+        仏国
+       </placeName>
+       差出方申談
+       <lb/>
+       御直書洋書翰ウツトレイ相渡候分
+       <persName corresp="#pers_三郎">
+        <forename>
+         三郎
+        </forename>
+       </persName>
+       へ托す、外ニ
+       <placeName corresp="#place_フランス">
+        仏国
+       </placeName>
+       行二封、
+       <persName corresp="#pers_渋沢栄一">
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+       <persName corresp="#pers_コロネル">
+        <surname>
+         コロネル
+        </surname>
+       </persName>
+       へ私状とも同人へ相托す
+       <lb/>
+       飛脚船商社より小連発銃同所に有之旨ニ而、
+       <persName corresp="#pers_三郎">
+        <forename>
+         三郎
+        </forename>
+       </persName>
+       へ書翰来り有之ニ付請取
+       <lb/>
+       午後連発銃請取方ニ付海岸十番飛脚船会社へ罷越、品請取、夫よりモスネ方立寄、私用買上物いたし、瑞西九十番商館へ罷越す、いまた弾丸上陸なく引取方難出来ニ付、夫より
+       <placeName corresp="#place_スイス">
+        瑞西
+       </placeName>
+       の洋店ニ而時計四ツを買上、夕方九十番ニ而銃弾箱請取方いたす、夜に入裁判所へ相越、
+       <placeName corresp="#place_東京">
+        東京
+       </placeName>
+       行の印章を請ふ、小連発銃之儀申達す、夜
+       <time when="19:00:00">
+        七時
+       </time>
+       頃幸二屋方へ帰宿
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0017">
+      <head>
+       <date type="旧暦" when="1869-01-01">
+        十一月十九日
+       </date>
+       美晴
+       <date when="1869-01-01">
+        千八百六十九年一月一日
+       </date>
+      </head>
+      <p>
+       昨夜運送方へ請取し品物相渡し、朝連発銃も請取之積申談せしに、
+       <persName corresp="#pers_渋沢栄一">
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+       ならてハ渡方不相成旨ニ付、東波塘場に罷越、連発銃の箱請取、海岸に来り積入の手筈取扱、
+       <persName corresp="#pers_森川">
+        <surname>
+         森川
+        </surname>
+       </persName>
+       より相頼まれし牛肉及買上し反物は上乗の水人に相托し、届方申談す
+       <lb/>
+       廻船の手筈よろしく、荷物改方等波塘場に相済たれは、夫より一同ニ而午飯をいたし、第
+       <time when="14:00:00">
+        二時
+       </time>
+       頃
+       <placeName corresp="#place_黄賓">
+        黄賓
+       </placeName>
+       出立、乗合船ニ而第
+       <time when="15:00:00">
+        三時
+       </time>
+       頃
+       <placeName corresp="#place_金川">
+        金川
+       </placeName>
+       着、下田屋といふ客舎投宿
+       <lb/>
+       銀丁二丁目
+       <persName corresp="#pers_西山幸助">
+        <surname>
+         西山
+        </surname>
+        <forename>
+         幸助
+        </forename>
+       </persName>
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0018">
+      <head>
+       <date type="旧暦" when="1869-01-02">
+        十一月廿日
+       </date>
+       晴
+       <date when="1869-01-02">
+        一月二日
+       </date>
+      </head>
+      <p>
+       朝
+       <time when="06:00:00">
+        六時
+       </time>
+       <placeName corresp="#place_金川">
+        金川
+       </placeName>
+       を発し、駕を命し
+       <placeName corresp="#place_川崎">
+        川崎
+       </placeName>
+       を経
+       <placeName corresp="#place_品川">
+        品川
+       </placeName>
+       に至り、夫より歩行ニ而
+       <time when="14:00:00">
+        二時
+       </time>
+       頃
+       <placeName corresp="#place_中橋">
+        中橋
+       </placeName>
+       <persName corresp="#pers_山中隣之助">
+        <surname>
+         山中
+        </surname>
+        <forename>
+         隣之助
+        </forename>
+       </persName>
+       宅に至る、松代藩
+       <persName corresp="#pers_横田数馬">
+        <surname>
+         横田
+        </surname>
+        <forename>
+         数馬
+        </forename>
+       </persName>
+       といふ留守居面会、午飯終て
+       <time when="16:00:00">
+        四時
+       </time>
+       頃
+       <placeName corresp="#place_明神">
+        明神
+       </placeName>
+       田僑居《（下カ）》に至る、時に
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       は外出にて、北堂の留守せしかは、帰着を言て一同の無事を祝し、夫より御買上品持参ニて礫邸に至る、
+       <persName corresp="#pers_民部公子">
+        民部公子
+       </persName>
+       に拝謁、数々新聞抔申上る
+       <lb/>
+       昨日公子水戸御相続之儀相済し旨被仰聞、夜に入て水邸を罷り、明神下帰宿、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       面会
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0019">
+      <head>
+       <date type="旧暦" when="1869-01-03">
+        十一月廿一日
+       </date>
+       曇
+       <date when="1869-01-03">
+        一月三日
+       </date>
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_梅田慎之助">
+        <surname>
+         梅田
+        </surname>
+        <forename>
+         慎之助
+        </forename>
+       </persName>
+       を訪ひ、郷里より来りし
+       <persName corresp="#pers_藤十郎">
+        <forename>
+         藤十郎
+        </forename>
+       </persName>
+       といふ者面会いたす、いまた郷里より書状の報なかりせは、同人に托し、品物及消息等申通度とて、其日書翰を認め、明後日同人帰省之積申談す、午飯後礫邸に罷越し、御用荷物仕訳いたす
+       <lb/>
+       夕、
+       <persName corresp="#pers_梅田">
+        <surname>
+         梅田
+        </surname>
+       </persName>
+       に来り、
+       <persName corresp="#pers_藤十郎">
+        <forename>
+         藤十郎
+        </forename>
+       </persName>
+       面会、帰省之手続申談す、此夜、
+       <persName corresp="#pers_梅田">
+        <surname>
+         梅田
+        </surname>
+       </persName>
+       一泊
+       <lb/>
+       <persName corresp="#pers_須永虎之助">
+        <surname>
+         須永
+        </surname>
+        <forename>
+         虎之助
+        </forename>
+       </persName>
+       来会
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0020">
+      <head>
+       <date type="旧暦" when="1869-01-04">
+        十一月廿二日
+       </date>
+       曇
+       <date when="1869-01-04">
+        一月四日
+       </date>
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_梅田">
+        <surname>
+         梅田
+        </surname>
+       </persName>
+       ニ而文作に逢ふ、
+       <persName corresp="#pers_須永">
+        <surname>
+         須永
+        </surname>
+       </persName>
+       も来会す、旧情を話す、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       来る、同行ニ而田安御殿に至る、
+       <persName corresp="#pers_織田和泉">
+        <surname>
+         織田
+        </surname>
+        和泉
+       </persName>
+       及中老列座ニ而、
+       <placeName corresp="#place_フランス">
+        仏国
+       </placeName>
+       之御用向手続申立る、
+       <persName corresp="#pers_森川">
+        <surname>
+         森川
+        </surname>
+       </persName>
+       面会、夕方礫邸に至り、御買上の鉄砲来着せしニ付改方いたし、帰宿、帰路
+       <persName corresp="#pers_川勝">
+        <surname>
+         川勝
+        </surname>
+       </persName>
+       近江方尋問
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0021">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-01-05">
+        十二月廿三日《（十一月）》
+       </date>
+       晴
+       <date when="1869-01-05">
+        一月五日
+       </date>
+      </head>
+      <p>
+       朝、郷里大人来着之由ニ而
+       <persName corresp="#pers_梅田">
+        <surname>
+         梅田
+        </surname>
+       </persName>
+       より使之者来る、直ニ同所に相越、大人
+       <pb corresp="#pageB1031" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/57/full/max/0/default.jpg" n="B1031" source="#pageB1031"/>
+       に逢へ旧を話し、終日
+       <persName corresp="#pers_梅田">
+        <surname>
+         梅田
+        </surname>
+       </persName>
+       ニ而休息、
+       <persName corresp="#pers_須永">
+        <surname>
+         須永
+        </surname>
+       </persName>
+       子来会
+       <lb/>
+       此夜
+       <persName corresp="#pers_梅田">
+        <surname>
+         梅田
+        </surname>
+       </persName>
+       一泊
+       <lb/>
+       <persName corresp="#pers_藤十郎">
+        <forename>
+         藤十郎
+        </forename>
+       </persName>
+       明日郷里出立ニ付、荷物相托す
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0022">
+      <head>
+       <date type="旧暦" when="1869-01-06">
+        十一月廿四日
+       </date>
+       晴
+       <date when="1869-01-06">
+        一月六日
+       </date>
+      </head>
+      <p>
+       朝飯後、
+       <persName corresp="#pers_梅田">
+        <surname>
+         梅田
+        </surname>
+       </persName>
+       を発し礫邸に至り、御買上品来着取調、御用荷物仕訳いたす
+       <lb/>
+       第
+       <time when="15:00:00">
+        三時
+       </time>
+       頃、明神下僑居帰宿、
+       <persName corresp="#pers_田辺太一">
+        <surname>
+         田辺
+        </surname>
+        <forename>
+         太一
+        </forename>
+       </persName>
+       来
+       <lb/>
+       此夜大人僑居ニ而一宿いたす
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0023">
+      <head>
+       <date type="旧暦" when="1869-01-07">
+        十一月廿五日
+       </date>
+       晴
+       <date when="1869-01-07">
+        一月七日
+       </date>
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_福地源一郎">
+        <surname>
+         福地
+        </surname>
+        <forename>
+         源一郎
+        </forename>
+       </persName>
+       来、午餐後、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_福地">
+        <surname>
+         福地
+        </surname>
+       </persName>
+       同行、田安殿に至る、
+       <persName corresp="#pers_森川">
+        <surname>
+         森川
+        </surname>
+       </persName>
+       面会、中老
+       <persName corresp="#pers_織田和泉">
+        <surname>
+         織田
+        </surname>
+        <forename>
+         和泉
+        </forename>
+       </persName>
+       に逢ふて公子御内御用之儀申談す、帰省之儀願差出す、第
+       <time when="16:00:00">
+        四時
+       </time>
+       頃礫邸へ出る、明日仏行御供之者一同罷出候様被申渡
+       <lb/>
+       <persName corresp="#pers_栗本">
+        <surname>
+         栗本
+        </surname>
+       </persName>
+       仏行勘定書之儀ニ付、明後
+       <date type="旧暦" when="1869-01-09">
+        廿七日
+       </date>
+       田安殿可罷出旨相達す、夕方帰宿、此夜
+       <persName corresp="#pers_伊東玄伯">
+        <surname>
+         伊東
+        </surname>
+        <forename>
+         玄伯
+        </forename>
+       </persName>
+       之招に応し、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       同行、
+       <placeName corresp="#place_両国">
+        両国
+       </placeName>
+       川長といふ割庖楼に至る、夜
+       <time when="23:00:00">
+        十一時
+       </time>
+       頃帰宿
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0024">
+      <head>
+       <date type="旧暦" when="1869-01-08">
+        十一月廿六日
+       </date>
+       晴
+       <date when="1869-01-08">
+        一月八日
+       </date>
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_梅田">
+        <surname>
+         梅田
+        </surname>
+       </persName>
+       に至り、衣服仕立之儀注文いたし、夫より
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       同行、
+       <placeName corresp="#place_和泉橋">
+        和泉橋
+       </placeName>
+       を渡り、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       と別れ、
+       <placeName corresp="#place_元鳥越">
+        元鳥越
+       </placeName>
+       <persName corresp="#pers_小出涌之助">
+        <surname>
+         小出
+        </surname>
+        <forename>
+         涌之助
+        </forename>
+       </persName>
+       宅訊問、母及弟抔面会、御変遷以来同人共苦心之事共を話す、夫より明神下帰宿、第
+       <time when="15:00:00">
+        三時
+       </time>
+       頃
+       <persName corresp="#pers_伊東玄伯">
+        <surname>
+         伊東
+        </surname>
+        <forename>
+         玄伯
+        </forename>
+       </persName>
+       来大人の持病胗察《（診）》、夕方、
+       <persName corresp="#pers_杉浦譲">
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_伊東玄伯">
+        <forename>
+         玄伯
+        </forename>
+       </persName>
+       と伴ひ礫邸に至る、
+       <persName corresp="#pers_山高八郎">
+        <surname>
+         山高
+        </surname>
+        <forename>
+         八郎
+        </forename>
+       </persName>
+       も来会、御前ニ而御酒肴被下、御手酌ニ而種々御饗応有之、退散之節一同へ被下物有之、此夜明神下辺出火なれは酔を勉て帰宿、焼失は
+       <placeName corresp="#place_中御徒士町">
+        中御徒士町
+       </placeName>
+       ニ而漸安堵の想をなす
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0025">
+      <head>
+       <date type="旧暦" when="1869-01-09">
+        十一月廿七日
+       </date>
+       晴
+       <date when="1869-01-09">
+        一月九日
+       </date>
+      </head>
+      <p>
+       郷里大人帰郷いたす、午飯後、田安御殿に出る、
+       <persName corresp="#pers_織田和泉">
+        <surname>
+         織田
+        </surname>
+        和泉
+       </persName>
+       面会、
+       <persName corresp="#pers_民部公子">
+        民部公子
+       </persName>
+       御内用之儀申談す、
+       <persName corresp="#pers_森川">
+        <surname>
+         森川
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_栗本">
+        <surname>
+         栗本
+        </surname>
+       </persName>
+       等不罷出ニ付、明日
+       <persName corresp="#pers_渋沢栄一">
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_栗本">
+        <surname>
+         栗本
+        </surname>
+       </persName>
+       方可罷越儀申談、夫より礫邸に至り、昨日之謝詞申述、荷物仕訳残取調いたす、夜に入明神下帰宿
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0026">
+      <head>
+       <date type="旧暦" when="1869-01-10">
+        十一月廿八日
+       </date>
+       晴
+       <date when="1868-01-10">
+        一月十日
+       </date>
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_浜中義左衛門">
+        <surname>
+         浜中
+        </surname>
+        <forename>
+         義左衛門
+        </forename>
+       </persName>
+       来、同行ニ而
+       <placeName corresp="#place_大塚">
+        大塚
+       </placeName>
+       、
+       <persName corresp="#pers_栗本">
+        <surname>
+         栗本
+        </surname>
+       </persName>
+       を訪ふ、明日同人出殿諸事可申談旨相約す、午飯等相調へ、
+       <persName corresp="#pers_浜中">
+        <surname>
+         浜中
+        </surname>
+       </persName>
+       と別れ、駕を命し
+       <placeName corresp="#place_両国">
+        両国
+       </placeName>
+       吉田屋に至る
+       <lb/>
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       面会、同行ニ而
+       <placeName corresp="#place_番場町">
+        番場町
+       </placeName>
+       <persName corresp="#pers_田辺">
+        <surname>
+         田辺
+        </surname>
+       </persName>
+       を訪ひ、
+       <persName corresp="#pers_卯三郎">
+        <forename>
+         卯三郎
+        </forename>
+       </persName>
+       邂逅、四人打連て、
+       <persName corresp="#pers_河津">
+        <surname>
+         河津
+        </surname>
+       </persName>
+       伊豆の住居せる元
+       <persName corresp="#pers_酒井">
+        <surname>
+         酒井
+        </surname>
+       </persName>
+       左衛門尉別業を尋問、庭園を一覧、夜に入
+       <persName corresp="#pers_河津">
+        <surname>
+         河津
+        </surname>
+       </persName>
+       の娘に洋服試験の挙を遂
+       <lb/>
+       夜半過より
+       <placeName corresp="#place_深川">
+        深川
+       </placeName>
+       に至り一泊
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0027">
+      <head>
+       <date type="旧暦" when="1869-01-11">
+        十一月廿九日
+       </date>
+       曇
+       <date when="1869-01-11">
+        一月十一日
+       </date>
+      </head>
+      <p>
+       暁、舟ニ而
+       <placeName corresp="#place_深川">
+        深川
+       </placeName>
+       を発し、筋違ニ而上陸帰宿、
+       <persName corresp="#pers_渋沢栄一">
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+       ハ直ニ礫邸に至り御内命等被仰付、被下物拝領
+       <lb/>
+       御小性頭取
+       <lb/>
+       <persName corresp="#pers_柴田章彦">
+        <surname>
+         柴田
+        </surname>
+        <forename>
+         章彦
+        </forename>
+       </persName>
+       <lb/>
+       御小納戸
+       <lb/>
+       <persName corresp="#pers_今井与左衛門">
+        <surname>
+         今井
+        </surname>
+        <forename>
+         与左衛門
+        </forename>
+       </persName>
+       <lb/>
+       外ニ荷物等調分いたし、包立之上明神下迄差立方取計、夫より田安御殿
+       <pb corresp="#pageB1032" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/58/full/max/0/default.jpg" n="B1032" source="#pageB1032"/>
+       江出、郷省願済《（帰カ）》、諸事引合相済、夕方より麦斗ニ而小酌、
+       <persName corresp="#pers_田辺">
+        <surname>
+         田辺
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_塩田">
+        <surname>
+         塩田
+        </surname>
+       </persName>
+       其外両人来
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0028">
+      <head>
+       <date type="旧暦" when="1869-01-12">
+        十一月卅日
+       </date>
+       晴
+       <date when="1869-01-12">
+        一月十二日
+       </date>
+      </head>
+      <p>
+       朝、帰省支度相整、四ツ半頃明神下発、此日
+       <persName corresp="#pers_大村昇之助">
+        <surname>
+         大村
+        </surname>
+        <forename>
+         昇之助
+        </forename>
+       </persName>
+       といふ者召抱但
+       <persName corresp="#pers_須永伝蔵">
+        <surname>
+         須永
+        </surname>
+        <forename>
+         於莵之助
+        </forename>
+       </persName>
+       より被相頼ニ付召連る、外ニ
+       <persName corresp="#pers_幸蔵">
+        <forename>
+         幸蔵
+        </forename>
+       </persName>
+       といふをも相随ひ、夕方
+       <placeName corresp="#place_浦和">
+        浦和
+       </placeName>
+       宿に至一泊
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0029">
+      <head>
+       <date type="旧暦" when="1869-01-13">
+        十二月朔
+       </date>
+       晴
+       <date when="1869-01-13">
+        一月十三日
+       </date>
+      </head>
+      <p>
+       暁、七ツ時
+       <placeName corresp="#place_浦和">
+        浦和
+       </placeName>
+       発、
+       <placeName corresp="#place_鴻巣市">
+        鴻巣
+       </placeName>
+       宿ニ而午餐、夕
+       <time when="18:00:00">
+        六時
+       </time>
+       過に至
+       <placeName corresp="#place_深谷">
+        深谷
+       </placeName>
+       着、
+       <persName corresp="#pers_福岡春清">
+        <surname>
+         福岡
+        </surname>
+        <forename>
+         春清
+        </forename>
+       </persName>
+       為出迎並木迄罷出る、隣家の少年両三輩途中迄罷出、夜五ツ過帰着、渾家及近隣諸親一同相集り、別離以来之情緒を話す、鶏鳴に至退散
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0030">
+      <head>
+       <date type="旧暦" when="1869-01-14">
+        十二月二日
+       </date>
+       晴
+       <date when="1869-01-14">
+        一月十四日
+       </date>
+      </head>
+      <p>
+       朝より諸方知音之者相集り、頗る雑沓を究む、此夜、
+       <persName corresp="#pers_尾高新五郎">
+        <surname>
+         尾高
+        </surname>
+        <forename>
+         新五郎
+        </forename>
+       </persName>
+       来、
+       <persName corresp="#pers_尾高幸五郎">
+        <forename>
+         幸五郎
+        </forename>
+       </persName>
+       其他同行いたす
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0031">
+      <head>
+       <date type="旧暦" when="1869-01-15">
+        十二月三日
+       </date>
+       晴
+       <date when="1869-01-15">
+        一月十五日
+       </date>
+      </head>
+      <p>
+       朝召連来りし
+       <persName corresp="#pers_幸蔵">
+        <forename>
+         幸蔵
+        </forename>
+       </persName>
+       を
+       <placeName corresp="#place_東京">
+        東京
+       </placeName>
+       へ差帰す、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       へ一書差遣す、諸方土産物之調いたす、
+       <persName corresp="#pers_福岡春清">
+        <surname>
+         福岡
+        </surname>
+        <forename>
+         春清
+        </forename>
+       </persName>
+       来る、諸近親之者集来、夜、
+       <placeName corresp="#place_手計">
+        手計
+       </placeName>
+       <persName corresp="#pers_尾高惇忠">
+        <forename>
+         藍香
+        </forename>
+       </persName>
+       を訪ふ、新宅へ尋問、
+       <persName corresp="#pers_忠三郎">
+        <forename>
+         忠三郎
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_豊五郎">
+        <forename>
+         豊五郎
+        </forename>
+       </persName>
+       其他来集、夜
+       <time when-iso="1869-01-16T02:00+0900">
+        二時
+       </time>
+       頃帰宿
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0032">
+      <head>
+       <date type="旧暦" when="1869-01-16">
+        十二月四日
+       </date>
+       晴
+       <date when="1869-01-16">
+        一月十六日
+       </date>
+      </head>
+      <p>
+       朝より諸近隣之者つとゐ来り、
+       <placeName corresp="#place_フランス">
+        仏国
+       </placeName>
+       に在りし事共相話す、昨日より本家之折合行届ければ、夜、
+       <persName corresp="#pers_常太郎">
+        <forename>
+         常太郎
+        </forename>
+       </persName>
+       同行ニ而罷越す、
+       <persName corresp="#pers_宗助">
+        <forename>
+         宗助
+        </forename>
+       </persName>
+       父子及婦人共不残面会旧を話す、此夜、
+       <persName corresp="#pers_新地九一郎">
+        <surname>
+         新地
+        </surname>
+        <forename>
+         九一郎
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_福田治助">
+        <surname>
+         福田
+        </surname>
+        <forename>
+         治助
+        </forename>
+       </persName>
+       兄弟来る、洋州の事共論話いたす
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0033">
+      <head>
+       <date type="旧暦" when="1869-01-17">
+        十二月五日
+       </date>
+       晴
+       <date evidence="day inferenced" when="1869-01-17">
+        一月十六日《（十七日）》
+       </date>
+      </head>
+      <p>
+       午時より近隣を訪ひ、
+       <placeName corresp="#place_新田">
+        新田
+       </placeName>
+       <placeName corresp="#place_吉岡">
+        吉岡
+       </placeName>
+       に至る、伊勢崎
+       <persName corresp="#pers_細野">
+        <surname>
+         細野
+        </surname>
+       </persName>
+       の妻来りしより帰宿面会、夫より
+       <persName corresp="#pers_新宅市五郎">
+        <surname>
+         新宅
+        </surname>
+        <forename>
+         市五郎
+        </forename>
+       </persName>
+       の宅を訪ひ、前の内ニ而午飯、隠居に至り老叔父に逢ひ旧を話す
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0034">
+      <head>
+       <date type="旧暦" when="1869-01-18">
+        十二月六日
+       </date>
+       晴
+       <date evidence="day inferenced" when="1869-01-18">
+        一月十七日《（十八日）》
+       </date>
+      </head>
+      <p>
+       朝、支度を整、土産物諸親へ送り遣す、午後、
+       <persName corresp="#pers_渋沢成一郎">
+        <forename>
+         成一郎
+        </forename>
+       </persName>
+       の宅へ相越す、老叔父留守中ニ付直ニ帰宿、夜、新屋敷叔父、
+       <persName corresp="#pers_尾高惇忠">
+        <forename>
+         藍香
+        </forename>
+       </persName>
+       及近隣旧交の者数人来る、明日出立之積ニ付、別を惜み再会を約す
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0035">
+      <head>
+       <date type="旧暦" when="1869-01-19">
+        十二月七日
+       </date>
+       曇
+       <date evidence="day inferenced" when="1869-01-19">
+        一月十八日《（十九日）》
+       </date>
+      </head>
+      <p>
+       朝、旅装整ひ、
+       <time when="08:00:00">
+        八時
+       </time>
+       頃発途、渾家一同相送り、諸親之者数多相伴ふて
+       <placeName corresp="#place_深谷">
+        深谷
+       </placeName>
+       宿に至り、
+       <persName corresp="#pers_春清">
+        <forename>
+         春清
+        </forename>
+       </persName>
+       方ニ而休息、夫より駕に乗り、送り来りし者共に別る、陌頭ニ而新野村
+       <persName corresp="#pers_善助">
+        <forename>
+         善助
+        </forename>
+       </persName>
+       面会、
+       <placeName corresp="#place_熊ケ谷">
+        熊ケ谷
+       </placeName>
+       宿ニ而午飯、夕、
+       <placeName corresp="#place_鴻巣市">
+        鴻巣
+       </placeName>
+       宿着、本陣へ投宿、此夜風邪気ニ而頗る煩悶せり
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0036">
+      <head>
+       <date type="旧暦" when="1869-01-20">
+        十二月八日
+       </date>
+       曇
+       <date evidence="day inferenced" when="1869-01-20">
+        一月十九日《（二十日）》
+       </date>
+      </head>
+      <p>
+       払暁
+       <placeName corresp="#place_鴻巣市">
+        鴻巣
+       </placeName>
+       発途、
+       <placeName corresp="#place_蕨">
+        蕨
+       </placeName>
+       宿ニ而昼食、夕方明神下着、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       在宿なりしかは別後之事共申談、夜、阿人
+       <persName corresp="#pers_小花">
+        <surname>
+         小花
+        </surname>
+       </persName>
+       、阿米来る、
+       <persName corresp="#pers_福地源一郎">
+        <surname>
+         福地
+        </surname>
+        <forename>
+         源一郎
+        </forename>
+       </persName>
+       来
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0037">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-01-21">
+        十一月九日《（十二月）》
+       </date>
+       晴
+       <date evidence="day inferenced" when="1869-01-21">
+        一月廿日《（二十一日）》
+       </date>
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       同行
+       <placeName corresp="#place_飯田町">
+        飯田丁
+       </placeName>
+       ニ而
+       <persName corresp="#pers_平岡四郎">
+        <surname>
+         平岡
+        </surname>
+        <forename>
+         四郎
+        </forename>
+       </persName>
+       を訪ふ、不在ニ付明朝を約し、夫より御殿へ出る、
+       <persName corresp="#pers_大久保一翁">
+        <surname>
+         大久保
+        </surname>
+        <forename>
+         一翁
+        </forename>
+       </persName>
+       に逢而
+       <placeName corresp="#place_駿府">
+        駿府
+       </placeName>
+       出立之儀申立る、郷里より帰着せし儀、駿出立之儀其外届差出す、
+       <persName corresp="#pers_森川">
+        <surname>
+         森川
+        </surname>
+       </persName>
+       面会、開成所残金会計局へ返納之儀、仏行之者御手当請取方等申談、来
+       <date evidence="year inferenced, month" type="旧暦" when="1869-01-24">
+        十二日
+       </date>
+       一同出殿之積相約し、夕方退散、夫より礫邸へ出る、公子明日水国御発途ニ付、夜拝謁被仰付、
+       <pb corresp="#pageB1033" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/59/full/max/0/default.jpg" n="B1033" source="#pageB1033"/>
+       御内用之儀被仰聞、
+       <persName corresp="#pers_菊池平八郎">
+        <surname>
+         菊池
+        </surname>
+        <forename>
+         平八郎
+        </forename>
+       </persName>
+       其他之者面会、爾後之御用手筈打合、夜
+       <time when="22:00:00">
+        十時
+       </time>
+       過帰宿
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0038">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-01-22">
+        十一月十日《（十二月）》
+       </date>
+       晴
+       <date evidence="day inferenced" when="1869-01-22">
+        一月廿一日《（廿二日）》
+       </date>
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_田中清三郎">
+        <surname>
+         田中
+        </surname>
+        <forename>
+         清三郎
+        </forename>
+       </persName>
+       来、
+       <persName corresp="#pers_栗本">
+        <surname>
+         栗本
+        </surname>
+       </persName>
+       へ書状差遣す書類催促之儀申遣す、三ツ井
+       <persName corresp="#pers_加太">
+        <surname>
+         加太
+        </surname>
+       </persName>
+       へ調達金之儀相達す、四ツ頃より
+       <persName corresp="#pers_平岡四郎">
+        <surname>
+         平岡
+        </surname>
+        <forename>
+         四郎
+        </forename>
+       </persName>
+       を訪ふ、不在ニ付不逢、夫より
+       <persName corresp="#pers_梅田">
+        <surname>
+         梅田
+        </surname>
+       </persName>
+       を尋ね、
+       <persName corresp="#pers_昇之助">
+        <forename>
+         昇之助
+        </forename>
+       </persName>
+       衣服之儀相頼み、夫より
+       <placeName corresp="#place_両国">
+        両国
+       </placeName>
+       に至り、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       同行ニ而
+       <persName corresp="#pers_河津">
+        <surname>
+         河津
+        </surname>
+       </persName>
+       に至る、
+       <persName corresp="#pers_河津">
+        <surname>
+         河津
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_田辺">
+        <surname>
+         田辺
+        </surname>
+       </persName>
+       抔相伴ふて
+       <placeName corresp="#place_深川">
+        深川
+       </placeName>
+       扇橋玉忠別荘を訪ひ、
+       <persName corresp="#pers_松平">
+        <surname>
+         松平
+        </surname>
+       </persName>
+       伊賀守の庭園一覧、当時売品也、夫より
+       <persName corresp="#pers_大黒屋">
+        大黒屋
+       </persName>
+       の別業に至る、其庭は
+       <persName corresp="#pers_谷文晁">
+        <forename>
+         文晁
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_酒井抱一">
+        <forename>
+         抱一
+        </forename>
+       </persName>
+       抔文人の戮力して築成せし園なりければ、石泉の設、樹木の植並抔雅致を究めたり、一覧後其亭ニ而饗応を受、酒間其娘に三曲を調さしむ、酒後商法之事六兵衛父子に申談し、夜
+       <time when="22:00:00">
+        十時
+       </time>
+       頃舟ニ而
+       <placeName corresp="#place_柳橋">
+        柳橋
+       </placeName>
+       ニ而
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       の老人
+       <persName corresp="#pers_田辺">
+        <surname>
+         田辺
+        </surname>
+       </persName>
+       抔と別れ、
+       <time when="23:00:00">
+        十一時
+       </time>
+       頃
+       <placeName corresp="#place_筋違">
+        筋違
+       </placeName>
+       着、直ニ
+       <placeName corresp="#place_明神下">
+        明神下
+       </placeName>
+       に帰宿
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0039">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-01-23">
+        十一月十一日《（十二月）》
+       </date>
+       晴
+       <date evidence="day inferenced" when="1869-01-23">
+        一月廿二日《（廿三日）》
+       </date>
+      </head>
+      <p>
+       朝、御用荷物其外荷繕ひいたす、
+       <persName corresp="#pers_須永伝蔵">
+        <surname>
+         須永
+        </surname>
+        <forename>
+         於莵之助
+        </forename>
+       </persName>
+       来、郷里へ取落し物送来る、夕方より水邸に至り、
+       <persName corresp="#pers_柴田章彦">
+        <surname>
+         柴田
+        </surname>
+        <forename>
+         章彦
+        </forename>
+       </persName>
+       面会、荷拵之儀申談す、夫より
+       <placeName corresp="#place_駒込片町">
+        駒込片町
+       </placeName>
+       <persName corresp="#pers_田中清三郎">
+        <surname>
+         田中
+        </surname>
+        <forename>
+         清三郎
+        </forename>
+       </persName>
+       を尋問、夜
+       <time when="22:00:00">
+        十時
+       </time>
+       過帰宿、写真之儀ニ付
+       <persName corresp="#pers_河津">
+        <surname>
+         河津
+        </surname>
+       </persName>
+       へ書翰遣す朝、
+       <persName corresp="#pers_五来要助">
+        <surname>
+         五来
+        </surname>
+        <forename>
+         要助
+        </forename>
+       </persName>
+       来る、其忰
+       <placeName corresp="#place_駿河国">
+        駿州
+       </placeName>
+       之儀申立ニ付承届遣す
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0040">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-01-24">
+        十一月十二日《（十二月）》
+       </date>
+       晴
+       <date evidence="day inferenced" when="1869-01-24">
+        一月廿三日《（廿四日）》
+       </date>
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_栗本治兵衛">
+        <surname>
+         栗本
+        </surname>
+        <forename>
+         治兵衛
+        </forename>
+       </persName>
+       を訪ふ、御入用仕上之儀申談す、夫より出殿、三ツ井より調達金差出す、
+       <persName corresp="#pers_森川">
+        <surname>
+         森川
+        </surname>
+       </persName>
+       面会、仏行御用骨折ニ付時服二ツ拝領被仰付、此日勤仕並御請普入被仰付《（普請）》、直ニ大目付附属被仰付、尤御書付ニ而申達今朝、
+       <persName corresp="#pers_加太八兵衛">
+        <surname>
+         加太
+        </surname>
+        <forename>
+         八兵衛
+        </forename>
+       </persName>
+       代人来、調達金延期之儀申立ニ付、厳重理解申遣す
+       <lb/>
+       午後右代人御殿に出る、明日尚又罷出る旨申立引取る、此日請取りし御手当金持参、夕方より
+       <placeName corresp="#place_和泉町">
+        和泉丁
+       </placeName>
+       大黒屋店罷越し、金子引渡し預書請取商法之儀品々申談す、帰路
+       <persName corresp="#pers_梅田">
+        <surname>
+         梅田
+        </surname>
+       </persName>
+       へ立寄、郷里へ書翰差出す
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0041">
+      <head>
+       <date type="旧暦" when="1869-01-25">
+        十二月十三日
+       </date>
+       雨
+       <date evidence="day inferenced" when="1869-01-25">
+        一月廿四日《（廿五日）》
+       </date>
+      </head>
+      <p>
+       朝より旅装を整ふ、
+       <persName corresp="#pers_田中清三郎">
+        <surname>
+         田中
+        </surname>
+        <forename>
+         清三郎
+        </forename>
+       </persName>
+       来、
+       <persName corresp="#pers_王屋忠四郎">
+        <surname>
+         王屋
+        </surname>
+        <forename>
+         忠四郎
+        </forename>
+       </persName>
+       来
+       <lb/>
+       午後、
+       <persName corresp="#pers_加太八兵衛">
+        <surname>
+         加太
+        </surname>
+        <forename>
+         八兵衛
+        </forename>
+       </persName>
+       代人来、預金書面認直し、金三百八十両余之口上納いたす、大黒屋へ書翰遣し、預ケ金之儀申遣す、三ツ井へ呉服代之儀申遣す、大黒屋代人来る、預金四百両相渡ス、三ツ井呉服代
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       方ニ而請取、夕方
+       <persName corresp="#pers_川勝">
+        <surname>
+         川勝
+        </surname>
+       </persName>
+       へ
+       <persName corresp="#pers_川路寛堂">
+        <surname>
+         川路
+        </surname>
+        <forename>
+         太郎
+        </forename>
+       </persName>
+       英生徒御手当差引残相渡す、夜、
+       <persName corresp="#pers_梅田">
+        <surname>
+         梅田
+        </surname>
+       </persName>
+       方へ罷越、おひさ来る、浄瑠璃を聴聞す
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0042">
+      <head>
+       <date type="旧暦" when="1869-01-26">
+        十二月十四日
+       </date>
+       雨
+       <date evidence="day inferenced" when="1868-01-26">
+        一月廿五日《（廿六日）》
+       </date>
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_梅田">
+        <surname>
+         梅田
+        </surname>
+       </persName>
+       より明神下に帰り、旅装整たれは、第
+       <time when="09:00:00">
+        九時
+       </time>
+       頃出立、尤荷物は不残船ニ而今晩
+       <placeName corresp="#place_品川">
+        品川
+       </placeName>
+       へ差送る、第
+       <time when="12:00:00">
+        十二時
+       </time>
+       頃
+       <placeName corresp="#place_品川">
+        品川
+       </placeName>
+       着、肥後兵隊其外等ニ而人足多く入用故継立出来せすとて、問屋場役人詰合なけれは本陣を頼み人足雇方取計、夕方
+       <placeName corresp="#place_川崎">
+        川崎
+       </placeName>
+       宿着ニ而一泊
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0043">
+      <head>
+       <date type="旧暦" when="1869-01-27">
+        十二月十五日
+       </date>
+       晴
+       <date evidence="day inferenced" when="1869-01-27">
+        一月廿六日《（廿七日）》
+       </date>
+      </head>
+      <p>
+       此日も旅人多く人馬差支とて、朝
+       <time when="08:00:00">
+        八時
+       </time>
+       頃
+       <placeName corresp="#place_川崎">
+        川崎
+       </placeName>
+       宿、
+       <time when="11:00:00">
+        十一時
+       </time>
+       頃
+       <placeName corresp="#place_神奈川">
+        神奈川
+       </placeName>
+       着、泉治といふ客舎ニ而
+       <persName corresp="#pers_田辺">
+        <surname>
+         田辺
+        </surname>
+       </persName>
+       面会、
+       <persName corresp="#pers_卯三郎">
+        <forename>
+         卯三郎
+        </forename>
+       </persName>
+       も時計之儀ニ付来りしが、昨日
+       <placeName corresp="#place_横浜">
+        横浜
+       </placeName>
+       に行しとて逢わす、
+       <persName corresp="#pers_田辺">
+        <surname>
+         田辺
+        </surname>
+       </persName>
+       に托し伝語申遣す、外ニ書翰抔相托し、後会を約し、夫より
+       <placeName corresp="#place_程ケ谷">
+        程ケ谷
+       </placeName>
+       ニ而昼食、夕方
+       <placeName corresp="#place_藤沢">
+        藤沢
+       </placeName>
+       着、一泊
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0044">
+      <head>
+       <date type="旧暦" when="1869-01-28">
+        十二月十六日
+       </date>
+       晴
+       <date evidence="day inferenced" when="1869-01-28">
+        一月廿七日《（廿八日）》
+       </date>
+      </head>
+      <p>
+       朝
+       <time when="07:00:00">
+        七時
+       </time>
+       発、路程も平垣《（坦カ）》にて人馬も稍差支されハ行路捗取りぬ、
+       <placeName corresp="#place_大磯町">
+        大磯
+       </placeName>
+       宿
+       <pb corresp="#pageB1034" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/60/full/max/0/default.jpg" n="B1034" source="#pageB1034"/>
+       ニ而午飯、夕
+       <time when="16:00:00">
+        四時
+       </time>
+       頃
+       <placeName corresp="#place_小田原">
+        小田原
+       </placeName>
+       宿着、一泊
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0045">
+      <head>
+       <date type="旧暦" when="1869-01-29">
+        十二月十七日
+       </date>
+       雲
+       <date evidence="day inferenced" when="1869-01-29">
+        一月廿八日《（廿九日）》
+       </date>
+      </head>
+      <p>
+       朝
+       <time when="06:00:00">
+        六時
+       </time>
+       発、陌頭より山路を取り
+       <placeName corresp="#place_湯本">
+        湯本
+       </placeName>
+       に至休息、路程稍嶮峻なり、畑といふ処ニ而茶肆に憩ひ、雑煮餅を食す、道路尤嶮なり、時に雨来りぬれは駕に乗りて関門を通、
+       <placeName corresp="#place_箱根">
+        箱根
+       </placeName>
+       宿ニ而午飯、夕
+       <time when="18:00:00">
+        六時
+       </time>
+       頃
+       <placeName corresp="#place_三島">
+        三島
+       </placeName>
+       宿着、
+       <placeName corresp="#place_金川">
+        金川
+       </placeName>
+       やといふ旗亭投宿
+       <lb/>
+       横打御門外
+       <placeName corresp="#place_浅野">
+        浅野
+       </placeName>
+       旅宿
+       <lb/>
+       元御武具奉行屋敷
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0046">
+      <head>
+       <date type="旧暦" when="1869-01-30">
+        十二月十八日
+       </date>
+       曇風
+      </head>
+      <p>
+       朝
+       <time when="06:30:00">
+        六時半
+       </time>
+       頃三島駅発、
+       <placeName corresp="#place_沼津">
+        沼津
+       </placeName>
+       に至りとらやといふ旗亭休息、
+       <persName corresp="#pers_塚本寛輔">
+        <surname>
+         塚本
+        </surname>
+        <forename>
+         寛輔
+        </forename>
+       </persName>
+       といふ陸軍士官の寓居訊問、
+       <placeName corresp="#place_沼津">
+        沼津
+       </placeName>
+       の景況を問ふ、夫より
+       <placeName corresp="#place_原宿">
+        原宿
+       </placeName>
+       ニ而午飯、夕方
+       <placeName corresp="#place_蒲原">
+        蒲原
+       </placeName>
+       着、投宿
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0047">
+      <head>
+       <date type="旧暦" when="1869-01-31">
+        十二月十九日
+       </date>
+       晴風
+      </head>
+      <p>
+       朝
+       <time when="07:00:00">
+        七時
+       </time>
+       頃発、
+       <placeName corresp="#place_江尻">
+        江尻
+       </placeName>
+       宿ニ而午飯、
+       <time when="14:00:00">
+        二時
+       </time>
+       頃
+       <placeName corresp="#place_府中">
+        府中
+       </placeName>
+       東陲の松原ニ而
+       <persName corresp="#pers_浅野次郎八">
+        <surname>
+         浅野
+        </surname>
+        <forename>
+         次郎八
+        </forename>
+       </persName>
+       に逢ふ、夕
+       <time when="15:00:00">
+        三時
+       </time>
+       頃
+       <placeName corresp="#place_府中">
+        府中
+       </placeName>
+       着、問屋場ニ而旅宿を談し、
+       <persName corresp="#pers_油屋吉五郎">
+        油屋
+        <forename>
+         吉五郎
+        </forename>
+       </persName>
+       といふ旗亭投宿、
+       <persName corresp="#pers_脇阪米次郎">
+        <surname>
+         脇阪
+        </surname>
+        <forename>
+         米次郎
+        </forename>
+       </persName>
+       来、
+       <persName corresp="#pers_鵜飼弥一">
+        <surname>
+         鵜飼
+        </surname>
+        <forename>
+         弥一
+        </forename>
+       </persName>
+       来、同行ニ而七軒町天麩羅やに罷越、夫より
+       <placeName corresp="#place_上石町">
+        上石町
+       </placeName>
+       汁粉屋に至る、夜、帰宿
+       <lb/>
+       <persName corresp="#pers_梅沢">
+        <surname>
+         梅沢
+        </surname>
+       </persName>
+       旅宿
+       <lb/>
+       <placeName corresp="#place_伝馬丁">
+        伝馬丁
+       </placeName>
+       裏
+       <placeName corresp="#place_鷹匠町">
+        鷹匠町
+       </placeName>
+       <lb/>
+       安在五丁目黄村旅宿
+       <lb/>
+       <persName corresp="#pers_今村惣右衛門">
+        <surname>
+         今村
+        </surname>
+        <forename>
+         惣右衛門
+        </forename>
+       </persName>
+       宅
+       <lb/>
+       明後
+       <date type="旧暦" when="1869-02-03">
+        廿二日
+       </date>
+       朝
+       <lb/>
+       <placeName corresp="#place_神田小柳町">
+        神田小柳町
+       </placeName>
+       <persName corresp="#pers_梅田慎之助">
+        <surname>
+         梅田
+        </surname>
+        <forename>
+         慎之助
+        </forename>
+       </persName>
+       方ニ而川村刀金物請取持参之事
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0048">
+      <head>
+       <date type="旧暦" when="1869-02-01">
+        十二月廿日
+       </date>
+       曇小雨
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_浜中義左衛門">
+        <surname>
+         浜中
+        </surname>
+        <forename>
+         義左衛門
+        </forename>
+       </persName>
+       来、第
+       <time when="10:00:00">
+        十時
+       </time>
+       頃御城中に罷出、
+       <persName corresp="#pers_梅沢孫太郎">
+        <surname>
+         梅沢
+        </surname>
+        <forename>
+         孫太郎
+        </forename>
+       </persName>
+       面会、前様拝謁之儀申立る、詰所ニ而淵延徳蔵に逢、清水港ニ而降服之者共名前帳を見る、午後帰宿、直ニ宝泰院《（台）》へ罷出る、拝謁之儀明日可被仰付旨ニ付引取、
+       <persName corresp="#pers_荒井助二郎">
+        <surname>
+         荒井
+        </surname>
+        <forename>
+         助二郎
+        </forename>
+       </persName>
+       訊問、
+       <persName corresp="#pers_川村三介">
+        <surname>
+         川村
+        </surname>
+        <forename>
+         三介
+        </forename>
+       </persName>
+       面会、夜同行ニ而
+       <persName corresp="#pers_平岡庄七">
+        <surname>
+         平岡
+        </surname>
+        <forename>
+         庄七
+        </forename>
+       </persName>
+       旅宿を訪ひ、帰宿後再ひ
+       <persName corresp="#pers_林研海">
+        <surname>
+         林
+        </surname>
+        <forename>
+         研海
+        </forename>
+       </persName>
+       を明真館《（新）》に訪ふ、夜
+       <time when-iso="1869-02-02T00:00+0900">
+        十二時
+       </time>
+       頃帰宿
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0049">
+      <head>
+       <date type="旧暦" when="1869-02-02">
+        十二月廿一日
+       </date>
+       雨
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_浅野次郎八">
+        <surname>
+         浅野
+        </surname>
+        <forename>
+         次郎八
+        </forename>
+       </persName>
+       を訪ふ、御用向申上る、
+       <persName corresp="#pers_小出涌之助">
+        <surname>
+         小出
+        </surname>
+        <forename>
+         涌之助
+        </forename>
+       </persName>
+       面会、書状渡す、帰宿後
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       と共に大六手代人
+       <persName corresp="#pers_勇助">
+        <forename>
+         勇助
+        </forename>
+       </persName>
+       面会、商社之儀申談す、
+       <persName corresp="#pers_川村">
+        <surname>
+         川村
+        </surname>
+       </persName>
+       来る、子息同伴いたす、第
+       <time when="14:00:00">
+        二時
+       </time>
+       水府より被進候御品持参、宝□院罷出《（原本欠。○台）》る、御品は御小性頭取へ引渡す、
+       <persName corresp="#pers_梅沢孫太郎">
+        <surname>
+         梅沢
+        </surname>
+        <forename>
+         孫太郎
+        </forename>
+       </persName>
+       より拝謁之儀明日之積被申聞退出、掛新村主計を訪ふ、夕方
+       <persName corresp="#pers_梅沢">
+        <surname>
+         梅沢
+        </surname>
+       </persName>
+       を訪ふ、京師以来之事情詳悉承及ふ、夜
+       <time when="22:00:00">
+        十時
+       </time>
+       頃帰宿
+       <lb/>
+       <persName corresp="#pers_川村">
+        <surname>
+         川村
+        </surname>
+       </persName>
+       へ金五拾両貸遣す、請取書預置、但
+       <persName corresp="#pers_荒井">
+        <surname>
+         荒井
+        </surname>
+       </persName>
+       より頼之由
+      </p>
+     </div>
+     <div type="note" xml:id="DKB10002m-0050">
+      <head>
+       ○次掲ノ覚書及ビ「奉願候書付」ハ日記コノ部分ニ記入シアリ。
+      </head>
+     </div>
+     <div type="note" xml:id="DKB10002m-0051">
+      <head>
+       ○覚書
+      </head>
+      <p>
+       <persName corresp="#pers_平岡">
+        <surname>
+         平岡
+        </surname>
+       </persName>
+       丹波殿　　浅見前神宮刑部《（浅間前新宮兵部）》
+       <lb/>
+       <persName corresp="#pers_戸川平右衛門">
+        <surname>
+         戸川
+        </surname>
+        <forename>
+         平右衛門
+        </forename>
+       </persName>
+       殿
+       <placeName corresp="#place_茶町裏">
+        茶町裏
+       </placeName>
+       顕光院
+       <lb/>
+       <persName corresp="#pers_四郎">
+        <forename>
+         四郎
+        </forename>
+       </persName>
+       殿
+       <placeName corresp="#place_鷹匠町">
+        鷹匠町
+       </placeName>
+       左側
+       <lb/>
+       <persName corresp="#pers_余十郎">
+        <forename>
+         余十郎
+        </forename>
+       </persName>
+       殿
+       <placeName corresp="#place_紺屋町">
+        紺屋町
+       </placeName>
+       <placeName corresp="#place_清水尻">
+        清水尻
+       </placeName>
+       <lb/>
+       <pb corresp="#pageB1035" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/61/full/max/0/default.jpg" n="B1035" source="#pageB1035"/>
+       <lb/>
+       <persName corresp="#pers_尚助">
+        <forename>
+         尚助
+        </forename>
+       </persName>
+       殿
+       <placeName corresp="#place_草深">
+        草深
+       </placeName>
+       <lb/>
+       <persName corresp="#pers_虎次郎">
+        <forename>
+         虎次郎
+        </forename>
+       </persName>
+       殿
+       <placeName corresp="#place_鷹匠町">
+        鷹匠町
+       </placeName>
+       右側
+       <lb/>
+       <lb/>
+       奉願候書付
+       <persName corresp="#pers_渋沢栄一">
+        <surname>
+         渋沢
+        </surname>
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+       <lb/>
+       <lb/>
+       私義今般不存寄御勘定組頭被　命難有仕合奉存候、然処去月中
+       <persName corresp="#pers_民部大輔">
+        民部大輔
+       </persName>
+       殿御附添
+       <placeName corresp="#place_フランス">
+        仏国
+       </placeName>
+       より帰朝仕候以来病身に相成、御用多之御場処勤仕出来兼候様奉存候間、御役御免被成下置候様仕度此段奉願候、以上
+       <lb/>
+       <date type="旧暦" when="1869-02-06">
+        辰十二月廿五日
+       </date>
+       <lb/>
+       元開成所調役
+       <lb/>
+       <persName corresp="#pers_渋沢栄一">
+        <surname>
+         渋沢
+        </surname>
+        <forename>
+         篤太夫
+        </forename>
+       </persName>
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0052">
+      <head>
+       <date type="旧暦" when="1869-02-03">
+        十二月廿二日
+       </date>
+       晴
+      </head>
+      <p>
+       朝第
+       <time when="10:00:00">
+        十時
+       </time>
+       頃御城に出る、拝謁之儀ニ付公子より被仰含之廉々中老
+       <persName corresp="#pers_戸川平右衛門">
+        <surname>
+         戸川
+        </surname>
+        <forename>
+         平右衛門
+        </forename>
+       </persName>
+       殿へ申立る、明日拝謁被仰付旨御同人被申渡、商社之儀ニ付見込
+       <persName corresp="#pers_織田和泉">
+        <surname>
+         織田
+        </surname>
+        <forename>
+         和泉
+        </forename>
+       </persName>
+       殿へ申立る、
+       <persName corresp="#pers_淵辺徳蔵">
+        <surname>
+         淵辺
+        </surname>
+        <forename>
+         徳蔵
+        </forename>
+       </persName>
+       面会、観臨乗込当地《（咸カ）》ニ而謹慎被申付居候者へ書状達し方金子少々送り方申托す
+       <lb/>
+       昨日、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       <placeName corresp="#place_横打町">
+        横打町
+       </placeName>
+       へ引越す
+       <lb/>
+       夕方、
+       <persName corresp="#pers_杉浦譲">
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       同行
+       <persName corresp="#pers_大黒屋勇助">
+        大黒屋
+        <forename>
+         勇助
+        </forename>
+       </persName>
+       を訪ふ、
+       <persName corresp="#pers_大坪七兵衛">
+        <surname>
+         大坪
+        </surname>
+        <forename>
+         七兵衛
+        </forename>
+       </persName>
+       面会、帰路
+       <persName corresp="#pers_杉浦譲">
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       と同しく天麩羅店ニ而小酌、夜に入帰宿
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0053">
+      <head>
+       <date type="旧暦" when="1869-02-04">
+        十二月廿三日
+       </date>
+       曇
+      </head>
+      <p>
+       第
+       <time when="10:00:00">
+        十時
+       </time>
+       頃宝台院へ罷出る、拝謁被仰付、公子より被仰含之儀洋洲事情等逐一申上る、海外ニ而此顚覆に遭遇し、独力ニ而骨折之段御褒詞被下午後より
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       旅宿を訪ふ、不在ニ付
+       <persName corresp="#pers_鵜飼弥一">
+        <surname>
+         鵜飼
+        </surname>
+        <forename>
+         弥一
+        </forename>
+       </persName>
+       を訪ふ、夫より下足洗村東広寺罷越す、元局残御用之儀承る、夕方
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       同行
+       <persName corresp="#pers_西吉十郎">
+        <surname>
+         西
+        </surname>
+        <forename>
+         吉十郎
+        </forename>
+       </persName>
+       を訪ふ、不在夜に入
+       <persName corresp="#pers_山高八郎">
+        <surname>
+         山高
+        </surname>
+        <forename>
+         八郎
+        </forename>
+       </persName>
+       を訪ふ、帰路
+       <persName corresp="#pers_大黒屋勇助">
+        大黒屋
+        <forename>
+         勇助
+        </forename>
+       </persName>
+       を訪ひ、
+       <time when="10:00:00">
+        十時
+       </time>
+       頃帰宿
+       <lb/>
+       今日夕七ツ時、御用有之出殿可致旨御目付より被申達
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0054">
+      <head>
+       <date type="旧暦" when="1869-02-05">
+        十二月廿四日
+       </date>
+       曇午後雨
+      </head>
+      <p>
+       第
+       <time when="09:30:00">
+        九時半
+       </time>
+       頃出殿、御用向承及候処、御用召之旨被申聞、礼服着用可致旨ニ付、御目付局ニ而借用いたす、御勘定組頭被命旨
+       <persName corresp="#pers_平右衛門">
+        <forename>
+         平右衛門
+        </forename>
+       </persName>
+       殿被申渡、御勘定局へ被引渡、頭同役其外一同へ面会いたす
+       <lb/>
+       公子へ復命之儀、頭衆より相伺候処、不及其儀旨被申渡、退出後、礼服無之ニ付廻勤難出来旨局及御目付へ申越す、夜、
+       <persName corresp="#pers_山高八郎">
+        <surname>
+         山高
+        </surname>
+        <forename>
+         八郎
+        </forename>
+       </persName>
+       来、此夜隣家ニ而喧嘩有之
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0055">
+      <head>
+       <date type="旧暦" when="1869-02-06">
+        十二月廿五日
+       </date>
+       雨
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       来、昨日之手続申聞る、
+       <persName corresp="#pers_梅沢孫太郎">
+        <surname>
+         梅沢
+        </surname>
+        <forename>
+         孫太郎
+        </forename>
+       </persName>
+       へ書状遣す、今日不快ニ而出勤相成兼候旨
+       <persName corresp="#pers_杉浦譲">
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       へ托し、御勘定所へ書状差遣す、
+       <persName corresp="#pers_林研海">
+        <surname>
+         林
+        </surname>
+        <forename>
+         研海
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_鵜飼弥一">
+        <surname>
+         鵜飼
+        </surname>
+        <forename>
+         弥一
+        </forename>
+       </persName>
+       来、
+       <persName corresp="#pers_脇坂木次郎">
+        <surname>
+         脇坂
+        </surname>
+        <forename>
+         木次郎
+        </forename>
+       </persName>
+       来《（
+       <persName corresp="#pers_脇坂米次郎">
+        <surname>
+         脇坂
+        </surname>
+        <forename>
+         米次郎
+        </forename>
+       </persName>
+       ）》、夕方願書持参ニ而
+       <persName corresp="#pers_平岡四郎">
+        <surname>
+         平岡
+        </surname>
+        <forename>
+         四郎
+        </forename>
+       </persName>
+       を訪ふ、不快ニ付不逢、帰後書状を以申遣す
+       <lb/>
+       正月朔
+       <time when="05:00:00">
+        五時
+       </time>
+       揃　　服紗小袖麻上下
+       <lb/>
+       上士之者御礼
+       <lb/>
+       二日同刻限　　同　断
+       <lb/>
+       上士以下之御礼
+       <lb/>
+       三日例刻　　　同　断
+       <lb/>
+       御礼無之
+       <lb/>
+       <pb corresp="#pageB1036" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/62/full/max/0/default.jpg" n="B1036" source="#pageB1036"/>
+       <lb/>
+       四日今日より平服例刻
+       <lb/>
+       七日
+       <lb/>
+       <time when="05:00:00">
+        五時
+       </time>
+       揃　　服紗小袖麻上下
+       <lb/>
+       十一日
+       <lb/>
+       不勤之者御礼
+       <lb/>
+       十五日同刻限　　同　断
+       <lb/>
+       右之通御礼被為請候間得其意向々へ可被相触候
+       <lb/>
+       <date evidence="year inferenced, day" type="旧暦" when="1869-01">
+        十二月
+       </date>
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0056">
+      <head>
+       <date type="旧暦" when="1869-02-07">
+        十二月廿六日
+       </date>
+       曇
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_勇助">
+        <forename>
+         勇助
+        </forename>
+       </persName>
+       へ書状遣し、同人早速出張有之度申遣す、
+       <persName corresp="#pers_勇助">
+        <forename>
+         勇助
+        </forename>
+       </persName>
+       来る、商法之儀行れ申間敷旨申聞、昨日よりの手続荒増申聞る、午頃
+       <persName corresp="#pers_大坪七兵衛">
+        <surname>
+         大坪
+        </surname>
+        <forename>
+         七兵衛
+        </forename>
+       </persName>
+       来、頭衆より是非出勤之儀申来る、尤
+       <persName corresp="#pers_大久保一翁">
+        <forename>
+         一翁
+        </forename>
+       </persName>
+       殿御逢被成度儀ニ付、同人以使罷越旨をも申聞る、午後同行ニ而出殿、
+       <persName corresp="#pers_大久保一翁">
+        <forename>
+         一翁
+        </forename>
+       </persName>
+       殿面会、
+       <placeName corresp="#place_水戸">
+        水戸
+       </placeName>
+       復命之儀御不都合之儀数々仔細等被申渡、明日御請可申上儀相答、
+       <persName corresp="#pers_平岡四郎">
+        <surname>
+         平岡
+        </surname>
+        <forename>
+         四郎
+        </forename>
+       </persName>
+       へも品品申談引取、夕方
+       <persName corresp="#pers_山高信離">
+        <surname>
+         山高
+        </surname>
+       </persName>
+       を訪へ、時雨庵ニ而
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       面会、夜に入
+       <persName corresp="#pers_大坪">
+        <surname>
+         大坪
+        </surname>
+       </persName>
+       を訪へ、
+       <persName corresp="#pers_平岡庄七">
+        <surname>
+         平岡
+        </surname>
+        <forename>
+         庄七
+        </forename>
+       </persName>
+       を訪へ、帰宿
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0057">
+      <head>
+       <date type="旧暦" when="1869-02-08">
+        十二月廿七日
+       </date>
+       晴
+      </head>
+      <p>
+       朝出殿、復命之儀并御役之儀難有御請申上候旨
+       <persName corresp="#pers_四郎">
+        <forename>
+         四郎
+        </forename>
+       </persName>
+       を以
+       <persName corresp="#pers_大久保一翁">
+        <forename>
+         一翁
+        </forename>
+       </persName>
+       殿へ申立る、公子へ呈書外一封御用便達し方之儀相托す、
+       <persName corresp="#pers_梅沢">
+        <surname>
+         梅沢
+        </surname>
+       </persName>
+       面会、御請申上候旨申談、午後廻勤いた《（す脱カ）》、夕方
+       <placeName corresp="#place_呉服町">
+        呉服町
+       </placeName>
+       五丁目川村屋方へ転宿いたす
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0058">
+      <head>
+       <date type="旧暦" when="1869-02-09">
+        十二月廿八日
+       </date>
+       晴
+      </head>
+      <p>
+       朝より御用書類取調いたす、夕方
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       来る、
+       <persName corresp="#pers_平岡庄七">
+        <surname>
+         平岡
+        </surname>
+        <forename>
+         庄七
+        </forename>
+       </persName>
+       来る、謹慎被命居候
+       <persName corresp="#pers_武沢市五郎">
+        <surname>
+         武沢
+        </surname>
+        <forename>
+         市五郎
+        </forename>
+       </persName>
+       来
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0059">
+      <head>
+       <date type="旧暦" when="1869-02-10">
+        十二月廿九日
+       </date>
+       晴
+      </head>
+      <p>
+       朝出殿、謹慎之者儀ニ付大目付へ見込申談す、
+       <persName corresp="#pers_平岡四郎">
+        <surname>
+         平岡
+        </surname>
+        <forename>
+         四郎
+        </forename>
+       </persName>
+       へも同断申談す、退出後御用書類取調いたす、郷里、
+       <placeName corresp="#place_東京">
+        東京
+       </placeName>
+       諸方へ書状認る、
+       <persName corresp="#pers_勇助">
+        <forename>
+         勇助
+        </forename>
+       </persName>
+       へ相渡す
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0060">
+      <head>
+       <date when="1869">
+        明治二年
+       </date>
+       巳
+       <date type="旧暦" when="1869-02-11">
+        正月元日
+       </date>
+       晴
+      </head>
+      <p>
+       朝、商法会所之儀見込書取調、夕、
+       <persName corresp="#pers_平岡四郎">
+        <surname>
+         平岡
+        </surname>
+        <forename>
+         四郎
+        </forename>
+       </persName>
+       を訪ふ、夫より
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       面会、四ツ過帰宿
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0061">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-12">
+        （一月）二日
+       </date>
+       雨
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_川村三介">
+        <surname>
+         川村
+        </surname>
+        <forename>
+         三介
+        </forename>
+       </persName>
+       来、謹慎之者儀ニ付内談有之、右ニ付
+       <persName corresp="#pers_土肥八十三郎">
+        <surname>
+         土肥
+        </surname>
+        <forename>
+         八十三郎
+        </forename>
+       </persName>
+       呼寄心得方相尋、内談之上
+       <persName corresp="#pers_川村">
+        <surname>
+         川村
+        </surname>
+       </persName>
+       方へ遣す、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       来る、見込調方ニ付申談す
+       <persName corresp="#pers_祐助">
+        <forename>
+         祐助
+        </forename>
+       </persName>
+       来る、夕方当地町人
+       <persName corresp="#pers_荻原四郎兵衛">
+        <surname>
+         荻原
+        </surname>
+        <forename>
+         四郎兵衛
+        </forename>
+       </persName>
+       《（
+       <persName corresp="#pers_萩原四郎兵衛">
+        <surname>
+         萩原
+        </surname>
+        <forename>
+         四郎兵衛
+        </forename>
+       </persName>
+       ）》へ可罷出旨申遣す
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0062">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-13">
+        （一月）三日
+       </date>
+       雨
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_荻原四郎兵衛">
+        <surname>
+         荻原
+        </surname>
+        <forename>
+         四郎兵衛
+        </forename>
+       </persName>
+       来、商法之儀開墾之儀等申談す、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       来、商社之儀ニ付見込取調いたす、仏行御入用調いたす
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0063">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-14">
+        （一月）四日
+       </date>
+       晴
+      </head>
+      <p>
+       朝より仏行御入用調いたす、午後
+       <persName corresp="#pers_平岡四郎">
+        <surname>
+         平岡
+        </surname>
+        <forename>
+         四郎
+        </forename>
+       </persName>
+       へ罷越す、商法見込書差出す同人御殿へ出ニ付御殿ニ而面会いたす、帰宿後、仏行調物いたす
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0064">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-15">
+        （一月）五日
+       </date>
+       晴
+      </head>
+      <p>
+       <persName corresp="#pers_北村彦四郎">
+        <surname>
+         北村
+        </surname>
+        <forename>
+         彦四郎
+        </forename>
+       </persName>
+       来、商法筋申談す、仏行調物いたす
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0065">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-16">
+        （一月）六日
+       </date>
+       晴
+      </head>
+      <p>
+       商法見込書持参御殿ニ而
+       <persName corresp="#pers_大久保一翁">
+        <forename>
+         一翁
+        </forename>
+       </persName>
+       殿へ上ル、見込之儀申立る
+       <lb/>
+       仏行調物いたす
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0066">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-17">
+        （一月）七日
+       </date>
+      </head>
+      <p>
+       <pb corresp="#pageB1037" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/63/full/max/0/default.jpg" n="B1037" source="#pageB1037"/>
+       <lb/>
+       仏行調物いたす、
+       <persName corresp="#pers_平岡四郎">
+        <surname>
+         平岡
+        </surname>
+        <forename>
+         四郎
+        </forename>
+       </persName>
+       を訪ふ
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0067">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-18">
+        （一月）八日
+       </date>
+       晴
+      </head>
+      <p>
+       仏行調物いたす、明
+       <date evidence="month inferenced" type="旧暦" when="1869-02-18">
+        十日
+       </date>
+       可罷出旨御目付より達書来ル、
+       <persName corresp="#pers_鵜飼弥一">
+        <surname>
+         鵜飼
+        </surname>
+        <forename>
+         弥一
+        </forename>
+       </persName>
+       来、夕方
+       <persName corresp="#pers_平岡四郎">
+        <surname>
+         平岡
+        </surname>
+        <forename>
+         四郎
+        </forename>
+       </persName>
+       を訪ふ
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0068">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-19">
+        （一月）九日
+       </date>
+       雨
+      </head>
+      <p>
+       仏行調物いたす、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       来
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0069">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-20">
+        （一月）十日
+       </date>
+       晴
+      </head>
+      <p>
+       朝、出殿、仏行調物出来之分持参いたす、午後商法見込書之儀ニ付中老衆御列座ニ而御談有之、見込之儀逐一申立る、夕方帰宿調物いたす
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0070">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-21">
+        （一月）十一日
+       </date>
+       晴
+      </head>
+      <p>
+       昨夜、
+       <persName corresp="#pers_北村彦次郎">
+        <surname>
+         北村
+        </surname>
+        <forename>
+         彦次郎
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_荻原四郎兵衛">
+        <surname>
+         荻原
+        </surname>
+        <forename>
+         四郎兵衛
+        </forename>
+       </persName>
+       来、商法筋見込之儀申談す
+       <lb/>
+       朝、仏行調物いた《（す脱）》、御入用残調御品残高とも明細書調済之上出殿ニ而差出す、中老衆御覧之積ニ付御用部屋へ差出す
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0071">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-22">
+        （一月）十二日
+       </date>
+       晴
+      </head>
+      <p>
+       調物残之分御殿へ差出す、商法筋御取開之儀、中老衆へ御催促申上る近々御沙汰可有之旨被申聞
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0072">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-23">
+        （一月）十三日
+       </date>
+       晴
+      </head>
+      <p>
+       今日御殿へ罷出候様頭より被申達四ツ頃出殿、昼後御用召御役御免御勘定頭支配中老手附被命商法之儀申上る、御入用調之儀相済候旨申上る
+       <persName corresp="#pers_浜中義左衛門">
+        <surname>
+         浜中
+        </surname>
+        <forename>
+         義左衛門
+        </forename>
+       </persName>
+       来、
+       <persName corresp="#pers_北村彦次郎">
+        <surname>
+         北村
+        </surname>
+        <forename>
+         彦次郎
+        </forename>
+       </persName>
+       来
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0073">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-24">
+        （一月）十四日
+       </date>
+       晴
+      </head>
+      <p>
+       朝出殿、商法会所掛之者申立る、此日商法会所御用金の取扱被命、御勘定
+       <persName corresp="#pers_矢村小四郎">
+        <surname>
+         矢村
+        </surname>
+        <forename>
+         小四郎
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_坂本柳左衛門">
+        <surname>
+         坂本
+        </surname>
+        <forename>
+         柳左衛門
+        </forename>
+       </persName>
+       、御用取扱被命、午後
+       <placeName corresp="#place_紺屋町">
+        紺屋町
+       </placeName>
+       役所見廻り、間取其外申談す、夕方、
+       <persName corresp="#pers_三田伊右衛門">
+        <surname>
+         三田
+        </surname>
+        <forename>
+         伊右衛門
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       来、御用達呼出之儀申達す
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0074">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-25">
+        （一月）十五日
+       </date>
+       晴
+      </head>
+      <p>
+       朝、
+       <placeName corresp="#place_紺屋町">
+        紺屋町
+       </placeName>
+       御役所罷出、御破損等見分、御役所間取調分いたす、明日御用達一同呼出之積申達す、間取其外御普請等取調之儀出殿之上
+       <persName corresp="#pers_四郎">
+        <forename>
+         四郎
+        </forename>
+       </persName>
+       へ申立る、夕方宮の崎
+       <persName corresp="#pers_大久保一翁">
+        <forename>
+         一翁
+        </forename>
+       </persName>
+       殿旅宿へ罷越し今日之手続申立る、御役所へ引移リ、御役屋敷之積を以住居可致旨被申渡、夜、
+       <persName corresp="#pers_浜中義左衛門">
+        <surname>
+         浜中
+        </surname>
+        <forename>
+         義左衛門
+        </forename>
+       </persName>
+       来
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0075">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-26">
+        （一月）十六日
+       </date>
+       晴
+      </head>
+      <p>
+       朝、
+       <placeName corresp="#place_紺屋町">
+        紺屋町
+       </placeName>
+       御役所へ罷越す、御用筋取扱ふ御用達之者九人へ会所御用達申渡、商法会所御取開之旨申聞る、小遣之者手代之者御普請之事等申談し、一同見込書可差出儀等申談し、夫より出殿取扱候御用向
+       <persName corresp="#pers_大久保一翁">
+        <forename>
+         一翁
+        </forename>
+       </persName>
+       殿へ申立る、開成所雑物請取方いたし御勘定所へ預置、御勘定下役之者両人会所御用掛申渡
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0076">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-27">
+        （一月）十七日
+       </date>
+       晴
+      </head>
+      <p>
+       此日東照公御忌日ニ付、諸向休局
+       <lb/>
+       中将様久能御参詣有之、終日在宅ニ而会所規則并諸向へ御達御案取調いたす、夕、
+       <persName corresp="#pers_林研海">
+        <surname>
+         林
+        </surname>
+        <forename>
+         研海
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+        <forename>
+         愛蔵
+        </forename>
+       </persName>
+       御勘定下役両人来、
+       <persName corresp="#pers_前田重五郎">
+        <surname>
+         前田
+        </surname>
+        <forename>
+         重五郎
+        </forename>
+       </persName>
+       へ
+       <persName corresp="#pers_大塚市左衛門">
+        <surname>
+         大塚
+        </surname>
+        <forename>
+         市左衛門
+        </forename>
+       </persName>
+       義再応申談遣す
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0077">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-02-28">
+        （一月）十八日
+       </date>
+       雨夕晴
+      </head>
+      <p>
+       例刻会所出勤、御案類取調、御普請向
+       <persName corresp="#pers_坂本柳左衛門">
+        <surname>
+         坂本
+        </surname>
+        <forename>
+         柳左衛門
+        </forename>
+       </persName>
+       へ申談大工へ申付る、畳屋へ表替申付る、
+       <persName corresp="#pers_重五郎">
+        <forename>
+         重五郎
+        </forename>
+       </persName>
+       宿所之儀
+       <persName corresp="#pers_四郎">
+        <forename>
+         四郎
+        </forename>
+       </persName>
+       へ申立る、会所内へ引移
+       <pb corresp="#pageB1038" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/64/full/max/0/default.jpg" n="B1038" source="#pageB1038"/>
+       之積申付る、御触案
+       <persName corresp="#pers_大久保一翁">
+        <forename>
+         一翁
+        </forename>
+       </persName>
+       殿へ差出す、見込申上之書類御入用仕上書とも御下御催促申上る、
+       <persName corresp="#pers_大塚市左衛門">
+        <surname>
+         大塚
+        </surname>
+        <forename>
+         市左衛門
+        </forename>
+       </persName>
+       儀和泉殿へ申立る
+       <lb/>
+       夜、紙幣差引御利益調いたす
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10002m-0078">
+      <head>
+       <date evidence="month inferenced" type="旧暦" when="1869-03-01">
+        （一月）十九日
+       </date>
+      </head>
+      <p>
+       ○以下記入ナシ。
+      </p>
+     </div>
+     <div type="note" xml:id="DKB10002m-0079">
+      <head/>
+      <p>
+       <persName corresp="#pers_佐々倉桐太郎">
+        <surname>
+         佐々倉
+        </surname>
+        <forename>
+         桐太郎
+        </forename>
+       </persName>
+       <lb/>
+       <placeName corresp="#place_呉服町">
+        呉服町
+       </placeName>
+       四丁目西尾屋方
+       <lb/>
+       <persName corresp="#pers_酒井閑亭">
+        <surname>
+         酒井
+        </surname>
+        閑亭
+       </persName>
+       殿
+       <persName corresp="#pers_織田和泉">
+        <surname>
+         織田
+        </surname>
+        和泉
+       </persName>
+       殿□
+       <placeName corresp="#place_横浜">
+        横浜
+       </placeName>
+       行《（各カ）》ニて西洋画の具買上之事外ニ面白キ品見計
+       <lb/>
+       <persName corresp="#pers_山岡鉄太郎">
+        <surname>
+         山岡
+        </surname>
+        <forename>
+         鉄太郎
+        </forename>
+       </persName>
+       ヘ□□之事《（加木カ）》
+       <lb/>
+       三ツ井ヘ御預ケ金
+       <persName corresp="#pers_増田省弥">
+        <surname>
+         増田
+        </surname>
+        <forename>
+         省弥
+        </forename>
+       </persName>
+       面談之事
+       <lb/>
+       <persName corresp="#pers_山口祐之進">
+        <surname>
+         山口
+        </surname>
+        <forename>
+         祐之進
+        </forename>
+       </persName>
+       へも申談之事
+       <lb/>
+       <persName corresp="#pers_美濃村利左衛門">
+        <surname>
+         美濃村
+        </surname>
+        <forename>
+         利左衛門
+        </forename>
+       </persName>
+       《（
+       <persName corresp="#pers_三野村利左衛門">
+        <surname>
+         三野村
+        </surname>
+        <forename>
+         利左衛門
+        </forename>
+       </persName>
+       ）》へ面会談判之事
+      </p>
+     </div>
+     <div type="note" xml:id="DKB10002m-0080">
+      <head>
+       ○覚書
+      </head>
+      <p>
+       <lb/>
+       <persName corresp="#pers_杉浦譲">
+        <surname>
+         杉浦
+        </surname>
+       </persName>
+       差引
+       <lb/>
+       一　金弐拾壱両壱分　　　　　　　　　夜具代
+       <lb/>
+       一　金弐拾五両　　　　　　　　　　　金ニ而請取
+       <lb/>
+       一　金　　　　　　　　　　　　　　　玉忠勘定
+       <lb/>
+       道具代
+       <lb/>
+       一　金
+       <lb/>
+       呉服代
+       <lb/>
+       一　金　　　　　　　　　　　　　　　大和屋勘定
+       <lb/>
+       旅中入費
+       <lb/>
+       一　金三拾両也
+       <lb/>
+       金ニ而請取
+       <lb/>
+       〃
+       <lb/>
+       一　金弐拾両
+       <lb/>
+       三島ニ而請取
+       <lb/>
+       〆
+       <lb/>
+       一　拾四両弐分三朱　　　　　　　魯生徒荷物運賃
+       <lb/>
+       <date evidence="year inferenced" when="1868-10-02">
+        十月二日
+       </date>
+       <lb/>
+       一　拾五弗　　　　　　　　　　　　　アンペラトリース船小遣一同無事御着ニ付被下
+       <lb/>
+       一　壱ホント半　三シルリング　　　　御着御祝シヤンハン酒五本代　但船将始一同被下
+       <lb/>
+       <date evidence="year inferenced" when="1868-10-04">
+        十月四日
+       </date>
+       <lb/>
+       一　拾弗　　　　　　　　　　　　　　御上陸之御迎供一同江本船より御茶さし出ニ付被下
+       <lb/>
+       <date evidence="year inferenced" when="1868-10-04">
+        十月四日
+       </date>
+       <lb/>
+       一　三弗　　　　　　　　　　　　　　御部屋小遣外壱人江別段被下
+       <lb/>
+       此分外ヘ附出相済
+       <lb/>
+       ○右
+       <date evidence="year inferenced" when="1868-10-02">
+        十月二日
+       </date>
+       ヨリ
+       <date evidence="year inferenced" when="1868-10-04">
+        十月四日
+       </date>
+       迄ノ分ハ記入ノ上抹消シアリ。
+      </p>
+     </div>
+     <div type="note" xml:id="DKB10002m-0081">
+      <head>
+       <placeName corresp="#place_黄賓">
+        黄賓
+       </placeName>
+       行公費
+      </head>
+      <p>
+       御買上物ニ付
+       <lb/>
+       一　金八千両　　　　　　　　　　　　持出し
+       <lb/>
+       <date evidence="year inferenced" when="1868-11-17">
+        十一月十七日
+       </date>
+       引替
+       <lb/>
+       此弗　　　　　　　　　　　　　　　但三ツ井為替ニ而持越す
+       <lb/>
+       内
+       <lb/>
+       一　九千三百六十弗　　　　　　　　シナイトル　三百六十挺　瑞西九十番商館より買上
+       <lb/>
+       但壱挺ニ付　　　　　　　　弾弐百宛附外ニ
+       <lb/>
+       弐十六トルラル宛　　　　錡形三ツ俣共附属背負皮とも
+       <lb/>
+       銀
+       <lb/>
+       一　六拾トルラル　　　　　　　　　　根附時計四ツ
+       <lb/>
+       但壱ツ
+       <lb/>
+       十五トルラル宛
+       <lb/>
+       一　金五拾弐両弐分　　　　　　　　ビストル四挺
+       <lb/>
+       洋墨弐壼
+       <lb/>
+       一　金三分弐朱　　　　　　　　　　　沓塗油三壼
+       <lb/>
+       ブロス壱ツ
+       <lb/>
+       <pb corresp="#pageB1039" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/65/full/max/0/default.jpg" n="B1039" source="#pageB1039"/>
+       <lb/>
+       一　金弐朱
+       <placeName corresp="#place_金川">
+        金川
+       </placeName>
+       より
+       <placeName corresp="#place_黄賓">
+        黄賓
+       </placeName>
+       迄
+       <lb/>
+       荷船壱艘
+       <lb/>
+       一　壱〆八百文
+       <placeName corresp="#place_品川">
+        品川
+       </placeName>
+       より
+       <placeName corresp="#place_金川">
+        金川
+       </placeName>
+       迄
+       <lb/>
+       人足賃
+       <lb/>
+       但人足弐人
+       <lb/>
+       壱人ニ付九百文
+       <lb/>
+       一　金三朱也
+       <placeName corresp="#place_川崎">
+        川崎
+       </placeName>
+       宿　旅籠代
+       <lb/>
+       <placeName corresp="#place_黄賓">
+        黄賓
+       </placeName>
+       滞留中
+       <lb/>
+       一　八拾五匁
+       <lb/>
+       旅籠昼食代
+       <lb/>
+       此金壱両壱分弐朱　　　壱日
+       <lb/>
+       但
+       <lb/>
+       四百文　　　　十六匁宛
+       <lb/>
+       <lb/>
+       一　三百拾六文
+       <placeName corresp="#place_黄賓">
+        黄賓
+       </placeName>
+       より
+       <placeName corresp="#place_金川">
+        金川
+       </placeName>
+       迄乗合船賃まし共
+       <lb/>
+       一　金五朱　　　　　　　　　　　　　用船壱艘代
+       <lb/>
+       先達而払残候分
+       <lb/>
+       一　弐百文
+       <placeName corresp="#place_黄賓">
+        黄賓
+       </placeName>
+       ニ而人足賃
+       <lb/>
+       波塘場より旅宿迄
+       <lb/>
+       一　弐百文　　　　　　　　　　　　　同断
+       <lb/>
+       旅宿より波塘場迄
+       <lb/>
+       一　三〆六百文
+       <placeName corresp="#place_金川">
+        金川
+       </placeName>
+       より
+       <placeName corresp="#place_品川">
+        品川
+       </placeName>
+       迄
+       <lb/>
+       壱人九百文宛　　　　　　　　人足四人代
+       <lb/>
+       一　金壱分弐朱
+       <placeName corresp="#place_神奈川">
+        神奈川
+       </placeName>
+       一泊旅籠代
+       <lb/>
+       壱人三朱宛
+       <lb/>
+       〆
+       <lb/>
+       差引
+       <lb/>
+       〆
+       <lb/>
+       ○合計、差引共記入ナシ。
+      </p>
+     </div>
+     <div type="note" xml:id="DKB10002m-0082">
+      <head>
+       東京府滞在中公費
+      </head>
+      <p>
+       <lb/>
+       水戸御館より
+       <placeName corresp="#place_森田町">
+        森田丁
+       </placeName>
+       迄荷物
+       <lb/>
+       一　金四両弐分　　　　　　　　　　　持出し賃
+       <lb/>
+       田安御殿より
+       <placeName corresp="#place_和泉町">
+        和泉丁
+       </placeName>
+       迄
+       <lb/>
+       一　金三朱
+       <lb/>
+       同持運人足代
+       <lb/>
+       一　金壱分　　　　　　　　　　　　三ツ井より田安迄同断
+       <lb/>
+       是より道中入用
+       <lb/>
+       一　金弐両　四百十六文　　　　　　　荷桐油五枚代
+       <lb/>
+       一　金壱分弐朱　　　　　　　　　　　蠟燭代
+       <lb/>
+       <placeName corresp="#place_東京">
+        東京
+       </placeName>
+       より
+       <placeName corresp="#place_品川">
+        品川
+       </placeName>
+       迄
+       <lb/>
+       一　金三両壱分
+       <lb/>
+       荷物船賃
+       <lb/>
+       一　金五両
+       <persName corresp="#pers_昇之助">
+        <forename>
+         昇之助
+        </forename>
+       </persName>
+       渡
+       <lb/>
+       同人渡
+       <lb/>
+       一　金四両三分
+       <lb/>
+       銭ニ而渡
+       <lb/>
+       一　金弐両壱分　　　　　　　　　　　持出し人足賃
+       <lb/>
+       一　弐分一朱弐百九文　　　　　　　　提灯代四ツ
+       <lb/>
+       <date evidence="year inferenced, month" type="旧暦" when="1868-09-30">
+        十五日
+       </date>
+       <lb/>
+       一　金五両也
+       <placeName corresp="#place_藤沢">
+        藤沢
+       </placeName>
+       ニ而渡
+       <lb/>
+       <date evidence="year inferenced, month" type="旧暦" when="1868-10-01">
+        十四日
+       </date>
+       <lb/>
+       一　壱〆七百文
+       <placeName corresp="#place_川崎">
+        川崎
+       </placeName>
+       ニ而渡
+       <lb/>
+       <placeName corresp="#place_川崎">
+        川崎
+       </placeName>
+       ニ而渡
+       <lb/>
+       一　壱両七百文《（〆カ）》
+       <lb/>
+       同断
+       <lb/>
+       一　三朱ト九百文　　　　　　　　　　　　別入用之分
+       <lb/>
+       水邸より
+       <placeName corresp="#place_明神下">
+        明神下
+       </placeName>
+       迄
+       <lb/>
+       一　金壱両弐分　　　　　　　　　　　　御用荷物運送賃
+       <lb/>
+       一　金拾弐両
+       <placeName corresp="#place_小田原">
+        小田原
+       </placeName>
+       ニ而渡
+       <lb/>
+       <date evidence="year inferenced, month" type="旧暦" when="1868-10-02">
+        十七日
+       </date>
+       <lb/>
+       一　金七両也
+       <placeName corresp="#place_三島">
+        三島
+       </placeName>
+       ニ而渡
+       <lb/>
+       <date evidence="year inferenced, month" type="旧暦" when="1868-10-03">
+        十八日
+       </date>
+       <lb/>
+       一　金五両
+       <placeName corresp="#place_原">
+        原
+       </placeName>
+       ニ而渡
+       <lb/>
+       <date evidence="year inferenced, month" type="旧暦" when="1868-10-04">
+        十九日
+       </date>
+       <lb/>
+       一　金五両
+       <placeName corresp="#place_蒲原">
+        蒲原
+       </placeName>
+       ニ而渡
+       <lb/>
+       <lb/>
+       英国生徒御手当差引
+       <lb/>
+       御旅館御賄之口より
+       <lb/>
+       一　弐万九千五百九拾五フランク　　　　英国生徒帰朝之節
+       <lb/>
+       <persName corresp="#pers_川路">
+        <surname>
+         川路
+        </surname>
+       </persName>
+       <persName corresp="#pers_中村">
+        <surname>
+         中村
+        </surname>
+       </persName>
+       へ
+       <lb/>
+       立替内借被仰付候分
+       <lb/>
+       内
+       <lb/>
+       英国生徒御手当残
+       <lb/>
+       一　六千九百弐拾五弗
+       <date evidence="year inferenced" type="旧暦" when="1868-10-05">
+        辰八月廿日
+       </date>
+       <placeName corresp="#place_パリ">
+        巴里
+       </placeName>
+       到着之分
+       <lb/>
+       <pb corresp="#pageB1040" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/66/full/max/0/default.jpg" n="B1040" source="#pageB1040"/>
+       <lb/>
+       但壱弗
+       <lb/>
+       此仏貨　　　　　　　　　　　　　　　　　五フ六十七サ九
+       <lb/>
+       三万九千三百弐拾七フ七サ
+       <lb/>
+       内
+       <lb/>
+       <persName corresp="#pers_栗本貞次郎">
+        <surname>
+         栗本
+        </surname>
+        <forename>
+         貞次郎
+        </forename>
+       </persName>
+       より立替
+       <lb/>
+       四千弐百六拾弐フランク半　　　　　　生徒両人航海入費
+       <lb/>
+       同人方ニ而引落候分
+       <lb/>
+       引
+       <lb/>
+       〆三万五千〇六拾四フランク五十七サ
+       <lb/>
+       元内借高と差引
+       <lb/>
+       〆五千四百六拾九フランク五十七サ
+       <lb/>
+       但壱フランクニ付
+       <lb/>
+       此金八百〇壱両壱分　　　　　　　　　　　　銀八匁七分九厘
+       <lb/>
+       銀弐匁五分
+       <lb/>
+       仏貨四千五百八十壱フランク半　　　　　　　魯国生徒帰朝入費御旅館より立替渡
+       <lb/>
+       同　　九十六フラク弐十五サ　　　　　　　　同断馬塞迄荷物運賃
+       <lb/>
+       同　　四拾フラク六十五サ　　　　　　　　　同断荷物
+       <placeName corresp="#place_魯国">
+        魯国
+       </placeName>
+       より着之分
+       <lb/>
+       〆四千七百拾八フランク四十サ
+       <lb/>
+       但壱フランクニ付
+       <lb/>
+       此金六百九拾壱両〇弐朱　　　　　　　　　　　銀八匁七分九厘
+       <lb/>
+       銀七匁弐分三厘
+       <lb/>
+       <lb/>
+       <persName corresp="#pers_民部大輔">
+        民部大輔
+       </persName>
+       御附添之者御手当金
+       <date evidence="year inferenced, day" type="旧暦" when="1868-02">
+        辰二月
+       </date>
+       迄之分
+       <lb/>
+       合金四千八百九拾四両弐分
+       <lb/>
+       内
+       <lb/>
+       金三千八百〇九両弐分
+       <lb/>
+       永弐百四十文八分弐厘七毛
+       <lb/>
+       差引
+       <lb/>
+       〆千〇八拾四両三分　　　　　　　　　　　　　　　　　残高
+       <lb/>
+       永九文壱分七厘五毛
+       <lb/>
+       三ツ井為替書附壱枚
+       <lb/>
+       一　金弐千両
+       <date evidence="year inferenced, month" type="旧暦" when="1869-01-22">
+        十二月十日
+       </date>
+       夜
+       <lb/>
+       同断
+       <lb/>
+       一　同五百両
+       <persName corresp="#pers_大黒屋六兵衛">
+        <surname>
+         大黒屋
+        </surname>
+        <forename>
+         六兵衛
+        </forename>
+       </persName>
+       へ相渡
+       <lb/>
+       同断
+       <lb/>
+       一　同百両　　　　　　　　　　　　　　　　追而一紙ニ而請取差出し
+       <lb/>
+       〆弐千六百両　　　　　　　　　　　　　利金取究候積之事
+       <lb/>
+       同断
+       <lb/>
+       外ニ三百八［　　］両《（原本欠字）》　　　　　　　呉服代
+       <lb/>
+       <lb/>
+       金八百〇壱両壱分銀弐匁五分
+       <lb/>
+       此銭五百文
+       <lb/>
+       内五百八拾九両三分
+       <lb/>
+       永弐百十九文壱分
+       <lb/>
+       此金弐朱ト九百三文
+       <lb/>
+       差引
+       <date evidence="year inferenced, month" type="旧暦" when="1869-01-25">
+        十三日
+       </date>
+       <lb/>
+       〆弐百拾壱両壱分
+       <persName corresp="#pers_川勝">
+        <surname>
+         川勝
+        </surname>
+       </persName>
+       江
+       <lb/>
+       銭七百九十三文　　　　　　　　持参渡
+       <lb/>
+       高金千九拾両弐分永百四十九文弐分之内
+       <lb/>
+       <persName corresp="#pers_加太八兵衛">
+        <surname>
+         加太
+        </surname>
+        <forename>
+         八兵衛
+        </forename>
+       </persName>
+       <lb/>
+       一　金三百八拾七両壱分永百壱文弐分
+       <lb/>
+       残七百三両壱分永四十八文来
+       <date evidence="year inferenced, month" type="旧暦" when="1869-03-02">
+        巳正月廿日
+       </date>
+       迄調達之積書面差出ニ付勘弁日延いたし遣候事
+      </p>
+     </div>
+     <div type="note" xml:id="DKB10002m-0083">
+      <head/>
+      <p>
+       Yokohama le 29 Decembre 1868
+       <lb/>
+       Mon cher le
+              Colonel
+       <lb/>
+       J'ai l'honneur de vous ecrire une lettre pour vous connaitre votre《(n)》
+              nouvelle.
+       <lb/>
+       Depuis que nous sommes partis de Marseille nous avons fait
+       <pb corresp="#pageB1041" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/67/full/max/0/default.jpg" n="B1041" source="#pageB1041"/>
+       un long voyage. Comme la saison n'etait pas bonne aussi la mer etait assez mauvaise;
+              Mais heureusement nous n'avons pas eu le mal de mer, le prince et nous nous sommes en
+              toujours bien portants.
+       <lb/>
+       De Saigon le vent etait tres fort, dans trois jours notre
+              bateau n'avait presque pas marche nous avons mis 7 jours pour arriver a Hongkong, de
+              la nous avons en toujours beau temps. Cependant de parti de Hongkong la machine de
+              notre bateau etait cassee nous etions obliges de retourner a Hongkong, et nous avons
+              rembarque sur Imperatrice. Enfin nous sommes arrives a Yokohama.
+       <lb/>
+       Apres avoir
+              debarque Yoko (hama), j'ai rencontre beaucoup de mes amis j'ai entendu dire la
+              situation depuis l'annee derniere; mais la chose etait si difficile que je ne
+              comprends pas bien aussi ne sais-je pas du tout que vais-je devenir.
+       <lb/>
+       Le Mikade est
+              a Yedo, notre l'ex-Taicoun et nouveau chef de famille de Tokugawa s'appele Kamenoske
+              sont a la province de Slga qui leur a ete donnee par Mikade.
+       <lb/>
+       （右訳文）
+       <lb/>
+       <date evidence="year inferenced" when="1868-12-29">
+        一八六八年十二月二十九日
+       </date>
+       <placeName corresp="#place_横浜">
+        横浜
+       </placeName>
+       <lb/>
+       親愛なる
+       <persName corresp="#pers_コロネル">
+        <surname>
+         コロネル
+        </surname>
+       </persName>
+       殿
+       <lb/>
+       一書拝呈近況お知らせ申上げ候
+       <lb/>
+       <placeName corresp="#place_マルセイユ">
+        マルセイユ
+       </placeName>
+       出発以来長々の航海仕り候、気候良しからず、猶ほ海仲々荒れ申し候へども幸に船酔も致さず、殿様初め我等一同終始誠に息災に之れあり候
+       <lb/>
+       <placeName corresp="#place_サイゴン">
+        サイゴン
+       </placeName>
+       よりは風強く三日間は船殆んど進まず、七日を要して漸く
+       <placeName corresp="#place_香港">
+        香港
+       </placeName>
+       に到着仕り候、同所よりは日々好天気に恵まれ候、然るに
+       <placeName corresp="#place_香港">
+        香港
+       </placeName>
+       出発後、我等の船破損致し
+       <placeName corresp="#place_香港">
+        香港
+       </placeName>
+       に引返すの已むなきに立至り候、なほ同所にて再びアンペラトリス号に乗船やうやう
+       <placeName corresp="#place_横浜">
+        横浜
+       </placeName>
+       に到着仕り候、
+       <placeName corresp="#place_横浜">
+        横浜
+       </placeName>
+       にて下船後、大勢の友人に面接、昨年来の形勢を耳に致し候、何分事態容易ならず仲々理解致し難く、又小生如何相成行候やも計り難く候、目下御門《ミカド》は
+       <placeName corresp="#place_江戸">
+        江戸
+       </placeName>
+       に在し、前大君並《タイクン》に
+       <persName corresp="#pers_亀之助">
+        <forename>
+         亀之助
+        </forename>
+       </persName>
+       と申す徳川家の新主は御門より拝領せる
+       <placeName corresp="#place_駿河">
+        駿河
+       </placeName>
+       に在し候。
+       <lb/>
+       ○訳文ハ編纂ニ際シ付ス。
+      </p>
+     </div>
+    </body>
+   </text>
+   </TEI>

@@ -1,0 +1,1964 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>甲申京摂巡回日記　　　　　　（株式会社
+      
+       第一銀行
+      
+      京都支店所蔵）</title></titleStmt><publicationStmt><p>渋沢栄一伝記資料別巻第一日記（TEI/XML版）</p></publicationStmt><sourceDesc><p/></sourceDesc></fileDesc></teiHeader><facsimile><surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/81" xml:id="pageB1055">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/81/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/82" xml:id="pageB1056">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/82/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/83" xml:id="pageB1057">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/83/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/84" xml:id="pageB1058">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/84/full/max/0/default.jpg"/>
+  </surface>
+  </facsimile><text n="41000000000" xml:id="DKB10005m">
+    <front>
+     <head>
+      甲申京摂巡回日記　　　　　　（株式会社
+      <orgName>
+       第一銀行
+      </orgName>
+      京都支店所蔵）
+     </head>
+     <div type="archival-description">
+      <p>
+       ○原本概要
+      </p>
+      <p>
+       甲申京摂巡回日記ハ、上掲手帖ノ記事ヲ整理セシモノニシテ、
+       <date evidence="year inferenced" when="1884-06-17">
+        六月十七日
+       </date>
+       以後
+       <date evidence="year inferenced" when="1884-07-01">
+        七月一日
+       </date>
+       マデヲ補足ス。原本ハ
+       <orgName>
+        第一国立銀行
+       </orgName>
+       美濃紙罫紙九枚。
+      </p>
+     </div>
+    </front>
+    <body>
+     <head>
+      甲申京摂巡回日記
+     </head>
+     <div type="diary-entry" xml:id="DKB10005m-0001">
+      <head/>
+      <p>
+       <lb/>
+       <placeName corresp="#place_大阪">
+        大阪
+       </placeName>
+       、西京、
+       <placeName corresp="#place_神戸">
+        神戸
+       </placeName>
+       、
+       <placeName corresp="#place_四日市">
+        四日市
+       </placeName>
+       及
+       <placeName corresp="#place_敦賀">
+        敦賀
+       </placeName>
+       等ノ各地ヲ巡回シ、各支店営業ノ実際ヲ視察シ、行務ノ各項ヲ撿閲スヘキ為メ東京本店ヲ発セシハ
+       <date evidence="year inferenced" when="1884-05-28">
+        五月二十八日
+       </date>
+       <time when="07:30:00">
+        午前七時三十分
+       </time>
+       ナリ
+       <lb/>
+       此口晴、
+       <placeName corresp="#place_新橋">
+        新橋
+       </placeName>
+       駐車場ニテ送別ノ諸友ニ別ヲ告ケ、
+       <time when="08:00:00">
+        八時
+       </time>
+       ノ汽車ニ駕シ、同四十五分
+       <placeName corresp="#place_神奈川">
+        神奈川
+       </placeName>
+       ニ達ス、
+       <persName corresp="#pers_益田孝">
+        <surname>
+         益田
+        </surname>
+        <forename>
+         孝
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_矢野二郎">
+        <surname>
+         矢野
+        </surname>
+        <forename>
+         二郎
+        </forename>
+       </persName>
+       ハ殊ニ談話ノ事アリテ送テ此ニ到ル、横浜支店
+       <persName corresp="#pers_本山">
+        <surname>
+         本山
+        </surname>
+       </persName>
+       及丸キ店
+       <persName corresp="#pers_書上">
+        <surname>
+         書上
+        </surname>
+       </persName>
+       等モ送別ノ為メ来会ス、談話数刻ニシテ別ヲ告ク、
+       <time when="10:00:00">
+        午前十時
+       </time>
+       <placeName corresp="#place_神奈川">
+        神奈川
+       </placeName>
+       ヲ発シ馬車ニ駕シ藤沢駅ニ至リテ午餐シ、
+       <time when="17:00:00">
+        午後五時
+       </time>
+       <placeName corresp="#place_湯本">
+        湯本
+       </placeName>
+       <orgName>
+        金泉楼
+       </orgName>
+       ニ投宿ス
+      </p>
+     </div>
+     <div type="note" xml:id="DKB10005m-0002">
+      <head>
+       ○中略。
+      </head>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0003">
+      <head>
+       <date evidence="month inferenced" when="1884-05-31">
+        （五月）三十一日
+       </date>
+       曇
+      </head>
+      <p>
+       <time when="08:00:00">
+        午前八時
+       </time>
+       <placeName corresp="#place_湯本">
+        湯本
+       </placeName>
+       ヲ発シ竹輿ヲ買テ
+       <placeName corresp="#place_仙石原">
+        仙石原
+       </placeName>
+       ニ抵ル、
+       <persName corresp="#pers_須永">
+        <surname>
+         須永
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_松村">
+        <surname>
+         松村
+        </surname>
+       </persName>
+       来リ迎フ、牧場ノ馬車ニ駕シテ牛馬ノ緑野ニ遊嘶スルヲ見ル、意頗ル爽快ナリ、牧舎ニテ午餐シ、
+       <time when="16:00:00">
+        午後四時
+       </time>
+       扁舟ヲ買テ湖水ヲ航シ
+       <placeName corresp="#place_箱根">
+        箱根
+       </placeName>
+       宿ニ抵ル、更ニ竹輿ニ乗リ夜
+       <time when="21:00:00">
+        九時
+       </time>
+       <placeName corresp="#place_三島">
+        三島
+       </placeName>
+       <persName corresp="#pers_世古六太夫">
+        <surname>
+         世古
+        </surname>
+        <forename>
+         六太夫
+        </forename>
+       </persName>
+       ニ投宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0004">
+      <head>
+       <date when="1884-06-01">
+        六月一日
+       </date>
+       雨
+      </head>
+      <p>
+       <time when="07:00:00">
+        午前七時
+       </time>
+       <placeName corresp="#place_三島">
+        三島
+       </placeName>
+       ヲ発シ、腕車ニ駕シテ倉沢ニ至リテ午餐ス、時ニ雨歇ミ風軟カニシテ海上細漣ヲ漾シ、豆駿環海ノ諸山新緑黛ノ如ク眺望甚タ佳ナリ、惜クハ雲煙富岳ノ巓ヲ覆フテ全峰ヲ見ル能ハサル事ヲ、
+       <time when="15:00:00">
+        午後三時
+       </time>
+       <placeName corresp="#place_静岡">
+        静岡
+       </placeName>
+       ニ至リ大万屋ニ投宿ス
+       <lb/>
+       此夜
+       <placeName corresp="#place_紺屋町">
+        紺屋町
+       </placeName>
+       邸ニ於テ正二位公ニ謁シ款話数時ニシテ帰宿ス、
+       <persName corresp="#pers_森理七">
+        <surname>
+         森
+        </surname>
+        <forename>
+         理七
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_大久保">
+        <surname>
+         大久保
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_黒崎">
+        <surname>
+         黒崎
+        </surname>
+       </persName>
+       諸子来話ス、
+       <persName corresp="#pers_益田孝">
+        <surname>
+         益田
+        </surname>
+        <forename>
+         孝
+        </forename>
+       </persName>
+       氏及留守宅ヘ郵書ヲ発シ、
+       <placeName corresp="#place_四日市">
+        四日市
+       </placeName>
+       <persName corresp="#pers_八巻">
+        <surname>
+         八巻
+        </surname>
+       </persName>
+       氏ヘ電報シテ、
+       <date evidence="year inferenced, month" when="1884-06-03">
+        三日
+       </date>
+       午後
+       <placeName corresp="#place_熱田">
+        熱田
+       </placeName>
+       着ノ事ヲ通知ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0005">
+      <head>
+       <date when="1884-06-02">
+        六月二日
+       </date>
+       晴
+      </head>
+      <p>
+       <time when="06:00:00">
+        午前六時
+       </time>
+       <placeName corresp="#place_静岡">
+        静岡
+       </placeName>
+       ヲ発シ、
+       <placeName corresp="#place_見付">
+        見付
+       </placeName>
+       駅ニテ午餐シ、
+       <time when="19:00:00">
+        午後七時
+       </time>
+       <placeName corresp="#place_豊橋">
+        豊橋
+       </placeName>
+       ニ抵リ宿ヲ小島屋ニ投ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0006">
+      <head>
+       <date when="1884-06-03">
+        六月三日
+       </date>
+       晴
+      </head>
+      <p>
+       <time when="05:00:00">
+        午前五時
+       </time>
+       <placeName corresp="#place_豊橋">
+        豊橋
+       </placeName>
+       ヲ発シ、
+       <time when="12:00:00">
+        十二時
+       </time>
+       <placeName corresp="#place_熱田">
+        熱田
+       </placeName>
+       ニ抵ル、
+       <persName corresp="#pers_八巻">
+        <surname>
+         八巻
+        </surname>
+       </persName>
+       来迎フ、
+       <time when="14:00:00">
+        午後二時
+       </time>
+       汽船
+       <pb corresp="#pageB1055" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/81/full/max/0/default.jpg" n="B1055" source="#pageB1055"/>
+       ニ搭シ、
+       <time when="17:00:00">
+        五時
+       </time>
+       <placeName corresp="#place_四日市">
+        四日市
+       </placeName>
+       ニ至リ浜田屋某ニ投宿ス
+       <lb/>
+       着後、
+       <placeName corresp="#place_四日市">
+        四日市
+       </placeName>
+       新設ノ支店ヲ巡視シ行務ヲ点撿ス、夜、
+       <persName corresp="#pers_古谷">
+        <surname>
+         古谷
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_須藤">
+        <surname>
+         須藤
+        </surname>
+       </persName>
+       、八巻、
+       <persName corresp="#pers_田原">
+        <surname>
+         田原
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_中島">
+        <surname>
+         中島
+        </surname>
+       </persName>
+       其他数子来話ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0007">
+      <head>
+       <date when="1884-06-04">
+        六月四日
+       </date>
+       晴
+      </head>
+      <p>
+       朝、東京本店其他諸子ニ書ヲ発ス
+       <lb/>
+       <persName corresp="#pers_田中武兵衛">
+        <surname>
+         田中
+        </surname>
+        <forename>
+         武兵衛
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_伊藤伝七">
+        <surname>
+         伊藤
+        </surname>
+        <forename>
+         伝七
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_九鬼文之助">
+        <surname>
+         九鬼
+        </surname>
+        <forename>
+         文之助
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_古谷竜蔵">
+        <surname>
+         古谷
+        </surname>
+        <forename>
+         竜蔵
+        </forename>
+       </persName>
+       其他諸子来話ス、
+       <time when="13:00:00">
+        午後一時
+       </time>
+       支店ニ至リテ事務ヲ見ル、
+       <time when="14:00:00">
+        二時
+       </time>
+       浜田屋ニ於テ地方得意ノ人々ヲ招飲ス、来会者三十余人各観《（歓）》ヲ尽シテ去ル、宴散シテ後更ニ地方諸子ノ懇請ニ応□テ
+       <orgName>
+        松茂楼
+       </orgName>
+       ニ上ル、夜
+       <time when="23:00:00">
+        十一時
+       </time>
+       帰宿ス、此夜
+       <persName corresp="#pers_書上順四郎">
+        <surname>
+         書上
+        </surname>
+        <forename>
+         順四郎
+        </forename>
+       </persName>
+       来着ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0008">
+      <head>
+       <date when="1884-06-05">
+        六月五日
+       </date>
+       晴
+      </head>
+      <p>
+       朝、地方諸子送別ノ為メ来会ス、
+       <time when="07:00:00">
+        七時
+       </time>
+       <placeName corresp="#place_四日市">
+        四日市
+       </placeName>
+       ヲ発シ
+       <placeName corresp="#place_桑名">
+        桑名
+       </placeName>
+       ニ至リ
+       <time when="09:00:00">
+        九時
+       </time>
+       川蒸気船ニ搭シテ
+       <placeName corresp="#place_揖斐川">
+        揖斐川
+       </placeName>
+       ヲ遡ル、
+       <persName corresp="#pers_書上">
+        <surname>
+         書上
+        </surname>
+       </persName>
+       ハ
+       <placeName corresp="#place_美濃">
+        美濃
+       </placeName>
+       地方ニ要務アルヲ以テ随行ス、
+       <time when="18:00:00">
+        午後六時
+       </time>
+       前
+       <placeName corresp="#place_大垣市">
+        大垣
+       </placeName>
+       着、其
+       <time when="18:45:00">
+        四十五分
+       </time>
+       同地発軔ノ汽車ニ駕シ
+       <time when="20:45:00">
+        八時四十五分
+       </time>
+       <placeName corresp="#place_長浜">
+        長浜
+       </placeName>
+       ニ抵ル、
+       <persName corresp="#pers_増田充績">
+        <surname>
+         増田
+        </surname>
+        <forename>
+         充績
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_沢木安二郎">
+        <surname>
+         沢木
+        </surname>
+        <forename>
+         安二郎
+        </forename>
+       </persName>
+       来リ迎フ、相携テ某楼ニ投宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0009">
+      <head>
+       <date when="1884-06-06">
+        六月六日
+       </date>
+       晴
+      </head>
+      <p>
+       <time when="06:00:00">
+        午前六時
+       </time>
+       ノ汽車ニ駕シテ
+       <placeName corresp="#place_敦賀">
+        敦賀
+       </placeName>
+       ニ抵ル、
+       <placeName corresp="#place_柳ヶ瀬">
+        柳ケ瀬
+       </placeName>
+       墜道《（隧）》ハ此間ニアリ、
+       <time when="08:00:00">
+        八時
+       </time>
+       <placeName corresp="#place_敦賀">
+        敦賀
+       </placeName>
+       ニ達ス、米屋某ニ投宿ス
+       <lb/>
+       <orgName>
+        三井銀行
+       </orgName>
+       分店
+       <persName corresp="#pers_石田">
+        <surname>
+         石田
+        </surname>
+       </persName>
+       某、
+       <persName corresp="#pers_中村">
+        <surname>
+         中村
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_室山">
+        <surname>
+         室山
+        </surname>
+       </persName>
+       等諸子来訪、相携フテ地方ノ勝景ヲ遊覧ス、金ケ崎神社観音堂ニ詣シ、
+       <placeName corresp="#place_金ヶ崎">
+        金ケ崎
+       </placeName>
+       駐車場ニ添フタル波止場ヲ一覧ス、午後再三諸子ノ誘引ニ依テ松原ニ至ル、松原ハ港内ノ一勝地ナリ、
+       <persName corresp="#pers_武田">
+        <surname>
+         武田
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_伊賀">
+        <surname>
+         伊賀
+        </surname>
+       </persName>
+       其他数士埋骨ノ地ナルヲ以テ水戸ノ人士碑ヲ建テ其事ヲ記ス、原頭海ニ接スル所ニ於テ開筵小酌シ、網シテ魚ヲ得、煮炙以テ酒ヲ侑ム、頗ル清興ナリ、蓋シ地方諸子余カ来遊ヲ慰ムル為メナリ、
+       <time when="19:00:00">
+        午後七時
+       </time>
+       帰宿ス、此夜、諸子来会談話ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0010">
+      <head>
+       <date when="1884-06-07">
+        六月七日
+       </date>
+       晴
+      </head>
+      <p>
+       <time when="06:00:00">
+        午前六時
+       </time>
+       <placeName corresp="#place_敦賀">
+        敦賀
+       </placeName>
+       ヲ発シ汽車場ニテ諸子ニ別ヲ告ケ、
+       <time when="08:00:00">
+        八時
+       </time>
+       <placeName corresp="#place_長浜">
+        長浜
+       </placeName>
+       ニ抵ル、
+       <time when="09:00:00">
+        午前九時
+       </time>
+       湖上ノ汽船ニ搭シ
+       <time when="14:00:00">
+        午後二時
+       </time>
+       過
+       <placeName corresp="#place_大津">
+        大津
+       </placeName>
+       ニ達ス、
+       <persName corresp="#pers_堀口嘉右衛門">
+        <surname>
+         堀口
+        </surname>
+        <forename>
+         嘉右衛門
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_森弥三郎">
+        <surname>
+         森
+        </surname>
+        <forename>
+         弥三郎
+        </forename>
+       </persName>
+       来リ迎ヒ一楼ニ誘引シテ小酌ス、
+       <time when="18:00:00">
+        午後六時
+       </time>
+       両氏ニ辞シテ汽車ニ駕シ西京ニ抵ル、
+       <persName corresp="#pers_三木安三郎">
+        <surname>
+         三木
+        </surname>
+        <forename>
+         安三郎
+        </forename>
+       </persName>
+       其他諸子来リ迎フ、
+       <placeName corresp="#place_木屋町通">
+        木屋町
+       </placeName>
+       <orgName>
+        松力楼
+       </orgName>
+       ニ投宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0011">
+      <head>
+       <date when="1884-06-08">
+        六月八日
+       </date>
+       晴
+      </head>
+      <p>
+       午前西京支店ニ至リ終日行務各項ヲ撿閲ス、府庁勧業課長板
+       <persName corresp="#pers_原">
+        <surname>
+         原
+        </surname>
+       </persName>
+       氏、本願寺会計撿査員
+       <persName corresp="#pers_池田">
+        <surname>
+         池田
+        </surname>
+       </persName>
+       氏来話ス、本店及
+       <placeName corresp="#place_四日市">
+        四日市
+       </placeName>
+       等ヘ郵書ヲ発ス、午後大阪店
+       <persName corresp="#pers_熊谷辰太郎">
+        <surname>
+         熊谷
+        </surname>
+        <forename>
+         辰太郎
+        </forename>
+       </persName>
+       、紡績会社
+       <persName corresp="#pers_山辺">
+        <surname>
+         山辺
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_蒲田">
+        <surname>
+         蒲田
+        </surname>
+       </persName>
+       共ニ来ル、
+       <time when="19:00:00">
+        七時
+       </time>
+       過支店ノ事務ヲ了シテ諸子ト共ニ
+       <orgName>
+        八新楼
+       </orgName>
+       ニ小酌シ
+       <placeName corresp="#place_大阪">
+        大阪
+       </placeName>
+       ノ近況ヲ聴ク、
+       <time when="10:00:00">
+        十時
+       </time>
+       <orgName>
+        松力楼
+       </orgName>
+       ニ帰宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0012">
+      <head>
+       <date when="1884-06-09">
+        六月九日
+       </date>
+       晴
+      </head>
+      <p>
+       朝、本店及留守宅ヘ郵書ヲ発ス、
+       <persName corresp="#pers_熊谷">
+        <surname>
+         熊谷
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_山辺">
+        <surname>
+         山辺
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_蒲田">
+        <surname>
+         蒲田
+        </surname>
+       </persName>
+       来ル、
+       <persName corresp="#pers_熊谷">
+        <surname>
+         熊谷
+        </surname>
+       </persName>
+       ニ約スル二
+       <date evidence="year inferenced, month" when="1884-06-13">
+        十三日
+       </date>
+       ヲ以テ
+       <placeName corresp="#place_大阪">
+        大阪
+       </placeName>
+       ニ赴ク事ヲ以テス、又紡績会社ノ開業式ハ06ヲ以テスヘキ事ヲ予約ス
+       <lb/>
+       三井諸子来訪ス、
+       <time when="13:00:00">
+        午後一時
+       </time>
+       <persName corresp="#pers_増田充績">
+        <surname>
+         増田
+        </surname>
+        <forename>
+         充績
+        </forename>
+       </persName>
+       ト共ニ東本願寺ニ抵リ堂宇再建ノ工事ヲ覧ル、結搆壮大目ヲ驚スモノ多シ、一覧後枳穀邸ニ於テ執務、
+       <persName corresp="#pers_阿部">
+        <surname>
+         阿部
+        </surname>
+       </persName>
+       其他ノ諸子ニ面接シ取引上ノ事ヲ議ス、
+       <time when="19:00:00">
+        午後七時
+       </time>
+       <persName corresp="#pers_池田">
+        <surname>
+         池田
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_穂積">
+        <surname>
+         穂積
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_山田">
+        <surname>
+         山田
+        </surname>
+       </persName>
+       等ノ誘引ニヨリテ東山
+       <orgName>
+        中村楼
+       </orgName>
+       ニ宴シ、夜
+       <time when="22:30:00">
+        十時半
+       </time>
+       帰宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0013">
+      <head>
+       <date when="1884-06-10">
+        六月十日
+       </date>
+       雨
+      </head>
+      <p>
+       <pb corresp="#pageB1056" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/82/full/max/0/default.jpg" n="B1056" source="#pageB1056"/>
+       <lb/>
+       <time when="09:00:00">
+        午前九時
+       </time>
+       <persName corresp="#pers_三木安三郎">
+        <surname>
+         三木
+        </surname>
+        <forename>
+         安三郎
+        </forename>
+       </persName>
+       ト共ニ伏見出張所ニ赴テ事務取扱ノ順序ヲ点撿ス又、同地ニ新設スル倉庫会社ノ事務ヲ一覧シ、其支配人及重立タル株主等ト営業ノ実況ヲ談話ス
+       <lb/>
+       伏見商估数名ノ招請ニヨリテ依水園ニ小酌シ、
+       <time when="17:00:00">
+        午後五時
+       </time>
+       帰寓ス
+       <lb/>
+       此夜、府庁官員ノ招請ニヨリテ
+       <placeName corresp="#place_京都市">
+        洛東
+       </placeName>
+       <orgName>
+        万東楼
+       </orgName>
+       ニ宴ス、大少書記官、庶務会計、勧業課長ノ諸子来会ス、西陣買継所設立ノ意見及米商会所、倉庫会社等ノ利弊ヲ熟議ス、
+       <time when-iso="1884-06-11T00:00+0900">
+        十二時
+       </time>
+       帰宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0014">
+      <head>
+       <date when="1884-06-11">
+        六月十一日
+       </date>
+       曇
+      </head>
+      <p>
+       早朝本願寺
+       <persName corresp="#pers_渥美">
+        <surname>
+         渥美
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_池田">
+        <surname>
+         池田
+        </surname>
+       </persName>
+       来ル、
+       <orgName>
+        八幡銀行
+       </orgName>
+       頭取
+       <persName corresp="#pers_西川貞二郎">
+        <surname>
+         西川
+        </surname>
+        <forename>
+         貞二郎
+        </forename>
+       </persName>
+       来ル、敦賀倉庫会社創設意見ヲ議ス、
+       <persName corresp="#pers_堀口">
+        <surname>
+         堀口
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_森">
+        <surname>
+         森
+        </surname>
+       </persName>
+       両氏来ル、同ク
+       <placeName corresp="#place_敦賀">
+        敦賀
+       </placeName>
+       ノ事ヲ談話ス、
+       <orgName>
+        三井銀行
+       </orgName>
+       <persName corresp="#pers_能勢">
+        <surname>
+         能勢
+        </surname>
+       </persName>
+       其他ノ諸氏来ル、西陣、
+       <placeName corresp="#place_敦賀">
+        敦賀
+       </placeName>
+       等ノ事ヲ談ス
+       <lb/>
+       <time when="16:00:00">
+        午後四時
+       </time>
+       <persName corresp="#pers_三井八郎右衛門">
+        <surname>
+         三井
+        </surname>
+        <forename>
+         高福
+        </forename>
+       </persName>
+       老人ノ招ニ応シテ其
+       <placeName corresp="#place_木屋町通">
+        木屋町
+       </placeName>
+       ノ楼ニ至ル、盛宴満酌、歓ヲ尽シテ帰ル
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0015">
+      <head>
+       <date when="1884-06-12">
+        六月十二日
+       </date>
+       晴
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_池田銺次郎">
+        <surname>
+         池田
+        </surname>
+        <forename>
+         銺次郎
+        </forename>
+       </persName>
+       来ル、
+       <time when="10:00:00">
+        午前十時
+       </time>
+       <persName corresp="#pers_増田充績">
+        <surname>
+         増田
+        </surname>
+        <forename>
+         充績
+        </forename>
+       </persName>
+       ト共ニ府庁勧業場ニ至リ、織物ノ工事、画学教授ノ順序ヲ見ル、三本木ニ抵リテ
+       <persName corresp="#pers_安藤静軒">
+        <surname>
+         安藤
+        </surname>
+        <forename>
+         静軒
+        </forename>
+       </persName>
+       ヲ訪ヒ、荒神口某楼ニ於テ午餐ス、蓋シ
+       <orgName>
+        木原銀行
+       </orgName>
+       <orgName>
+        第百十一国立銀行
+       </orgName>
+       ヨリノ招請ニ出ス、両行役員ニ面話ス、
+       <time when="14:00:00">
+        午後二時
+       </time>
+       西陣ニ抵リ織屋数家ニ就テ工業ノ実際ヲ見ル、
+       <persName corresp="#pers_羽野">
+        <surname>
+         羽野
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_佐々木">
+        <surname>
+         佐々木
+        </surname>
+       </persName>
+       等ノ工業最モ精巧ナルヲ覚フ
+       <lb/>
+       此夜、
+       <placeName corresp="#place_円山">
+        円山
+       </placeName>
+       牡丹畑ニ於テ府庁官員及同業者、取引先等懇親ノ人々ヲ招飲ス、伏見商估モ来会ス、盛会、各歓ヲ尽シテ去ル、夜
+       <time when="23:00:00">
+        十一時
+       </time>
+       帰宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0016">
+      <head>
+       <date when="1884-06-13">
+        六月十三日
+       </date>
+       曇
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_渥美">
+        <surname>
+         渥美
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_池田">
+        <surname>
+         池田
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_海野">
+        <surname>
+         海野
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_山田">
+        <surname>
+         山田
+        </surname>
+       </persName>
+       来ル、本願寺トノ取引方法ヲ談決ス、
+       <persName corresp="#pers_能勢">
+        <surname>
+         能勢
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_堀口">
+        <surname>
+         堀口
+        </surname>
+       </persName>
+       、森ノ数子前後来訪ス、製茶組合取締数名来ル、蓋シ府庁勧業課ノ紹介スル所ナリ、依テ其依頼ノ手続ヲ聴了シテ其事ノ不可ナルヲ弁ス、各領意シテ去ル
+       <lb/>
+       <time when="15:45:00">
+        午後三時四十五分
+       </time>
+       汽車ニ駕シテ西京ヲ発シ、
+       <time when="17:00:00">
+        五時
+       </time>
+       過
+       <placeName corresp="#place_大阪">
+        大阪
+       </placeName>
+       ニ至ル、汽車中
+       <persName corresp="#pers_五代">
+        <surname>
+         五代
+        </surname>
+       </persName>
+       氏其他
+       <placeName corresp="#place_大阪">
+        大阪
+       </placeName>
+       ノ諸氏ニ邂逅ス、
+       <placeName corresp="#place_大阪">
+        大阪
+       </placeName>
+       汽車場ニ於テ
+       <persName corresp="#pers_井口">
+        <surname>
+         井口
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_熊谷">
+        <surname>
+         熊谷
+        </surname>
+       </persName>
+       、神戸店
+       <persName corresp="#pers_長谷川">
+        <surname>
+         長谷川
+        </surname>
+       </persName>
+       其他数子来リ迎フ、北浜
+       <orgName>
+        灘万楼
+       </orgName>
+       ニ投宿ス、
+       <persName corresp="#pers_西郷">
+        <surname>
+         西郷
+        </surname>
+       </persName>
+       農商務卿ヲ
+       <placeName corresp="#place_中ノ島">
+        中ノ島
+       </placeName>
+       自由亭ニ訪フ、款談数刻ニシテ楼ニ帰宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0017">
+      <head>
+       <date when="1884-06-14">
+        六月十四日
+       </date>
+       曇
+      </head>
+      <p>
+       早朝
+       <persName corresp="#pers_三条">
+        <surname>
+         三条
+        </surname>
+       </persName>
+       公ノ旅寓ヲ訪ヒ其執事ニヨリテ、明
+       <date when="1884-06-15">
+        十五日
+       </date>
+       紡績会社開業式ニ臨場アラン事ヲ乞ヘタリシカ、公ニハ
+       <placeName corresp="#place_箕面市">
+        箕面
+       </placeName>
+       行ノ前約アルヲ以テ応シ難キ旨ノ答詞アリ、
+       <time when="08:00:00">
+        午前八時
+       </time>
+       三軒屋紡績会社ニ抵リ社員一同ニ面会シ、工場ノ全体ヨリ器械運転操業ノ順序ヲ熟覧ス、配置極メテ整頓シテ工業頗ル練熟スルヲ覚フ、一覧後明日開業式ニ関スル事務ヲ商議シ、
+       <time when="14:00:00">
+        午後二時
+       </time>
+       大阪支店ニ至リ行務ノ各項ヲ点撿ス、朝鮮支店
+       <persName corresp="#pers_大橋">
+        <surname>
+         大橋
+        </surname>
+       </persName>
+       ヘ郵書ヲ発ス、
+       <time when="19:00:00">
+        午後七時
+       </time>
+       <persName corresp="#pers_平瀬">
+        <surname>
+         平瀬
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_外山">
+        <surname>
+         外山
+        </surname>
+       </persName>
+       等ノ招請ニ応シテ
+       <orgName>
+        大七楼
+       </orgName>
+       ニ至ル、夜ニ入テ感冒ノ気味アルヲ以テ辞シテ帰宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0018">
+      <head>
+       <date when="1884-06-15">
+        六月十五日
+       </date>
+       晴晩ニ雨
+      </head>
+      <p>
+       朝、
+       <orgName>
+        第三十八国立銀行
+       </orgName>
+       頭取
+       <persName corresp="#pers_伊藤長次郎">
+        <surname>
+         伊藤
+        </surname>
+        <forename>
+         長次郎
+        </forename>
+       </persName>
+       、支配人
+       <persName corresp="#pers_堀江猪助">
+        <surname>
+         堀江
+        </surname>
+        <forename>
+         猪助
+        </forename>
+       </persName>
+       来ル、
+       <time when="09:00:00">
+        午前九時
+       </time>
+       内務卿ヲ其旅寓ニ訪ヒ、本日開業式臨場ノ事ヲ乞ヒ相約シテ紡績会社ニ赴キ、式場ノ順序ヲ定ム、
+       <time when="11:00:00">
+        十一時
+       </time>
+       内務卿着場セラルヽヲ以テ来会ノ諸官員、紳士及本社株主等ヲ延テ工場ニ至リ、一斉ニ諸器械ヲ運転
+       <pb corresp="#pageB1057" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/83/full/max/0/default.jpg" n="B1057" source="#pageB1057"/>
+       シテ以テ開業ノ式典トス、式畢テ来会諸人ヲ誘引シテ場外仮屋ニ於テ午餐ヲ饗ス、社員来会ノ人各祝辞アリ、
+       <time when="14:00:00">
+        午後二時
+       </time>
+       退散ス、帰宿後微痾ノ為平臥、来客ヲ謝シ医師ヲ乞フテ服薬ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0019">
+      <head>
+       <date when="1884-06-16">
+        六月十六日
+       </date>
+       雨
+      </head>
+      <p>
+       病ノ為メニ来客ヲ謝ス、大阪、神戸支店行員等来訪ス、紡績会社
+       <persName corresp="#pers_蒲田">
+        <surname>
+         蒲田
+        </surname>
+       </persName>
+       来ル、褥中増築ノ事ヲ談話ス、午後医師交来リテ服薬ヲ促ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0020">
+      <head>
+       <date when="1884-06-17">
+        六月十七日
+       </date>
+       雨
+      </head>
+      <p>
+       病未タ愈サルヲ以テ平臥ス、紡績会社
+       <persName corresp="#pers_山辺">
+        <surname>
+         山辺
+        </surname>
+       </persName>
+       来ル、褥中ニ在テ増築ノ事ヲ談話ス、大阪支店
+       <persName corresp="#pers_井口">
+        <surname>
+         井口
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_熊谷">
+        <surname>
+         熊谷
+        </surname>
+       </persName>
+       、神戸支店
+       <persName corresp="#pers_長谷川">
+        <surname>
+         長谷川
+        </surname>
+       </persName>
+       等交来ル、
+       <time when="18:00:00">
+        午後六時
+       </time>
+       同業諸行員ヲ大阪支店ヨリ招請セシヲ以テ病ヲ冒シテ
+       <orgName>
+        大七楼
+       </orgName>
+       ニ至リ来客ニ接待ス、夜
+       <time when="21:00:00">
+        九時
+       </time>
+       辞シテ帰宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0021">
+      <head>
+       <date when="1884-06-18">
+        六月十八日
+       </date>
+       雨
+      </head>
+      <p>
+       病少シク愈ユルヲ以テ来人ニ面接ス、同業者及諸知人来訪殊ニ多シ、
+       <time when="17:00:00">
+        午後五時
+       </time>
+       大阪支店ヨリ地方貴紳及余カ親友ヲ
+       <orgName>
+        灘万楼
+       </orgName>
+       ニ招請シタルヲ以テ其筵ニ赴テ来客ニ接ス、
+       <persName corresp="#pers_遠藤">
+        <surname>
+         遠藤
+        </surname>
+       </persName>
+       造幣局長、
+       <persName corresp="#pers_児島">
+        <surname>
+         児島
+        </surname>
+       </persName>
+       裁判所長、大阪府大少書記官、出納局員等来会ス
+       <lb/>
+       夜
+       <time when="22:00:00">
+        十時
+       </time>
+       <persName corresp="#pers_五代">
+        <surname>
+         五代
+        </surname>
+       </persName>
+       氏ノ招ニ応シテ中ノ島別業ニ至リテ小酌ス、
+       <time when-iso="1884-06-19T00:00+0900">
+        十二時
+       </time>
+       帰宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0022">
+      <head>
+       <date when="1884-06-19">
+        六月十九日
+       </date>
+       曇
+      </head>
+      <p>
+       <time when="09:00:00">
+        午前九時
+       </time>
+       紡績会社重役及支配人等ト相会シテ器械増設ノ事ヲ審議シ、議案説明書及予算等ヲ調査ス、
+       <time when="14:00:00">
+        午後二時
+       </time>
+       大阪支店ニ至リテ行務ヲ撿閲ス、夜
+       <time when="20:00:00">
+        八時
+       </time>
+       帰宿ス、時ニ
+       <persName corresp="#pers_書上順四郎">
+        <surname>
+         書上
+        </surname>
+        <forename>
+         順四郎
+        </forename>
+       </persName>
+       来テ横浜商店ニ関スル事務ニ付テ請求スル所アルヲ以テ、書ヲ本店及横浜支店支配人ニ送致ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0023">
+      <head>
+       <date when="1884-06-20">
+        六月二十日
+       </date>
+       曇
+      </head>
+      <p>
+       朝、
+       <persName corresp="#pers_書上">
+        <surname>
+         書上
+        </surname>
+       </persName>
+       西京ニ赴クヲ以テ
+       <persName corresp="#pers_増田充績">
+        <surname>
+         増田
+        </surname>
+        <forename>
+         充績
+        </forename>
+       </persName>
+       ニ一書ヲ托ス、
+       <time when="09:00:00">
+        午前九時
+       </time>
+       内務卿ヲ其旅寓ニ訪ヒ、造幣局ニ至リ
+       <persName corresp="#pers_遠藤">
+        <surname>
+         遠藤
+        </surname>
+       </persName>
+       局長ニ面接シ銀銅貨鋳造工事ヲ一覧ス、鎔銅課長
+       <persName corresp="#pers_花田">
+        <surname>
+         花田
+        </surname>
+       </persName>
+       某ニ鎔銅ノ順序ヲ質議ス、
+       <time when="11:30:00">
+        午前十一時半
+       </time>
+       支店ニ来リ
+       <persName corresp="#pers_井口">
+        <surname>
+         井口
+        </surname>
+       </persName>
+       ト共ニ
+       <persName corresp="#pers_住友">
+        <surname>
+         住友
+        </surname>
+       </persName>
+       氏ヲ訪フ、蓋シ同氏ヨリ一夕招飲ノ懇請アリシカ時日ナキヲ以テ、本日午餐ノ饗応ヲ受クル事ヲ前約セシカ為メナリ、午餐畢テ
+       <time when="15:00:00">
+        午後三時
+       </time>
+       <persName corresp="#pers_住友">
+        <surname>
+         住友
+        </surname>
+       </persName>
+       氏ヲ辞シテ帰宿、
+       <time when="18:00:00">
+        午後六時
+       </time>
+       株式取引所、米商会所等ノ招請ニヨリテ
+       <persName corresp="#pers_鴻池">
+        <surname>
+         鴻池
+        </surname>
+       </persName>
+       別業ニ至ル、庭園古雅頗ル風致アリ、両所役員悉ク来会シテ饗応鄭重ナリ、声妓競テ酒ヲ侑メ舞隊争テ研ヲ呈ス、更深テ遁レテ帰宿ス
+       <date evidence="year inferenced" when="1884-06-21">
+        六月廿一日
+       </date>
+       雨
+       <lb/>
+       朝
+       <time when="20:00:00">
+        八時
+       </time>
+       ノ汽車ニ駕シテ
+       <placeName corresp="#place_神戸">
+        神戸
+       </placeName>
+       ニ赴ク、
+       <placeName corresp="#place_三宮">
+        三ノ宮
+       </placeName>
+       駐車場ニ至レハ
+       <persName corresp="#pers_長谷川">
+        <surname>
+         長谷川
+        </surname>
+       </persName>
+       氏来リ迎フヲ以テ共ニ支店ニ至リ、相伴フテ小野浜造船所ヲ一覧シ、桟橋新築ノ模様及倉庫築造工事ヲ歴覧シテ後、一洋食亭ニ於テ午餐シ、更ニ兵庫出張所ニ至リ事務取扱方及諸帳簿ヲ点撿シ、倉庫、融通両会社ノ支店ニ至リテ事務ノ景況ヲ見聞シ、海浜ヲ歩シテ兵庫倉庫ヲ一覧シ
+       <placeName corresp="#place_湊川">
+        湊川
+       </placeName>
+       ヲ過キ楠公社ニ詣シ、
+       <time when="16:00:00">
+        午後四時
+       </time>
+       神戸支店ニ帰リテ行務ノ各項ヲ撿査ス、
+       <persName corresp="#pers_北風正造">
+        <surname>
+         北風
+        </surname>
+        <forename>
+         正造
+        </forename>
+       </persName>
+       来話ス、撿査畢テ
+       <time when="19:00:00">
+        午後七時
+       </time>
+       <placeName corresp="#place_諏訪山">
+        諏訪山
+       </placeName>
+       <orgName>
+        常盤楼
+       </orgName>
+       ニ一宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0024">
+      <head>
+       <date when="1884-06-22">
+        六月廿二日
+       </date>
+       晴
+      </head>
+      <p>
+       朝、神戸郡長及
+       <persName corresp="#pers_小寺">
+        <surname>
+         小寺
+        </surname>
+       </persName>
+       某、
+       <orgName>
+        三井銀行
+       </orgName>
+       員等旅寓ニ来リ地方商況ヲ話ス、
+       <time when="14:00:00">
+        午後二時
+       </time>
+       旅寓ヲ発シ支店ニ至リテ行務ヲ談話シ、
+       <time when="16:00:00">
+        四時
+       </time>
+       ノ汽車ニ駕シテ
+       <placeName corresp="#place_大阪">
+        大阪
+       </placeName>
+       ニ帰ル、
+       <time when="19:00:00">
+        午後七時
+       </time>
+       <persName corresp="#pers_児島惟謙">
+        <surname>
+         児島
+        </surname>
+        <forename>
+         惟謙
+        </forename>
+       </persName>
+       氏ノ招ニヨリテ其僑居ニ至ル、
+       <persName corresp="#pers_遠藤">
+        <surname>
+         遠藤
+        </surname>
+       </persName>
+       造幣
+       <pb corresp="#pageB1058" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/84/full/max/0/default.jpg" n="B1058" source="#pageB1058"/>
+       局長、
+       <persName corresp="#pers_建野">
+        <surname>
+         建野
+        </surname>
+       </persName>
+       府知事、
+       <persName corresp="#pers_野村">
+        <surname>
+         野村
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_内海">
+        <surname>
+         内海
+        </surname>
+       </persName>
+       、、
+       <persName corresp="#pers_五代">
+        <surname>
+         五代
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_土井">
+        <surname>
+         土井
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_名村">
+        <surname>
+         名村
+        </surname>
+       </persName>
+       ノ諸子来会ス、夜
+       <time when="23:00:00">
+        十一時
+       </time>
+       帰宿ス、
+       <persName corresp="#pers_井口">
+        <surname>
+         井口
+        </surname>
+       </persName>
+       氏来話ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0025">
+      <head>
+       <date when="1884-06-23">
+        六月廿三日
+       </date>
+       雨
+      </head>
+      <p>
+       朝
+       <time when="09:00:00">
+        九時
+       </time>
+       三軒屋紡績会社ニ至リテ事務取扱ノ順序及諸帳簿計算ノ事ヲ点撿ス、午時
+       <persName corresp="#pers_山辺">
+        <surname>
+         山辺
+        </surname>
+       </persName>
+       氏ノ宅ニ於テ役員一同ト共ニ午餐ス、
+       <time when="13:00:00">
+        午後一時
+       </time>
+       中ノ島自由亭ニ至リ器械増築ノ件ニ付株主総会ヲ開キ議案説明書ノ要旨ヲ陳弁ス、決議ノ後去テ支店ニ至リ行務ヲ点撿ス、
+       <time when="18:00:00">
+        午後六時
+       </time>
+       同業各行ノ招請ニヨリテ富田屋ノ宴ニ赴ク、夜
+       <time when="23:00:00">
+        十一時
+       </time>
+       帰宿、後、東京本店其他ヘノ郵書ヲ裁ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0026">
+      <head>
+       <date when="1884-06-24">
+        六月廿四日
+       </date>
+       雨
+      </head>
+      <p>
+       朝、西京、四日市、神戸店ヘ郵書ヲ発ス、明日当地発足帰京ノ筈ナルニ付告別来会ノ者多シ、午後、
+       <persName corresp="#pers_山内芳秋">
+        <surname>
+         山内
+        </surname>
+        <forename>
+         芳秋
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_児島惟謙">
+        <surname>
+         児島
+        </surname>
+        <forename>
+         惟謙
+        </forename>
+       </persName>
+       、
+       <persName corresp="#pers_建野">
+        <surname>
+         建野
+        </surname>
+       </persName>
+       府知事ヲ訪ヒ、
+       <orgName>
+        日本銀行
+       </orgName>
+       支店ニ至リテ
+       <persName corresp="#pers_外山修造">
+        <surname>
+         外山
+        </surname>
+        <forename>
+         修造
+        </forename>
+       </persName>
+       ニ面話ス、
+       <time when="15:00:00">
+        三時
+       </time>
+       大阪支店ニ至リテ行務ノ要旨ヲ談話ス、
+       <time when="18:00:00">
+        六時
+       </time>
+       中ノ島ノ某楼ニ於テ紡績会社諸員ト小酌ス蓋、会社ヨリ余カ来阪ヲ慰スルカ為メ此宴ヲ開キタルナリ、英人
+       <persName corresp="#pers_ニール">
+        <surname>
+         ニール
+        </surname>
+       </persName>
+       トモ来会ス、各歓ヲ尽シテ去ル
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0027">
+      <head>
+       <date when="1884-06-25">
+        六月廿五日
+       </date>
+       曇
+      </head>
+      <p>
+       朝来告別ノ来人多シ、午前大阪支店ニ至リテ諸子ニ別ヲ告ケ、
+       <orgName>
+        三井銀行
+       </orgName>
+       <persName corresp="#pers_五代">
+        <surname>
+         五代
+        </surname>
+       </persName>
+       氏等ヲ訪フテ告別ス、
+       <time when="15:00:00">
+        午後三時
+       </time>
+       汽車ニ駕シテ西京ニ赴ク、汽車場ニ来リテ告別スル者亦多シ、
+       <time when="17:00:00">
+        五時
+       </time>
+       西京ニ至リ
+       <orgName>
+        松力楼
+       </orgName>
+       ニ投宿ス、
+       <orgName>
+        三井銀行
+       </orgName>
+       <persName corresp="#pers_能勢">
+        <surname>
+         能勢
+        </surname>
+       </persName>
+       支店、
+       <persName corresp="#pers_増田">
+        <surname>
+         増田
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_三木">
+        <surname>
+         三木
+        </surname>
+       </persName>
+       <placeName corresp="#place_敦賀">
+        敦賀
+       </placeName>
+       出張員、
+       <persName corresp="#pers_沢木">
+        <surname>
+         沢木
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_住田">
+        <surname>
+         住田
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_岸本">
+        <surname>
+         岸本
+        </surname>
+       </persName>
+       等来リ会シテ敦賀倉庫会社設立ノ事及西陣買継所ノ事ヲ談話ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0028">
+      <head>
+       <date when="1884-06-26">
+        六月廿六日
+       </date>
+       晴晩ニ雨
+      </head>
+      <p>
+       <time when="07:00:00">
+        午前七時
+       </time>
+       西京ヲ発シ、
+       <time when="08:00:00">
+        八時
+       </time>
+       過
+       <placeName corresp="#place_大津">
+        大津
+       </placeName>
+       ニ至ル、
+       <persName corresp="#pers_増田充績">
+        <surname>
+         増田
+        </surname>
+        <forename>
+         充績
+        </forename>
+       </persName>
+       ハ送テ此ニ至リテ分袂ス、
+       <placeName corresp="#place_田川村">
+        田川村
+       </placeName>
+       ニテ午餐シ、
+       <time when="19:00:00">
+        七時
+       </time>
+       関ニ至リテ投宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0029">
+      <head>
+       <date when="1884-06-27">
+        六月廿七日
+       </date>
+       雨
+      </head>
+      <p>
+       早朝関ヲ発シ、
+       <placeName corresp="#place_高田">
+        高田
+       </placeName>
+       <placeName corresp="#place_津">
+        津
+       </placeName>
+       ヲ経テ六間駅ニテ午餐シ、
+       <time when="16:00:00">
+        午後四時
+       </time>
+       <placeName corresp="#place_山田町">
+        山田町
+       </placeName>
+       ニ至リ十文字屋ニ投宿ス、此日午後ヨリ大雨屢来リテ途上極テ困難ナリ
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0030">
+      <head>
+       <date when="1884-06-28">
+        六月廿八日
+       </date>
+       大雨
+      </head>
+      <p>
+       <placeName corresp="#place_宮川">
+        宮川
+       </placeName>
+       洪水ノ為メニ十文字屋ニ滞留ス、午後、雨ヲ冒シテ内宮ニ詣ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0031">
+      <head>
+       <date when="1884-06-29">
+        六月廿九日
+       </date>
+       雨
+      </head>
+      <p>
+       朝来大雨、午後ニ至リテ少シク減スルヲ以テ山田ヲ発シ外宮ニ詣シ、
+       <placeName corresp="#place_宮川">
+        宮川
+       </placeName>
+       ヲ航ス、激浪岸ヲ打テ船頗ル危険ナリ、
+       <time when="19:00:00">
+        午後七時
+       </time>
+       松坂駅ニ投宿ス
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0032">
+      <head>
+       <date when="1884-06-30">
+        六月三十日
+       </date>
+       晴
+      </head>
+      <p>
+       早朝
+       <placeName corresp="#place_松坂">
+        松坂
+       </placeName>
+       ヲ発シ、
+       <time when="14:00:00">
+        午後二時
+       </time>
+       <placeName corresp="#place_四日市">
+        四日市
+       </placeName>
+       ニ抵ル、直ニ支店ニ於テ
+       <persName corresp="#pers_八巻">
+        <surname>
+         八巻
+        </surname>
+       </persName>
+       氏ニ面会シ、浜田屋ニ小憩ス、
+       <time when="18:00:00">
+        午後六時
+       </time>
+       汽船三国丸ニ搭ス、
+       <persName corresp="#pers_八巻">
+        <surname>
+         八巻
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_古屋">
+        <surname>
+         古屋
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_水谷">
+        <surname>
+         水谷
+        </surname>
+       </persName>
+       、
+       <persName corresp="#pers_春田">
+        <surname>
+         春田
+        </surname>
+       </persName>
+       ノ諸氏来リテ告別ス、共同運輸会社支店ヨリ小蒸汽ヲ以テ余ヲ本船ニ送ル、
+       <time when="07:00:00">
+        七時
+       </time>
+       発、船風浪平穏ナリ、偶新月鈎ノ如ク夜気人ニ可ナリ、月ニ歩シテ甲板上ヲ徘徊シ、深更ニ至リテ寝ニ就ク
+      </p>
+     </div>
+     <div type="diary-entry" xml:id="DKB10005m-0033">
+      <head>
+       <date when="1884-07-01">
+        七月一日
+       </date>
+       雨
+      </head>
+      <p>
+       朝来雨トナリテ船少ク動揺ス、四望雲煙濛瓏トシテ亦山ヲ見ス、
+       <time when="16:30:00">
+        午後四時半
+       </time>
+       <placeName corresp="#place_横浜港">
+        横浜港
+       </placeName>
+       ニ着ス、小蒸汽船ニ移リテ上陸シ、横浜支店ニ至リテ暫時休憩シ、
+       <time when="18:00:00">
+        六時
+       </time>
+       発軔ノ汽車ニ駕シテ帰宅ス
+      </p>
+     </div>
+    </body>
+   </text>
+   </TEI>

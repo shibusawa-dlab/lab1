@@ -1,0 +1,2358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>口絵・序・凡例・目次</title></titleStmt><publicationStmt><p>渋沢栄一伝記資料別巻第一日記（TEI/XML版）</p></publicationStmt><sourceDesc><p/></sourceDesc></fileDesc></teiHeader><facsimile><surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/1" xml:id="pageB1f01">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/2" xml:id="pageB1f02">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/2/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/3" xml:id="pageB1f03">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/3/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/4" xml:id="pageB1f04">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/4/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/5" xml:id="pageB1f05">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/5/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/6" xml:id="pageB1f06">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/6/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/7" xml:id="pageB1f07">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/7/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/8" xml:id="pageB1f08">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/8/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/9" xml:id="pageB1f09">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/9/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/10" xml:id="pageB1f10">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/10/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/11" xml:id="pageB1f11">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/11/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/12" xml:id="pageB1f12">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/12/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/13" xml:id="pageB1f13">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/13/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/14" xml:id="pageB1f14">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/14/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/15" xml:id="pageB1f15">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/15/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/16" xml:id="pageB1f16">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/16/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/17" xml:id="pageB1f17">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/17/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/18" xml:id="pageB1f18">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/18/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/19" xml:id="pageB1f19">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/19/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/20" xml:id="pageB1f20">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/20/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/21" xml:id="pageB1f21">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/21/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/22" xml:id="pageB1f22">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/22/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/23" xml:id="pageB1f23">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/23/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/24" xml:id="pageB1f24">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/24/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/1/canvas/25" xml:id="pageB1f25">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/25/full/max/0/default.jpg"/>
+  </surface>
+  </facsimile><front>
+   <pb corresp="#pageB1f01" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/1/full/max/0/default.jpg" n="B1f01" source="#pageB1f01"/>
+   <pb corresp="#pageB1f02" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/2/full/max/0/default.jpg" n="B1f02" source="#pageB1f02"/>
+   <titlePage>
+    <pb corresp="#pageB1f03" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/3/full/max/0/default.jpg" n="B1f03" source="#pageB1f03"/>
+    <docTitle>
+     <titlePart>
+      澁澤栄一傳記資料別巻第一日記
+     </titlePart>
+    </docTitle>
+    <byline>
+     渋沢青淵記念財団竜門社編纂刊行
+    </byline>
+    <note place="overleaf" xml:id="B1f04">
+     背文字
+     <persName corresp="#pers_渋沢栄一">
+      <surname>
+       渋沢
+      </surname>
+      <forename>
+       栄一
+      </forename>
+     </persName>
+     遺墨集字
+    </note>
+   </titlePage>
+   <pb corresp="#pageB1f04" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/4/full/max/0/default.jpg" n="B1f04" source="#pageB1f04"/>
+   <pb corresp="#pageB1f05" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/5/full/max/0/default.jpg" n="B1f05" source="#pageB1f05"/>
+   <pb corresp="#pageB1f06" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/6/full/max/0/default.jpg" n="B1f06" source="#pageB1f06"/>
+   <pb corresp="#pageB1f07" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/7/full/max/0/default.jpg" n="B1f07" source="#pageB1f07"/>
+   <div type="frontispiece" xml:id="DKB10000a-0001">
+    <p>
+     <persName corresp="#pers_渋沢栄一">
+      <surname>
+       渋沢
+      </surname>
+      <forename>
+       栄一
+      </forename>
+     </persName>
+     日記
+    </p>
+    <p>
+     文部省史料館所蔵
+    </p>
+    <figure>
+     <ab type="caption">
+      上（左）
+      <date type="旧暦" when="1868-08-02">
+       慶応四年六月十四日
+      </date>
+      ―
+      <date type="旧暦" when="1868-12-15">
+       明治元年十一月二日
+      </date>
+     </ab>
+    </figure>
+    <figure>
+     <ab type="caption">
+      （右）
+      <date type="旧暦" when="1868-12-16">
+       明治元年十一月三日
+      </date>
+      ―
+      <date type="旧暦" when="1869-02-28">
+       明治二年一月十八日
+      </date>
+     </ab>
+    </figure>
+    <figure>
+     <ab type="caption">
+      中　上（左）の第一頁　　本文第一頁参照
+     </ab>
+    </figure>
+    <figure>
+     <ab type="caption">
+      下　左端五冊は万民重宝机上日記
+      <lb/>
+      <date when="1899">
+       明治三十二年
+      </date>
+      ―
+      <date evidence="year" when="1904">
+       三十七年
+      </date>
+     </ab>
+    </figure>
+    <pb corresp="#pageB1f08" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/8/full/max/0/default.jpg" n="B1f08" source="#pageB1f08"/>
+    <pb corresp="#pageB1f09" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/9/full/max/0/default.jpg" n="B1f09" source="#pageB1f09"/>
+    <pb corresp="#pageB1f10" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/10/full/max/0/default.jpg" n="B1f10" source="#pageB1f10"/>
+    <pb corresp="#pageB1f11" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/11/full/max/0/default.jpg" n="B1f11" source="#pageB1f11"/>
+    <figure>
+     <ab type="caption">
+      <date when="1869">
+       明治二年
+      </date>
+      日記部分 本文第四四頁参照
+                                                渋沢青渕記念財団竜門社所蔵
+     </ab>
+    </figure>
+    <figure>
+     <ab type="caption">
+      上欄ツヅキ
+     </ab>
+    </figure>
+    <figure>
+     <ab type="caption">
+      <date when="1902-09-10">
+       明治三十五年九月十日
+      </date>
+      ・
+      <date when="1902-09-11">
+       十一日
+      </date>
+      本文第二七三頁―二七四頁参
+     </ab>
+    </figure>
+   </div>
+   <pb corresp="#pageB1f12" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/12/full/max/0/default.jpg" n="B1f12" source="#pageB1f12"/>
+   <pb corresp="#pageB1f13" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/13/full/max/0/default.jpg" n="B1f13" source="#pageB1f13"/>
+   <titlePage xml:id="DKB10000b">
+    <docTitle>
+     <titlePart type="main">
+      渋沢栄一伝記資料別巻第一 日記
+     </titlePart>
+     <titlePart type="sub">
+      <date when="1868">
+       慶応四年
+      </date>
+      ―
+      <date when="1914">
+       大正三年
+      </date>
+     </titlePart>
+    </docTitle>
+   </titlePage>
+   <pb corresp="#pageB1f14" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/14/full/max/0/default.jpg" n="B1f14" source="#pageB1f14"/>
+   <pb corresp="#pageB1f15" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/15/full/max/0/default.jpg" n="B1f15" source="#pageB1f15"/>
+   <div type="preface" xml:id="DKB10000c-0001">
+    <head>
+     解題
+    </head>
+    <p>
+     現存する
+     <persName corresp="#pers_渋沢栄一">
+      <surname>
+       渋沢
+      </surname>
+      <forename>
+       栄一
+      </forename>
+     </persName>
+     の自筆日記は三十一冊あり、今回渋沢栄一伝記資料別巻として刊行するのはその総てである。別巻第一には
+     <date when="1868">
+      慶応四年
+     </date>
+     より
+     <date when="1914">
+      大正三年
+     </date>
+     までを収め、第二には
+     <date when="1915">
+      大正四年
+     </date>
+     より
+     <date when="1930">
+      昭和五年
+     </date>
+     までを収めた。
+    </p>
+    <p>
+     この内最も年代の古いものは
+     <date type="旧暦" when="1868-08-02">
+      慶応四年六月十四日
+     </date>
+     から記入している薄い手帖二冊で、
+     <persName corresp="#pers_渋沢栄一">
+      <forename>
+       栄一
+      </forename>
+     </persName>
+     滞仏末期から帰国直後の
+     <date type="旧暦" when="1869-02-28">
+      明治二年一月十八日
+     </date>
+     までに至っている日記である。第一冊は帰国直前の
+     <date type="旧暦" when="1868-08-02">
+      六月十四日
+     </date>
+     から初まり
+     <date type="旧暦" when="1868-10-15">
+      八月三十日
+     </date>
+     <placeName corresp="#place_パリ">
+      パリ
+     </placeName>
+     を発して帰国の途につき、
+     <date type="旧暦" when="1868-12-15">
+      十一月二日
+     </date>
+     アンペラトリース号が
+     <placeName corresp="#place_日本">
+      日本
+     </placeName>
+     に近づいて
+     <placeName corresp="#place_四国">
+      四国
+     </placeName>
+     、
+     <placeName corresp="#place_和歌山">
+      和歌山
+     </placeName>
+     の山山を望見する所で終っている。第二冊は
+     <date type="旧暦" when="1868-12-16">
+      十一月三日
+     </date>
+     <placeName corresp="#place_横浜">
+      横浜
+     </placeName>
+     に着いた日から初まり、帰国直後の行動が記され、
+     <placeName corresp="#place_静岡">
+      静岡
+     </placeName>
+     藩で商法会所御用金取扱を命ぜられた後の
+     <date type="旧暦" when="1869-02-28">
+      明治二年一月十八日
+     </date>
+     で終っている。
+    </p>
+    <p>
+     この二冊の手帖は、日記を書くと共に種種の手控も書き込まれてあって、勘定書のメモもあり、第一冊にはフランス語の単語も書き入れてある。第二冊の終りには、
+     <persName corresp="#pers_コロネル">
+      コロネル
+     </persName>
+     に宛てた仏文書翰の写があり、この書翰で
+     <persName corresp="#pers_渋沢栄一">
+      <forename>
+       栄一
+      </forename>
+     </persName>
+     は将来の自分はどうなるか計り難いと書いている。当時の
+     <persName corresp="#pers_渋沢栄一">
+      <forename>
+       栄一
+      </forename>
+     </persName>
+     の心境を卒直に述べたものであろうと思われる。
+    </p>
+    <p>
+     記入は総て鉛筆で書かれている。
+     <persName corresp="#pers_渋沢栄一">
+      <forename>
+       栄一
+      </forename>
+     </persName>
+     の日記は単にこの手帖のみでなく、概ね鉛筆書きであるが、この二冊の手帖は後年のものに比して文字が甚しく晦渋なのは怱忙の裡に書き記されたからであったろう。
+    </p>
+    <p>
+     帰国後、
+     <persName corresp="#pers_渋沢栄一">
+      <forename>
+       栄一
+      </forename>
+     </persName>
+     は静岡藩に「
+     <placeName corresp="#place_パリ">
+      巴里
+     </placeName>
+     御在館日記」の類を提出しているが、手帖はその元のものである。「
+     <placeName corresp="#place_パリ">
+      巴里
+     </placeName>
+     御在館日記」は公的な報告であり、
+     <date type="旧暦" when="1868-10-10">
+      明治元年八月二十五日
+     </date>
+     までで終っているので、以後の
+     <persName corresp="#pers_渋沢栄一">
+      <forename>
+       栄一
+      </forename>
+     </persName>
+     の行動はこの日記にある訳である。
+    </p>
+    <pb corresp="#pageB1f16" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/16/full/max/0/default.jpg" n="B1f16" source="#pageB1f16"/>
+    <p>
+     滞仏中の「航西日記」「御巡国日録」「
+     <placeName corresp="#place_イギリス">
+      英国
+     </placeName>
+     御巡行日誌」「
+     <placeName corresp="#place_パリ">
+      巴里
+     </placeName>
+     御在館日記」「御用日記」等は本資料第一巻に収められているのでここには収録していない。
+    </p>
+    <p>
+     右の手帖に続いて現存している日記は和綴小型の横帳に記入されたもので、日付は
+     <date type="旧暦" when="1869-11-24">
+      明治二年十月二十一日
+     </date>
+     から
+     <date type="旧暦" when="1869-12-21">
+      十一月十九日
+     </date>
+     までのものである。尤も、日記の記入は横帳の中途からで、巻頭の部分には常平倉関係の文書の写が記入されている。この事は、この横帳が手控として用いられていた事を示している。やがて
+     <persName corresp="#pers_渋沢栄一">
+      <forename>
+       栄一
+      </forename>
+     </persName>
+     は
+     <date type="旧暦" when="1869-11-11">
+      十月八日
+     </date>
+     付で中央政府から呼出されて上京するが、その時、改めて日記を記し出した。「
+     <date type="旧暦" when="1869-11-24">
+      明治二年己巳十月廿一日
+     </date>
+     」と起筆の日を記しているのは注意すべきであろう。
+     <persName corresp="#pers_渋沢栄一">
+      <forename>
+       栄一
+      </forename>
+     </persName>
+     の生涯の一転機ともいうべき時期である。
+    </p>
+    <p>
+     この横帳には後半に「見廻書類請払」として、民部省に在って取扱った書類の控が記されているが、この全文は本資料第二巻第二一三頁以下に収録してあるのでここには収録していない。
+    </p>
+    <p>
+     以後、
+     <date when="1899">
+      明治三十二年
+     </date>
+     に至るまで正確な日記体のものは残っていない。
+     <date when="1884">
+      明治十七年
+     </date>
+     と、
+     <date when="1886">
+      十九年
+     </date>
+     に短時日の日記があるが、共に旅行に出た折の記録で、二種とも携帯に便利な小型手帖が用いられ、記入も旅行中の記事のみであって、余白には漢詩や覚書が書きこまれてあるのである。
+    </p>
+    <p>
+     後に表示するように
+     <date when="1899">
+      明治三十二年
+     </date>
+     から
+     <date when="1930">
+      昭和五年
+     </date>
+     までは断続はあっても一応揃っている。
+     <date when="1899">
+      三十二年
+     </date>
+     になって用い初めた机上日記（博文館発行）には扉に
+     <persName corresp="#pers_渋沢栄一">
+      <forename>
+       栄一
+      </forename>
+     </persName>
+     の手跡で「第一号」と記されているのは、この時から日記を初めたという意味にも取れるし、机上日記の第一号と見れば、これ以前に日記があったとも思えるが、
+     <date when="1869">
+      明治二年
+     </date>
+     後、旅行中の日記を省けば日記らしいものは現在していない。
+    </p>
+    <p>
+     机上日記は五冊用いていて
+     <date when="1904-04">
+      三十七年四月
+     </date>
+     まであるが、各年に新しく出版されたのを用いたのではなく、
+     <date when="1898">
+      三十一年
+     </date>
+     出版のもの五冊に逐次書きこんで行ったものである。机上日記は自由日記のように頁ごとに月日の印刷がないので順次書き入れていて、新年になっても改めることはなく、そのまま書き続けて行っている。第一冊に「第一号」、第二冊目に「第二号」、第三冊目に「第三号」と記入しているが、それ以後この
+     <pb corresp="#pageB1f17" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/17/full/max/0/default.jpg" n="B1f17" source="#pageB1f17"/>
+     記入はない。冊数と年次の関係は後表に示した。
+    </p>
+    <p>
+     <date when="1905">
+      明治三十八年
+     </date>
+     以後は一貫して当用日記（博文館発行）を用いていた。当用日記は机上日記とは異って、一日一頁宛となっており、月日、曜日等は印刷されているので、次ぎの年が股がって出て来るような事はないが、僅かに
+     <date when="1915">
+      大正四年
+     </date>
+     の洋行中と
+     <date when="1921">
+      大正十年
+     </date>
+     にその事があった。
+     <date when="1922">
+      大正十一年
+     </date>
+     、
+     <date when="1924">
+      十三年
+     </date>
+     は原本が無く、
+     <date when="1916">
+      大正五年
+     </date>
+     と、
+     <date when="1931">
+      昭和六年
+     </date>
+     は日記はあるが、全く記入はされていない。
+    </p>
+    <p>
+     記入の仕方は、来訪者、訪問先、会議等の記録が主で、これは終生変ることがない。感想類の記入は稀にしか見る事が出来ず、「日記ヲ編成ス」という記事が時時出てくるが、これ依って見ると、必ずしも当日の記入ではなくて、後日、記入した場合もあったように思われる。
+    </p>
+    <p>
+     渋沢栄一伝記資料の編纂は
+     <date evidence="day" when="1932-10">
+      昭和七年十月
+     </date>
+     から
+     <persName corresp="#pers_幸田成友">
+      <surname>
+       幸田
+      </surname>
+      <forename>
+       成友
+      </forename>
+     </persName>
+     博士を主任として着手されたのが第一次であったが（
+     <persName corresp="#pers_土屋喬雄">
+      <surname>
+       土屋
+      </surname>
+      <forename>
+       喬雄
+      </forename>
+     </persName>
+     博士を主任として着手された第二次は
+     <date when="1936">
+      昭和十一年
+     </date>
+     以降である）、日記・書翰類の写本作成は第一次の編纂着手と共に進められた。日記の写本は浄書の上、校訂を加えて和綴二十二冊に編成された。原本とこの写本との関係及び筆写、校訂者は後表の通りである。
+    </p>
+    <p>
+     今回の刊行に際しては、右写本を原稿とし、新に校訂を加えた。写本は後表のように年次を以って区分しているが、今回は年次に関らず原本別に区分配列した。また、写本には原本の形態等についての説明はないが、新たに原本概要をそれぞれの初めに付けた。
+    </p>
+    <p>
+     現在原本は、
+     <date when="1869">
+      明治二年
+     </date>
+     の和綴横帳の分及び
+     <date when="1884">
+      明治十七年
+     </date>
+     の
+     <orgName>
+      第一銀行
+     </orgName>
+     京都支店所蔵分を除く外、総て文部省史料館が所蔵している。
+     <date when="1905">
+      明治三十八年
+     </date>
+     以後の当用日記の内四冊（
+     <date when="1906">
+      明治三十九年
+     </date>
+     、
+     <date when="1907">
+      四十年
+     </date>
+     、
+     <date when="1908">
+      四十一年
+     </date>
+     、
+     <date when="1909">
+      四十二年
+     </date>
+     ）は写本作成当時は在ったが、現在は散佚している（戦禍を受けたか）。従ってこの分の原本概要の記述と、新校訂は成し得なかった。原本は
+     <persName corresp="#pers_渋沢">
+      <surname>
+       渋沢
+      </surname>
+     </persName>
+     家の所蔵であったが、終戦後、文部省史料館に寄贈されて現在に至っている。四冊の散佚はこの寄贈以前であった。
+    </p>
+    <pb corresp="#pageB1f18" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/18/full/max/0/default.jpg" n="B1f18" source="#pageB1f18"/>
+    <table>
+     <head>
+      渋沢栄一日記原本並ニ写本一覧
+     </head>
+     <note>
+      原本所蔵者欄ノ「史料館」ハ文部省史料館、「竜門社」ハ渋沢青渊記念財団
+      <orgName>
+       竜門社
+      </orgName>
+      ノ略。
+     </note>
+     <row role="label">
+      <cell role="data">
+       数ぇ年
+      </cell>
+      <cell role="data">
+       原本所蔵者
+      </cell>
+      <cell role="data">
+       原本
+      </cell>
+      <cell role="data">
+       年次
+      </cell>
+      <cell role="data">
+       写本巻数
+      </cell>
+      <cell role="data">
+       年次
+      </cell>
+      <cell role="data">
+       筆写
+      </cell>
+      <cell role="data">
+       校訂
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data" rows="2">
+       二九
+      </cell>
+      <cell role="data">
+       史料館
+      </cell>
+      <cell role="data">
+       手帖
+      </cell>
+      <cell role="data">
+       <date type="旧暦" when="1868-08-02">
+        慶応四・六・一四
+       </date>
+       -
+       <date type="旧暦" when="1869-01-03">
+        明治元一一・二
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       一
+      </cell>
+      <cell role="data" rows="2">
+       <date type="旧暦" when="1868">
+        慶応四年
+       </date>
+       <lb/>
+       <date type="旧暦" when="1869">
+        明治二年
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       <persName corresp="#pers_藤木喜久馬">
+        <surname>
+         藤木
+        </surname>
+        <forename>
+         （喜久馬）
+        </forename>
+       </persName>
+      </cell>
+      <cell role="data" rows="2">
+       <persName corresp="#pers_藤木">
+        <surname>
+         藤木
+        </surname>
+       </persName>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[手帖]
+      </cell>
+      <cell role="data">
+       <date type="旧暦" when="1868-12-16">
+        明治元一一・三
+       </date>
+       -
+       <date type="旧暦" when="1869-02-28">
+        明二・一・一八
+       </date>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       三〇
+      </cell>
+      <cell role="data">
+       <orgName>
+        竜門社
+       </orgName>
+      </cell>
+      <cell role="data">
+       和綴小形横帳
+      </cell>
+      <cell role="data">
+       <date when="1869-11-24">
+        明治二・一〇・二一
+       </date>
+       -
+       <date when="1869-12-21">
+        同年一一・一九
+       </date>
+       <lb/>
+       （編纂終了後発見サル）
+      </cell>
+      <cell/>
+      <cell role="data">
+       <date when="1969">
+        明治二年
+       </date>
+      </cell>
+      <cell role="data">
+       <persName corresp="#pers_高木一夫">
+        <surname>
+         高木
+        </surname>
+        <forename>
+         （一夫）
+        </forename>
+       </persName>
+      </cell>
+      <cell role="data">
+       <persName corresp="#pers_高木">
+        <surname>
+         高木
+        </surname>
+       </persName>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data" rows="2">
+       四五
+      </cell>
+      <cell role="data">
+       史料館
+      </cell>
+      <cell role="data">
+       手帖
+      </cell>
+      <cell role="data">
+       <date when="1884-05-28">
+        明治一七・五・二八
+       </date>
+       -
+       <date when="1884-06-17">
+        同年六・一七
+       </date>
+      </cell>
+      <cell role="data" rows="4">
+       二
+      </cell>
+      <cell role="data" rows="4">
+       <date when="1884">
+        明治一七年
+       </date>
+       <lb/>
+       <date when="1886">
+        明治一九年
+       </date>
+      </cell>
+      <cell role="data" rows="4">
+       <persName corresp="#pers_木下清一郎">
+        <surname>
+         木下
+        </surname>
+        <forename>
+         （清一郎）
+        </forename>
+       </persName>
+      </cell>
+      <cell role="data" rows="4">
+       <persName corresp="#pers_藤木">
+        <surname>
+         藤木
+        </surname>
+       </persName>
+      </cell>
+     </row>
+     <row>
+      <cell role="data">
+       <orgName>
+        第一銀行
+       </orgName>
+       京都支店
+      </cell>
+      <cell role="data">
+       <orgName>
+        第一銀行
+       </orgName>
+       用箋
+      </cell>
+      <cell role="data">
+       右手帖ヲ整理補足ス
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data" rows="2">
+       四七
+      </cell>
+      <cell role="data" rows="2">
+       史料館
+      </cell>
+      <cell role="data" rows="2">
+       手帖
+      </cell>
+      <cell role="data">
+       <date when="1886-05-26">
+        明治一九年五・二六
+       </date>
+       -
+       <date when="1886-06-19">
+        同年六・一九
+       </date>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       <date when="1886-12-08">
+        〃[明治19年]一二・八
+       </date>
+       -
+       <date when="1886-12-17">
+        一二・一七
+       </date>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       六〇
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       机上日記
+      </cell>
+      <cell role="data">
+       <date when="1899-01-01">
+        明治三二・一・一
+       </date>
+       -
+       <date when="1899-12-31">
+        同年一二・三一
+       </date>
+      </cell>
+      <cell role="data">
+       三
+      </cell>
+      <cell role="data">
+       <date when="1899">
+        明治三二年
+       </date>
+      </cell>
+      <cell role="data">
+       <persName corresp="#pers_岡村千馬太">
+        <surname>
+         岡村
+        </surname>
+        <forename>
+         （千馬太）
+        </forename>
+       </persName>
+      </cell>
+      <cell role="data">
+       <persName corresp="#pers_幸田成友">
+        <surname>
+         幸田
+        </surname>
+        <forename>
+         （成友）
+        </forename>
+       </persName>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       六一
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[机上日記]
+      </cell>
+      <cell role="data">
+       <date when="1900-01-01">
+        明治三三・一・一
+       </date>
+       -
+       <date when="1901-05-05">
+        同三四・五・五
+       </date>
+      </cell>
+      <cell role="data">
+       四
+      </cell>
+      <cell role="data">
+       <date when="1900">
+        明治三三年
+       </date>
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_岡村千馬太">
+        <surname>
+         岡村
+        </surname>
+        <forename>
+         （千馬太）
+        </forename>
+       </persName>
+       ]
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_幸田成友">
+        <surname>
+         幸田
+        </surname>
+        <forename>
+         （成友）
+        </forename>
+       </persName>
+       ]
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       六二
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[机上日記]
+      </cell>
+      <cell role="data">
+       <date when="1901-05-06">
+        明治三四・五・六
+       </date>
+       -
+       <date when="1902-08-20">
+        同三五・八・二〇
+       </date>
+      </cell>
+      <cell role="data">
+       五
+      </cell>
+      <cell role="data">
+       <date when="1901">
+        明治三四年
+       </date>
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_岡村千馬太">
+        <surname>
+         岡村
+        </surname>
+        <forename>
+         （千馬太）
+        </forename>
+       </persName>
+       ]
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_幸田成友">
+        <surname>
+         幸田
+        </surname>
+        <forename>
+         （成友）
+        </forename>
+       </persName>
+       ]
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       六三
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[机上日記]
+      </cell>
+      <cell role="data">
+       <date when="1902-08-21">
+        明治三五・八・二一
+       </date>
+       -
+       <date when="1903-11-02">
+        同三六・一一・二
+       </date>
+      </cell>
+      <cell role="data">
+       六
+      </cell>
+      <cell role="data">
+       <date when="1902">
+        明治三五年
+       </date>
+      </cell>
+      <cell role="data">
+       <persName corresp="#pers_木下">
+        <surname>
+         木下
+        </surname>
+       </persName>
+      </cell>
+      <cell role="data">
+       <persName corresp="#pers_藤木">
+        <surname>
+         藤木
+        </surname>
+       </persName>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       六四
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[机上日記]
+      </cell>
+      <cell role="data">
+       <date when="1903-11-03">
+        明治三六・一一・三
+       </date>
+       -
+       <date when="1904-04-14">
+        同三七・四・一四
+       </date>
+      </cell>
+      <cell role="data">
+       七
+      </cell>
+      <cell role="data">
+       <date when="1903">
+        明治三六年
+       </date>
+       <lb/>
+       <date when="1904">
+        明治三七年
+       </date>
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_木下">
+        <surname>
+         木下
+        </surname>
+       </persName>
+       ]
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_藤木">
+        <surname>
+         藤木
+        </surname>
+       </persName>
+       ]
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       六六
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       当用日記
+      </cell>
+      <cell role="data">
+       <date when="1905-01-01">
+        明治三八・一・一
+       </date>
+       -
+       <date when="1905-12-31">
+        同年一二・三一
+       </date>
+      </cell>
+      <cell role="data">
+       八
+      </cell>
+      <cell role="data">
+       <date when="1905">
+        明治三八年
+       </date>
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_木下">
+        <surname>
+         木下
+        </surname>
+       </persName>
+       ]
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_藤木">
+        <surname>
+         藤木
+        </surname>
+       </persName>
+       ]
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       六七
+      </cell>
+      <cell cols="2" role="data">
+       原本欠
+      </cell>
+      <cell role="data">
+       <date when="1906-01-01">
+        明治三九・一・一
+       </date>
+       -
+       <date when="1906-07-15">
+        同年七・一五
+       </date>
+      </cell>
+      <cell role="data">
+       九
+      </cell>
+      <cell role="data">
+       <date when="1906">
+        明治三九年
+       </date>
+      </cell>
+      <cell role="data">
+       <persName corresp="#pers_中野重秀">
+        <surname>
+         中野
+        </surname>
+        <forename>
+         （重秀）
+        </forename>
+       </persName>
+      </cell>
+      <cell>
+       <persName corresp="#pers_岡村">
+        <surname>
+         岡村
+        </surname>
+       </persName>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       六八
+      </cell>
+      <cell cols="2" role="data">
+       〃[原本欠]
+      </cell>
+      <cell role="data">
+       <date when="1907-01-01">
+        明治四〇・一・一
+       </date>
+       -
+       <date when="1907-12-31">
+        同年一二・三一
+       </date>
+      </cell>
+      <cell role="data">
+       十
+      </cell>
+      <cell role="data">
+       <date when="1907">
+        明治四〇年
+       </date>
+      </cell>
+      <cell role="data">
+       <persName corresp="#pers_岡村">
+        <surname>
+         岡村
+        </surname>
+       </persName>
+      </cell>
+      <cell>
+       <persName corresp="#pers_藤木">
+        <surname>
+         藤木
+        </surname>
+       </persName>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       六九
+      </cell>
+      <cell cols="2" role="data">
+       〃[原本欠]
+      </cell>
+      <cell role="data">
+       <date when="1908-01-01">
+        明治四一・一・一
+       </date>
+       -
+       <date when="1908-12-31">
+        同年一二・3一
+       </date>
+      </cell>
+      <cell role="data">
+       十一
+      </cell>
+      <cell role="data">
+       <date when="1908">
+        明治四一年
+       </date>
+      </cell>
+      <cell role="data">
+       <persName corresp="#pers_岡村">
+        <surname>
+         岡村
+        </surname>
+       </persName>
+       <lb/>
+       <persName corresp="#pers_木下">
+        <surname>
+         木下
+        </surname>
+       </persName>
+      </cell>
+      <cell>
+       〃[
+       <persName corresp="#pers_藤木">
+        <surname>
+         藤木
+        </surname>
+       </persName>
+       ]
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       七〇
+      </cell>
+      <cell cols="2" role="data">
+       〃[原本欠]
+      </cell>
+      <cell role="data">
+       <date when="1909-01-01">
+        明治四二・一・一
+       </date>
+       -
+       <date when="1909-10-05">
+        同年一〇・五
+       </date>
+      </cell>
+      <cell role="data">
+       十二
+      </cell>
+      <cell role="data">
+       <date when="1909">
+        明治四二年
+       </date>
+      </cell>
+      <cell role="data">
+       <persName corresp="#pers_中野">
+        <surname>
+         中野
+        </surname>
+       </persName>
+      </cell>
+      <cell>
+       <persName corresp="#pers_岡村">
+        <surname>
+         岡村
+        </surname>
+       </persName>
+      </cell>
+     </row>
+     <pb corresp="#pageB1f19" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/19/full/max/0/default.jpg" n="B1f19" source="#pageB1f19"/>
+     <row role="data">
+      <cell role="data">
+       七一
+      </cell>
+      <cell role="data">
+       史料館
+      </cell>
+      <cell role="data">
+       当用日記
+      </cell>
+      <cell role="data">
+       <date when="1910-01-01">
+        明治四三・一・一
+       </date>
+       -
+       <date when="1910-11-09">
+        同年一一・九
+       </date>
+      </cell>
+      <cell role="data">
+       十三
+      </cell>
+      <cell role="data">
+       <date when="1910">
+        明治四三年
+       </date>
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_中野">
+        <surname>
+         中野
+        </surname>
+       </persName>
+       ]
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_岡村">
+        <surname>
+         岡村
+        </surname>
+       </persName>
+       ]
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       七二
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1911-01-01">
+        明治四四・一・一
+       </date>
+       -
+       <date when="1911-12-31">
+        同年一二・三一
+       </date>
+      </cell>
+      <cell role="data">
+       十四
+      </cell>
+      <cell role="data">
+       <date when="1911">
+        明治四四年
+       </date>
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_中野">
+        <surname>
+         中野
+        </surname>
+       </persName>
+       ]
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_岡村">
+        <surname>
+         岡村
+        </surname>
+       </persName>
+       ]
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       七三
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1912-01-01">
+        明治四五・一・一
+       </date>
+       -
+       <date when="1912-07-02">
+        同年七・二
+       </date>
+      </cell>
+      <cell role="data">
+       十五
+      </cell>
+      <cell role="data">
+       <date when="1912">
+        明治四五年
+       </date>
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_中野">
+        <surname>
+         中野
+        </surname>
+       </persName>
+       ]
+      </cell>
+      <cell role="data">
+       〃[
+       <persName corresp="#pers_岡村">
+        <surname>
+         岡村
+        </surname>
+       </persName>
+       ]
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       七四
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1913-01-01">
+        大正二・一・一
+       </date>
+       -
+       <date when="1913-03-11">
+        同年三・一一
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       十六
+      </cell>
+      <cell role="data" rows="2">
+       <date when="1913">
+        大正二年
+       </date>
+       <lb/>
+       <date when="1914">
+        大正三年
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       〃[
+       <persName corresp="#pers_中野">
+        <surname>
+         中野
+        </surname>
+       </persName>
+       ]
+      </cell>
+      <cell role="data" rows="2">
+       〃[
+       <persName corresp="#pers_岡村">
+        <surname>
+         岡村
+        </surname>
+       </persName>
+       ]
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       七五
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1914-01-01">
+        大正三・一・一
+       </date>
+       -
+       <date when="1914-06-14">
+        同年六・一四
+       </date>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       七六
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1915-01-01">
+        大正四・一・一
+       </date>
+       -
+       <date when="1916-01-03">
+        同五年一・三
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       十七
+      </cell>
+      <cell role="data" rows="2">
+       <date when="1915">
+        大正四年
+       </date>
+       <lb/>
+       <date when="1916">
+        大正五年
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       <persName corresp="#pers_中野">
+        <surname>
+         中野
+        </surname>
+       </persName>
+       <lb/>
+       <persName corresp="#pers_日景珠子">
+        <surname>
+         日景
+        </surname>
+        <forename>
+         （珠子）
+        </forename>
+       </persName>
+      </cell>
+      <cell role="data" rows="2">
+       <persName corresp="#pers_藤木">
+        <surname>
+         藤木
+        </surname>
+       </persName>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       七七
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       （
+       <date when="1916">
+        大正五年
+       </date>
+       ハ日記ハ存スルモ全年記入ナシ）
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       七八
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1917-01-01">
+        大正6・一・一
+       </date>
+       -
+       <date when="1917-03-22">
+        同年三・二二
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       十八
+      </cell>
+      <cell role="data" rows="2">
+       <date when="1917">
+        大正六年
+       </date>
+       <lb/>
+       <date when="1918">
+        大正七年
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       <persName corresp="#pers_日景">
+        <surname>
+         日景
+        </surname>
+       </persName>
+      </cell>
+      <cell role="data" rows="2">
+       〃[
+       <persName corresp="#pers_藤木">
+        <surname>
+         藤木
+        </surname>
+       </persName>
+       ]
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       七九
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1918-01-01">
+        大正七・一・一
+       </date>
+       -
+       <date when="1919-04-13">
+        同年四・一三
+       </date>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       八〇
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1919-01-01">
+        大正八・一・一
+       </date>
+       -
+       <date when="1919-08-20">
+        同年八・二〇
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       十九
+      </cell>
+      <cell role="data" rows="2">
+       <date when="1919">
+        大正八年
+       </date>
+       <lb/>
+       <date when="1920">
+        大正九年
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       〃[
+       <persName corresp="#pers_日景">
+        <surname>
+         日景
+        </surname>
+       </persName>
+       ]
+      </cell>
+      <cell role="data" rows="2">
+       〃[
+       <persName corresp="#pers_藤木">
+        <surname>
+         藤木
+        </surname>
+       </persName>
+       ]
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       八一
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1920-01-01">
+        大正九・一・一
+       </date>
+       -
+       <date when="1920-03-14">
+        同年三・一四
+       </date>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       八二
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1921-01-01">
+        大正一〇・一・一
+       </date>
+       -
+       <date when="1922-01-22">
+        同一一年一・二二
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       二十
+      </cell>
+      <cell role="data" rows="2">
+       <date when="1921">
+        大正一〇年
+       </date>
+       <lb/>
+       <date when="1922">
+        大正一一年
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       〃[
+       <persName corresp="#pers_日景">
+        <surname>
+         日景
+        </surname>
+       </persName>
+       ]
+      </cell>
+      <cell role="data" rows="2">
+       〃[
+       <persName corresp="#pers_藤木">
+        <surname>
+         藤木
+        </surname>
+       </persName>
+       ]
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       八三
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       （
+       <date when="1922">
+        大正一一年
+       </date>
+       ハ原本ナシ）
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       八四
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1923-01-01">
+        大正一二・一・一
+       </date>
+       -
+       <date when="1923-03-06">
+        同年三・六
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       二十一
+      </cell>
+      <cell role="data" rows="2">
+       <date when="1923">
+        大正一二年
+       </date>
+       <lb/>
+       <date when="1925">
+        大正一四年
+       </date>
+      </cell>
+      <cell role="data" rows="2">
+       <persName corresp="#pers_木下">
+        <surname>
+         木下
+        </surname>
+       </persName>
+      </cell>
+      <cell role="data" rows="2">
+       〃[
+       <persName corresp="#pers_藤木">
+        <surname>
+         藤木
+        </surname>
+       </persName>
+       ]
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       八六
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       （
+       <date when="1924">
+        大正一三年
+       </date>
+       ハ原本ナシ）
+       <lb/>
+       <date when="1925-01-01">
+        大正一四・一・一
+       </date>
+       -
+       <date when="1925-04-10">
+        同年四・一〇
+       </date>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       八七
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1926-01-01">
+        大正一五・一・一
+       </date>
+       -
+       <date when="1926-04-03">
+        同年四・三
+       </date>
+      </cell>
+      <cell role="data" rows="5">
+       二十二
+      </cell>
+      <cell role="data" rows="5">
+       <date when="1926">
+        大正一五年
+       </date>
+       <lb/>
+       <date when="1927">
+        昭和二年
+       </date>
+       <lb/>
+       <date when="1928">
+        昭和三年
+       </date>
+       <lb/>
+       <date when="1929">
+        昭和四年
+       </date>
+       <lb/>
+       <date when="1930">
+        昭和五年
+       </date>
+      </cell>
+      <cell role="data" rows="5">
+       〃[
+       <persName corresp="#pers_木下">
+        <surname>
+         木下
+        </surname>
+       </persName>
+       ]
+      </cell>
+      <cell role="data" rows="5">
+       <persName corresp="#pers_木下">
+        <surname>
+         木下
+        </surname>
+       </persName>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       八八
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1927-01-01">
+        昭和二・一・一
+       </date>
+       -
+       <date when="1927-03-12">
+        同年三・一二
+       </date>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       八九
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1928-01-01">
+        昭和三・一・一
+       </date>
+       -
+       <date when="1928-03-05">
+        同年三・五
+       </date>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       九〇
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1928-01-01">
+        昭和四・一・一
+       </date>
+       -
+       <date when="1929-01-04">
+        同年一・四
+       </date>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       九一
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       <date when="1930-01-01">
+        昭和五・一・一
+       </date>
+       -
+       <date when="1930-01-08">
+        同年一・八
+       </date>
+      </cell>
+     </row>
+     <row role="data">
+      <cell role="data">
+       九二
+      </cell>
+      <cell role="data">
+       〃[史料館]
+      </cell>
+      <cell role="data">
+       〃[当用日記]
+      </cell>
+      <cell role="data">
+       （
+       <date when="1931">
+        昭和六年
+       </date>
+       ハ日記ハ存スルモ全年記入ナシ）
+      </cell>
+      <cell role="data">
+      </cell>
+      <cell role="data">
+      </cell>
+      <cell role="data">
+      </cell>
+      <cell role="data">
+      </cell>
+     </row>
+    </table>
+   </div>
+   <pb corresp="#pageB1f20" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/20/full/max/0/default.jpg" n="B1f20" source="#pageB1f20"/>
+   <div type="introductory" xml:id="DKB10000d-0001">
+    <head>
+     凡例
+    </head>
+    <list>
+     <item>
+      一、日付は太字とし、総て一行別に立てた。手帖類、机上日記は、原本では日付、天候等を一行別にした場合、又はそれに記事を続けた場合があるが、一様に日付は一行初めに出した。他は原本に従っている。当用日記は上欄に日付、曜日を印刷し、天候欄等を設けているが、曜日、天候は日付の下においた。
+     </item>
+     <item>
+      一、当用日記以外で、日付のみで月を記入してない場合は（ 一月 ）のように月を示した。
+     </item>
+     <item>
+      一、当用漢字に相当する漢字は当用漢字を用いた。変体仮名は用いず、而（て）より（より）は原文に依った。
+     </item>
+     <item>
+      一、艸、銕、〓、乕等は草、鉄、最、虎を用いた。検、構、模、餐を撿、搆、摸、飧に書いている場合、原本に依つている。又「〓」は明らかに誤字であるが、原文のまま用いる事とした。
+     </item>
+     <item>
+      一、「訪ヘ」「請ヘ」の送仮名は「訪ヒ」「請ヒ」であるがその都度注記していない。
+     </item>
+     <item>
+      一、句読点を新たに付けた。但し、のみとし。は用いず、漢詩の場合は。を以ってした。
+     </item>
+     <item>
+      一、明かな誤字は脇に小文字で（　　）内に正しい書き方を示した。正しい書き方が明瞭でない場合は（カ）を付けて想定される文字をおいた。更に判定し難い場合は（マヽ）を付け、難読の場合は□とした。
+     </item>
+     <item>
+      一、欠字は［　　］を以って示した。
+     </item>
+     <item>
+      一、注は最小限度に付けた。○を付け、小文字を用いた。小文字であっても○を付けていないのは原文である。
+     </item>
+    </list>
+   </div>
+   <pb corresp="#pageB1f21" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/21/full/max/0/default.jpg" n="B1f21" source="#pageB1f21"/>
+   <div type="contents" xml:id="DKB10002e-0001">
+    <head>
+     渋沢栄一伝記資料別巻第一日記 目次
+    </head>
+    <pb corresp="#pageB1f22" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/22/full/max/0/default.jpg" n="B1f22" source="#pageB1f22"/>
+    <list type="gloss">
+     <item>
+      <list>
+       <item>
+        <list>
+         <item>
+          写真（巻頭)
+         </item>
+         <item>
+          解題…………………………………………………………………………　　　一
+         </item>
+         <item>
+          凡例…………………………………………………………………………　　　六
+         </item>
+        </list>
+       </item>
+      </list>
+     </item>
+    </list>
+    <list type="gloss">
+     <head>
+      <label>
+       日記（一）
+      </label>
+     </head>
+     <item>
+      自
+      <date type="旧暦" when="1868-08-02">
+       慶応四年六月十四日
+      </date>
+      至
+      <date type="旧暦" when="1868-12-15">
+       明治元年十一月二日
+      </date>
+      …………………………………　　　一
+     </item>
+     <item>
+      自
+      <date type="旧暦" when="1868-12-16">
+       明治元年十一月三日
+      </date>
+      至
+      <date type="旧暦" when="1869-02-28">
+       明治二年正月十八日
+      </date>
+      …………………………………　　二七
+     </item>
+     <item>
+      自
+      <date type="旧暦" when="1869-11-24">
+       明治二年十月二十一日
+      </date>
+      至
+      <date type="旧暦" when="1869-12-21">
+       同年十一月十九日
+      </date>
+      …………………………………　　四二
+     </item>
+     <item>
+      <date when="1884">
+       明治十七年
+      </date>
+      <list>
+       <item>
+        西遊日記
+        <date when="1884-05-28">
+         五月二十八日
+        </date>
+        ―
+        <date when="1884-06-17">
+         六月十七日
+        </date>
+        …………………………………………　　五〇
+       </item>
+       <item>
+        甲申京摂巡回日記
+        <date when="1884-05-31">
+         五月三十一日
+        </date>
+        ―
+        <date when="1884-07-01">
+         七月一日
+        </date>
+        …………………………………　　五四
+       </item>
+      </list>
+     </item>
+     <item>
+      <date when="1886">
+       明治十九年
+      </date>
+      <list>
+       <item>
+        四日市伏木新潟巡回紀行
+        <date when="1886-05-26">
+         五月二十六日
+        </date>
+        ―
+        <date evidence="year" when="1886-06-19">
+         六月十九日
+        </date>
+        ……………………　　五九
+       </item>
+       <item>
+        京坂巡回紀行
+        <date when="1886-12-08">
+         十二月八日
+        </date>
+        ―
+        <date when="1886-12-17">
+         十二月十七日
+        </date>
+        …………………………………　　六三
+       </item>
+      </list>
+     </item>
+     <item>
+      <date when="1899">
+       明治三十二年
+      </date>
+      <date when="1899-01-01">
+       一月一日
+      </date>
+      ―
+      <date when="1899-12-31">
+       十二月三十一日
+      </date>
+      …………………………………………　　六八
+     </item>
+     <item>
+      自
+      <date evidence="day" when="1900-01">
+       明治三十三年一月
+      </date>
+      至
+      <date evidence="day" when="1901-05">
+       明治三十四年五月
+      </date>
+      ……………………………………………　一一八
+     </item>
+     <item>
+      <pb corresp="#pageB1f23" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/23/full/max/0/default.jpg" n="B1f23" source="#pageB1f23"/>
+      自
+      <date evidence="day" when="1901-05">
+       明治三十四年五月
+      </date>
+      至
+      <date evidence="day" when="1902-08">
+       明治三十五年八月
+      </date>
+      ……………………………………………　一九二
+     </item>
+     <item>
+      自
+      <date evidence="day" when="1902-08">
+       明治三十五年八月
+      </date>
+      至
+      <date evidence="day" when="1903-11">
+       明治三十六年十一月
+      </date>
+      …………………………………………　二六六
+     </item>
+     <item>
+      自
+      <date evidence="day" when="1903-11">
+       明治三十六年十一月
+      </date>
+      至
+      <date evidence="day" when="1904-04">
+       明治三十七年四月
+      </date>
+      …………………………………………　三三〇
+     </item>
+     <item>
+      <date when="1905">
+       明治三十八年
+      </date>
+      <date when="1905-01-01">
+       一月一日
+      </date>
+      ―
+      <date when="1905-12-31">
+       十二月三十一日
+      </date>
+      …………………………………………　三四三
+     </item>
+     <item>
+      <date when="1906">
+       明治三十九年
+      </date>
+      <date when="1906-01-01">
+       一月一日
+      </date>
+      ―
+      <date when="1906-07-15">
+       七月十五日
+      </date>
+      ………………………………………………　三九七
+     </item>
+     <item>
+      <date when="1907">
+       明治四十年
+      </date>
+      <date when="1907-01-01">
+       一月一日
+      </date>
+      ―
+      <date when="1907-12-31">
+       十二月三十一日
+      </date>
+      …………………………………………　四三三
+     </item>
+     <item>
+      <date when="1908">
+       明治四十一年
+      </date>
+      <date when="1908-01-01">
+       一月一日
+      </date>
+      ―
+      <date when="1908-12-31">
+       十二月三十一日
+      </date>
+      …………………………………………　四八五
+     </item>
+     <item>
+      <date when="1909">
+       明治四十二年
+      </date>
+      <date when="1909-01-01">
+       一月一日
+      </date>
+      ―
+      <date when="1909-10-05">
+       十月五日
+      </date>
+      …………………………………………………　五五六
+     </item>
+     <item>
+      <date when="1910">
+       明治四十三年
+      </date>
+      <date when="1910-01-01">
+       一月一日
+      </date>
+      ―
+      <date when="1910-11-09">
+       十一月九日
+      </date>
+      ………………………………………………　六〇一
+     </item>
+     <item>
+      <date when="1911">
+       明治四十四年
+      </date>
+      <date when="1911-01-01">
+       一月一日
+      </date>
+      ―
+      <date when="1911-12-31">
+       十二月三十一日
+      </date>
+      …………………………………………　六五一
+     </item>
+     <item>
+      <date when="1912">
+       明治四十五年
+      </date>
+      <date when="1912-01-01">
+       一月一日
+      </date>
+      ―
+      <date when="1912-07-02">
+       七月二日
+      </date>
+      …………………………………………………　七一八
+     </item>
+     <item>
+      <date when="1913">
+       大正二年
+      </date>
+      <date when="1913-01-01">
+       一月一日
+      </date>
+      ―
+      <date when="1913-03-11">
+       三月十一日
+      </date>
+      …………………………………………………　七四七
+     </item>
+     <item>
+      <date when="1914">
+       大正三年
+      </date>
+      <date when="1914-01-01">
+       一月一日
+      </date>
+      ―
+      <date when="1914-06-14">
+       六月十四日
+      </date>
+      …………………………………………………　七六四
+     </item>
+    </list>
+   </div>
+   <pb corresp="#pageB1f24" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/24/full/max/0/default.jpg" n="B1f24" source="#pageB1f24"/>
+   <pb corresp="#pageB1f25" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/25/full/max/0/default.jpg" n="B1f25" source="#pageB1f25"/>
+   <titlePage xml:id="DKB10003f">
+    <docTitle>
+     <titlePart type="sub">
+      日記（一）
+     </titlePart>
+    </docTitle>
+   </titlePage>
+  </front>
+  </TEI>

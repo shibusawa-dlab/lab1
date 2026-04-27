@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>渋沢栄一伝記資料 別巻 — TEI Viewer</title>
+  <meta name="description" content="『渋沢栄一伝記資料』別巻のTEI/XML翻刻データ。テキスト・画像対照、人名・地名アノテーション対応ビューワー。">
+  <!-- OGP -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="渋沢栄一伝記資料 別巻 — TEI Viewer">
+  <meta property="og:description" content="『渋沢栄一伝記資料』別巻のTEI/XML翻刻データ。テキスト・画像対照、人名・地名アノテーション対応ビューワー。">
+  <meta property="og:url" content="https://shibusawa-dlab.github.io/lab1/">
+  <meta property="og:site_name" content="渋沢栄一伝記資料 別巻 TEI Viewer">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="渋沢栄一伝記資料 別巻 — TEI Viewer">
+  <meta name="twitter:description" content="『渋沢栄一伝記資料』別巻のTEI/XML翻刻データ。テキスト・画像対照、人名・地名アノテーション対応ビューワー。">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-primary: #2c3e50;
+      --color-secondary: #34495e;
+      --color-accent: #8b4513;
+      --color-accent-light: #a0522d;
+      --color-text: #333;
+      --color-text-light: #555;
+      --color-text-muted: #888;
+      --color-border: #ddd;
+      --color-bg: #fafafa;
+      --color-bg-alt: #f5f0eb;
+      --color-white: #fff;
+      --font-serif: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
+      --font-sans: "Noto Sans JP", "Hiragino Sans", sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-serif);
+      color: var(--color-text);
+      background-color: var(--color-bg);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ヘッダー */
+    header {
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+      color: var(--color-white);
+      padding: 0.75rem 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: var(--color-white);
+    }
+
+    .header-logo-icon {
+      width: 28px;
+      height: 28px;
+      opacity: 0.85;
+    }
+
+    .header-logo-text {
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      font-family: var(--font-sans);
+    }
+
+    .header-nav {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .header-nav a {
+      color: rgba(255,255,255,0.8);
+      text-decoration: none;
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+
+    .header-nav a:hover {
+      color: var(--color-white);
+    }
+
+    /* ヒーロー */
+    .hero {
+      background: linear-gradient(160deg, #1a2a3a 0%, #2c3e50 40%, #3d566e 100%);
+      color: var(--color-white);
+      padding: 5rem 2rem 4rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-label {
+      display: inline-block;
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.6);
+      margin-bottom: 1.5rem;
+      border: 1px solid rgba(255,255,255,0.2);
+      padding: 0.3rem 1rem;
+      border-radius: 2px;
+    }
+
+    .hero-title {
+      font-size: 2.6rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      line-height: 1.4;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-desc {
+      font-size: 1.05rem;
+      line-height: 2;
+      color: rgba(255,255,255,0.8);
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    .hero-scroll {
+      margin-top: 3rem;
+      display: inline-block;
+      color: rgba(255,255,255,0.5);
+      transition: color 0.2s;
+    }
+
+    .hero-scroll:hover { color: rgba(255,255,255,0.8); }
+
+    .hero-scroll svg {
+      animation: scrollBounce 2s ease-in-out infinite;
+    }
+
+    @keyframes scrollBounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(6px); }
+    }
+
+    /* セクション共通 */
+    section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+      width: 100%;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .section-title {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      letter-spacing: 0.08em;
+      position: relative;
+      display: inline-block;
+      padding-bottom: 0.75rem;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40px;
+      height: 2px;
+      background-color: var(--color-accent);
+    }
+
+    .section-subtitle {
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+      color: var(--color-text-muted);
+      margin-top: 1rem;
+    }
+
+    /* コレクション一覧 */
+    .collection-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 2rem;
+    }
+
+    .collection-card {
+      background: var(--color-white);
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .collection-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+      border-color: var(--color-accent);
+    }
+
+    .card-accent {
+      height: 4px;
+      background: linear-gradient(90deg, var(--color-accent), var(--color-accent-light));
+    }
+
+    .card-body {
+      padding: 2rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-label {
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--color-accent);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-desc {
+      font-family: var(--font-sans);
+      font-size: 0.88rem;
+      color: var(--color-text-light);
+      line-height: 1.8;
+      flex: 1;
+    }
+
+    .card-meta {
+      font-family: var(--font-sans);
+      font-size: 0.78rem;
+      color: var(--color-text-muted);
+      margin-top: 0.75rem;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .card-link {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      color: var(--color-accent);
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .card-link svg {
+      transition: transform 0.2s;
+    }
+
+    .collection-card:hover .card-link svg {
+      transform: translateX(3px);
+    }
+
+    /* プロジェクト概要 */
+    .about-section {
+      background-color: var(--color-bg-alt);
+    }
+
+    .about-content {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .about-item {
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    .about-icon {
+      width: 48px;
+      height: 48px;
+      margin: 0 auto 1rem;
+      color: var(--color-accent);
+    }
+
+    .about-item-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      margin-bottom: 0.75rem;
+    }
+
+    .about-item-desc {
+      font-family: var(--font-sans);
+      font-size: 0.88rem;
+      color: var(--color-text-light);
+      line-height: 1.8;
+    }
+
+    /* クレジット */
+    .credits-list {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .credit-item {
+      display: flex;
+      gap: 1rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--color-border);
+      font-family: var(--font-sans);
+      font-size: 0.9rem;
+    }
+
+    .credit-item:last-child {
+      border-bottom: none;
+    }
+
+    .credit-role {
+      min-width: 160px;
+      font-weight: 500;
+      color: var(--color-primary);
+    }
+
+    .credit-name {
+      color: var(--color-text-light);
+      line-height: 1.7;
+    }
+
+    /* 技術情報 */
+    .technical-section {
+      background-color: #f0f2f5;
+    }
+
+    .technical-section section {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .schema-list {
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .schema-item {
+      background: var(--color-white);
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.3s ease;
+    }
+
+    .schema-item:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      border-color: var(--color-accent);
+    }
+
+    .schema-icon {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      color: var(--color-accent);
+    }
+
+    .schema-info {
+      flex: 1;
+    }
+
+    .schema-name {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      margin-bottom: 0.3rem;
+    }
+
+    .schema-desc {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      color: var(--color-text-light);
+      line-height: 1.6;
+    }
+
+    .schema-badge {
+      font-family: var(--font-sans);
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      padding: 0.2rem 0.6rem;
+      border-radius: 3px;
+      background: var(--color-bg-alt);
+      color: var(--color-text-muted);
+      flex-shrink: 0;
+    }
+
+    /* フッター */
+    footer {
+      background: var(--color-primary);
+      color: rgba(255,255,255,0.7);
+      padding: 2.5rem 2rem;
+      margin-top: auto;
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .footer-org {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      line-height: 1.8;
+    }
+
+    .footer-org a {
+      color: rgba(255,255,255,0.8);
+      text-decoration: none;
+    }
+
+    .footer-org a:hover {
+      color: var(--color-white);
+      text-decoration: underline;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+    }
+
+    .footer-links a {
+      color: rgba(255,255,255,0.6);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: var(--color-white);
+    }
+
+    /* レスポンシブ */
+    @media (max-width: 768px) {
+      .hero { padding: 3.5rem 1.5rem 3rem; }
+      .hero-title { font-size: 1.9rem; }
+      .hero-desc { font-size: 0.95rem; }
+      section { padding: 3rem 1.5rem; }
+      .about-content { padding: 3rem 1.5rem; }
+      .collection-grid { grid-template-columns: 1fr; }
+      .about-grid { grid-template-columns: 1fr; }
+      .footer-inner { flex-direction: column; text-align: center; }
+      .credit-item { flex-direction: column; gap: 0.25rem; }
+      .credit-role { min-width: auto; }
+      .header-nav { gap: 1rem; }
+      .schema-item { padding: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header>
+    <div class="header-inner">
+      <a href="./" class="header-logo">
+        <svg class="header-logo-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+        </svg>
+        <span class="header-logo-text">渋沢栄一伝記資料 TEI Viewer</span>
+      </a>
+      <nav class="header-nav">
+        <a href="#collection">コレクション</a>
+        <a href="#about">概要</a>
+        <a href="#credits">クレジット</a>
+        <a href="#technical">技術情報</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ヒーロー -->
+  <div class="hero">
+    <div class="hero-inner">
+      <span class="hero-label">研究公開版</span>
+      <h1 class="hero-title">渋沢栄一伝記資料 別巻</h1>
+      <p class="hero-desc">
+        『渋沢栄一伝記資料』別巻のTEI/XML翻刻データを公開しています。テキストと原本画像（IIIF）の対照閲覧、人名・地名のアノテーション、校訂情報の表示に対応したビューワーでご覧いただけます。
+      </p>
+      <a href="#collection" class="hero-scroll" aria-label="コレクションへスクロール">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- コレクション一覧 -->
+  <section id="collection">
+    <div class="section-header">
+      <h2 class="section-title">コレクション</h2>
+      <p class="section-subtitle">Collection</p>
+    </div>
+    <div class="collection-grid">
+      <a href="DKB01/index.html" class="collection-card">
+        <div class="card-accent"></div>
+        <div class="card-body">
+          <div class="card-label">TEI/XML · DKB01</div>
+          <h3 class="card-title">渋沢栄一伝記資料 別巻第一<br>日記</h3>
+          <p class="card-desc">慶応4年（1868）から大正3年（1914）に至る渋沢栄一の日記を収録。年代別に22の章で構成され、口絵・序・凡例・目次を冒頭に備えます。</p>
+          <p class="card-meta">全23ファイル ／ 1868–1914</p>
+          <div class="card-footer">
+            <span class="card-link">ビューワーで開く
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </a>
+      <a href="DKB02/index.html" class="collection-card">
+        <div class="card-accent"></div>
+        <div class="card-body">
+          <div class="card-label">TEI/XML · DKB02</div>
+          <h3 class="card-title">渋沢栄一伝記資料 別巻第二<br>日記他</h3>
+          <p class="card-desc">大正期の日記を中心に収録。日時通知表など、本編とは異なる種別の資料を含む別巻第二を、TEI/XMLとして再構築・公開しています。</p>
+          <p class="card-meta">全3ファイル ／ 1913–1916</p>
+          <div class="card-footer">
+            <span class="card-link">ビューワーで開く
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- プロジェクト概要 -->
+  <div class="about-section">
+    <div class="about-content" id="about">
+      <div class="section-header">
+        <h2 class="section-title">概要</h2>
+        <p class="section-subtitle">About This Project</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-item">
+          <svg class="about-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+          </svg>
+          <h3 class="about-item-title">TEI/XML準拠</h3>
+          <p class="about-item-desc">Text Encoding Initiative (TEI) ガイドラインに準拠したXMLデータとして翻刻テキストを構造化。人名・地名・校訂情報を体系的にマークアップしています。</p>
+        </div>
+        <div class="about-item">
+          <svg class="about-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          <h3 class="about-item-title">テキスト・画像対照</h3>
+          <p class="about-item-desc">IIIF対応の画像ビューワーと縦書きテキストを並べて表示。原本画像と翻刻テキストを対照しながら閲覧できます。</p>
+        </div>
+        <div class="about-item">
+          <svg class="about-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+          </svg>
+          <h3 class="about-item-title">アノテーション</h3>
+          <p class="about-item-desc">人名・地名・日付・時刻の自動ハイライト、校訂情報・注記の表示など、研究利用に資するアノテーション機能を備えています。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- クレジット -->
+  <section id="credits">
+    <div class="section-header">
+      <h2 class="section-title">クレジット</h2>
+      <p class="section-subtitle">Credits</p>
+    </div>
+    <div class="credits-list">
+      <div class="credit-item">
+        <span class="credit-role">研究メンバー</span>
+        <span class="credit-name">金 甫榮（渋沢栄一記念財団）、小風 尚樹（千葉大学）、中村 覚（東京大学史料編纂所）、永崎 研宣（一般財団法人人文情報学研究所）、橋本 雄太（国立歴史民俗博物館）</span>
+      </div>
+      <div class="credit-item">
+        <span class="credit-role">研究協力</span>
+        <span class="credit-name">井上 さやか（渋沢栄一記念財団）、茂原 暢（渋沢栄一記念財団）</span>
+      </div>
+      <div class="credit-item">
+        <span class="credit-role">助成</span>
+        <span class="credit-name">国立歴史民俗博物館 総合資料学奨励研究（公募型／令和2年5月〜令和3年3月）</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 技術情報 -->
+  <div class="technical-section">
+    <section id="technical">
+      <div class="section-header">
+        <h2 class="section-title">技術情報</h2>
+        <p class="section-subtitle">Technical Information</p>
+      </div>
+      <div class="schema-list">
+        <a href="https://github.com/shibusawa-dlab/lab1/tree/master/tei" class="schema-item" target="_blank" rel="noopener">
+          <svg class="schema-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+          </svg>
+          <div class="schema-info">
+            <div class="schema-name">TEI/XML ソースデータ</div>
+            <div class="schema-desc">別巻第一・第二のTEI/XMLファイル、HTML/PDF/EPUBへの出力物、人物・地名等の典拠情報（entity.xml）。</div>
+          </div>
+          <span class="schema-badge">TEI</span>
+        </a>
+        <a href="https://github.com/shibusawa-dlab/lab1/tree/master/iiif" class="schema-item" target="_blank" rel="noopener">
+          <svg class="schema-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          <div class="schema-info">
+            <div class="schema-name">IIIF マニフェスト</div>
+            <div class="schema-desc">IIIF Presentation API に基づくマニフェスト（DKB01.json, DKB02.json）およびコレクション定義。</div>
+          </div>
+          <span class="schema-badge">IIIF</span>
+        </a>
+        <a href="https://github.com/shibusawa-dlab/lab1/blob/master/CITATION.cff" class="schema-item" target="_blank" rel="noopener">
+          <svg class="schema-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+          <div class="schema-info">
+            <div class="schema-name">CITATION.cff</div>
+            <div class="schema-desc">引用情報メタデータ。本リポジトリの引用にあたっては当ファイルの記述をご利用ください。</div>
+          </div>
+          <span class="schema-badge">CFF</span>
+        </a>
+        <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" class="schema-item" target="_blank" rel="noopener">
+          <svg class="schema-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+          </svg>
+          <div class="schema-info">
+            <div class="schema-name">ライセンス（CC BY 4.0）</div>
+            <div class="schema-desc">本リポジトリのTEI/XMLおよびIIIFマニフェストは Creative Commons 表示 4.0 国際 の下で提供されます。</div>
+          </div>
+          <span class="schema-badge">CC BY</span>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- フッター -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-org">
+        <a href="https://www.shibusawa.or.jp/" target="_blank" rel="noopener">公益財団法人 渋沢栄一記念財団<br>『渋沢栄一伝記資料』TEIプロジェクト</a>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/shibusawa-dlab/lab1" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">License</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
