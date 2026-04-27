@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "このリポジトリを引用する場合は、以下のメタデータをご利用ください。"
+title: "TEIを用いた『渋沢栄一伝記資料』テキストデータの再構築と活用"
+abstract: >-
+  『渋沢栄一伝記資料』別巻のテキストデータを、TEIガイドラインに基づいて再構築し、
+  その公開方法・活用方法を検討する研究プロジェクトの成果物を収録したリポジトリ。
+type: dataset
+authors:
+  - family-names: "金"
+    given-names: "甫榮"
+    affiliation: "公益財団法人渋沢栄一記念財団"
+  - family-names: "小風"
+    given-names: "尚樹"
+    affiliation: "千葉大学"
+  - family-names: "中村"
+    given-names: "覚"
+    affiliation: "東京大学史料編纂所"
+  - family-names: "永崎"
+    given-names: "研宣"
+    affiliation: "一般財団法人人文情報学研究所"
+  - family-names: "橋本"
+    given-names: "雄太"
+    affiliation: "国立歴史民俗博物館"
+license: CC-BY-4.0
+repository-code: "https://github.com/shibusawa-dlab/lab1"
+url: "https://shibusawa-dlab.github.io/lab1/"
+keywords:
+  - TEI
+  - Digital Humanities
+  - 渋沢栄一
+  - 近現代日本
+  - IIIF
+  - アーカイブズ
