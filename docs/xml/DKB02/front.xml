@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc><titleStmt><title>口絵・序・凡例・目次</title></titleStmt><publicationStmt><p>渋沢栄一伝記資料別巻第二日記他（TEI/XML版）</p></publicationStmt><sourceDesc><p/></sourceDesc></fileDesc></teiHeader><facsimile><surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/821" xml:id="pageB2f01">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/820/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/822" xml:id="pageB2f02">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/821/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/823" xml:id="pageB2f03">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/822/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/824" xml:id="pageB2f04">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/823/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/825" xml:id="pageB2f05">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/824/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/826" xml:id="pageB2f06">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/825/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/827" xml:id="pageB2f07">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/826/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/828" xml:id="pageB2f08">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/827/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/829" xml:id="pageB2f09">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/828/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/830" xml:id="pageB2f10">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/829/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/831" xml:id="pageB2f11">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/830/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/832" xml:id="pageB2f12">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/831/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/833" xml:id="pageB2f13">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/832/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/834" xml:id="pageB2f14">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/833/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/835" xml:id="pageB2f15">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/834/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/836" xml:id="pageB2f16">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/835/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/837" xml:id="pageB2f17">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/836/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/838" xml:id="pageB2f18">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/837/full/max/0/default.jpg"/>
+  </surface>
+  <surface source="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/presentations/iiif/2/canvas/839" xml:id="pageB2f19">
+   <graphic url="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/838/full/max/0/default.jpg"/>
+  </surface>
+  </facsimile><front>
+   <pb corresp="#pageB2f01" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/820/full/max/0/default.jpg" n="B2f01" source="#pageB2f01"/>
+   <pb corresp="#pageB2f02" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/821/full/max/0/default.jpg" n="B2f02" source="#pageB2f02"/>
+   <titlePage>
+    <pb corresp="#pageB2f03" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/822/full/max/0/default.jpg" n="B2f03" source="#pageB2f03"/>
+    <docTitle>
+     <titlePart>
+      澁澤栄一傳記資料別巻第二日記他
+     </titlePart>
+    </docTitle>
+    <byline>
+     渋沢青淵記念財団竜門社編纂刊行
+    </byline>
+    <pb corresp="#pageB2f04" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/823/full/max/0/default.jpg" n="B2f04" source="#pageB2f04"/>
+    <note place="overleaf" xml:id="B2nn0b">
+     背文字 渋沢栄一遺墨集字
+    </note>
+   </titlePage>
+   <pb corresp="#pageB2f05" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/824/full/max/0/default.jpg" n="B2f05" source="#pageB2f05"/>
+   <pb corresp="#pageB2f06" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/825/full/max/0/default.jpg" n="B2f06" source="#pageB2f06"/>
+   <pb corresp="#pageB2f07" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/826/full/max/0/default.jpg" n="B2f07" source="#pageB2f07"/>
+   <div type="frontispiece" xml:id="DKB20000a-0001">
+    <p>
+     渋沢栄一日記・写本
+    </p>
+    <figure>
+     <ab type="caption">
+      左図（本文第三一六頁参照）　当用日記。
+      <date when="1930-01-08">
+       昭和五年一月八日
+      </date>
+      。鉛筆で記入してある。
+      <persName corresp="#pers_渋沢栄一">
+       <forename>
+        栄一
+       </forename>
+      </persName>
+      の日記はこの日で終っている。
+     </ab>
+    </figure>
+    <figure>
+     <ab type="caption">
+      下図（別巻第一。解題第四頁参照）　写本。　全二十二冊。但し、第一冊は浄書・合綴・製本未了のままである。
+     </ab>
+    </figure>
+   </div>
+   <pb corresp="#pageB2f08" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/827/full/max/0/default.jpg" n="B2f08" source="#pageB2f08"/>
+   <pb corresp="#pageB2f09" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/828/full/max/0/default.jpg" n="B2f09" source="#pageB2f09"/>
+   <pb corresp="#pageB2f10" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/829/full/max/0/default.jpg" n="B2f10" source="#pageB2f10"/>
+   <pb corresp="#pageB2f11" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/830/full/max/0/default.jpg" n="B2f11" source="#pageB2f11"/>
+   <div>
+    <figure>
+     <head>
+      集会日時通知表
+      <date evidence="day" when="1924-06">
+       大正十三年六月
+      </date>
+      （本文第六二六頁～第六三〇頁参照）
+     </head>
+    </figure>
+   </div>
+   <pb corresp="#pageB2f12" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/831/full/max/0/default.jpg" n="B2f12" source="#pageB2f12"/>
+   <pb corresp="#pageB2f13" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/832/full/max/0/default.jpg" n="B2f13" source="#pageB2f13"/>
+   <titlePage xml:id="DKB20000b">
+    <docTitle>
+     <titlePart type="main">
+      渋沢栄一伝記資料別巻第二 日記 他
+     </titlePart>
+     <titlePart type="sub">
+      <date when="1915">
+       大正四年
+      </date>
+      ―
+      <date when="1930">
+       昭和五年
+      </date>
+     </titlePart>
+    </docTitle>
+   </titlePage>
+   <pb corresp="#pageB2f14" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/833/full/max/0/default.jpg" n="B2f14" source="#pageB2f14"/>
+   <pb corresp="#pageB2f15" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/834/full/max/0/default.jpg" n="B2f15" source="#pageB2f15"/>
+   <div type="contents" xml:id="DKB10002e-0001">
+    <head>
+     渋沢栄一伝記資料別巻第二日記他 目次
+    </head>
+    <pb corresp="#pageB2f16" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/835/full/max/0/default.jpg" n="B2f16" source="#pageB2f16"/>
+    <list type="gloss">
+     <item>
+      <list>
+       <item>
+        写真（巻頭)
+       </item>
+      </list>
+     </item>
+    </list>
+    <list type="gloss">
+     <head>
+      <label>
+       日記（二）
+      </label>
+     </head>
+     <item>
+      <date when="1915">
+       大正四年
+      </date>
+      <date when="1916-01-01">
+       大正五年一月一日
+      </date>
+      ―
+      <date when="1916-01-03">
+       一月三日
+      </date>
+      …………………………………………　　　一
+     </item>
+     <item>
+      <date when="1917-01-01">
+       大正六年一月一日
+      </date>
+      ―
+      <date when="1917-03-22">
+       三月二十二日
+      </date>
+      …………………………………………………　　八五
+     </item>
+     <item>
+      <date when="1918-01-01">
+       大正七年一月一日
+      </date>
+      ―
+      <date when="1918-04-13">
+       四月十三日
+      </date>
+      ……………………………………………………　一〇〇
+     </item>
+     <item>
+      <date when="1919-01-01">
+       大正八年一月一日
+      </date>
+      ―
+      <date when="1919-08-20">
+       八月二十日
+      </date>
+      ……………………………………………………　一二三
+     </item>
+     <item>
+      <date when="1920-01-01">
+       大正九年一月一日
+      </date>
+      ―
+      <date when="1920-03-14">
+       三月十四日
+      </date>
+      ……………………………………………………　一六四
+     </item>
+     <item>
+      <date when="1921">
+       大正十年
+      </date>
+      <date when="1922-01-01">
+       大正十一年一月一日
+      </date>
+      ―
+      <date when="1922-01-22">
+       一月二十二日
+      </date>
+      …………………………………　一八四
+     </item>
+     <item>
+      <date when="1923-01-01">
+       大正十二年一月一日
+      </date>
+      ―
+      <date when="1923-03-06">
+       三月六日
+      </date>
+      ……………………………………………………　二三〇
+     </item>
+     <item>
+      <date when="1925-01-01">
+       大正十四年一月一日
+      </date>
+      ―
+      <date evidence="year" when="1925-04-10">
+       四月十日
+      </date>
+      ……………………………………………………　二四四
+     </item>
+     <item>
+      <date when="1926-01-01">
+       大正十五年一月一日
+      </date>
+      ―
+      <date when="1926-04-03">
+       四月三日
+      </date>
+      ……………………………………………………　二七〇
+     </item>
+     <item>
+      <date when="1927-01-01">
+       昭和二年一月一日
+      </date>
+      ―
+      <date when="1927-03-12">
+       三月十二日
+      </date>
+      ……………………………………………………　二九〇
+     </item>
+     <item>
+      <date when="1928-01-01">
+       昭和三年一月一日
+      </date>
+      ―
+      <date when="1928-03-05">
+       三月五日
+      </date>
+      ………………………………………………………　三〇一
+     </item>
+     <item>
+      <date when="1929-01-01">
+       昭和四年一月一日
+      </date>
+      ―
+      <date when="1929-01-04">
+       一月四日
+      </date>
+      ………………………………………………………　三一四
+     </item>
+     <item>
+      <pb corresp="#pageB2f17" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/836/full/max/0/default.jpg" n="B2f17" source="#pageB2f17"/>
+      <date when="1930-01-01">
+       昭和五年一月一日
+      </date>
+      ―
+      <date evidence="year" when="1930-01-08">
+       一月八日
+      </date>
+      ………………………………………………………　三一六
+     </item>
+    </list>
+    <list type="gloss">
+     <head>
+      <label>
+       集会日時通知表
+      </label>
+     </head>
+     <item>
+      <list>
+       <item>
+        解題
+       </item>
+      </list>
+     </item>
+     <item>
+      <date when="1913">
+       大正二年
+      </date>
+      …………………………………………………………………………………　三二三
+     </item>
+     <item>
+      <date when="1914">
+       大正三年
+      </date>
+      …………………………………………………………………………………　三二五
+     </item>
+     <item>
+      <date when="1915">
+       大正四年
+      </date>
+      …………………………………………………………………………………　三三四
+     </item>
+     <item>
+      <date when="1916">
+       大正五年
+      </date>
+      …………………………………………………………………………………　三五五
+     </item>
+     <item>
+      <date when="1917">
+       大正六年
+      </date>
+      …………………………………………………………………………………　三八四
+     </item>
+     <item>
+      <date when="1918">
+       大正七年
+      </date>
+      …………………………………………………………………………………　四一七
+     </item>
+     <item>
+      <date when="1919">
+       大正八年
+      </date>
+      …………………………………………………………………………………　四四八
+     </item>
+     <item>
+      <date when="1920">
+       大正九年
+      </date>
+      …………………………………………………………………………………　四八一
+     </item>
+     <item>
+      <date when="1921">
+       大正十年
+      </date>
+      …………………………………………………………………………………　五一一
+     </item>
+     <item>
+      <date when="1922">
+       大正十一年
+      </date>
+      ………………………………………………………………………………　五四一
+     </item>
+     <item>
+      <date when="1923">
+       大正十二年
+      </date>
+      ………………………………………………………………………………　五七七
+     </item>
+     <item>
+      <date when="1924">
+       大正十三年
+      </date>
+      ………………………………………………………………………………　六〇九
+     </item>
+     <item>
+      <date when="1925">
+       大正十四年
+      </date>
+      ………………………………………………………………………………　六四五
+     </item>
+     <pb corresp="#pageB2f18" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/837/full/max/0/default.jpg" n="B2f18" source="#pageB2f18"/>
+     <item>
+      <date when="1926">
+       大正十五年
+      </date>
+      <date when="1926">
+       昭和元年
+      </date>
+      ……………………………………………………………………　六六〇
+     </item>
+     <item>
+      <date when="1927">
+       昭和二年
+      </date>
+      …………………………………………………………………………………　六九四
+     </item>
+     <item>
+      <date when="1928">
+       昭和三年
+      </date>
+      …………………………………………………………………………………　七二九
+     </item>
+     <item>
+      <date when="1929">
+       昭和四年
+      </date>
+      …………………………………………………………………………………　七五一
+     </item>
+     <item>
+      <date when="1930">
+       昭和五年
+      </date>
+      …………………………………………………………………………………　七六七
+     </item>
+     <item>
+      <date when="1931">
+       昭和六年
+      </date>
+      …………………………………………………………………………………　七八一
+     </item>
+    </list>
+   </div>
+   <pb corresp="#pageB2f19" facs="https://eiichi.shibusawa.or.jp/denkishiryo-bekkan/api/images/iiif/838/full/max/0/default.jpg" n="B2f19" source="#pageB2f19"/>
+   <titlePage xml:id="DKB20000f">
+    <docTitle>
+     <titlePart type="sub">
+      日記　（二）
+     </titlePart>
+    </docTitle>
+   </titlePage>
+  </front>
+  </TEI>

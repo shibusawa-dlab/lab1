@@ -1,0 +1,220 @@
+/* ===================================================================
+   TEI Viewer — Side-by-side layout (text + facsimile)
+   =================================================================== */
+
+:root {
+  --color-bg: #faf8f5;
+  --color-white: #fff;
+  --color-text: #333;
+  --color-border: #ddd;
+  --color-accent: #0366d6;
+  --color-person: #ffccbc;
+  --color-place: #c8e6c9;
+  --color-date: #bbdefb;
+  --color-time: #fff9c4;
+  --color-note: #ffd54f;
+  --header-height: 44px;
+}
+
+/* --- Reset & Base --- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  font-family: "Noto Serif JP", "游明朝", YuMincho, "Hiragino Mincho ProN",
+               "ヒラギノ明朝 ProN", serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Header & Navigation --- */
+.site-header {
+  flex-shrink: 0;
+  height: var(--header-height);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-white);
+}
+.toc-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 100%;
+  padding: 0 1rem;
+  font-size: 0.9rem;
+}
+.toc-nav a {
+  text-decoration: none;
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+.nav-title {
+  margin-left: auto;
+  color: #888;
+  font-size: 0.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* --- Main: Two-panel layout --- */
+main {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+/* --- Text panel (left) --- */
+.text-panel {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--color-border);
+  background: var(--color-white);
+}
+.text-content {
+  flex: 1;
+  padding: 1.5rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  overflow-x: auto;
+  overflow-y: auto;
+  line-height: 2;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+}
+
+/* --- Viewer panel (right) --- */
+.viewer-panel {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background: #1a1a1a;
+  position: relative;
+}
+#viewer {
+  flex: 1;
+  width: 100%;
+}
+.viewer-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.4rem;
+  background: #222;
+  color: #ccc;
+  font-size: 0.85rem;
+}
+.viewer-controls button {
+  background: none;
+  border: 1px solid #555;
+  color: #ccc;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.viewer-controls button:hover { background: #444; }
+
+/* --- Page link markers --- */
+.page-link {
+  display: inline-block;
+  writing-mode: horizontal-tb;
+  color: #8d6e63;
+  font-size: 0.7rem;
+  padding: 2px 4px;
+  margin: 0.2em;
+  border-radius: 2px;
+  background: rgba(141, 110, 99, 0.08);
+  cursor: pointer;
+  vertical-align: middle;
+  text-orientation: sideways;
+}
+.page-link:hover {
+  background: rgba(141, 110, 99, 0.2);
+}
+
+/* --- TEI element highlights --- */
+.tei-persName {
+  background: var(--color-person);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+.tei-placeName {
+  background: var(--color-place);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+.tei-date {
+  background: var(--color-date);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+.tei-time {
+  background: var(--color-time);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+.tei-head {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 1.25rem 0;
+}
+.tei-note {
+  border-left: 3px solid var(--color-note);
+  padding-left: 0.75rem;
+  margin: 0.5rem 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+.tei-div[data-type="diary-entry"] {
+  padding-bottom: 0.5rem;
+}
+/* 原本概要: 版面に合わせた突き出しインデント
+   ○原本概要 → 頭が出る（浅いインデント）
+   体裁。… / 本文。… → 深いインデント */
+.tei-div[data-type="archival-description"] {
+  padding-inline-start: 7em;
+  font-size: 0.85em;
+  line-height: 1.8;
+}
+.tei-div[data-type="archival-description"] > p.tei-p:first-child {
+  margin-inline-start: -2em;
+}
+.tei-p {
+  margin: 0.4rem 0;
+}
+
+/* --- content-visibility for performance --- */
+.tei-div { content-visibility: auto; contain-intrinsic-size: auto 600px; }
+
+/* --- Index page --- */
+.toc { padding-left: 2rem; }
+.toc li { margin: 0.3rem 0; }
+.toc a { color: var(--color-accent); text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+.book-toc { margin: 1.5rem 0; }
+.book-toc h2 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+body.index-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column-reverse;
+  }
+  .text-panel, .viewer-panel {
+    width: 100%;
+  }
+  .text-panel {
+    border-right: none;
+    border-top: 1px solid var(--color-border);
+  }
+  .viewer-panel { height: 40vh; }
+  .text-panel { height: 60vh; }
+  .text-content { writing-mode: horizontal-tb; }
+}

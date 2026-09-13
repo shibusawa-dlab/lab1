@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; max-width: 960px; margin: 2rem auto; padding: 0 1rem; line-height: 1.9; }
+.toc-nav { display: flex; gap: 1rem; padding: 0.5rem 0; border-bottom: 1px solid #ddd; margin-bottom: 1.5rem; }
+.toc-nav a { text-decoration: none; color: #0366d6; }
+.tei-persName { background-color: #ffccbc; padding: 0 2px; border-radius: 2px; }
+.tei-placeName { background-color: #c8e6c9; padding: 0 2px; border-radius: 2px; }
+.tei-date { background-color: #bbdefb; padding: 0 2px; border-radius: 2px; }
+.tei-time { background-color: #fff9c4; padding: 0 2px; border-radius: 2px; }
+.tei-head { margin: 1.25rem 0; font-size: 1.125rem; font-weight: 700; }
+.pagebreak { display: inline-block; color: #999; font-size: 0.75rem; margin: 0 0.25rem; }
+.tei-note { border-left: 3px solid #ffd54f; padding-left: 0.75rem; margin: 0.5rem 0; color: #555; }
+/* 画面外セクションをスキップして描画コストを下げる */
+article > .tei-div { content-visibility: auto; contain-intrinsic-size: 800px; }
